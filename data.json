@@ -11,7 +11,67 @@
     "name": "Helen Kevric",
     "land": "Deutschland · MTV Stuttgart",
     "sparte": "Turnen",
-    "text": "Bei ihrer ersten WM gewann die 18-Jährige Silber am Stufenbarren – mit einer fehlerfreien Übung. Es ist die erste WM-Medaille einer deutschen Turnerin seit 2021."
+    "text": "Bei ihrer ersten WM gewann die 18-Jährige Silber am Stufenbarren – mit einer fehlerfreien Übung. Es ist die erste WM-Medaille einer deutschen Turnerin seit 2021.",
+    "profil": {
+      "geboren": "2008-03-21",
+      "geburtsort": "Stuttgart",
+      "nation": "Deutschland",
+      "verein": "MTV Stuttgart",
+      "trainer": "Aimee Boorman",
+      "groesse": "1,62 m",
+      "sparte": "Turnen",
+      "paradegeraet": "Stufenbarren",
+      "erfolge": [
+        "WM-Silber am Stufenbarren 2026 in Rotterdam",
+        "Europameisterin am Stufenbarren 2026 in Zagreb",
+        "EM-Silber mit der Mannschaft 2025 in Leipzig",
+        "Deutsche Meisterin im Mehrkampf und am Boden 2024",
+        "Deutsche Meisterin am Stufenbarren und am Schwebebalken 2026",
+        "Achte im Mehrkampf und Sechste am Stufenbarren bei Olympia 2024 in Paris"
+      ],
+      "fakten": [
+        "Mit dem Turnen hat Helen schon mit vier Jahren angefangen – an der Sportschule Ruit in Ostfildern.",
+        "Bei Olympia 2024 in Paris war sie mit 16 Jahren die jüngste Teilnehmerin aus ganz Deutschland – in allen Sportarten.",
+        "Ihre Trainerin Aimee Boorman hat früher Simone Biles trainiert.",
+        "Ihr Vater Adnan Kevrić war Fußball-Nationalspieler für Bosnien-Herzegowina.",
+        "Nach einer Verletzungspause kam sie im Mai 2026 zurück – und gewann im selben Jahr EM-Gold und WM-Silber."
+      ],
+      "stationen": [
+        {
+          "zeit": "2012",
+          "text": "Erste Turnstunden beim SV Ostfildern"
+        },
+        {
+          "zeit": "2022",
+          "text": "Jugend-Europameisterin im Mehrkampf in München"
+        },
+        {
+          "zeit": "2023",
+          "text": "Jugend-WM: Silber am Stufenbarren"
+        },
+        {
+          "zeit": "2024",
+          "text": "Wechsel zu den Erwachsenen, Olympia in Paris"
+        },
+        {
+          "zeit": "2026",
+          "text": "Europameisterin und Vize-Weltmeisterin am Stufenbarren"
+        }
+      ],
+      "bild": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/European_Championships_2022-08-12_Junior_Women_All-around_Victory_ceremony_%28Norman_Seibert%29_-_DSC_9181_%28cropped%29.jpg",
+        "seite": "https://commons.wikimedia.org/wiki/File:European_Championships_2022-08-12_Junior_Women_All-around_Victory_ceremony_(Norman_Seibert)_-_DSC_9181_(cropped).jpg",
+        "autor": "Norman Seibert",
+        "lizenz": "CC BY-SA 4.0",
+        "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "hinweis": "Siegerehrung bei der Jugend-EM 2022"
+      },
+      "quellen": [
+        "de.wikipedia.org (Helen Kevric)",
+        "dtb.de",
+        "sportschau.de"
+      ]
+    }
   },
   "news": [
     {

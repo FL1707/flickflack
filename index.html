@@ -195,6 +195,17 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
 .badge.on { color: var(--ink); }
 .held { display: grid; gap: 6px; }
 .held h3 { font-size: 24px; }
+.tdw-card { text-align: left; color: inherit; font: inherit; }
+.tdw-mini { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 3px solid var(--yellow); }
+.tdw-bild { margin: 0; background: var(--surface-2); }
+.tdw-bild img { display: block; width: 100%; max-height: 52vh; object-fit: contain; background: #1B1340; }
+.tdw-bild.kaputt img { display: none; }
+.tdw-bild figcaption { font-size: 12px; color: var(--ink-soft); padding: 6px 20px; }
+.tdw-bild.kaputt figcaption::before { content: "Das Foto konnte gerade nicht geladen werden. "; }
+.tdw-info { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr)); gap: 8px; }
+.tdw-info div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px 12px; display: grid; }
+.tdw-info span { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--ink-soft); }
+.tdw-liste { margin: 0; padding-left: 4px; list-style: none; display: grid; gap: 6px; }
 .held ul { margin: 0; padding-left: 18px; font-size: 15px; }
 /* Overlay */
 #overlay .ov { position: fixed; inset: 0; z-index: 40; background: rgba(18,13,38,.55); display: grid; place-items: end center; }
@@ -394,7 +405,7 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
       (filt[0] ? newsCard(filt[0], true) : "") +
       '<div class="hl">' +
       (z ? '<div class="card"><span class="kicker">Zahl des Tages</span><span class="big">' + esc(z.zahl) + '</span><span class="small">' + esc(z.text) + "</span></div>" : "") +
-      (tdw ? '<div class="card"><span class="kicker">Turner*in der Woche</span><h3>' + esc(tdw.name) + '</h3><span class="small muted">' + esc([tdw.land, tdw.sparte].filter(Boolean).join(" · ")) + '</span><span class="small">' + esc(tdw.text) + "</span></div>" : "") +
+      (tdw ? '<button class="card tdw-card" data-tdw><span class="kicker">Turner*in der Woche</span>' + (tdw.profil && tdw.profil.bild ? '<img class="tdw-mini" src="' + esc(tdw.profil.bild.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : "") + "<h3>" + esc(tdw.name) + '</h3><span class="small muted">' + esc([tdw.land, tdw.sparte].filter(Boolean).join(" · ")) + '</span><span class="small">' + esc(tdw.text) + '</span>' + (tdw.profil ? '<span class="small" style="color:var(--pink-ink);font-weight:800">Zum Porträt →</span>' : "") + "</button>" : "") +
       (hl ? '<button class="card" data-tab="upcoming" style="text-align:left"><span class="kicker">Countdown</span><h3>' + esc(hl.name) + '</h3><span class="small muted">' + esc(fmtRange(hl.von, hl.bis)) + " · " + esc(hl.ort) + "</span>" + countdown(hl) + "</button>" : "") +
       "</div>" +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2></div>' +
@@ -407,6 +418,23 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
     const n = (D.news || []).find(x => x.id === id); if (!n) return;
     sheet('<span class="art" style="aspect-ratio:16/8">' + art(n.motiv, n.rubrik) + '</span><div class="in"><div class="meta">' + rubPill(n.rubrik) + "<span>" + fmtDate(n.datum, 2) + "</span></div><h2>" + esc(n.titel) + '</h2><p style="font-weight:800">' + esc(n.teaser) + "</p>" +
       (n.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + (n.quelle ? '<p class="small muted">Quelle: ' + esc(n.quelle) + "</p>" : "") + "</div>");
+  }
+
+  /* ---------- Porträt Turner*in der Woche ---------- */
+  function alterAus(geb) { const g = day(geb), h = new Date(); if (!g) return null; let a = h.getFullYear() - g.getFullYear(); if (h.getMonth() < g.getMonth() || (h.getMonth() === g.getMonth() && h.getDate() < g.getDate())) a--; return a; }
+  function openTdw() {
+    const t = D.turnerDerWoche; if (!t) return; const p = t.profil || {};
+    const alter = p.geboren ? alterAus(p.geboren) : null;
+    const zeilen = [["Geboren", p.geboren ? fmtDate(p.geboren, 2) + (alter != null ? " (" + alter + " Jahre)" : "") : null], ["Geburtsort", p.geburtsort], ["Nation", p.nation], ["Verein", p.verein], ["Trainer*in", p.trainer], ["Größe", p.groesse], ["Sportart", p.sparte || t.sparte], ["Lieblingsgerät", p.paradegeraet]].filter(z => z[1]);
+    const b = p.bild;
+    const bild = b ? '<figure class="tdw-bild"><img src="' + esc(b.url) + '" alt="Foto von ' + esc(t.name) + '" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'kaputt\')"><figcaption>Foto: ' + esc(b.autor) + ', <a href="' + esc(b.seite) + '" target="_blank" rel="noopener">Wikimedia Commons</a>, <a href="' + esc(b.lizenzUrl) + '" target="_blank" rel="noopener">' + esc(b.lizenz) + "</a>" + (b.hinweis ? " – " + esc(b.hinweis) : "") + "</figcaption></figure>"
+      : '<span class="art" style="aspect-ratio:16/8">' + art(p.motiv || "medaille", "DE") + "</span>";
+    sheet(bild + '<div class="in"><span class="kicker">Turner*in der Woche</span><h2>' + esc(t.name) + "</h2><p>" + linkTerms(t.text) + "</p>" +
+      (zeilen.length ? '<div class="tdw-info">' + zeilen.map(z => "<div><span>" + esc(z[0]) + "</span><b>" + esc(z[1]) + "</b></div>").join("") + "</div>" : "") +
+      (p.erfolge && p.erfolge.length ? '<h3 style="font-size:24px;margin-top:6px">Größte Erfolge</h3><ul class="tdw-liste">' + p.erfolge.map(e => "<li>🏅 " + linkTerms(e) + "</li>").join("") + "</ul>" : "") +
+      (p.fakten && p.fakten.length ? '<h3 style="font-size:24px;margin-top:6px">Gut zu wissen</h3><ul class="tdw-liste">' + p.fakten.map(e => "<li>⭐ " + linkTerms(e) + "</li>").join("") + "</ul>" : "") +
+      (p.stationen && p.stationen.length ? '<h3 style="font-size:24px;margin-top:6px">Der Weg nach oben</h3><ul class="tdw-liste">' + p.stationen.map(e => "<li><b>" + esc(e.zeit) + "</b> " + esc(e.text) + "</li>").join("") + "</ul>" : "") +
+      (p.quellen && p.quellen.length ? '<p class="small muted">Quellen: ' + p.quellen.map(esc).join(" · ") + "</p>" : "") + "</div>");
   }
 
   /* ---------- Ergebnisse ---------- */
@@ -859,6 +887,7 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
     if (d.term) { e.preventDefault(); return showTerm(d.term); }
     if (d.tab) { if (ovOffen() && history.state && history.state.ov) { nachZurueck = d.tab; return history.back(); } overlayZu(); return go(d.tab); }
     if (d.news) return openNews(d.news);
+    if (d.tdw != null) return openTdw();
     if (d.note) return openNote(d.note);
     if (d.rub) { ui.rubrik = d.rub; saveUi(); return render(); }
     if (d.ebene) { ui.ebene = d.ebene; saveUi(); return render(); }
