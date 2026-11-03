@@ -1,0 +1,2769 @@
+{
+ "titel": "DTB-Pflicht AK 11/12 und Kür AK 12 – Gerätturnen männlich",
+ "quellen": [
+  {
+   "name": "DTB Pflichtübungen Gerätturnen männlich AK 7–14",
+   "stand": "15. März 2025"
+  },
+  {
+   "name": "DTB FAQ zu den Pflichtübungen AK 7–14",
+   "stand": "12. Juni 2026"
+  },
+  {
+   "name": "DTB Küranforderungen AK 12–18",
+   "stand": "15. November 2024"
+  },
+  {
+   "name": "DTB Athletische Tests AK 7–18+",
+   "stand": "November 2024"
+  }
+ ],
+ "regeln": [
+  "In der AK 11/12 turnst du an jedem Gerät eine Pflichtübung. Sie ist für alle Turner gleich.",
+  "Die Normalübung ist 10,0 Punkte wert. Mit den zwei Bonusteilen (im Text mit „oder“ angegeben, z. B. 1b statt 1a) sind bis zu 11,0 Punkte möglich.",
+  "Ein Bonusteil zählt voll, wenn die Kampfrichter dabei keinen großen Fehler (0,5) abziehen und du nicht stürzt. Mehrere kleine oder mittlere Fehler sind erlaubt – auch wenn sie zusammen mehr als 0,5 ergeben (FAQ Juni 2026). Sonst ist das Bonusteil 0,5 Punkte weniger wert.",
+  "Ein Bonusteil darf auch dann gezeigt werden, wenn andere Pflichtelemente fehlen.",
+  "Beispiel aus der FAQ: Wird die Endorolle am Boden gar nicht erkennbar im Handstand gehalten, zählt sie nicht. Wird der Handstand etwa eine Sekunde fixiert, zählt sie – mit Abzügen.",
+  "Am Pauschenpferd und am Turnpilz ist ein Bonusteil 1,0 Punkte wert, weil beide Übungen nur als halbes Gerät zählen. Pferd und Pilz werden zusammengezählt und durch 2 geteilt, genauso der 1. und 2. Sprung.",
+  "Pferd und Pilz turnst du direkt hintereinander. Die Pause darf höchstens 30 Sekunden lang sein.",
+  "Es gibt an fast jedem Gerät eine erleichterte Übung mit 8,0 Punkten Ausgangswert. Welche Übung du turnst, muss vorher dem Kampfgericht gesagt werden.",
+  "Für einen sicheren Stand nach Abgang oder Sprung gibt es 0,20 Punkte Bonus: Füße geschlossen (höchstens fußbreit offen) und aufrechter Oberkörper.",
+  "Lässt du ein Element weg, wird nur sein Wert abgezogen. Ausnahme: Fehlt eine Kreis-Flanke (Pferd/Pilz) oder eine Riesenfelge (Reck), gibt es zusätzlich 0,3 Punkte Abzug.",
+  "Allgemeine Abzüge: Gerät verlassen oder auf das Gerät fallen 1,0 · Übungshalt 0,5 · Zwischenschwung 0,5 · zusätzliche Kreis-Flanke oder Riesenfelge 0,3.",
+  "Bei Hilfestellung durch den Trainer wird der ganze Wert dieses Übungsteils abgezogen.",
+  "Halteteile (z. B. „– 2 s –“) musst du 2 Sekunden still halten. Zu kurz gehalten ist ein mittlerer Fehler, gar nicht gehalten ein großer.",
+  "Alle Übungen dürfen auch gegengleich geturnt werden (Drehung rechts statt links). Die Bodenübung ist für Linksdreher beschrieben.",
+  "Hochstarten: Ein Turner der AK 10 darf beim Deutschlandpokal in der AK 11/12 starten, wenn er im Vorjahr beim Deutschlandpokal (AK 9) mindestens 54,00 Punkte hatte."
+ ],
+ "abzuege": "k = kleiner Fehler (0,1) · m = mittlerer Fehler (0,3) · g = großer Fehler (0,5) – so wie im internationalen Wertungsbuch (Code de Pointage).",
+ "geraete": [
+  {
+   "id": "boden",
+   "name": "Boden",
+   "info": "Die Übung darf höchstens 80 Sekunden dauern.",
+   "uebungen": [
+    {
+     "id": "pflicht",
+     "titel": "Pflichtübung",
+     "wert": "10,0 (mit Bonus bis 11,0)",
+     "teile": [
+      {
+       "nr": "1a",
+       "skizze": "salto_b",
+       "text": "Anlauf mit maximal drei Schritten, Rondat, Flick-Flack, Salto rückwärts gebückt in den Stand, Eckverbindung beliebig.",
+       "werte": [
+        [
+         "Rondat",
+         0.2
+        ],
+        [
+         "Flick-Flack",
+         0.4
+        ],
+        [
+         "Salto rückwärts gebückt",
+         1.4
+        ]
+       ],
+       "fehler": [
+        "keine Vorspannung im Rondatansprung",
+        "seitliche Auslenkung im Rondat",
+        "kein fließender Übergang",
+        "kein deutlicher Abdruck beim Flick-Flack",
+        "ungenügender Tempo- und Raumgewinn",
+        "Salto: geringe Sprunghöhe",
+        "Salto: Kopf im Nacken",
+        "geringe oder keine Körperstreckung beim Absprung"
+       ]
+      },
+      {
+       "nr": "1b",
+       "bonus": true,
+       "statt": "1a",
+       "skizze": "salto_s",
+       "text": "Anlauf mit maximal drei Schritten, Rondat, Flick-Flack, Salto rückwärts gestreckt mit 1/1 Längsachsendrehung (LAD-Technik mit gestreckten Armen) in den Stand, Eckverbindung beliebig.",
+       "werte": [
+        [
+         "Rondat",
+         0.2
+        ],
+        [
+         "Flick-Flack",
+         0.4
+        ],
+        [
+         "Salto rückwärts gestreckt mit 1/1 LAD",
+         1.9
+        ]
+       ],
+       "hinweis": "Bonusteil: Der Salto ist 1,9 Punkte wert, wenn weniger als 0,5 abgezogen wird – sonst 1,4.",
+       "fehler": [
+        "siehe 1a",
+        "Abweichung in der Längsachse",
+        "Kopf im Nacken",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "2a",
+       "skizze": "ueberschlag",
+       "text": "Anlauf mit zwei bis drei Schritten, Handstütz-Überschlag vorwärts in die Schrittstellung, Handstütz-Überschlag vorwärts, Sprungrolle vorwärts mit sofortigem Strecksprung mit 3/8 Drehung links in den Stand.",
+       "werte": [
+        [
+         "Handstütz-Überschlag vorwärts in die Schrittstellung",
+         0.5
+        ],
+        [
+         "Handstütz-Überschlag vorwärts",
+         0.5
+        ],
+        [
+         "Sprungrolle vorwärts mit Strecksprung 3/8 Drehung",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "ungenügender Abdruck",
+        "gebeugtes Landebein",
+        "keine gestreckte Körperhaltung beim „Schrittüberschlag“",
+        "keine Streckung im Schulterwinkel"
+       ]
+      },
+      {
+       "nr": "2b",
+       "bonus": true,
+       "statt": "2a",
+       "skizze": "ueberschlag",
+       "text": "Anlauf mit zwei bis drei Schritten, Handstütz-Überschlag vorwärts in die Schrittstellung, Handstütz-Überschlag vorwärts, Handstütz-Überschlag vorwärts gehechtet, Sprungrolle vorwärts mit sofortigem Strecksprung mit 3/8 Drehung links in den Stand.",
+       "werte": [
+        [
+         "Handstütz-Überschlag vorwärts in die Schrittstellung",
+         0.5
+        ],
+        [
+         "Handstütz-Überschlag vorwärts",
+         0.5
+        ],
+        [
+         "Handstütz-Überschlag vorwärts gehechtet",
+         0.5
+        ],
+        [
+         "Sprungrolle vorwärts mit Strecksprung 3/8 Drehung",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "ungenügender Abdruck",
+        "gebeugtes Landebein",
+        "keine gestreckte Körperhaltung beim „Schrittüberschlag“",
+        "gebeugte Arme beim Handstütz",
+        "keine Streckung im Schulterwinkel"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "liegestuetz",
+       "text": "Fallen in den flüchtigen Liegestütz vorlings, Seitstellen eines Beines und 2x Kreis-Flanke mit geschlossenen Beinen in den Liegestütz vorlings.",
+       "werte": [
+        [
+         "2x Kreis-Flanke",
+         0.6
+        ]
+       ],
+       "fehler": [
+        "fehlende Körperstreckung",
+        "Bodenberührung"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "handstand_g",
+       "text": "Auffedern in den Seitspagat – 2 s –, Heben in die Rolle vorwärts durch den Grätschwinkelstütz, Heben in den Handstand mit gestreckten Armen und gegrätschten Beinen – 2 s – (Endorolle zum Handstand), ½ Drehung vorwärts, Abbücken und Aufrichten.",
+       "werte": [
+        [
+         "Seitspagat (2 s)",
+         0.4
+        ],
+        [
+         "Rolle vorwärts durch den Grätschwinkelstütz",
+         0.2
+        ],
+        [
+         "Endorolle zum Handstand (2 s)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Schrittspalt pro Spagat",
+        "zu kurze Haltezeit",
+        "gebeugte Arme",
+        "Schultervorlage",
+        "„Schleifen“ der Füße (Bodenberührung)",
+        "Halt im Grätschwinkelstütz: bis 1 s mittlerer, über 1 s großer Fehler"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "handstand",
+       "text": "Felgrolle durch den Handstand, Abbücken, Aufrichten mit 1/8 Drehung rechts in den Stand.",
+       "werte": [
+        [
+         "Felgrolle durch den Handstand",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "Beugen der Knie in der Anrollbewegung zur Felgrolle",
+        "Abweichung von der Handstandposition",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "salto_h",
+       "text": "Anlauf mit zwei bis drei Schritten, Salto vorwärts gehockt, Absprung, Sprungrolle (Hechtrolle möglich) durch den Hockstand zum Kopfstütz-Überschlag vorwärts (Kopfkippe), Arme in Hochhalte, Strecksprung mit ½ Drehung links in den Stand.",
+       "werte": [
+        [
+         "Salto vorwärts gehockt",
+         0.5
+        ],
+        [
+         "Sprungrolle",
+         0.5
+        ],
+        [
+         "Kopfkippe",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "geringe Sprunghöhe",
+        "geöffnete Knie",
+        "ungenügende Dynamik der „Kippbewegung“",
+        "ungenügende Vorspannung bei der Landung",
+        "Kopf auf der Brust während der Landung",
+        "Arm-Rumpf-Winkel unter 180° während der Landung"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "standwaage",
+       "text": "Standwaage seitlings mit Handfassung von innen – 2 s –, Senken zum Stand, Arme in der Hochhalte.",
+       "werte": [
+        [
+         "Standwaage seitlings (2 s)",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "zu kurze Haltezeit",
+        "ungenügender Spreizwinkel"
+       ]
+      },
+      {
+       "nr": "8",
+       "skizze": "flickflack",
+       "text": "Ansprung zum Rondat (1. Hand links), Strecksprung ½ Drehung (Drehrichtung links), zum Rondat, Flick-Flack, Flick-Flack, Strecksprung in den Stand. (Bei Rondat mit 1. Hand rechts: ½ Drehung rechts.)",
+       "werte": [
+        [
+         "Rondat, Strecksprung ½ Drehung",
+         0.5
+        ],
+        [
+         "Rondat",
+         0.5
+        ],
+        [
+         "Flick-Flack",
+         0.5
+        ],
+        [
+         "Flick-Flack",
+         0.5
+        ],
+        [
+         "Strecksprung in den Stand",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "keine Vorspannung im Rondat-Ansprung",
+        "seitliche Auslenkung im Rondat",
+        "kein fließender Übergang",
+        "falsche Drehrichtung Rondat – Strecksprung ½ Drehung",
+        "kein deutlicher Abdruck beim Flick-Flack",
+        "ungenügender Tempo- und Raumgewinn"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leicht",
+     "titel": "Erleichterte Übung",
+     "wert": "Ausgangswert 8,0",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "flickflack",
+       "text": "Aus dem Stand: Rolle vorwärts, Ansprung zum Rondat, Flick-Flack, Flick-Flack, Strecksprung in den Stand, Eckverbindung beliebig.",
+       "werte": [
+        [
+         "Rondat",
+         0.2
+        ],
+        [
+         "Flick-Flack",
+         0.4
+        ],
+        [
+         "Flick-Flack",
+         0.4
+        ],
+        [
+         "Strecksprung in den Stand",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "keine Vorspannung im Rondatansprung",
+        "seitliche Auslenkung im Rondat",
+        "kein fließender Übergang",
+        "kein deutlicher Abdruck beim Flick-Flack",
+        "ungenügender Tempo- und Raumgewinn"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "ueberschlag",
+       "text": "Anlauf mit zwei bis drei Schritten, Handstütz-Überschlag vorwärts, Sprungrolle vorwärts mit sofortigem Strecksprung mit 3/8 Drehung links in den Stand.",
+       "werte": [
+        [
+         "Handstütz-Überschlag vorwärts",
+         0.5
+        ],
+        [
+         "Sprungrolle vorwärts mit Strecksprung 3/8 Drehung",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "ungenügender Abdruck",
+        "gebeugte Beine nach dem Überschlag",
+        "keine Streckung im Schulterwinkel"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "liegestuetz",
+       "text": "Fallen in den flüchtigen Liegestütz vorlings, Seitstellen eines Beines und 2x Kreis-Flanke mit geschlossenen Beinen in den Liegestütz vorlings.",
+       "werte": [
+        [
+         "2x Kreis-Flanke",
+         0.6
+        ]
+       ],
+       "fehler": [
+        "fehlende Körperstreckung",
+        "Bodenberührung"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "handstand_g",
+       "text": "Auffedern in den Seitspagat – 2 s –, Heben in den Handstand mit gestreckten Armen und gegrätschten Beinen – 2 s – (Schweizer), ½ Drehung vorwärts, Abbücken und Aufrichten.",
+       "werte": [
+        [
+         "Seitspagat (2 s)",
+         0.4
+        ],
+        [
+         "Schweizer (2 s)",
+         0.8
+        ],
+        [
+         "½ Drehung vorwärts, Abbücken und Aufrichten",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "Schrittspalt pro Spagat",
+        "zu kurze Haltezeit",
+        "gebeugte Arme",
+        "Schultervorlage",
+        "„Schleifen“ der Füße (Bodenberührung)",
+        "Halt im Grätschwinkelstütz: bis 1 s mittlerer, über 1 s großer Fehler"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "handstand",
+       "text": "Felgrolle durch den Handstand, Abbücken, Aufrichten mit 1/8 Drehung rechts in den Stand.",
+       "werte": [
+        [
+         "Felgrolle durch den Handstand",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "Beugen der Knie in der Anrollbewegung zur Felgrolle",
+        "Abweichung von der Handstandposition",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "salto_h",
+       "text": "Anlauf mit zwei bis drei Schritten, Salto vorwärts gehockt, Absprung, Sprungrolle (Hechtrolle möglich) durch den Hockstand zum Kopfstütz-Überschlag vorwärts (Kopfkippe), Arme in Hochhalte, Strecksprung mit ½ Drehung links in den Stand.",
+       "werte": [
+        [
+         "Salto vorwärts gehockt",
+         0.5
+        ],
+        [
+         "Sprungrolle",
+         0.5
+        ],
+        [
+         "Kopfkippe",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "geringe Sprunghöhe",
+        "geöffnete Knie",
+        "ungenügende Dynamik der „Kippbewegung“",
+        "ungenügende Vorspannung bei der Landung",
+        "Kopf auf der Brust während der Landung",
+        "Arm-Rumpf-Winkel unter 180° während der Landung"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "standwaage",
+       "text": "Standwaage seitlings mit Handfassung von innen – 2 s –, Senken zum Stand, Arme in der Hochhalte.",
+       "werte": [
+        [
+         "Standwaage seitlings (2 s)",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "zu kurze Haltezeit",
+        "ungenügender Spreizwinkel"
+       ]
+      },
+      {
+       "nr": "8",
+       "skizze": "flickflack",
+       "text": "Ansprung zum Rondat (1. Hand links), Strecksprung ½ Drehung (Drehrichtung links), zum Rondat, Flick-Flack, Strecksprung in den Stand.",
+       "werte": [
+        [
+         "Rondat, Strecksprung ½ Drehung",
+         0.5
+        ],
+        [
+         "Rondat",
+         0.5
+        ],
+        [
+         "Flick-Flack",
+         0.5
+        ],
+        [
+         "Strecksprung in den Stand",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "keine Vorspannung im Rondat-Ansprung",
+        "seitliche Auslenkung im Rondat",
+        "kein fließender Übergang",
+        "falsche Drehrichtung Rondat – Strecksprung ½ Drehung",
+        "kein deutlicher Abdruck beim Flick-Flack",
+        "ungenügender Tempo- und Raumgewinn"
+       ]
+      }
+     ]
+    }
+   ],
+   "kuer": [
+    [
+     "Salto rückwärts gestreckt mit 2/1 LAD und mehr",
+     "+0,2"
+    ],
+    [
+     "Doppelsalto rückwärts gehockt und gebückt",
+     "+0,3"
+    ],
+    [
+     "Doppelsalto rückwärts gehockt mit 1/1 LAD und mehr",
+     "+0,3"
+    ],
+    [
+     "Doppelsalto rückwärts gestreckt, auch mit LAD",
+     "+0,3"
+    ],
+    [
+     "Doppelsalto vorwärts gehockt oder gebückt",
+     "+0,3"
+    ],
+    [
+     "Doppeltwist gehockt oder gebückt",
+     "+0,3"
+    ],
+    [
+     "Salto vorwärts 2/1 LAD und mehr",
+     "+0,3"
+    ]
+   ],
+   "videos": [
+    [
+     "Video 1 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/d6931f1d29eea38aea2113131b003fcd"
+    ],
+    [
+     "Video 2 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/98d2dd7797013928d13f01f3bcb703cd"
+    ]
+   ]
+  },
+  {
+   "id": "pferd",
+   "name": "Pauschenpferd",
+   "info": "Pferd und Matten laut FIG (2 zusätzliche Matten je 0,10 m möglich). Danach folgt innerhalb von 30 Sekunden die Übung am Turnpilz. Beide zählen als halbe Geräte.",
+   "uebungen": [
+    {
+     "id": "pflicht",
+     "titel": "Pflichtübung Pferd",
+     "wert": "10,0 (mit Bonus bis 12,0 – zählt halb)",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "pferd_stuetz",
+       "text": "Sprung in den Stütz vorlings mit direktem Vorspreizen des rechten Beines, Seitschwingen nach links, Rückspreizen des rechten Beines unter der linken Hand in den Stütz vorlings (½ Unterkreisen), Seitschwingen im Stütz vorlings nach rechts.",
+       "werte": [
+        [
+         "Vorspreizen rechts",
+         0.5
+        ],
+        [
+         "½ Unterkreisen",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringer Spreizwinkel",
+        "Rhythmusstörung",
+        "Berühren des Pferdes beim Unterkreisen"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "pferd_stuetz",
+       "text": "Seitschwingen nach links, Vorspreizen des linken Beines, Seitschwingen nach rechts, Rückspreizen des linken Beines unter der rechten Hand in den Stütz vorlings (½ Unterkreisen).",
+       "werte": [
+        [
+         "Vorspreizen links",
+         0.5
+        ],
+        [
+         "½ Unterkreisen",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringer Spreizwinkel",
+        "Rhythmusstörung",
+        "Berühren des Pferdes beim Unterkreisen"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "pferd_stuetz",
+       "text": "Seitschwingen im Stütz vorlings nach links mit sofortigem Vorspreizen des linken Beines über die linke Pausche ohne Grifflösen.",
+       "werte": [
+        [
+         "Vorspreizen über die Pausche",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "Rhythmusstörung"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "pferd_stuetz",
+       "text": "Rückschwingen des linken Beines in den Stütz vorlings.",
+       "werte": [
+        [
+         "Rückschwingen",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "geringe Streckung des Körpers"
+       ]
+      },
+      {
+       "nr": "5a",
+       "skizze": "kreisflanke",
+       "text": "5 x Kreis-Flanke in den Stütz vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ]
+       ],
+       "fehler": [
+        "geringe Hüftstreckung",
+        "geöffnete, überscherte Beine"
+       ]
+      },
+      {
+       "nr": "5b",
+       "bonus": true,
+       "statt": "5a",
+       "skizze": "kreisflanke",
+       "text": "2 x Kreis-Flanke in den Stütz vorlings, Vorflanken in den Stütz rücklings, Rückflanken mit ¼ Drehung, Vorflanken mit ¼ Drehung zum Stütz rücklings (Tschechenkehre), Rückflanken in den Stütz vorlings, 2 x Kreis-Flanke in den Stütz vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Tschechenkehre-Verbindung",
+         1.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ]
+       ],
+       "fehler": [
+        "geringe Hüftstreckung",
+        "geöffnete, überscherte Beine",
+        "Rhythmusstörung",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "6a",
+       "skizze": "kreisflanke",
+       "text": "Vorflanken, Rückflanken mit ¼ Drehung auf eine Pausche in den Querstütz vorlings, Vorflanken und Rückflanken mit 1/3 Wandern rückwärts im Querstütz in den Stütz vorlings.",
+       "werte": [
+        [
+         "Flanken mit ¼ Drehung und Wandern",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringe Hüftstreckung",
+        "geöffnete, überscherte Beine",
+        "versetzte Stützposition"
+       ]
+      },
+      {
+       "nr": "6b",
+       "bonus": true,
+       "statt": "6a",
+       "skizze": "kreisflanke",
+       "text": "Vorflanken, Rückflanken mit ¼ Drehung auf eine Pausche in den Querstütz vorlings, Kreis-Flanke auf einer Pausche, Vorflanken und Rückflanken mit 1/3 Wandern rückwärts im Querstütz in den Stütz vorlings.",
+       "werte": [
+        [
+         "Flanken mit ¼ Drehung, Kreis-Flanke auf einer Pausche und Wandern",
+         2.0
+        ]
+       ],
+       "fehler": [
+        "geringe Hüftstreckung",
+        "geöffnete, überscherte Beine",
+        "versetzte Stützposition"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "kreisflanke",
+       "text": "3 x Kreis-Flanke im Querstütz, Wende in den Querstand seitlings.",
+       "werte": [
+        [
+         "Kreis-Flanke im Querstütz",
+         0.5
+        ],
+        [
+         "Kreis-Flanke im Querstütz",
+         0.5
+        ],
+        [
+         "Kreis-Flanke im Querstütz",
+         0.5
+        ],
+        [
+         "Wende (Abgang)",
+         0.6
+        ]
+       ],
+       "fehler": [
+        "gebeugte Beine",
+        "geringe Hüftstreckung",
+        "versetzte Stützposition",
+        "kein Anheben der Hüfte bei der Wende"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leicht",
+     "titel": "Erleichterte Übung Pferd",
+     "wert": "Ausgangswert 8,0",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "pferd_stuetz",
+       "text": "Sprung in den Stütz vorlings mit direktem Vorspreizen des rechten Beines, Seitschwingen nach links, Rückspreizen des rechten Beines unter der linken Hand in den Stütz vorlings (½ Unterkreisen), Seitschwingen im Stütz vorlings nach rechts.",
+       "werte": [
+        [
+         "Vorspreizen rechts",
+         0.5
+        ],
+        [
+         "½ Unterkreisen",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringer Spreizwinkel",
+        "Rhythmusstörung",
+        "Berühren des Pferdes beim Unterkreisen"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "pferd_stuetz",
+       "text": "Seitschwingen nach links, Vorspreizen des linken Beines, Seitschwingen nach rechts, Rückspreizen des linken Beines unter der rechten Hand in den Stütz vorlings (½ Unterkreisen).",
+       "werte": [
+        [
+         "Vorspreizen links",
+         0.5
+        ],
+        [
+         "½ Unterkreisen",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringer Spreizwinkel",
+        "Rhythmusstörung",
+        "Berühren des Pferdes beim Unterkreisen"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "pferd_stuetz",
+       "text": "Seitschwingen im Stütz vorlings nach links mit sofortigem Vorspreizen des linken Beines über die linke Pausche ohne Grifflösen.",
+       "werte": [
+        [
+         "Vorspreizen über die Pausche",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "Rhythmusstörung"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "pferd_stuetz",
+       "text": "Rückschwingen des linken Beines in den Stütz vorlings.",
+       "werte": [
+        [
+         "Rückschwingen",
+         0.2
+        ]
+       ],
+       "fehler": [
+        "geringe Streckung des Körpers"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "kreisflanke",
+       "text": "6 x Kreis-Flanke in den Stütz vorlings, Vorflanken, Rückflanken zum Niedersprung in den Stand vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Kreis-Flanke",
+         0.7
+        ],
+        [
+         "Vorflanken, Rückflanken zum Niedersprung",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "geringe Hüftstreckung",
+        "geöffnete, überscherte Beine"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pilz",
+     "titel": "Pauschenpferd methodisch (Turnpilz)",
+     "wert": "10,0 (zählt halb)",
+     "info": "Turnpilz ca. 0,48 m hoch, 1,00 m Durchmesser, mit Kreuz in der Mitte, in eine Matte eingebaut (Oberkante Matte bis Pilz ca. 0,38 m).",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "kreisflanke",
+       "text": "Aus dem Stand vorlings mit geschlossenen Beinen: Seitstellen eines Beines, 4 x Spreiz-Kreis-Flanke (Thomasflanken) in den Stütz vorlings.",
+       "werte": [
+        [
+         "Thomasflanke",
+         0.5
+        ],
+        [
+         "Thomasflanke",
+         0.5
+        ],
+        [
+         "Thomasflanke",
+         0.5
+        ],
+        [
+         "Thomasflanke",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "wandernde Stützposition",
+        "ungenügender Spreizwinkel: unter 120° klein, unter 90° mittel, unter 60° groß"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "kreisflanke",
+       "text": "2 x Kreis-Flanke in den Stütz vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.4
+        ],
+        [
+         "Kreis-Flanke",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "gebeugte, geöffnete, überscherte Beine",
+        "wandernde Stützposition",
+        "geringe Hüftstreckung"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "kreisflanke",
+       "text": "4 x Kreis-Flanke mit Gegendrehen um 360° in den Stütz vorlings.",
+       "werte": [
+        [
+         "4 Kreis-Flanken mit Gegendrehen 360°",
+         3.2
+        ]
+       ],
+       "fehler": [
+        "siehe 2",
+        "fehlende Gegendrehung: unter 30° klein, unter 60° mittel, unter 90° groß"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "kreisflanke",
+       "text": "2 x Kreis-Flanke in den Stütz vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.4
+        ],
+        [
+         "Kreis-Flanke",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "siehe 2"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "kreisflanke",
+       "text": "K9 (Kehre 90°) zum Stütz rücklings.",
+       "werte": [
+        [
+         "K9",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "ungenügende Hüftdrehung",
+        "geringe Hüftstreckung",
+        "Abweichung von 90°"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "kreisflanke",
+       "text": "C9 (Tschechisch 90°) zum Stütz vorlings.",
+       "werte": [
+        [
+         "C9",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "siehe 5",
+        "falsche Reihenfolge (C9 vor K9): 1,0 Abzug"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "kreisflanke",
+       "text": "2 x Kreis-Flanke in den Stütz vorlings, Vorflanken in den Stütz rücklings, Rückflanken in den Stand vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.4
+        ],
+        [
+         "Kreis-Flanke",
+         0.4
+        ],
+        [
+         "Vorflanken, Rückflanken in den Stand",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "siehe 2",
+        "Landung beim Abgang außerhalb der grünen Landezone"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pilzleicht",
+     "titel": "Turnpilz – erleichterte Übung",
+     "wert": "Ausgangswert 8,0",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "kreisflanke",
+       "text": "Aus dem Stand vorlings mit geschlossenen Beinen: Seitstellen eines Beines, 4 x Spreiz-Kreis-Flanke (Thomasflanken) in den Stütz vorlings.",
+       "werte": [
+        [
+         "Thomasflanke",
+         0.5
+        ],
+        [
+         "Thomasflanke",
+         0.5
+        ],
+        [
+         "Thomasflanke",
+         0.5
+        ],
+        [
+         "Thomasflanke",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "wandernde Stützposition",
+        "ungenügender Spreizwinkel: unter 120° klein, unter 90° mittel, unter 60° groß"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "kreisflanke",
+       "text": "7 x Kreis-Flanke in den Stütz vorlings.",
+       "werte": [
+        [
+         "7 Kreis-Flanken (je 0,4)",
+         2.8
+        ]
+       ],
+       "fehler": [
+        "gebeugte, geöffnete, überscherte Beine",
+        "wandernde Stützposition",
+        "geringe Hüftstreckung"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "kreisflanke",
+       "text": "K9 (Kehre 90°) zum Stütz rücklings.",
+       "werte": [
+        [
+         "K9",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "ungenügende Hüftdrehung",
+        "geringe Hüftstreckung",
+        "Abweichung von 90°"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "kreisflanke",
+       "text": "C9 (Tschechisch 90°) zum Stütz vorlings.",
+       "werte": [
+        [
+         "C9",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "siehe 3",
+        "falsche Reihenfolge (C9 vor K9): 1,0 Abzug"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "kreisflanke",
+       "text": "2 x Kreis-Flanke in den Stütz vorlings, Vorflanken in den Stütz rücklings, Rückflanken in den Stand vorlings.",
+       "werte": [
+        [
+         "Kreis-Flanke",
+         0.4
+        ],
+        [
+         "Kreis-Flanke",
+         0.4
+        ],
+        [
+         "Vorflanken, Rückflanken in den Stand",
+         0.4
+        ]
+       ],
+       "fehler": [
+        "siehe 2",
+        "Landung beim Abgang seitlich vor der Pausche (außerhalb der grünen Landezone)"
+       ]
+      }
+     ]
+    }
+   ],
+   "kuer": [
+    [
+     "einpauschig B (ohne Tschechenkehre) und C",
+     "+0,2"
+    ],
+    [
+     "einpauschig D und E",
+     "+0,3"
+    ],
+    [
+     "Russenwendeschwung 1080° (nicht als Abgang)",
+     "+0,2"
+    ],
+    [
+     "Wu Guonian vorwärts und rückwärts, Roth, Tong Fei (D)",
+     "+0,3"
+    ],
+    [
+     "Querwandern C- und D-Teil",
+     "+0,3"
+    ],
+    [
+     "Scheren C und schwieriger",
+     "+0,3"
+    ],
+    [
+     "Handstandabgang E und schwieriger",
+     "+0,3"
+    ]
+   ],
+   "videos": [
+    [
+     "Pauschenpferd 1 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/ed90da741b8cbb29e98755ba1ca2d53e"
+    ],
+    [
+     "Pauschenpferd 2 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/deb754bd13c9a71b788b8be0c1f1fd60"
+    ],
+    [
+     "Turnpilz 1",
+     "https://tube.sport-iat.de/#/video-public/d3d0cd1b0e0b6da1333cea7feb98e3d2"
+    ],
+    [
+     "Turnpilz 2",
+     "https://tube.sport-iat.de/#/video-public/400c6e87afcdcaaa5f5b2d46e300d12d"
+    ]
+   ]
+  },
+  {
+   "id": "ringe",
+   "name": "Ringe",
+   "uebungen": [
+    {
+     "id": "pflicht",
+     "titel": "Pflichtübung",
+     "wert": "10,0 (mit Bonus bis 11,0)",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "ringe_stuetz",
+       "text": "Aus dem Hang: langsames Einschultern zum Hang, Zugstemme mit gestrecktem Körper in den Stütz.",
+       "werte": [
+        [
+         "Einschultern zum Hang",
+         0.4
+        ],
+        [
+         "Zugstemme in den Stütz",
+         0.8
+        ]
+       ],
+       "fehler": [
+        "gebeugter Körper",
+        "Beinschlag (großer Fehler)",
+        "Rhythmusstörung"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "winkelstuetz",
+       "text": "Heben der Beine in den Winkelstütz – 2 s –, Heben zur „Schweizeransatzposition“, Senken in den Grätschwinkelstütz – 2 s –.",
+       "werte": [
+        [
+         "Winkelstütz (2 s)",
+         0.6
+        ],
+        [
+         "Schweizeransatzposition",
+         0.8
+        ],
+        [
+         "Grätschwinkelstütz (2 s)",
+         0.6
+        ]
+       ],
+       "fehler": [
+        "kein freier Stütz",
+        "gebeugte Arme",
+        "Anlegen der Arme an die Ringeschlaufen bzw. -seile"
+       ]
+      },
+      {
+       "nr": "3a",
+       "skizze": "handstand",
+       "text": "Heben in den Handstand mit gebeugten Armen und gebeugten Hüften (Drücker) – 2 s –.",
+       "werte": [
+        [
+         "Drücker in den Handstand (2 s)",
+         2.0
+        ]
+       ],
+       "fehler": [
+        "Rhythmusstörung",
+        "Anlegen der Arme an die Ringeschlaufen bzw. -seile",
+        "gering gebeugte Arme",
+        "zu spätes Schließen der Beine"
+       ]
+      },
+      {
+       "nr": "3b",
+       "bonus": true,
+       "statt": "3a",
+       "skizze": "handstand_g",
+       "text": "Heben in den Handstand mit gestreckten Armen und gegrätschten Beinen (Schweizer) – 2 s –.",
+       "werte": [
+        [
+         "Schweizer in den Handstand (2 s)",
+         2.5
+        ]
+       ],
+       "fehler": [
+        "Rhythmusstörung",
+        "Anlegen der Arme an die Ringeschlaufen bzw. -seile (großer Fehler)",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "sturzhang",
+       "text": "Senken mit gestrecktem Körper über den Stütz zum Strecksturzhang.",
+       "werte": [
+        [
+         "Senken zum Strecksturzhang",
+         0.8
+        ]
+       ],
+       "fehler": [
+        "gebeugter Körper",
+        "Anlegen der Arme an die Ringeschlaufen bzw. -seile",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "hang",
+       "text": "Beugen der Hüfte über den Kipphang zum Abschwingen vorwärts in den Hang.",
+       "werte": [
+        [
+         "Abschwingen vorwärts",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "Hüfte beim Abschwingen unter der Ringeunterkante"
+       ]
+      },
+      {
+       "nr": "6a",
+       "skizze": "hang",
+       "text": "Rückschwung (30° über waagerecht), Vorschwung zum Felgumschwung rückwärts, Felgumschwung rückwärts (mindestens Schulter in Griffhöhe).",
+       "werte": [
+        [
+         "Rückschwung",
+         0.5
+        ],
+        [
+         "Vorschwung",
+         1.0
+        ],
+        [
+         "Felgumschwung rückwärts",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Rückschwung zu niedrig",
+        "geringe Amplitude",
+        "zu geringes Anheben der Schulter"
+       ]
+      },
+      {
+       "nr": "6b",
+       "bonus": true,
+       "statt": "6a",
+       "skizze": "ringe_stuetz",
+       "text": "Rückschwung (30° über waagerecht), Vorschwung zum Felgumschwung rückwärts, Felgumschwung rückwärts (mindestens Schulter auf Höhe der Ringeoberkante).",
+       "werte": [
+        [
+         "Rückschwung",
+         0.5
+        ],
+        [
+         "Vorschwung",
+         1.0
+        ],
+        [
+         "Felgumschwung rückwärts (Schulter Ringeoberkante)",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "Rückschwung zu niedrig",
+        "geringe Amplitude",
+        "zu geringes Anheben der Schulter"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "salto_s",
+       "text": "Vorschwung, Salto rückwärts gestreckt in den Stand.",
+       "werte": [
+        [
+         "Salto rückwärts gestreckt (Abgang)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringe Höhe",
+        "gebeugte Hüfte"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leicht",
+     "titel": "Erleichterte Übung",
+     "wert": "Ausgangswert 8,0",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "ringe_stuetz",
+       "text": "Aus dem Hang: langsames Einschultern zum Hang, Zugstemme mit gestrecktem Körper in den Stütz.",
+       "werte": [
+        [
+         "Einschultern zum Hang",
+         0.4
+        ],
+        [
+         "Zugstemme in den Stütz",
+         0.8
+        ]
+       ],
+       "fehler": [
+        "gebeugter Körper",
+        "Beinschlag (großer Fehler)",
+        "Rhythmusstörung"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "winkelstuetz",
+       "text": "Heben der Beine in den Winkelstütz – 2 s –, Heben zur „Schweizeransatzposition“, Senken in den Grätschwinkelstütz – 2 s –.",
+       "werte": [
+        [
+         "Winkelstütz (2 s)",
+         0.6
+        ],
+        [
+         "Schweizeransatzposition",
+         0.8
+        ],
+        [
+         "Grätschwinkelstütz (2 s)",
+         0.6
+        ]
+       ],
+       "fehler": [
+        "kein freier Stütz",
+        "gebeugte Arme",
+        "Anlegen der Arme an die Ringeschlaufen bzw. -seile"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "sturzhang",
+       "text": "Senken mit gestrecktem Körper über den Stütz zum Strecksturzhang.",
+       "werte": [
+        [
+         "Senken zum Strecksturzhang",
+         0.8
+        ]
+       ],
+       "fehler": [
+        "gebeugter Körper",
+        "Anlegen der Arme an die Ringeschlaufen bzw. -seile",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "hang",
+       "text": "Beugen der Hüfte über den Kipphang zum Abschwingen vorwärts in den Hang.",
+       "werte": [
+        [
+         "Abschwingen vorwärts",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "Hüfte beim Abschwingen unter der Ringeunterkante"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "hang",
+       "text": "Rückschwung (30° über waagerecht), Vorschwung zum Felgumschwung rückwärts, Felgumschwung rückwärts (mindestens Schulter in Griffhöhe).",
+       "werte": [
+        [
+         "Rückschwung",
+         0.5
+        ],
+        [
+         "Vorschwung",
+         1.0
+        ],
+        [
+         "Felgumschwung rückwärts",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Rückschwung zu niedrig",
+        "geringe Amplitude",
+        "zu geringes Anheben der Schulter"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "salto_s",
+       "text": "Vorschwung, Salto rückwärts gestreckt in den Stand.",
+       "werte": [
+        [
+         "Salto rückwärts gestreckt (Abgang)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringe Höhe",
+        "gebeugte Hüfte"
+       ]
+      }
+     ]
+    }
+   ],
+   "kuer": [
+    [
+     "Kraftelement C und schwieriger, auch aus Schwung",
+     "+0,3"
+    ],
+    [
+     "Felge und Stemme zum Handstand (Arme gestreckt)",
+     "+0,3"
+    ],
+    [
+     "Honma (in Stütz oder Winkelstütz)",
+     "+0,2"
+    ],
+    [
+     "Jonasson und Yamawaki",
+     "+0,3"
+    ],
+    [
+     "Doppelsaltoabgänge D und schwieriger",
+     "+0,2"
+    ]
+   ],
+   "videos": [
+    [
+     "Video 1 (1 Bonusteil)",
+     "https://tube.sport-iat.de/#/video-public/7fe537311f223f6776f5eb0e7158c36e"
+    ],
+    [
+     "Video 2 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/6c11f9752fb2e37b9f390e1e9853dd1c"
+    ]
+   ]
+  },
+  {
+   "id": "sprung",
+   "name": "Sprung",
+   "info": "Anlauf höchstens 25 m. Du zeigst zwei Sprünge: zuerst den Überschlag über den Tisch, dann den Rondatsprung. Beide zählen halb. Für den Sprung gibt es keine erleichterte Übung.",
+   "uebungen": [
+    {
+     "id": "pflicht",
+     "titel": "1. Sprung: Überschlag",
+     "wert": "10,0",
+     "info": "Sprungtisch 1,20 m hoch, Mattenaufbau 6,00 × 2,00 × 1,00 m.",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "sprung_flug",
+       "text": "Handstütz-Sprungüberschlag vorwärts – 1. Flugphase.",
+       "werte": [
+        [
+         "1. Flugphase",
+         2.0
+        ]
+       ],
+       "fehler": [
+        "zu lange Flugphase",
+        "ungenügender Beineinsatz"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "sprung_stuetz",
+       "text": "Abdruck, 2. Flugphase, Landung.",
+       "werte": [
+        [
+         "Abdruck, 2. Flugphase und Landung",
+         7.0
+        ]
+       ],
+       "fehler": [
+        "ungenügendes Öffnen des Arm-Rumpf-Winkels",
+        "gebeugte Arme",
+        "zu langer Stütz (großer Fehler: 0,8)",
+        "geringe Flughöhe",
+        "keine aufrechte Landeposition"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "rolle",
+       "text": "Sprungrolle.",
+       "werte": [
+        [
+         "Sprungrolle",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "kein reaktiver Absprung"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "rondatsprung",
+     "titel": "2. Sprung: Rondatsprung (methodisch)",
+     "wert": "10,0",
+     "info": "Ohne Sprungtisch: Anlauf, Sprungbrett und Mattenaufbau 6,00 × 2,00 × 1,00 m. Eine Schutzmatte für das Rondat ist Pflicht.",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "rondat",
+       "text": "Anlauf, Rondat auf das Sprungbrett.",
+       "werte": [
+        [
+         "Rondat auf das Sprungbrett",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "keine Dynamik",
+        "keine Vorspannung im Rondatansprung",
+        "zeitiges Vordrehen",
+        "stark gebeugte Beine auf dem Brett",
+        "Hüftwinkel im Kurbet",
+        "Abweichung in der Längsachse"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "flickflack",
+       "text": "Handstütz-Sprungüberschlag rückwärts (1. Flugphase, Stütz auf dem Mattenaufbau).",
+       "werte": [
+        [
+         "Sprungüberschlag rückwärts",
+         3.0
+        ]
+       ],
+       "fehler": [
+        "Kopf im Nacken",
+        "Arm-Rumpf-Winkel unter 180°",
+        "gebeugte Arme im Stütz",
+        "keine Dynamik"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "stand",
+       "text": "Kurbet in die geschlossene Körperposition (2. Flugphase).",
+       "werte": [
+        [
+         "Kurbet",
+         4.0
+        ]
+       ],
+       "fehler": [
+        "Hüftwinkel beim Kurbet",
+        "Landung mit Körpervorlage",
+        "keine Dynamik"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "flickflack",
+       "text": "Handstütz-Überschlag rückwärts (Flick-Flack) in den Stand oder Flick-Flack und Strecksprung zum Stand.",
+       "werte": [
+        [
+         "Flick-Flack",
+         2.0
+        ]
+       ],
+       "fehler": [
+        "Abweichungen von der Längsachse",
+        "kein Raumgewinn"
+       ]
+      }
+     ]
+    }
+   ],
+   "kuer": [],
+   "kuerInfo": "In der Kür der AK 12 zeigst du einen Sprung aus der gültigen Sprungtabelle. Der Sprungtisch ist 1,20 m oder 1,25 m hoch. Bei Sprüngen ab 3,6 Punkten Schwierigkeit darf eine zusätzliche 10-cm-Weichmatte liegen.",
+   "videos": [
+    [
+     "Sprung 1 – Überschlag (1)",
+     "https://tube.sport-iat.de/#/video-public/ba687ed3500fdc8a3a666e71491d8911"
+    ],
+    [
+     "Sprung 1 – Überschlag (2)",
+     "https://tube.sport-iat.de/#/video-public/fae85887a1e84d67edba3da504b74957"
+    ],
+    [
+     "Sprung 2 – Rondatsprung (1)",
+     "https://tube.sport-iat.de/#/video-public/b60c01b610aad8bf002bdc4ca23597a3"
+    ],
+    [
+     "Sprung 2 – Rondatsprung (2)",
+     "https://tube.sport-iat.de/#/video-public/a9b48d242295f3a6cdcd2d0a4d2f1374"
+    ]
+   ]
+  },
+  {
+   "id": "barren",
+   "name": "Barren",
+   "info": "Barrenhöhe jetzt wie bei der FIG.",
+   "uebungen": [
+    {
+     "id": "pflicht",
+     "titel": "Pflichtübung",
+     "wert": "10,0 (mit Bonus bis 11,0)",
+     "teile": [
+      {
+       "nr": "1a",
+       "skizze": "barren_hang",
+       "text": "Sprung in den Ellhang: Vorschwung im Hang (Durchschwung mit gebeugten Beinen möglich), Rückschwung im Hang, Vorschwung im Hang, Rückschwung im Hang mit Stemmaufschwung rückwärts in den Oberarmhang.",
+       "werte": [
+        [
+         "Vorschwung im Hang",
+         0.4
+        ],
+        [
+         "Rückschwung im Hang",
+         0.4
+        ],
+        [
+         "Vorschwung im Hang",
+         0.4
+        ],
+        [
+         "Stemmaufschwung rückwärts in den Oberarmhang",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "zu geringe Schwungamplitude im Hang",
+        "keine deutliche Kippbewegung aus dem Langhangverhalten",
+        "gebeugte Arme",
+        "unzureichende Höhe der Hüfte beim Kippstoß"
+       ]
+      },
+      {
+       "nr": "1b",
+       "bonus": true,
+       "statt": "1a",
+       "skizze": "barren_hang",
+       "text": "Sprung in den Ellhang: Vorschwung im Hang (Durchschwung mit gebeugten Beinen möglich), Rückschwung im Hang, Vorschwung im Hang (Hüfte über Holmhöhe), Rückschwung im Hang mit Stemmaufschwung rückwärts in den Oberarmhang.",
+       "werte": [
+        [
+         "Vorschwung im Hang",
+         0.4
+        ],
+        [
+         "Rückschwung im Hang",
+         0.4
+        ],
+        [
+         "Vorschwung im Hang (Hüfte über Holmhöhe)",
+         0.9
+        ],
+        [
+         "Stemmaufschwung rückwärts in den Oberarmhang",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "zu geringe Schwungamplitude im Hang",
+        "keine deutliche Kippbewegung aus dem Langhangverhalten",
+        "gebeugte Arme",
+        "unzureichende Höhe der Hüfte beim Kippstoß"
+       ],
+       "hinweis": "Tipp aus der DTB-FAQ (Juni 2026): Der Vorschwung soll in eine geschlossene Position gehen – Ziel ist später die Riesenfelge. Als Orientierung für die Kampfrichter: Die ganze Hose ist oberhalb des Holms zu sehen."
+      },
+      {
+       "nr": "2",
+       "skizze": "barren_stuetz",
+       "text": "Vorschwung im Oberarmhang (Hüfte mindestens in Holmhöhe), Rückschwung im Oberarmhang (Hüfte mindestens in Holmhöhe), Vorschwung mit Stemmaufschwung, Rückschwung (mindestens waagerecht), Vorschwung, Rückschwung (mindestens waagerecht).",
+       "werte": [
+        [
+         "Vorschwung im Oberarmhang",
+         0.4
+        ],
+        [
+         "Rückschwung im Oberarmhang",
+         0.4
+        ],
+        [
+         "Vorschwung mit Stemmaufschwung",
+         0.4
+        ],
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Rückschwung",
+         0.3
+        ]
+       ],
+       "fehler": [
+        "zu geringe Schwungamplitude im Oberarmhang",
+        "kein sichtbarer Beineinsatz beim Rückschwung"
+       ]
+      },
+      {
+       "nr": "3a",
+       "skizze": "barren_stuetz",
+       "text": "Rückfallkippe über Felgansatz, Rückschwung mit gestrecktem Körper (mindestens 45°).",
+       "werte": [
+        [
+         "Rückfallkippe über Felgansatz",
+         0.5
+        ],
+        [
+         "Rückschwung (mind. 45°)",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "Rückfallkippe ohne Felgansatz (großer Fehler)",
+        "Felgansatz mit geringem Abstand Griffpunkt – Hüfte",
+        "geringe Höhe beim Rückschwung"
+       ]
+      },
+      {
+       "nr": "3b",
+       "bonus": true,
+       "statt": "3a",
+       "skizze": "barren_stuetz",
+       "text": "Abschwingen, Felgumschwung in den Stütz.",
+       "werte": [
+        [
+         "Felgumschwung in den Stütz",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "gebeugte Arme beim Felgansatz",
+        "Felgansatz mit geringem Abstand zum Griffpunkt"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "barren_handstand",
+       "text": "Vorschwung, Rückschwung in den Handstand.",
+       "werte": [
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Rückschwung in den Handstand",
+         0.3
+        ]
+       ],
+       "fehler": [
+        "geringe Höhe beim Rückschwung",
+        "keine gestreckte Körperhaltung"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "winkelstuetz",
+       "text": "Grätschen der Beine, Senken über die gegrätschte Stützwaageposition in den Grätschwinkelstütz – 2 s –.",
+       "werte": [
+        [
+         "Senken in den Grätschwinkelstütz (2 s)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Rhythmusstörung",
+        "zu frühes Beugen der Hüfte (kein Senken über die Stützwaageposition)",
+        "unzureichende Halteposition",
+        "zu kurze Haltezeit"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "barren_handstand",
+       "text": "Heben in den Handstand mit gestreckten Armen und gegrätschten Beinen – 2 s – (Schweizer).",
+       "werte": [
+        [
+         "Schweizer (2 s)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Schultervorlage",
+        "Rhythmusstörung",
+        "fehlerhafte Handstandposition",
+        "zu kurze Haltezeit"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "barren_handstand",
+       "text": "Vorschwung, Rückschwung mit ½ Drehung vorwärts (Schwungdrehung) in den Handstand.",
+       "werte": [
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Schwungdrehung in den Handstand",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringe Höhe beim Rückschwung",
+        "Überstreckung im Rückschwung",
+        "Rhythmusstörung (keine Schwungdrehung)"
+       ]
+      },
+      {
+       "nr": "8",
+       "skizze": "barren_stuetz",
+       "text": "Abschwingen, Vorschwung, Rückschwung (handstandnah).",
+       "werte": [
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Rückschwung (handstandnah)",
+         0.3
+        ]
+       ],
+       "fehler": [
+        "ungenügender Rückschwung"
+       ]
+      },
+      {
+       "nr": "9",
+       "skizze": "salto_s",
+       "text": "Abschwingen, Salto rückwärts gestreckt in den Stand.",
+       "werte": [
+        [
+         "Salto rückwärts gestreckt (Abgang)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "zu geringe Höhe",
+        "Abweichung der Landeposition von der Griffstelle",
+        "Abweichung von der gestreckten Körperposition – gebückt: Abzug des ganzen Elementwerts"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leicht",
+     "titel": "Erleichterte Übung",
+     "wert": "Ausgangswert 8,0",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "barren_stuetz",
+       "text": "Sprung in den Oberarmhang: Vorschwung im Oberarmhang (Hüfte mindestens in Holmhöhe), Rückschwung im Oberarmhang (Hüfte mindestens in Holmhöhe), Vorschwung mit Stemmaufschwung, Rückschwung (mindestens waagerecht), Vorschwung, Rückschwung (mindestens waagerecht).",
+       "werte": [
+        [
+         "Vorschwung im Oberarmhang",
+         0.4
+        ],
+        [
+         "Rückschwung im Oberarmhang",
+         0.4
+        ],
+        [
+         "Vorschwung mit Stemmaufschwung",
+         0.4
+        ],
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Rückschwung",
+         0.3
+        ]
+       ],
+       "fehler": [
+        "zu geringe Schwungamplitude im Oberarmhang",
+        "kein sichtbarer Beineinsatz beim Rückschwung"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "barren_stuetz",
+       "text": "Rückfallkippe über Felgansatz, Rückschwung mit gestrecktem Körper (mindestens 45°).",
+       "werte": [
+        [
+         "Rückfallkippe über Felgansatz",
+         0.5
+        ],
+        [
+         "Rückschwung (mind. 45°)",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "Rückfallkippe ohne Felgansatz (großer Fehler)",
+        "Felgansatz mit geringem Abstand Griffpunkt – Hüfte",
+        "geringe Höhe beim Rückschwung"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "barren_handstand",
+       "text": "Vorschwung, Rückschwung in den Handstand.",
+       "werte": [
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Rückschwung in den Handstand",
+         0.3
+        ]
+       ],
+       "fehler": [
+        "geringe Höhe beim Rückschwung",
+        "keine gestreckte Körperhaltung"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "winkelstuetz",
+       "text": "Grätschen der Beine, Senken über die gegrätschte Stützwaageposition in den Grätschwinkelstütz – 2 s –.",
+       "werte": [
+        [
+         "Senken in den Grätschwinkelstütz (2 s)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Rhythmusstörung",
+        "zu frühes Beugen der Hüfte (kein Senken über die Stützwaageposition)",
+        "unzureichende Halteposition",
+        "zu kurze Haltezeit"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "barren_handstand",
+       "text": "Heben in den Handstand mit gestreckten Armen und gegrätschten Beinen – 2 s – (Schweizer).",
+       "werte": [
+        [
+         "Schweizer (2 s)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "Schultervorlage",
+        "Rhythmusstörung",
+        "fehlerhafte Handstandposition",
+        "zu kurze Haltezeit"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "barren_handstand",
+       "text": "Vorschwung, Rückschwung mit ½ Drehung vorwärts (Schwungdrehung) in den Handstand.",
+       "werte": [
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Schwungdrehung in den Handstand",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "geringe Höhe beim Rückschwung",
+        "Überstreckung im Rückschwung",
+        "Rhythmusstörung (keine Schwungdrehung)"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "barren_stuetz",
+       "text": "Abschwingen, Vorschwung, Rückschwung (handstandnah).",
+       "werte": [
+        [
+         "Vorschwung",
+         0.3
+        ],
+        [
+         "Rückschwung (handstandnah)",
+         0.3
+        ]
+       ],
+       "fehler": [
+        "ungenügender Rückschwung"
+       ]
+      },
+      {
+       "nr": "8",
+       "skizze": "salto_h",
+       "text": "Abschwingen, Salto rückwärts gehockt in den Stand.",
+       "werte": [
+        [
+         "Salto rückwärts gehockt (Abgang)",
+         0.7
+        ]
+       ],
+       "fehler": [
+        "zu geringe Höhe",
+        "Abweichung der Landeposition von der Griffstelle"
+       ]
+      }
+     ]
+    }
+   ],
+   "kuer": [
+    [
+     "Vorschwungelemente C und schwieriger und Healy",
+     "+0,3"
+    ],
+    [
+     "Rückschwungelemente C und schwieriger",
+     "+0,3"
+    ],
+    [
+     "Felge in den Handstand, mit LAD und auf 1 Holm",
+     "+0,3"
+    ],
+    [
+     "Riesenfelge, mit LAD und auf 1 Holm",
+     "+0,3"
+    ],
+    [
+     "Oberarmelemente D und schwieriger",
+     "+0,3"
+    ],
+    [
+     "Doppelsalto rückwärts gehockt oder gebückt",
+     "+0,2"
+    ]
+   ],
+   "videos": [
+    [
+     "Video 1 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/6f6dd89c8c967dd17af6d05912f05acb"
+    ],
+    [
+     "Video 2 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/d6f6ef679afd67b497a2f9a1495af79b"
+    ]
+   ]
+  },
+  {
+   "id": "reck",
+   "name": "Reck",
+   "uebungen": [
+    {
+     "id": "pflicht",
+     "titel": "Pflichtübung",
+     "wert": "10,0 (mit Bonus bis 11,0)",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "reck_hang",
+       "text": "Aus dem ruhigen Hang mit Ristgriff: Konterschwung, Felgabschwung, Rückschwung (Beinschwungstemme) (mindestens waagerecht), Abschwung.",
+       "werte": [
+        [
+         "Konterschwung bis Abschwung",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "mehr als ein Konterschwung",
+        "beim Konterschwung Hüfte in bzw. über Stangenhöhe (Stemme vor Unterschwung)",
+        "Rhythmusstörung",
+        "Rückschwung unter waagerecht",
+        "keine Beinschwungstemme"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "reck_stuetz",
+       "text": "Kippaufschwung in den Stütz, Rückschwung in eine handstandnahe Position.",
+       "werte": [
+        [
+         "Kippaufschwung in den Stütz",
+         0.5
+        ],
+        [
+         "Rückschwung handstandnah",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "gebeugte Arme",
+        "keine deutliche Kippphase",
+        "unzureichender Rückschwung"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "reck_handstand",
+       "text": "Felgumschwung (handstandnah).",
+       "werte": [
+        [
+         "Felgumschwung",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "Hüfte stark gebeugt",
+        "Endposition nicht erreicht",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "4a",
+       "skizze": "reck_handstand",
+       "text": "Abschwingen, 2 x Riesen-Felgumschwung.",
+       "werte": [
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ],
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "Überstreckung in der oberen Senkrechten",
+        "fehlende Überstreckung im Hang"
+       ]
+      },
+      {
+       "nr": "4b",
+       "bonus": true,
+       "statt": "4a",
+       "skizze": "reck_handstand",
+       "text": "Abschwingen, Riesen-Felgumschwung, Vorgrätschen (Felgansatz), Grätschumschwung rückwärts mit Rückgrätschen in den Handstand (Stalder), Riesen-Felgumschwung.",
+       "werte": [
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ],
+        [
+         "Stalder in den Handstand",
+         0.5
+        ],
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "siehe 4a",
+        "Stangenberührung",
+        "keine Handstandposition",
+        "spätes Schließen der Beine",
+        "kein Felgansatz"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "reck_hang",
+       "text": "Abschwingen, Vorschwung mit ½ Drehung, Umgreifen beider Hände in den Ristgriff.",
+       "werte": [
+        [
+         "Vorschwung mit ½ Drehung",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "ungenügende Höhe / Drehung flach",
+        "gebeugter Dreharm",
+        "außerhalb der Drehachse",
+        "Rhythmusstörung beim Umgreifen"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "reck_hang",
+       "text": "Vorschwung mit ½ Drehung, Umgreifen beider Hände in den Ristgriff.",
+       "werte": [
+        [
+         "Vorschwung mit ½ Drehung",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "ungenügende Höhe / Drehung flach",
+        "gebeugter Dreharm",
+        "außerhalb der Drehachse",
+        "Rhythmusstörung beim Umgreifen"
+       ]
+      },
+      {
+       "nr": "7",
+       "skizze": "reck_handstand",
+       "text": "Abschwingen, Riesen-Felgumschwung.",
+       "werte": [
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "siehe 4a"
+       ]
+      },
+      {
+       "nr": "8",
+       "skizze": "reck_handstand",
+       "text": "Abschwingen zum „langen Hang“, Aufbücken, Bückumschwung zum Handstand.",
+       "werte": [
+        [
+         "Bückumschwung zum Handstand",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "fehlende Überstreckung im langen Hang",
+        "Kopf nicht zwischen den Armen",
+        "Kniefehler beim Aufbücken und Bückumschwung"
+       ]
+      },
+      {
+       "nr": "9a",
+       "skizze": "reck_hang",
+       "text": "Riesen-Felgumschwung, Abschwingen zum „langen Hang“, Aufbücken und Felgabschwung (Aufbück-Unterschwung) in den Stand.",
+       "werte": [
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ],
+        [
+         "Felgabschwung (Abgang)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "siehe 4a",
+        "ungenügende Höhe"
+       ]
+      },
+      {
+       "nr": "9b",
+       "bonus": true,
+       "statt": "9a",
+       "skizze": "salto_s",
+       "text": "Riesen-Felgumschwung, Riesen-Felgumschwung, Salto rückwärts gestreckt zum Stand.",
+       "werte": [
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ],
+        [
+         "Salto rückwärts gestreckt (Abgang)",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "siehe 4a",
+        "ungenügende Höhe",
+        "keine Körperstreckung"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leicht",
+     "titel": "Erleichterte Übung",
+     "wert": "Ausgangswert 8,0",
+     "teile": [
+      {
+       "nr": "1",
+       "skizze": "reck_hang",
+       "text": "Aus dem ruhigen Hang mit Ristgriff: Konterschwung, Felgabschwung, Rückschwung (Beinschwungstemme) (mindestens waagerecht), Abschwung.",
+       "werte": [
+        [
+         "Konterschwung bis Abschwung",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "mehr als ein Konterschwung",
+        "beim Konterschwung Hüfte in bzw. über Stangenhöhe (Stemme vor Unterschwung)",
+        "Rhythmusstörung",
+        "Rückschwung unter waagerecht",
+        "keine Beinschwungstemme"
+       ]
+      },
+      {
+       "nr": "2",
+       "skizze": "reck_stuetz",
+       "text": "Kippaufschwung in den Stütz, Rückschwung in eine handstandnahe Position.",
+       "werte": [
+        [
+         "Kippaufschwung in den Stütz",
+         0.5
+        ],
+        [
+         "Rückschwung handstandnah",
+         0.5
+        ]
+       ],
+       "fehler": [
+        "gebeugte Arme",
+        "keine deutliche Kippphase",
+        "unzureichender Rückschwung"
+       ]
+      },
+      {
+       "nr": "3",
+       "skizze": "reck_stuetz",
+       "text": "Felgumschwung (mindestens 45° über der Waagerechten).",
+       "werte": [
+        [
+         "Felgumschwung",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "Hüfte stark gebeugt",
+        "Endposition nicht erreicht",
+        "gebeugte Arme"
+       ]
+      },
+      {
+       "nr": "4",
+       "skizze": "reck_handstand",
+       "text": "Abschwingen, 3 x Riesen-Felgumschwung.",
+       "werte": [
+        [
+         "3 Riesen-Felgumschwünge",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "Überstreckung in der oberen Senkrechten",
+        "fehlende Überstreckung im Hang"
+       ]
+      },
+      {
+       "nr": "5",
+       "skizze": "reck_handstand",
+       "text": "Abschwingen zum „langen Hang“, Aufbücken, Bückumschwung zum Handstand.",
+       "werte": [
+        [
+         "Bückumschwung zum Handstand",
+         1.5
+        ]
+       ],
+       "fehler": [
+        "fehlende Überstreckung im langen Hang",
+        "Kopf nicht zwischen den Armen",
+        "Kniefehler beim Aufbücken und Bückumschwung"
+       ]
+      },
+      {
+       "nr": "6",
+       "skizze": "reck_hang",
+       "text": "Riesen-Felgumschwung, Abschwingen zum „langen Hang“, Aufbücken und Felgabschwung (Aufbück-Unterschwung) in den Stand.",
+       "werte": [
+        [
+         "Riesen-Felgumschwung",
+         0.5
+        ],
+        [
+         "Felgabschwung (Abgang)",
+         1.0
+        ]
+       ],
+       "fehler": [
+        "siehe 4",
+        "ungenügende Höhe"
+       ]
+      }
+     ]
+    }
+   ],
+   "kuer": [
+    [
+     "gestützte Ellgriffriesenfelge",
+     "+0,2"
+    ],
+    [
+     "Tschechenriesenfelge",
+     "+0,3"
+    ],
+    [
+     "Adler Handstand",
+     "+0,2"
+    ],
+    [
+     "Adler ½ und 1/1 LAD",
+     "+0,3"
+    ],
+    [
+     "Flugelement C und höher",
+     "+0,3"
+    ],
+    [
+     "Doppelsalto rückwärts gestreckt",
+     "+0,2"
+    ],
+    [
+     "Doppelsalto rückwärts gestreckt mit 1/1 LAD und mehr",
+     "+0,3"
+    ]
+   ],
+   "videos": [
+    [
+     "Video 1 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/39b09c7a3f71450c37b3317ef2e1bc9a"
+    ],
+    [
+     "Video 2 (2 Bonusteile)",
+     "https://tube.sport-iat.de/#/video-public/cbec5c72a9b7e7134bd5c001ff0e9b0c"
+    ]
+   ]
+  }
+ ],
+ "kuerRegeln": [
+  "Kür gibt es ab der AK 12, zum Beispiel bei den Deutschen Jugendmeisterschaften. In der AK 11 turnst du nur die Pflicht.",
+  "Du stellst deine Übung selbst zusammen. Bewertet wird nach dem internationalen Wertungsbuch (Code de Pointage 2025–28) mit den Anforderungen für Junioren.",
+  "Elementgruppen: In der AK 12 erfüllst du die Gruppen II und III (am Boden auch IV) schon mit einem C-Teil – das bringt jeweils 0,5 Punkte.",
+  "Ringe: In der AK 12 reicht ein Schwungelement mit Schwierigkeit A.",
+  "Sprung: ein Sprung aus der gültigen Sprungtabelle, Sprungtisch 1,20 m oder 1,25 m.",
+  "Zusätzliche Einstufungen für die AK 12: Pferd – Schere links + Schere rechts = A+A · Ringe – Riesenfelgen mit gebeugten Armen in den Handstand = B, Zugstemme in den Stütz = A · Barren – Aufstemmen beim Rückschwung = A, Stützkehre vorwärts in den Stütz (mind. 45°) = B, Moy in den Oberarmstütz = A.",
+  "Bonus-Elemente (Tabelle bei jedem Gerät) gibt es nur ohne grobe Fehler – die Abzüge müssen unter 0,5 Punkten liegen.",
+  "Standbonus in der Kür: wie im internationalen Wertungsbuch, ab einem Abgang der Schwierigkeit C.",
+  "Zusatzmatten: Pferd bis 20 cm als Absprunghilfe; Barren 10 cm Weichmatte für den Abgang; Reck eine weitere 10-cm-Matte für Flugelemente."
+ ],
+ "begriffe": [
+  {
+   "begriff": "Rondat",
+   "erklaerung": "Ein Rad mit Vierteldrehung: Du landest mit beiden Füßen gleichzeitig und schaust zurück in die Richtung, aus der du gekommen bist. Danach geht es meist mit Flick-Flack oder Salto weiter."
+  },
+  {
+   "begriff": "Flick-Flack",
+   "erklaerung": "Handstütz-Überschlag rückwärts: Du springst aus dem Stand nach hinten auf die Hände und drückst dich wieder auf die Füße."
+  },
+  {
+   "begriff": "Salto",
+   "erklaerung": "Ein Überschlag in der Luft, ohne die Hände aufzusetzen. Gehockt: Knie an die Brust. Gebückt: Beine gestreckt, Hüfte geknickt. Gestreckt: der ganze Körper ist gerade."
+  },
+  {
+   "begriff": "LAD",
+   "erklaerung": "Längsachsendrehung – eine Drehung um die eigene Körperachse, wie eine Schraube. 1/1 LAD ist eine ganze Drehung."
+  },
+  {
+   "begriff": "Handstütz-Überschlag",
+   "erklaerung": "Du überschlägst dich über die Hände: Hände auf den Boden oder das Gerät, Beine kräftig drüber, auf den Füßen landen."
+  },
+  {
+   "begriff": "Kopfkippe",
+   "erklaerung": "Kopfstütz-Überschlag: Aus dem Kopfstand mit gebeugter Hüfte streckst du die Hüfte schwungvoll und kommst so auf die Füße."
+  },
+  {
+   "begriff": "Felgrolle",
+   "erklaerung": "Eine Rolle rückwärts, die durch den Handstand geht."
+  },
+  {
+   "begriff": "Endorolle",
+   "erklaerung": "Eine Rolle vorwärts mit gegrätschten Beinen. In der Pflicht drückst du dich danach in den Handstand."
+  },
+  {
+   "begriff": "Schweizer",
+   "erklaerung": "Kraftvolles Heben in den Handstand mit gestreckten Armen und gegrätschten Beinen."
+  },
+  {
+   "begriff": "Drücker",
+   "erklaerung": "Heben in den Handstand mit gebeugten Armen und gebeugter Hüfte – ein Kraftelement an den Ringen."
+  },
+  {
+   "begriff": "Kreis-Flanke",
+   "erklaerung": "Das wichtigste Element am Pauschenpferd: Beide Beine kreisen geschlossen um das Gerät, die Hände greifen nacheinander um."
+  },
+  {
+   "begriff": "Thomasflanke",
+   "erklaerung": "Eine Kreis-Flanke mit gegrätschten Beinen (Spreiz-Kreis-Flanke), benannt nach dem US-Turner Kurt Thomas."
+  },
+  {
+   "begriff": "Tschechenkehre",
+   "erklaerung": "Eine Verbindung am Pferd, bei der du dich während der Flanken mit Vierteldrehungen einmal herumdrehst."
+  },
+  {
+   "begriff": "Unterkreisen",
+   "erklaerung": "Am Pferd ein Bein unter der Hand hindurch zurückführen, während die andere Hand stützt."
+  },
+  {
+   "begriff": "Zugstemme",
+   "erklaerung": "An den Ringen ziehst und drückst du dich aus dem Hang mit Kraft hoch in den Stütz."
+  },
+  {
+   "begriff": "Winkelstütz",
+   "erklaerung": "Im Stütz hältst du die gestreckten Beine waagerecht nach vorne – dein Körper sieht aus wie ein L."
+  },
+  {
+   "begriff": "Strecksturzhang",
+   "erklaerung": "Kopfüber an den Ringen hängen, der Körper ist ganz gestreckt."
+  },
+  {
+   "begriff": "Felgumschwung",
+   "erklaerung": "Ein Umschwung rückwärts um das Gerät in den Stütz oder Handstand, ohne dass der Körper das Gerät berührt."
+  },
+  {
+   "begriff": "Riesenfelge",
+   "erklaerung": "Riesen-Felgumschwung: ein ganzer Umschwung mit gestrecktem Körper um die Reckstange – vom Handstand durch den Hang wieder zum Handstand."
+  },
+  {
+   "begriff": "Stalder",
+   "erklaerung": "Grätschumschwung rückwärts: Mit gegrätschten Beinen dicht an der Stange herum in den Handstand. Benannt nach Josef Stalder aus der Schweiz."
+  },
+  {
+   "begriff": "Kippe",
+   "erklaerung": "Kippaufschwung: Aus dem Vorschwung bringst du die Füße zur Stange und kommst mit einem kräftigen Hüftstoß in den Stütz."
+  },
+  {
+   "begriff": "Konterschwung",
+   "erklaerung": "Ein kleiner Gegenschwung im Hang, um Schwung zu holen."
+  },
+  {
+   "begriff": "Bückumschwung",
+   "erklaerung": "Ein Umschwung mit stark gebeugter Hüfte, die Beine zwischen den Armen, bis in den Handstand."
+  },
+  {
+   "begriff": "Stemme",
+   "erklaerung": "Aus dem Schwung drückst du dich mit gestreckten Armen in den Stütz."
+  },
+  {
+   "begriff": "Oberarmhang",
+   "erklaerung": "Am Barren hängst du auf den Oberarmen zwischen den Holmen."
+  },
+  {
+   "begriff": "Rückfallkippe",
+   "erklaerung": "Am Barren fällst du aus dem Stütz rückwärts und kommst mit einer Kippbewegung wieder in den Stütz."
+  },
+  {
+   "begriff": "Schwungdrehung",
+   "erklaerung": "Am Barren drehst du dich beim Rückschwung um eine halbe Drehung und landest im Handstand."
+  },
+  {
+   "begriff": "Kurbet",
+   "erklaerung": "Ein schnelles Zusammenschnappen aus dem Handstand: Die Beine werden kräftig zum Boden geschnellt, damit du mit Schwung abspringst."
+  },
+  {
+   "begriff": "Rondatsprung",
+   "erklaerung": "Ein Sprung, bei dem du mit einem Rondat auf das Sprungbrett springst und dann rückwärts weiterfliegst."
+  },
+  {
+   "begriff": "Ristgriff",
+   "erklaerung": "Die Hände greifen von oben über die Stange, die Handrücken zeigen zu dir."
+  },
+  {
+   "begriff": "Ellgriff",
+   "erklaerung": "Ein verdrehter Griff: Die Hände sind nach außen gedreht. Er wird für Ellgriff-Riesenfelgen gebraucht."
+  },
+  {
+   "begriff": "Arm-Rumpf-Winkel",
+   "erklaerung": "Der Winkel zwischen Armen und Oberkörper. Bei 180° sind die Arme ganz in Verlängerung des Körpers – wie im Handstand."
+  },
+  {
+   "begriff": "Sprungrolle",
+   "erklaerung": "Eine Rolle vorwärts mit Absprung und kurzer Flugphase."
+  },
+  {
+   "begriff": "Standwaage",
+   "erklaerung": "Auf einem Bein stehen und das andere Bein hoch halten – bei der Standwaage seitlings zur Seite."
+  },
+  {
+   "begriff": "Seitspagat",
+   "erklaerung": "Ein Spagat, bei dem die Beine nach links und rechts zur Seite zeigen."
+  },
+  {
+   "begriff": "Halbgerät",
+   "erklaerung": "Eine Übung, die nur zur Hälfte zählt. Pferd und Pilz werden zusammengezählt und durch 2 geteilt – genauso die zwei Sprünge."
+  },
+  {
+   "begriff": "Erleichterte Übung",
+   "erklaerung": "Eine einfachere Pflichtübung mit 8,0 Punkten Ausgangswert für Turner, die die normale Übung noch nicht ganz können."
+  },
+  {
+   "begriff": "Standbonus",
+   "erklaerung": "0,2 Punkte extra, wenn du nach Abgang oder Sprung sicher stehst: Füße zusammen, Oberkörper aufrecht."
+  }
+ ],
+ "athletik": {
+  "titel": "Athletische Tests AK 11/12",
+  "stand": "DTB, 15. November 2024",
+  "info": "Für jeden Test gibt es bis zu 10 Punkte. Es zählt die richtige Ausführung; zwei Versuche sind erlaubt (der erste zählt am meisten). Die Beweglichkeitstests 1–6 zählen in der AK 11/12 nur zu 75 %.",
+  "bereiche": [
+   {
+    "name": "Beweglichkeit passiv",
+    "tests": [
+     {
+      "nr": "1b/1c",
+      "name": "Langsamer Handstütz-Überschlag rückwärts und vorwärts mit gespreizten Beinen",
+      "ziel": "Langsam, ohne Rhythmusstörung, großer Spreizwinkel (rückwärts ab 175°, vorwärts ab 135°). Es zählt der Mittelwert aus beiden."
+     },
+     {
+      "nr": "2b",
+      "name": "Spagat seit (Fersen auf 16-cm-Matte)",
+      "ziel": "10 s halten, Linie Fuß–Hüfte–Fuß 180°, Fußspann aufgedreht."
+     },
+     {
+      "nr": "3b",
+      "name": "Spagat quer links und rechts (vordere Ferse auf 16-cm-Matte)",
+      "ziel": "10 s halten, ohne Schrittspalt. Mittelwert aus links und rechts."
+     },
+     {
+      "nr": "4b",
+      "name": "Rumpfbeugen vorwärts im Grätschsitz (Fersen auf 16 cm)",
+      "ziel": "10 s halten, Brust berührt mit geradem Rücken den Boden, Kniescheiben zeigen nach oben."
+     }
+    ]
+   },
+   {
+    "name": "Beweglichkeit aktiv",
+    "tests": [
+     {
+      "nr": "5",
+      "name": "Vorspreizen links und rechts im Stand",
+      "ziel": "Bein bis Kopfhöhe heben und 10 s halten = 10 Punkte (Schulterhöhe 8, Brusthöhe 6)."
+     },
+     {
+      "nr": "6",
+      "name": "Seitspreizen links und rechts im Stand",
+      "ziel": "Bein bis Kopfhöhe heben und 10 s halten = 10 Punkte (Schulterhöhe 8, Brusthöhe 6)."
+     },
+     {
+      "nr": "7b",
+      "name": "Arm-Rumpf-Winkel öffnen mit Gymnastikstab (Kammgriff)",
+      "ziel": "10 s halten mit überstrecktem Arm-Rumpf-Winkel (über 180°). Gebeugte Arme = 0 Punkte."
+     }
+    ]
+   },
+   {
+    "name": "Krafthalten",
+    "tests": [
+     {
+      "nr": "8c",
+      "name": "Spitzwinkelstütz halten (Stützbarren)",
+      "ziel": "15 s halten = 10 Punkte. Beugen der Knie stoppt die Zeit."
+     },
+     {
+      "nr": "9b",
+      "name": "Stützwaage gegrätscht halten (Klötze oder Handstandbarren)",
+      "ziel": "10 s halten = 10 Punkte."
+     },
+     {
+      "nr": "10b",
+      "name": "Hangwaage rücklings (Barren oder Reck)",
+      "ziel": "Aus dem Strecksturzhang senken und 10 s halten = 10 Punkte."
+     },
+     {
+      "nr": "11b",
+      "name": "Zugstemmen an den Ringen",
+      "ziel": "10 Zugstemmen in direkter Folge = 10 Punkte. Arme in Start- und Endposition gestreckt, Hüfte gestreckt."
+     },
+     {
+      "nr": "12c",
+      "name": "Hangeln am Seil aus dem Grätschsitz (4,50 m)",
+      "ziel": "7,5 s = 10 Punkte (8,0 s = 9, 8,5 s = 8 …). Beine gegrätscht in Vorhalte, Hüftwinkel 90°."
+     }
+    ]
+   },
+   {
+    "name": "Handstände",
+    "tests": [
+     {
+      "nr": "13d",
+      "name": "Vor- und Rückschwung in den Handstand (Barren)",
+      "ziel": "10 Wiederholungen ohne Zwischenschwung, jeder Handstand 1 s = 10 Punkte."
+     },
+     {
+      "nr": "14c",
+      "name": "Handstand halten an den Ringen",
+      "ziel": "Aus dem Winkelstütz in den Handstand, 10 s halten = 10 Punkte. Anlehnen an die Seile beendet die Zeit."
+     },
+     {
+      "nr": "15d",
+      "name": "Drücker in den Handstand (Handstandbarren mit Matte)",
+      "ziel": "10 Drücker = 10 Punkte: Winkelstütz 1 s, Handstand 1 s, zurück in den Winkelstütz 1 s."
+     },
+     {
+      "nr": "16c",
+      "name": "Schweizer in den Handstand (Handstandbarren mit Matte)",
+      "ziel": "10 Schweizer = 10 Punkte, mit gestreckten Armen und Knien. Gebeugte Arme zählen nicht."
+     }
+    ]
+   },
+   {
+    "name": "Allgemeine Kondition",
+    "tests": [
+     {
+      "nr": "17b",
+      "name": "30-m-Lauf (Hochstart)",
+      "ziel": "4,7 s = 10 Punkte (4,8 s = 9, 4,9 s = 8 … 5,6 s = 1)."
+     },
+     {
+      "nr": "18c",
+      "name": "Salto vorwärts gehockt in direkter Folge (max. 3 Schritte Anlauf)",
+      "ziel": "4 Saltos hintereinander = 10 Punkte (3 = 7, 2 = 4, 1 = 2)."
+     },
+     {
+      "nr": "19b",
+      "name": "Kreis-Flanken maximal am Turnpilz",
+      "ziel": "120 Kreis-Flanken = 10 Punkte (115 = 9, 110 = 8, 100 = 6, 50 = 1). Wanderst du von der Startstelle weg, gibt es Punktabzug."
+     },
+     {
+      "nr": "20c",
+      "name": "Halbe Kipphänge an der Sprossenwand",
+      "ziel": "20 in 30 Sekunden = 10 Punkte. Beine gestreckt und geschlossen bis die Füße den Griffpunkt erreichen."
+     }
+    ]
+   }
+  ]
+ },
+ "videos": {
+  "text": "Videobeispiele des DTB (Stand 09.10.2026) – gezeigt von Nachwuchsturnern.",
+  "url": "https://www.dtb.de/fileadmin/user_upload/dtb.de/2024/Wettkampfsport/Wettkampfsport_im_DTB/Ger%C3%A4tturnen/Dokumente/Leistungssport-maennlich/QR-Code-Videobeispiele_Pflicht_AK_7bis14.pdf"
+ },
+ "ak11": "AK 11 und AK 12 turnen dieselbe Pflicht. In der AK 11 gibt es nur Pflicht. Ab der AK 12 kommt bei den Deutschen Jugendmeisterschaften die Kür dazu."
+}

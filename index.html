@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>Flickflack</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Flickflack">
+<meta name="theme-color" content="#1B1340">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;1,800&family=Nunito:wght@500;700;800&display=swap">
+<style>
+/* Turn-App für Kinder: Kopfzeile mit Logo, Inhalte in Karten, feste Tab-Leiste unten (iPad-tauglich). */
+:root {
+  --bg: #F4F1FA; --surface: #FFFFFF; --surface-2: #EAE4F5; --ink: #1B1340; --ink-soft: #5A5175; --line: #DCD3EC;
+  --pink: #E5007D; --pink-ink: #B8005F; --teal: #00A99B; --yellow: #FFC93C; --blue: #2D5BD7; --orange: #FF7A1A;
+  --gold: #E8B400; --silver: #A7AEBB; --bronze: #C7793B; --good: #18A058; --bad: #D9364A;
+  --shadow: 0 2px 0 rgba(27,19,64,.07), 0 8px 24px -12px rgba(27,19,64,.28);
+  --font-display: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
+  --font-body: "Nunito", "Trebuchet MS", "Segoe UI", system-ui, sans-serif; --r: 18px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #120D26; --surface: #1E173A; --surface-2: #2A2150; --ink: #F3F0FB; --ink-soft: #B3AACB; --line: #3A3060;
+  --pink: #FF3D9E; --pink-ink: #FF7DBD; --teal: #2CD3C3; --yellow: #FFD54F; --blue: #6E93FF; --orange: #FF9A4D;
+  --good: #3DD07E; --bad: #FF6B7D; --shadow: 0 2px 0 rgba(0,0,0,.25), 0 8px 24px -12px rgba(0,0,0,.6); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #120D26; --surface: #1E173A; --surface-2: #2A2150; --ink: #F3F0FB; --ink-soft: #B3AACB; --line: #3A3060;
+  --pink: #FF3D9E; --pink-ink: #FF7DBD; --teal: #2CD3C3; --yellow: #FFD54F; --blue: #6E93FF; --orange: #FF9A4D;
+  --good: #3DD07E; --bad: #FF6B7D; --shadow: 0 2px 0 rgba(0,0,0,.25), 0 8px 24px -12px rgba(0,0,0,.6); color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { background: var(--bg); margin: 0; }
+body { color: var(--ink); font-family: var(--font-body); font-size: 17px; line-height: 1.5; -webkit-text-size-adjust: 100%; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: #1B1340; }
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: var(--pink-ink); }
+:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 8px; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.05; text-wrap: balance; margin: 0; }
+.num { font-family: var(--font-display); font-variant-numeric: tabular-nums; }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: #1B1340; color: #fff;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.top-in { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; gap: 12px; padding-block: 10px; }
+.logo { display: flex; align-items: center; gap: 10px; background: none; border: 0; padding: 0; color: #fff; }
+.logo svg { width: 40px; height: 40px; flex: none; }
+.logo b { font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 30px; letter-spacing: .5px; }
+.logo b span { color: var(--yellow); }
+.stamp { margin-left: auto; text-align: right; font-size: 13px; line-height: 1.25; color: #CFC7E6; }
+.stamp strong { display: block; color: #fff; font-size: 14px; }
+main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px calc(110px + env(safe-area-inset-bottom, 0px)); }
+.view { display: grid; gap: 28px; }
+.sec { display: grid; gap: 12px; min-width: 0; }
+.sec-h { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.sec-h h2 { font-size: 30px; font-weight: 800; font-style: italic; text-transform: uppercase; letter-spacing: .3px; }
+.sec-h p { margin: 0; color: var(--ink-soft); font-size: 15px; }
+.empty { padding: 40px 0; text-align: center; color: var(--ink-soft); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); padding: 16px; min-width: 0; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 800; letter-spacing: .4px; text-transform: uppercase;
+  padding: 2px 9px; border-radius: 99px; background: var(--surface-2); color: var(--ink); white-space: nowrap; }
+.pill i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.muted { color: var(--ink-soft); }
+.small { font-size: 14px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 0; border-radius: 99px; padding: 10px 18px;
+  background: var(--pink); color: #fff; font-weight: 800; }
+.btn.alt { background: var(--surface-2); color: var(--ink); }
+.btn:disabled { opacity: .45; cursor: default; }
+.link { background: none; border: 0; padding: 0; color: var(--pink-ink); font-weight: 800; text-decoration: underline; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 99px; padding: 6px 14px; font-weight: 800; font-size: 15px; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.term { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline dotted var(--pink); text-underline-offset: 3px; }
+/* Tab-Leiste */
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(6px, env(safe-area-inset-left, 0px)); padding-right: max(6px, env(safe-area-inset-right, 0px)); }
+.tabs-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: repeat(7, 1fr); }
+.tab { display: flex; flex-direction: column; align-items: center; gap: 2px; background: none; border: 0; padding: 8px 0 7px; font-size: 11.5px; font-weight: 800; color: var(--ink-soft); min-width: 0; }
+.tab svg { width: 28px; height: 28px; }
+.tab[aria-selected="true"] { color: var(--pink); }
+.tab[aria-selected="true"] .ic-bg { fill: color-mix(in srgb, var(--pink) 14%, transparent); }
+/* News */
+.hello { margin: 0; font-size: 17px; }
+.top-story { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 0; padding: 0; overflow: hidden; text-align: left; width: 100%; color: inherit; font: inherit; }
+.top-story .art { aspect-ratio: auto; min-height: 240px; }
+.top-story .txt { padding: 20px; display: grid; gap: 8px; align-content: center; }
+.top-story h3 { font-size: 34px; font-weight: 800; }
+@media (max-width: 700px) { .top-story { grid-template-columns: 1fr; } .top-story .art { min-height: 180px; } .top-story h3 { font-size: 28px; } }
+.news-card { padding: 0; overflow: hidden; display: grid; grid-template-rows: auto 1fr; text-align: left; color: inherit; font: inherit; width: 100%; }
+.news-card .txt { padding: 14px 16px 16px; display: grid; gap: 6px; align-content: start; }
+.news-card h3 { font-size: 23px; font-weight: 800; }
+.news-card p, .top-story p { margin: 0; color: var(--ink-soft); font-size: 15.5px; }
+.art { display: block; width: 100%; aspect-ratio: 16 / 9; }
+.art svg { display: block; width: 100%; height: 100%; }
+.meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
+.hl { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); }
+.hl .card { display: grid; gap: 6px; align-content: start; }
+.hl .big { font-family: var(--font-display); font-weight: 800; font-size: 46px; line-height: 1; color: var(--pink); }
+.hl h3 { font-size: 22px; }
+.kicker { font-size: 12px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; color: var(--ink-soft); }
+.count { display: flex; gap: 10px; }
+.count div { background: var(--surface-2); border-radius: 12px; padding: 6px 10px; text-align: center; min-width: 58px; }
+.count b { display: block; font-family: var(--font-display); font-size: 30px; line-height: 1; }
+.count span { font-size: 12px; color: var(--ink-soft); font-weight: 700; }
+/* Ergebnisse */
+.wk { display: grid; gap: 12px; }
+.wk-h { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+.wk-h h3 { font-size: 26px; font-weight: 800; }
+.ent { border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 6px; }
+.ent h4 { margin: 0; font-size: 16px; font-weight: 800; }
+.pod { display: grid; gap: 4px; }
+.pod-row { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 4px 6px; border-radius: 10px; }
+.pod-row.de { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
+.medal { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-family: var(--font-display); font-weight: 800; color: #1B1340; font-size: 15px; background: var(--surface-2); }
+.m1 { background: var(--gold); } .m2 { background: var(--silver); } .m3 { background: var(--bronze); color: #fff; }
+.note-btn { border: 0; background: var(--surface-2); border-radius: 10px; padding: 2px 9px; font-family: var(--font-display); font-weight: 800; font-size: 19px; }
+.note-split { font-size: 13px; color: var(--ink-soft); grid-column: 2 / -1; }
+.duell { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 10px; align-items: center; }
+.duell .t { font-weight: 800; }
+.duell .t.r { text-align: right; }
+.duell .sc { font-family: var(--font-display); font-weight: 800; font-size: 28px; white-space: nowrap; }
+.tbl { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tbl th, .tbl td { padding: 6px 6px; text-align: left; border-bottom: 1px solid var(--line); }
+.tbl th { font-size: 12px; text-transform: uppercase; color: var(--ink-soft); letter-spacing: .4px; }
+.tbl td.n, .tbl th.n { text-align: right; font-variant-numeric: tabular-nums; }
+.tbl-wrap { overflow-x: auto; }
+.explain { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 10px; }
+.explain div { background: var(--surface-2); border-radius: 14px; padding: 10px 12px; }
+.explain b { font-family: var(--font-display); font-size: 26px; display: block; line-height: 1; }
+/* Upcoming */
+.term-row { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 12px; align-items: start; }
+.datebox { background: var(--surface-2); border-radius: 14px; text-align: center; padding: 6px 4px; }
+.datebox b { display: block; font-family: var(--font-display); font-size: 28px; line-height: 1; }
+.datebox span { font-size: 12px; font-weight: 800; color: var(--ink-soft); text-transform: uppercase; }
+.term-row h3 { font-size: 22px; }
+.term-row.hi .datebox { background: var(--pink); color: #fff; } .term-row.hi .datebox span { color: #fff; }
+.month { font-family: var(--font-display); font-weight: 800; font-size: 22px; font-style: italic; text-transform: uppercase; color: var(--ink-soft); margin-top: 6px; }
+/* Training */
+.tr-top { display: grid; gap: 12px; }
+.seg { display: inline-flex; background: var(--surface-2); border-radius: 99px; padding: 4px; gap: 4px; }
+.seg button { border: 0; background: none; border-radius: 99px; padding: 7px 16px; font-weight: 800; }
+.seg button[aria-pressed="true"] { background: var(--surface); box-shadow: var(--shadow); color: var(--pink-ink); }
+.geraete { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(46%, 150px), 1fr)); gap: 10px; }
+.geraet { border: 2px solid var(--line); background: var(--surface); border-radius: 16px; padding: 8px; display: grid; justify-items: center; gap: 2px; font-weight: 800; }
+.geraet svg { width: 64px; height: 48px; }
+.geraet small { font-weight: 700; color: var(--ink-soft); font-size: 12px; }
+.geraet[aria-pressed="true"] { border-color: var(--pink); background: color-mix(in srgb, var(--pink) 8%, var(--surface)); }
+.bar { height: 10px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--teal), var(--pink)); border-radius: 99px; }
+.teil { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 14px; align-items: start; }
+@media (max-width: 520px) { .teil { grid-template-columns: 76px minmax(0, 1fr); gap: 10px; } }
+.skizze { background: var(--surface-2); border-radius: 14px; aspect-ratio: 6 / 5; display: grid; place-items: center; }
+.skizze svg { width: 100%; height: 100%; }
+.nr { display: inline-grid; place-items: center; min-width: 34px; height: 30px; padding: 0 8px; border-radius: 10px; background: var(--ink); color: var(--bg); font-family: var(--font-display); font-weight: 800; font-size: 19px; }
+.nr.bonus { background: var(--yellow); color: #1B1340; }
+.teil-h { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 6px; }
+.teil p { margin: 0 0 8px; }
+.werte { display: grid; gap: 3px; margin: 0 0 8px; padding: 0; list-style: none; font-size: 15px; }
+.werte li { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px dashed var(--line); padding-bottom: 2px; }
+.werte b { font-family: var(--font-display); font-size: 18px; }
+details.fehler summary { cursor: pointer; font-weight: 800; color: var(--ink-soft); font-size: 14px; }
+details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; color: var(--ink-soft); }
+.kann { display: inline-flex; align-items: center; gap: 8px; border: 2px solid var(--line); border-radius: 99px; padding: 5px 12px; background: var(--surface); font-weight: 800; font-size: 14px; margin-top: 8px; }
+.kann[aria-pressed="true"] { background: var(--good); border-color: var(--good); color: #fff; }
+.hinweis { background: color-mix(in srgb, var(--yellow) 25%, transparent); border-radius: 10px; padding: 6px 10px; font-size: 14.5px; margin: 0 0 8px; }
+.rules { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.vid { display: flex; gap: 8px; flex-wrap: wrap; }
+.vid a { text-decoration: none; }
+/* Quiz */
+.q { display: grid; gap: 10px; }
+.q h3 { font-family: var(--font-body); font-size: 18px; font-weight: 800; line-height: 1.35; }
+.answers { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.answers button { border: 2px solid var(--line); background: var(--surface); border-radius: 14px; padding: 10px 12px; text-align: left; font-weight: 700; }
+.answers button.ok { border-color: var(--good); background: color-mix(in srgb, var(--good) 15%, var(--surface)); }
+.answers button.no { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, var(--surface)); }
+.answers button:disabled { cursor: default; color: inherit; }
+.erkl { margin: 0; font-size: 15px; background: var(--surface-2); border-radius: 12px; padding: 8px 12px; }
+.score { font-family: var(--font-display); font-size: 40px; font-weight: 800; color: var(--pink); line-height: 1; }
+/* Game */
+.game-wahlen { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.game-wahl { display: grid; gap: 8px; align-content: start; }
+.game-wahl h3 { font-size: 28px; }
+.game-zahlen b { font-family: var(--font-display); font-size: 54px; line-height: 1; color: var(--pink); display: block; }
+.game-feld { padding: 0; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; max-width: 520px; width: 100%; justify-self: center; }
+.game-feld canvas { display: block; width: 100%; height: auto; }
+.game-top { display: flex; justify-content: center; gap: 22px; font-weight: 800; color: var(--ink-soft); font-size: 14px; }
+.game-top b { display: block; font-family: var(--font-display); font-size: 28px; color: var(--ink); text-align: center; }
+/* Statistik */
+.fort { display: grid; gap: 10px; }
+.fort-row { display: grid; grid-template-columns: 120px minmax(0, 1fr) 70px; gap: 10px; align-items: center; font-weight: 800; }
+.fort-row span:last-child { text-align: right; font-family: var(--font-display); font-size: 20px; }
+.badges { display: flex; gap: 10px; flex-wrap: wrap; }
+.badge { display: grid; justify-items: center; gap: 2px; width: 92px; text-align: center; font-size: 12px; font-weight: 800; color: var(--ink-soft); }
+.badge i { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; font-style: normal; font-size: 28px; background: var(--surface-2); filter: grayscale(1); opacity: .5; }
+.badge.on i { background: var(--yellow); filter: none; opacity: 1; }
+.badge.on { color: var(--ink); }
+.held { display: grid; gap: 6px; }
+.held h3 { font-size: 24px; }
+.held ul { margin: 0; padding-left: 18px; font-size: 15px; }
+/* Overlay */
+#overlay .ov { position: fixed; inset: 0; z-index: 40; background: rgba(18,13,38,.55); display: grid; place-items: end center; }
+@media (min-width: 700px) { #overlay .ov { place-items: center; } }
+.sheet { background: var(--bg); width: min(760px, 100%); max-height: 92vh; overflow-y: auto; border-radius: 22px 22px 0 0; padding: 0 0 calc(24px + env(safe-area-inset-bottom, 0px)); }
+@media (min-width: 700px) { .sheet { border-radius: 22px; } }
+.sheet .in { padding: 16px 20px; display: grid; gap: 12px; }
+.sheet h2 { font-size: 34px; font-weight: 800; }
+.sheet p { margin: 0; }
+.close { position: sticky; top: 10px; float: right; margin: 10px 10px 0 0; z-index: 2; width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--surface); box-shadow: var(--shadow); font-size: 22px; font-weight: 800; }
+.term-pop .in { padding-top: 20px; }
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <button class="logo" data-tab="heute" aria-label="Zur Startseite">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#E5007D"/><path d="M8 29 C 10 12, 30 12, 32 29" fill="none" stroke="#FFC93C" stroke-width="2.4" stroke-dasharray="3 3" stroke-linecap="round"/><circle cx="20" cy="10.5" r="3.4" fill="#fff"/><path d="M20 14 L20 22 M20 16 L14 12 M20 16 L26 12 M20 22 L15 29 M20 22 L25 29" stroke="#fff" stroke-width="2.6" stroke-linecap="round" fill="none"/></svg>
+    <b>FLICK<span>FLACK</span></b>
+  </button>
+  <div class="stamp" id="stamp"><strong>Lade Neuigkeiten …</strong></div>
+</div></header>
+<main id="main"><div class="empty">Die neuesten Turn-News werden geladen …</div></main>
+<nav class="tabs" aria-label="Bereiche"><div class="tabs-in" role="tablist" id="tabs"></div></nav>
+<div id="overlay"></div>
+<script>
+(function () {
+  "use strict";
+  const IC = s => '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/>' + s;
+  const TABS = [
+    { id: "heute", label: "News", icon: IC('<rect x="6" y="7" width="20" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 12h12M10 16h12M10 20h7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>') },
+    { id: "ergebnisse", label: "Ergebnisse", icon: IC('<path d="M9 25h14M16 21v4M10 7h12v5a6 6 0 0 1-12 0z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M10 9H6.5a3.5 3.5 0 0 0 4 4.5M22 9h3.5a3.5 3.5 0 0 1-4 4.5" fill="none" stroke="currentColor" stroke-width="2"/>') },
+    { id: "upcoming", label: "Upcoming", icon: IC('<rect x="6" y="8" width="20" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 13h20M11 5v5M21 5v5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="19" r="2.4" fill="currentColor"/>') },
+    { id: "training", label: "Training", icon: IC('<path d="M5 26h22M9 26V12M23 26V12M7 12h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="6.5" r="2.4" fill="currentColor"/><path d="M16 9v8M12 12l4-2 4 2M13 22l3-5 3 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"/>') },
+    { id: "quiz", label: "Quiz", icon: IC('<circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12.5 13a3.5 3.5 0 1 1 5 3.2c-1 .5-1.5 1.2-1.5 2.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.3" r="1.6" fill="currentColor"/>') },
+    { id: "game", label: "Game", icon: IC('<rect x="5" y="10" width="22" height="13" rx="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 16.5h5M12.5 14v5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="21" cy="15" r="1.5" fill="currentColor"/><circle cx="23" cy="18" r="1.5" fill="currentColor"/>') },
+    { id: "statistik", label: "Statistik", icon: IC('<path d="M6 25h20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="15" width="4" height="9" rx="1" fill="currentColor"/><rect x="14" y="8" width="4" height="16" rx="1" fill="currentColor"/><rect x="20" y="12" width="4" height="12" rx="1" fill="currentColor"/>') }
+  ];
+  // Rubriken: Kürzel → [Name, Farbe 1, Farbe 2]
+  const RUB = { DE: ["Deutschland", "#1B1340", "#E5007D"], INT: ["International", "#2D5BD7", "#00A99B"], DTL: ["Bundesliga", "#E5007D", "#FF7A1A"],
+    BER: ["Berlin", "#00A99B", "#2D5BD7"], NW: ["Nachwuchs", "#7A3FE0", "#00A99B"], TRA: ["Trampolin", "#FF7A1A", "#E5007D"], RSG: ["Rhythmische Sportgymnastik", "#9B2FD0", "#E5007D"] };
+  const EBENE = { international: ["International", "#2D5BD7"], national: ["Deutschland", "#E5007D"], berlin: ["Berlin", "#00A99B"] };
+  const MON = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+  const MONK = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
+  const WT = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("ff_" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("ff_" + k, JSON.stringify(v)); } catch (e) {} }
+  };
+  const komma = (v, n) => (Math.round(v * Math.pow(10, n)) / Math.pow(10, n)).toFixed(n).replace(".", ",");
+  function day(iso) { const d = new Date(String(iso).length <= 10 ? iso + "T12:00:00" : iso); return isNaN(d) ? null : d; }
+  function fmtDate(iso, lang) { const d = day(iso); if (!d) return ""; return (lang ? WT[d.getDay()] + ", " : "") + d.getDate() + ". " + MON[d.getMonth()] + (lang === 2 ? " " + d.getFullYear() : ""); }
+  function fmtRange(a, b) { if (!b || b === a) return fmtDate(a, 2); const x = day(a), y = day(b); if (!x || !y) return ""; return x.getMonth() === y.getMonth() ? x.getDate() + ".–" + y.getDate() + ". " + MON[y.getMonth()] + " " + y.getFullYear() : x.getDate() + ". " + MON[x.getMonth()] + " – " + y.getDate() + ". " + MON[y.getMonth()] + " " + y.getFullYear(); }
+  function heute0() { const d = new Date(); d.setHours(0, 0, 0, 0); return d; }
+
+  let D = null, T = null, S = null, current = "heute";
+  const ui = store.get("ui", { ak: "11", geraet: "boden", uebung: {}, ebene: "alle", sparte: "alle" });
+  const saveUi = () => store.set("ui", ui);
+
+  /* ---------- Strichfiguren ---------- */
+  // Pose: t = Rumpfwinkel (0 = aufrecht, 180 = kopfüber), a1/a2 = Arme (0 = am Körper, 180 = hoch), l1/l2 = Beine (0 = gestreckt, 90 = Winkel nach vorn), k1/k2 = Knie
+  function rot(v, deg) { const r = deg * Math.PI / 180, c = Math.cos(r), s = Math.sin(r); return [v[0] * c - v[1] * s, v[0] * s + v[1] * c]; }
+  function figPts(x, y, p, sc) {
+    const L = { t: 22 * sc, a: 20 * sc, o: 13 * sc, u: 13 * sc, h: 6 * sc };
+    const tr = (p.t || 0) * Math.PI / 180, up = [Math.sin(tr), -Math.cos(tr)], dn = [-up[0], -up[1]];
+    const nk = [x + up[0] * L.t, y + up[1] * L.t], hd = [nk[0] + up[0] * (L.h + 1.5 * sc), nk[1] + up[1] * (L.h + 1.5 * sc)];
+    const arm = a => { const d = rot(dn, -a); return [nk[0] + d[0] * L.a, nk[1] + d[1] * L.a]; };
+    const leg = (l, k) => { const d = rot(dn, -l), kn = [x + d[0] * L.o, y + d[1] * L.o], d2 = rot(d, k || 0); return [kn, [kn[0] + d2[0] * L.u, kn[1] + d2[1] * L.u]]; };
+    return { hip: [x, y], nk, hd, h1: arm(p.a1 == null ? (p.a || 0) : p.a1), h2: arm(p.a2 == null ? (p.a || 0) : p.a2), b1: leg(p.l1 == null ? (p.l || 0) : p.l1, p.k1 == null ? (p.k || 0) : p.k1), b2: leg(p.l2 == null ? (p.l || 0) : p.l2, p.k2 == null ? (p.k || 0) : p.k2), r: L.h };
+  }
+  function figSvg(x, y, p, sc, col) {
+    const f = figPts(x, y, p, sc), w = (4.2 * sc).toFixed(1), P = q => q[0].toFixed(1) + " " + q[1].toFixed(1);
+    return '<g stroke="' + col + '" stroke-width="' + w + '" stroke-linecap="round" stroke-linejoin="round" fill="none">' +
+      '<path d="M' + P(f.hip) + "L" + P(f.nk) + '"/><path d="M' + P(f.h1) + "L" + P(f.nk) + "L" + P(f.h2) + '"/>' +
+      '<path d="M' + P(f.b1[1]) + "L" + P(f.b1[0]) + "L" + P(f.hip) + "L" + P(f.b2[0]) + "L" + P(f.b2[1]) + '"/></g>' +
+      '<circle cx="' + f.hd[0].toFixed(1) + '" cy="' + f.hd[1].toFixed(1) + '" r="' + f.r.toFixed(1) + '" fill="' + col + '"/>';
+  }
+  function figCanvas(c, x, y, p, sc, col) {
+    const f = figPts(x, y, p, sc);
+    c.strokeStyle = col; c.fillStyle = col; c.lineWidth = 4.2 * sc; c.lineCap = "round"; c.lineJoin = "round";
+    const ln = pts => { c.beginPath(); c.moveTo(pts[0][0], pts[0][1]); for (let i = 1; i < pts.length; i++) c.lineTo(pts[i][0], pts[i][1]); c.stroke(); };
+    ln([f.hip, f.nk]); ln([f.h1, f.nk, f.h2]); ln([f.b1[1], f.b1[0], f.hip, f.b2[0], f.b2[1]]);
+    c.beginPath(); c.arc(f.hd[0], f.hd[1], f.r, 0, Math.PI * 2); c.fill();
+  }
+  // Geräte als Linien (Farbe „g“)
+  const G_ = {
+    boden: g => '<rect x="4" y="88" width="112" height="6" rx="3" fill="' + g + '" opacity=".35"/>',
+    reck: g => '<path d="M22 92V22M98 92V22M22 24H98" stroke="' + g + '" stroke-width="3" fill="none"/><path d="M14 92l8-6 8 6M90 92l8-6 8 6" stroke="' + g + '" stroke-width="2" fill="none"/>',
+    barren: g => '<path d="M14 50H106M20 56H112M30 50V92M90 50V92M36 56V92M96 56V92" stroke="' + g + '" stroke-width="3" fill="none"/>',
+    ringe: g => '<path d="M45 0V46M75 0V46" stroke="' + g + '" stroke-width="2"/><circle cx="45" cy="50" r="5" fill="none" stroke="' + g + '" stroke-width="3"/><circle cx="75" cy="50" r="5" fill="none" stroke="' + g + '" stroke-width="3"/>',
+    pferd: g => '<rect x="22" y="54" width="76" height="16" rx="8" fill="' + g + '"/><path d="M46 54v-7h10v7M64 54v-7h10v7M36 70v22M84 70v22" stroke="' + g + '" stroke-width="3" fill="none"/>',
+    pilz: g => '<ellipse cx="60" cy="66" rx="34" ry="8" fill="' + g + '"/><path d="M52 72v20h16V72" fill="' + g + '" opacity=".6"/>',
+    tisch: g => '<path d="M70 52h36v8H70z" fill="' + g + '"/><path d="M88 60v32M78 92h20" stroke="' + g + '" stroke-width="4"/><path d="M40 92l16-5v5z" fill="' + g + '"/>',
+    balken: g => '<rect x="8" y="62" width="104" height="6" rx="2" fill="' + g + '"/><path d="M24 68v24M96 68v24" stroke="' + g + '" stroke-width="3"/>',
+    stufen: g => '<path d="M10 38H110M10 60H110M30 38V92M90 38V92" stroke="' + g + '" stroke-width="3" fill="none"/>',
+    tramp: g => '<path d="M14 80Q60 92 106 80" stroke="' + g + '" stroke-width="3" fill="none"/><path d="M20 80l-4 12M100 80l4 12" stroke="' + g + '" stroke-width="3"/>'
+  };
+  // Skizzen für die Trainingsteile: [Gerät, Hüfte x, Hüfte y, Pose]
+  const SK = {
+    stand: ["boden", 60, 62, { a: 180 }], rolle: ["boden", 60, 74, { t: 115, a: 120, l: 140, k: 150 }],
+    handstand: ["boden", 60, 40, { t: 180, a: 180 }], handstand_g: ["boden", 60, 40, { t: 180, a: 180, l1: 38, l2: -38 }],
+    salto_h: ["boden", 60, 40, { t: 140, a: 90, l: 135, k: 145 }], salto_b: ["boden", 60, 40, { t: 150, a: 60, l: 110 }],
+    salto_s: ["boden", 60, 38, { t: 210, a: 10 }], ueberschlag: ["boden", 64, 44, { t: 200, a: 180, l1: 40, l2: -25 }],
+    flickflack: ["boden", 56, 44, { t: 175, a: 180, l1: -35, l2: -15, k: 0 }], rondat: ["boden", 60, 42, { t: 170, a: 180, l: 20 }],
+    liegestuetz: ["boden", 64, 74, { t: 82, a: 92 }], standwaage: ["boden", 56, 62, { a1: 180, a2: 90, l2: -95 }],
+    pferd_stuetz: ["pferd", 60, 30, { a: 8, l1: 50, l2: -20 }], kreisflanke: ["pilz", 52, 50, { t: -78, a1: 75, a2: 62, l: 0 }],
+    ringe_stuetz: ["ringe", 60, 54, { a1: 5, a2: -5 }], winkelstuetz: ["ringe", 60, 54, { a1: 5, a2: -5, l: 90 }],
+    sturzhang: ["ringe", 60, 52, { t: 180, a: 4 }], hang: ["ringe", 60, 92, { a: 180 }],
+    sprung_flug: ["tisch", 64, 46, { t: 115, a: 165 }], sprung_stuetz: ["tisch", 88, 18, { t: 180, a: 180 }],
+    barren_hang: ["barren", 58, 86, { t: -35, a: 180, l: 25 }], barren_stuetz: ["barren", 62, 50, { a: 5, l: -25 }],
+    barren_handstand: ["barren", 62, 12, { t: 180, a: 180 }],
+    reck_hang: ["reck", 70, 66, { t: -25, a: 180 }], reck_stuetz: ["reck", 60, 26, { a: 5, l: 15 }], reck_handstand: ["reck", 60, -14, { t: 180, a: 180 }]
+  };
+  function skizze(key) {
+    const s = SK[key] || SK.stand, g = "var(--ink-soft)";
+    let fy = s[2], sc = 1;
+    if (key === "reck_handstand") { sc = .8; fy = 24 - (22 + 20) * .8; }
+    return '<svg viewBox="0 0 120 100" aria-hidden="true">' + (G_[s[0]] || G_.boden)(g) + figSvg(s[1], fy, s[3], sc, "var(--pink)") + "</svg>";
+  }
+  /* ---------- Bilder für News ---------- */
+  const MOTIV = {
+    boden: ["boden", 60, 44, { t: 210, a: 170 }], salto: ["boden", 60, 40, { t: 140, a: 90, l: 135, k: 145 }],
+    reck: ["reck", 60, -14, { t: 180, a: 180 }], ringe: ["ringe", 60, 54, { a1: 5, a2: -5, l: 90 }], barren: ["barren", 62, 12, { t: 180, a: 180 }],
+    pferd: ["pferd", 52, 46, { t: -78, a1: 75, a2: 62 }], sprung: ["tisch", 64, 46, { t: 115, a: 165 }],
+    balken: ["balken", 60, 34, { a1: 150, a2: 120, l1: 92, l2: -92 }], stufenbarren: ["stufen", 60, 20, { t: 180, a: 180, l1: 20, l2: -20 }],
+    trampolin: ["tramp", 60, 30, { a: 170 }], rsg: ["boden", 56, 60, { t: 15, a1: 170, a2: 70, l2: -110 }]
+  };
+  function art(motiv, rub) {
+    const c = RUB[rub] || RUB.DE, id = "g" + Math.random().toString(36).slice(2, 8);
+    let inner = "";
+    const W = "rgba(255,255,255,.92)";
+    if (motiv === "medaille" || motiv === "pokal") {
+      inner = '<rect x="38" y="62" width="20" height="30" fill="' + W + '" opacity=".5"/><rect x="58" y="52" width="20" height="40" fill="' + W + '" opacity=".7"/><rect x="78" y="70" width="20" height="22" fill="' + W + '" opacity=".4"/>' +
+        figSvg(68, 34, { a1: 160, a2: 30 }, .8, W) + figSvg(48, 44, { a: 20 }, .8, W) + figSvg(88, 52, { a: 20 }, .8, W) +
+        '<circle cx="68" cy="22" r="7" fill="#FFC93C"/><path d="M64 10l4 6 4-6" stroke="#FFC93C" stroke-width="2" fill="none"/>';
+    } else if (motiv === "zahlen") {
+      inner = '<text x="60" y="66" text-anchor="middle" font-family="Barlow Condensed, Arial" font-weight="800" font-style="italic" font-size="52" fill="' + W + '">10,0</text>';
+    } else if (motiv === "team") {
+      inner = [30, 50, 70, 90].map((x, i) => figSvg(x, 62, { a1: 170 - i * 8, a2: 150 }, .75, W)).join("") + G_.boden(W);
+    } else if (motiv === "kalender") {
+      inner = '<rect x="34" y="20" width="52" height="56" rx="8" fill="none" stroke="' + W + '" stroke-width="4"/><path d="M34 36h52M46 14v12M74 14v12" stroke="' + W + '" stroke-width="4"/><circle cx="60" cy="56" r="8" fill="#FFC93C"/>';
+    } else {
+      const m = MOTIV[motiv] || MOTIV.boden, flip = motiv === "rsg";
+      let deko = "";
+      if (motiv === "rsg") deko = '<path d="M74 22c18 4 20 20 6 24s-10 22 10 26" stroke="#FFC93C" stroke-width="3" fill="none"/>';
+      if (motiv === "trampolin" || motiv === "salto" || motiv === "boden") deko = '<path d="M30 70C34 40 86 40 92 70" stroke="#FFC93C" stroke-width="2.5" stroke-dasharray="4 5" fill="none"/>';
+      let fy = m[2], sc = 1;
+      if (motiv === "reck") { sc = .8; fy = 24 - 42 * .8; }
+      inner = deko + (G_[m[0]] || G_.boden)("rgba(255,255,255,.55)") + figSvg(m[1], fy, m[3], sc, W);
+      if (flip) inner = '<g>' + inner + "</g>";
+    }
+    return '<svg viewBox="0 0 160 120" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="' + id + '" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="' + c[1] + '"/><stop offset="1" stop-color="' + c[2] + '"/></linearGradient></defs>' +
+      '<rect width="160" height="120" fill="url(#' + id + ')"/><circle cx="136" cy="18" r="34" fill="rgba(255,255,255,.08)"/><circle cx="14" cy="112" r="26" fill="rgba(255,255,255,.07)"/><g transform="translate(20,16)">' + inner + "</g></svg>";
+  }
+  function rubPill(r) { const c = RUB[r] || [r, "#888"]; return '<span class="pill"><i style="background:' + c[1] + '"></i>' + esc(c[0]) + "</span>"; }
+
+  /* ---------- Lexikon ---------- */
+  function lexikon() { return (D && D.lexikon || []).concat(T && T.begriffe || []); }
+  function linkTerms(text) {
+    const lx = lexikon(); let out = esc(text);
+    const used = new Set();
+    lx.slice().sort((a, b) => b.begriff.length - a.begriff.length).forEach(l => {
+      if (used.has(l.begriff.toLowerCase())) return;
+      const re = new RegExp("(^|[\\s(„\"])(" + l.begriff.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")(?=[\\s,.;:!?)“\"-]|$)", "i");
+      if (re.test(out) && !/<button[^>]*>[^<]*$/.test(out.split(re)[0] || "")) { out = out.replace(re, (m, a, b) => a + '<button class="term" data-term="' + esc(l.begriff) + '">' + b + "</button>"); used.add(l.begriff.toLowerCase()); }
+    });
+    return out;
+  }
+  function showTerm(t) {
+    const l = lexikon().find(x => x.begriff.toLowerCase() === String(t).toLowerCase()); if (!l) return;
+    sheet('<div class="term-pop"><div class="in"><span class="kicker">Turn-ABC</span><h2>' + esc(l.begriff) + "</h2><p>" + esc(l.erklaerung) + "</p></div></div>");
+  }
+
+  /* ---------- News ---------- */
+  function newsCard(n, top) {
+    const meta = '<div class="meta">' + rubPill(n.rubrik) + "<span>" + fmtDate(n.datum, 1) + "</span></div>";
+    if (top) return '<button class="card top-story" data-news="' + esc(n.id) + '"><span class="art">' + art(n.motiv, n.rubrik) + '</span><span class="txt">' + meta + "<h3>" + esc(n.titel) + "</h3><p>" + esc(n.teaser) + "</p></span></button>";
+    return '<button class="card news-card" data-news="' + esc(n.id) + '"><span class="art">' + art(n.motiv, n.rubrik) + '</span><span class="txt">' + meta + "<h3>" + esc(n.titel) + "</h3><p>" + esc(n.teaser) + "</p></span></button>";
+  }
+  function naechsterHighlight() {
+    const h = heute0();
+    return (D.termine || []).filter(t => t.highlight && day(t.bis || t.von) >= h).sort((a, b) => day(a.von) - day(b.von))[0];
+  }
+  function countdown(t) {
+    const ms = day(t.von) - new Date(); if (ms <= 0) return '<div class="count"><div><b>JETZT</b><span>läuft</span></div></div>';
+    const tg = Math.floor(ms / 864e5), st = Math.floor(ms / 36e5) % 24;
+    return '<div class="count"><div><b>' + tg + "</b><span>" + (tg === 1 ? "Tag" : "Tage") + "</span></div><div><b>" + st + "</b><span>Std.</span></div></div>";
+  }
+  function vHeute() {
+    const news = (D.news || []).slice();
+    const filt = ui.rubrik && ui.rubrik !== "alle" ? news.filter(n => n.rubrik === ui.rubrik) : news;
+    const rubs = ["alle"].concat(Object.keys(RUB).filter(r => news.some(n => n.rubrik === r)));
+    const hl = naechsterHighlight(), tdw = D.turnerDerWoche, z = D.zahlDesTages;
+    return '<div class="view">' +
+      (D.gruss ? '<p class="hello">' + linkTerms(D.gruss) + "</p>" : "") +
+      (filt[0] ? newsCard(filt[0], true) : "") +
+      '<div class="hl">' +
+      (z ? '<div class="card"><span class="kicker">Zahl des Tages</span><span class="big">' + esc(z.zahl) + '</span><span class="small">' + esc(z.text) + "</span></div>" : "") +
+      (tdw ? '<div class="card"><span class="kicker">Turner*in der Woche</span><h3>' + esc(tdw.name) + '</h3><span class="small muted">' + esc([tdw.land, tdw.sparte].filter(Boolean).join(" · ")) + '</span><span class="small">' + esc(tdw.text) + "</span></div>" : "") +
+      (hl ? '<button class="card" data-tab="upcoming" style="text-align:left"><span class="kicker">Countdown</span><h3>' + esc(hl.name) + '</h3><span class="small muted">' + esc(fmtRange(hl.von, hl.bis)) + " · " + esc(hl.ort) + "</span>" + countdown(hl) + "</button>" : "") +
+      "</div>" +
+      '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2></div>' +
+      '<div class="chips">' + rubs.map(r => '<button class="chip" data-rub="' + r + '" aria-pressed="' + ((ui.rubrik || "alle") === r) + '">' + (r === "alle" ? "Alle" : esc(RUB[r][0])) + "</button>").join("") + "</div>" +
+      '<div class="grid">' + filt.slice(1).map(n => newsCard(n)).join("") + "</div>" + (filt.length ? "" : '<p class="muted">Gerade keine Nachrichten in dieser Rubrik.</p>') + "</section>" +
+      '<section class="sec"><div class="sec-h"><h2>Turn-ABC</h2><p>Tippe auf einen Begriff</p></div><div class="chips">' +
+      lexikon().slice(0, 40).map(l => '<button class="chip" data-term="' + esc(l.begriff) + '">' + esc(l.begriff) + "</button>").join("") + "</div></section></div>";
+  }
+  function openNews(id) {
+    const n = (D.news || []).find(x => x.id === id); if (!n) return;
+    sheet('<span class="art" style="aspect-ratio:16/8">' + art(n.motiv, n.rubrik) + '</span><div class="in"><div class="meta">' + rubPill(n.rubrik) + "<span>" + fmtDate(n.datum, 2) + "</span></div><h2>" + esc(n.titel) + '</h2><p style="font-weight:800">' + esc(n.teaser) + "</p>" +
+      (n.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + (n.quelle ? '<p class="small muted">Quelle: ' + esc(n.quelle) + "</p>" : "") + "</div>");
+  }
+
+  /* ---------- Ergebnisse ---------- */
+  function noteHtml(p) {
+    if (p.note == null) return "";
+    const split = p.d != null && p.e != null;
+    return '<button class="note-btn" ' + (split ? 'data-note="' + esc(JSON.stringify({ d: p.d, e: p.e, n: p.note, pen: p.abzug || 0 })) + '"' : "disabled") + ">" + esc(typeof p.note === "number" ? p.note.toFixed(3).replace(".", ",") : p.note) + "</button>";
+  }
+  function podRow(p, de) {
+    const m = p.platz <= 3 ? " m" + p.platz : "";
+    return '<div class="pod-row' + (de || p.land === "GER" ? " de" : "") + '"><span class="medal' + m + '">' + esc(p.platz) + "</span><span><b>" + esc(p.name) + '</b> <span class="muted small">' + esc(p.land || p.verein || "") + "</span></span>" + noteHtml(p) + "</div>";
+  }
+  function vErgebnisse() {
+    const wk = (D.wettkaempfe || []);
+    const liga = D.liga;
+    return '<div class="view">' +
+      '<section class="sec"><div class="sec-h"><h2>Wettkämpfe</h2><p>Medaillen, Finals und die Deutschen. Tippe auf eine Note!</p></div>' +
+      (wk.length ? wk.map(w => '<div class="card wk"><div class="wk-h"><div><div class="meta">' + rubPill(w.rubrik) + (w.sparte ? '<span class="pill">' + esc(w.sparte) + "</span>" : "") + "</div><h3>" + esc(w.name) + '</h3><span class="muted small">' + esc(fmtRange(w.von, w.bis)) + (w.ort ? " · " + esc(w.ort) : "") + "</span></div></div>" +
+        (w.bericht ? "<p style=\"margin:0\">" + linkTerms(w.bericht) + "</p>" : "") +
+        (w.entscheidungen || []).map(e => '<div class="ent"><h4>' + esc(e.titel) + '</h4><div class="pod">' + (e.podium || []).map(p => podRow(p)).join("") +
+          (e.deutsche && e.deutsche.length ? '<span class="kicker" style="margin-top:6px">Die Deutschen</span>' + e.deutsche.map(p => podRow(p, true)).join("") : "") + "</div></div>").join("") + "</div>").join("")
+        : '<p class="muted">Gerade keine Ergebnisse.</p>') + "</section>" +
+      (liga ? '<section class="sec"><div class="sec-h"><h2>' + esc(liga.titel || "Bundesliga") + "</h2><p>" + esc(liga.info || "") + "</p></div>" +
+        (liga.duelle && liga.duelle.length ? '<div class="grid">' + liga.duelle.map(d => '<div class="card" style="display:grid;gap:8px"><div class="meta"><span class="pill">' + esc(d.liga) + "</span><span>" + esc(fmtDate(d.datum, 1)) + (d.ort ? " · " + esc(d.ort) : "") + '</span></div><div class="duell"><span class="t">' + esc(d.heim) + '</span><span class="sc">' + esc(d.heimScore) + ":" + esc(d.gastScore) + '</span><span class="t r">' + esc(d.gast) + "</span></div>" +
+          (d.heimPkt != null ? '<span class="small muted">Gerätepunkte ' + esc(d.heimPkt) + " : " + esc(d.gastPkt) + "</span>" : "") + (d.info ? '<span class="small">' + esc(d.info) + "</span>" : "") + "</div>").join("") + "</div>" : "") +
+        (liga.tabellen || []).map(tb => '<div class="card tbl-wrap"><h3 style="font-size:22px;margin-bottom:6px">' + esc(tb.titel) + '</h3><table class="tbl"><thead><tr><th>#</th><th>Team</th><th class="n">Punkte</th><th class="n">Score</th></tr></thead><tbody>' +
+          tb.zeilen.map(z => "<tr><td>" + esc(z.platz) + "</td><td><b>" + esc(z.team) + '</b></td><td class="n">' + esc(z.punkte) + '</td><td class="n">' + esc(z.score || "") + "</td></tr>").join("") + "</tbody></table>" + (tb.stand ? '<p class="small muted" style="margin:6px 0 0">' + esc(tb.stand) + "</p>" : "") + "</div>").join("") + "</section>" : "") +
+      '<section class="sec"><div class="sec-h"><h2>So entsteht eine Turnnote</h2></div><div class="card" style="display:grid;gap:10px"><div class="explain">' +
+      '<div><b>D-Note</b><span class="small">Schwierigkeit: Wert der Elemente. Je schwerer, desto höher. Nach oben offen.</span></div>' +
+      '<div><b>E-Note</b><span class="small">Ausführung: Start bei 10,0. Für jeden Fehler gibt es Abzug – 0,1 klein, 0,3 mittel, 0,5 groß, 1,0 Sturz.</span></div>' +
+      '<div><b>D + E</b><span class="small">Beides zusammen ergibt die Endnote, z. B. 5,400 + 8,300 = 13,700.</span></div>' +
+      '<div><b>Liga-Duell</b><span class="small">In der Bundesliga turnen zwei Teams gegeneinander. Wer an einem Gerät die bessere Note hat, bekommt Scorepunkte.</span></div></div></div></section></div>';
+  }
+  function openNote(j) {
+    const x = JSON.parse(j);
+    sheet('<div class="in"><span class="kicker">So setzt sich die Note zusammen</span><h2>' + esc(Number(x.n).toFixed(3).replace(".", ",")) + ' Punkte</h2><div class="explain"><div><b>' + esc(Number(x.d).toFixed(3).replace(".", ",")) + '</b><span class="small">D-Note (Schwierigkeit)</span></div><div><b>' + esc(Number(x.e).toFixed(3).replace(".", ",")) + '</b><span class="small">E-Note (Ausführung, von 10,0)</span></div>' +
+      (x.pen ? "<div><b>−" + esc(Number(x.pen).toFixed(1).replace(".", ",")) + '</b><span class="small">Neutraler Abzug (z. B. Linie übertreten)</span></div>' : "") + "</div><p>Bei der E-Note wurden " + esc(komma(10 - x.e, 3)) + " Punkte für kleine und große Fehler abgezogen.</p></div>");
+  }
+
+  /* ---------- Upcoming ---------- */
+  function vUpcoming() {
+    const h = heute0();
+    let ts = (D.termine || []).filter(t => day(t.bis || t.von) >= h).sort((a, b) => day(a.von) - day(b.von));
+    const ebenen = ["alle", "international", "national", "berlin"];
+    const sparten = ["alle"].concat([...new Set(ts.map(t => t.sparte).filter(Boolean))]);
+    if (ui.ebene !== "alle") ts = ts.filter(t => t.ebene === ui.ebene);
+    if (ui.sparte !== "alle") ts = ts.filter(t => t.sparte === ui.sparte);
+    let lastM = "", html = "";
+    ts.forEach(t => {
+      const d = day(t.von), m = MON[d.getMonth()] + " " + d.getFullYear(), e = EBENE[t.ebene] || ["", "#888"];
+      if (m !== lastM) { html += '<div class="month">' + m + "</div>"; lastM = m; }
+      html += '<div class="card term-row' + (t.highlight ? " hi" : "") + '"><div class="datebox"><b>' + d.getDate() + "</b><span>" + MONK[d.getMonth()] + "</span></div><div style=\"display:grid;gap:4px\">" +
+        '<div class="meta"><span class="pill"><i style="background:' + e[1] + '"></i>' + esc(e[0]) + "</span>" + (t.sparte ? '<span class="pill">' + esc(t.sparte) + "</span>" : "") + "</div><h3>" + esc(t.name) + '</h3><span class="small muted">' + esc(fmtRange(t.von, t.bis)) + (t.ort ? " · " + esc(t.ort) : "") + "</span>" + (t.info ? '<span class="small">' + linkTerms(t.info) + "</span>" : "") + "</div></div>";
+    });
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>Die nächsten Wettkämpfe – von Berlin bis zur WM</p></div>' +
+      '<div class="chips">' + ebenen.map(e => '<button class="chip" data-ebene="' + e + '" aria-pressed="' + (ui.ebene === e) + '">' + (e === "alle" ? "Alle" : esc(EBENE[e][0])) + "</button>").join("") + "</div>" +
+      (sparten.length > 2 ? '<div class="chips">' + sparten.map(s => '<button class="chip" data-sparte="' + esc(s) + '" aria-pressed="' + (ui.sparte === s) + '">' + (s === "alle" ? "Alle Sportarten" : esc(s)) + "</button>").join("") + "</div>" : "") +
+      (html || '<p class="muted">Keine Termine für diese Auswahl.</p>') + "</section></div>";
+  }
+
+  /* ---------- Training ---------- */
+  const GICON = {
+    boden: '<rect x="6" y="38" width="52" height="5" rx="2" fill="currentColor" opacity=".35"/>' + figSvg(32, 20, { t: 180, a: 180, l1: 30, l2: -30 }, .55, "currentColor"),
+    pferd: '<rect x="10" y="26" width="44" height="9" rx="4.5" fill="currentColor" opacity=".45"/><path d="M24 26v-4h6v4M36 26v-4h6v4M18 35v10M46 35v10" stroke="currentColor" stroke-width="2.4" fill="none"/>',
+    ringe: '<path d="M24 0v18M40 0v18" stroke="currentColor" stroke-width="1.8"/><circle cx="24" cy="21" r="3.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="40" cy="21" r="3.5" fill="none" stroke="currentColor" stroke-width="2.4"/>' + figSvg(32, 24, { a1: 6, a2: -6, l: 90 }, .5, "currentColor"),
+    sprung: '<path d="M36 24h20v5H36z" fill="currentColor"/><path d="M46 29v17M40 46h12" stroke="currentColor" stroke-width="3"/>' + figSvg(20, 22, { t: 115, a: 165 }, .55, "currentColor"),
+    barren: '<path d="M6 22H58M12 27H62M14 22V46M50 22V46" stroke="currentColor" stroke-width="2.4" fill="none" opacity=".6"/>' + figSvg(32, 2, { t: 180, a: 180 }, .5, "currentColor"),
+    reck: '<path d="M10 46V10M54 46V10M10 11H54" stroke="currentColor" stroke-width="2.4" fill="none" opacity=".6"/>' + figSvg(32, 34, { t: -20, a: 180 }, .5, "currentColor"),
+    athletik: '<path d="M14 24h36M10 18v12M54 18v12M6 21v6M58 21v6" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>',
+    regeln: '<rect x="16" y="6" width="32" height="38" rx="4" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M22 16h20M22 24h20M22 32h12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>'
+  };
+  const kannKey = (g, u, nr) => "kann_" + g + "_" + u + "_" + nr;
+  function kannAlle() { return store.get("kann", {}); }
+  function fortschritt(g, u) {
+    const k = kannAlle(), gg = T.geraete.find(x => x.id === g), uu = gg && gg.uebungen.find(x => x.id === u); if (!uu) return [0, 0];
+    const t = uu.teile.length; let n = 0; uu.teile.forEach(x => { if (k[kannKey(g, u, x.nr)]) n++; }); return [n, t];
+  }
+  function teilHtml(g, u, x) {
+    const on = !!kannAlle()[kannKey(g, u, x.nr)];
+    return '<div class="card teil"><div class="skizze">' + skizze(x.skizze) + "</div><div>" +
+      '<div class="teil-h"><span class="nr' + (x.bonus ? " bonus" : "") + '">' + esc(x.nr) + "</span>" + (x.bonus ? '<span class="pill" style="background:var(--yellow);color:#1B1340">★ Bonusteil statt ' + esc(x.statt) + "</span>" : "") + "</div>" +
+      "<p>" + linkTerms(x.text) + "</p>" + (x.hinweis ? '<p class="hinweis">' + esc(x.hinweis) + "</p>" : "") +
+      '<ul class="werte">' + x.werte.map(w => "<li><span>" + esc(w[0]) + "</span><b>" + komma(w[1], 1) + "</b></li>").join("") + "</ul>" +
+      (x.fehler && x.fehler.length ? '<details class="fehler"><summary>Darauf achten die Kampfrichter</summary><ul>' + x.fehler.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul></details>" : "") +
+      '<button class="kann" data-kann="' + esc(g + "|" + u + "|" + x.nr) + '" aria-pressed="' + on + '">' + (on ? "✓ Kann ich!" : "☐ Kann ich schon") + "</button></div></div>";
+  }
+  function vTraining() {
+    if (!T) return '<div class="view"><p class="muted">Trainingsdaten werden geladen …</p></div>';
+    const gs = T.geraete, gid = ui.geraet;
+    const tiles = gs.map(g => {
+      const p = fortschritt(g.id, "pflicht");
+      return '<button class="geraet" data-geraet="' + g.id + '" aria-pressed="' + (gid === g.id) + '"><svg viewBox="0 0 64 48" aria-hidden="true">' + GICON[g.id] + "</svg>" + esc(g.name) + "<small>" + p[0] + "/" + p[1] + " Pflichtteile</small></button>";
+    }).join("") + ['athletik', 'regeln'].map(k => '<button class="geraet" data-geraet="' + k + '" aria-pressed="' + (gid === k) + '"><svg viewBox="0 0 64 48" aria-hidden="true">' + GICON[k] + "</svg>" + (k === "athletik" ? "Athletik" : "Regeln") + "<small>" + (k === "athletik" ? "20 Tests" : "Wertung") + "</small></button>").join("");
+    let body = "";
+    if (gid === "athletik") body = athletikHtml();
+    else if (gid === "regeln") body = regelnHtml();
+    else {
+      const g = gs.find(x => x.id === gid) || gs[0];
+      const uid = ui.uebung[g.id] && (g.uebungen.some(u => u.id === ui.uebung[g.id]) || ui.uebung[g.id] === "kuer") ? ui.uebung[g.id] : g.uebungen[0].id;
+      const opts = g.uebungen.map(u => [u.id, u.titel]).concat(ui.ak === "12" ? [["kuer", "Kür AK 12"]] : []);
+      const sel = uid === "kuer" && ui.ak !== "12" ? g.uebungen[0].id : uid;
+      body = '<div class="chips">' + opts.map(o => '<button class="chip" data-uebung="' + g.id + "|" + o[0] + '" aria-pressed="' + (sel === o[0]) + '">' + esc(o[1]) + "</button>").join("") + "</div>";
+      if (g.info) body += '<p class="small muted" style="margin:0">' + esc(g.info) + "</p>";
+      if (sel === "kuer") body += kuerHtml(g);
+      else {
+        const u = g.uebungen.find(x => x.id === sel), p = fortschritt(g.id, u.id);
+        body += '<div class="card" style="display:grid;gap:8px"><div class="sec-h"><h3 style="font-size:26px">' + esc(g.name) + " · " + esc(u.titel) + '</h3><span class="pill">' + esc(u.wert) + "</span></div>" +
+          (u.info ? '<p class="small muted" style="margin:0">' + esc(u.info) + "</p>" : "") +
+          '<div class="bar"><i style="width:' + (p[1] ? Math.round(p[0] / p[1] * 100) : 0) + '%"></i></div><span class="small"><b>' + p[0] + " von " + p[1] + "</b> Teilen kannst du schon" + (p[0] === p[1] && p[1] ? " – super! 🎉" : "") + "</span>" +
+          (g.videos && g.videos.length ? '<div class="vid">' + g.videos.map(v => '<a class="btn alt" href="' + esc(v[1]) + '" target="_blank" rel="noopener">▶ ' + esc(v[0]) + "</a>").join("") + "</div>" : "") + "</div>" +
+          u.teile.map(x => teilHtml(g.id, u.id, x)).join("");
+      }
+    }
+    return '<div class="view"><section class="sec tr-top"><div class="sec-h"><h2>Training</h2><p>' + esc(T.ak11 || "") + "</p></div>" +
+      '<div class="seg" role="group" aria-label="Altersklasse"><button data-ak="11" aria-pressed="' + (ui.ak === "11") + '">AK 11</button><button data-ak="12" aria-pressed="' + (ui.ak === "12") + '">AK 12</button></div>' +
+      '<div class="geraete">' + tiles + "</div></section>" + '<section class="sec">' + body + "</section>" +
+      '<p class="small muted">Quellen: ' + T.quellen.map(q => esc(q.name) + " (Stand " + esc(q.stand) + ")").join(" · ") + ". Bei Fragen gilt immer, was dein Trainer sagt.</p></div>";
+  }
+  function kuerHtml(g) {
+    return '<div class="card" style="display:grid;gap:10px"><h3 style="font-size:26px">' + esc(g.name) + ' · Kür AK 12</h3><ul class="rules">' + T.kuerRegeln.map(r => "<li>" + linkTerms(r) + "</li>").join("") + "</ul>" +
+      (g.kuerInfo ? '<p class="hinweis">' + esc(g.kuerInfo) + "</p>" : "") +
+      (g.kuer && g.kuer.length ? '<h4 style="margin:6px 0 0">Bonus-Elemente am ' + esc(g.name) + ' (AK 12)</h4><ul class="werte">' + g.kuer.map(k => "<li><span>" + esc(k[0]) + "</span><b>" + esc(k[1]) + "</b></li>").join("") + "</ul>" : "") + "</div>";
+  }
+  function athletikHtml() {
+    const A = T.athletik, k = store.get("athl", {});
+    return '<div class="card" style="display:grid;gap:8px"><h3 style="font-size:26px">' + esc(A.titel) + '</h3><p class="small muted" style="margin:0">' + esc(A.info) + " (" + esc(A.stand) + ")</p></div>" +
+      A.bereiche.map(b => '<div class="card" style="display:grid;gap:10px"><h3 style="font-size:22px">' + esc(b.name) + "</h3>" + b.tests.map(t => {
+        const v = k[t.nr] || "";
+        return '<div style="display:grid;gap:4px;border-top:1px solid var(--line);padding-top:8px"><div class="teil-h" style="margin:0"><span class="nr">' + esc(t.nr) + "</span><b>" + esc(t.name) + '</b></div><span class="small"><b>Für 10 Punkte:</b> ' + esc(t.ziel) + '</span><label class="small muted">Meine Punkte: <select data-athl="' + esc(t.nr) + '">' +
+          ["", 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0].map(o => '<option value="' + o + '"' + (String(o) === String(v) ? " selected" : "") + ">" + (o === "" ? "–" : o) + "</option>").join("") + "</select></label></div>";
+      }).join("") + "</div>").join("");
+  }
+  function regelnHtml() {
+    return '<div class="card" style="display:grid;gap:10px"><h3 style="font-size:26px">So wird die Pflicht bewertet</h3><ul class="rules">' + T.regeln.map(r => "<li>" + linkTerms(r) + "</li>").join("") + '</ul><p class="small muted" style="margin:0">' + esc(T.abzuege) + "</p>" +
+      (T.videos ? '<p class="small" style="margin:0">' + esc(T.videos.text) + ' <a href="' + esc(T.videos.url) + '" target="_blank" rel="noopener">QR-Code-Liste (PDF)</a></p>' : "") + "</div>";
+  }
+
+  /* ---------- Quiz ---------- */
+  function quizState() { return store.get("quiz_" + (D.quizId || D.aktualisiert), { picks: [] }); }
+  function vQuiz() {
+    const Q = D.quiz || [], st = quizState(), richtig = st.picks.filter((p, i) => p != null && Q[i] && p === Q[i].richtig).length, beantw = st.picks.filter(p => p != null).length;
+    const kr = D.kampfrichter, kst = store.get("kr_" + (D.quizId || ""), null);
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Quiz</h2><p>Neue Fragen jeden Morgen. Jede richtige Antwort beim ersten Versuch bringt dich näher an ein Game.</p></div>' +
+      '<div class="card" style="display:flex;gap:16px;align-items:center"><span class="score">' + richtig + "/" + Q.length + '</span><span class="small">' + (beantw === Q.length && Q.length ? (richtig === Q.length ? "Alles richtig – du bist ein Turn-Profi! 🏆" : "Fertig! Morgen gibt es neue Fragen.") : "Noch " + (Q.length - beantw) + " Fragen offen.") + "</span></div>" +
+      Q.map((q, i) => {
+        const p = st.picks[i];
+        return '<div class="card q"><div class="meta">' + rubPill(q.rubrik) + "<span>Frage " + (i + 1) + "</span></div><h3>" + esc(q.frage) + '</h3><div class="answers">' +
+          q.antworten.map((a, j) => '<button data-quiz="' + i + "|" + j + '"' + (p != null ? " disabled" : "") + ' class="' + (p != null ? (j === q.richtig ? "ok" : (j === p ? "no" : "")) : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
+          (p != null ? '<p class="erkl">' + (p === q.richtig ? "✓ Richtig! " : "✗ Leider falsch. ") + linkTerms(q.erklaerung) + "</p>" : "") + "</div>";
+      }).join("") + "</section>" +
+      (kr ? '<section class="sec"><div class="sec-h"><h2>Kampfrichter-Ecke</h2><p>Wie würdest du werten?</p></div><div class="card q"><h3>' + esc(kr.titel) + "</h3><p style=\"margin:0\">" + linkTerms(kr.situation) + "</p><h3>" + esc(kr.frage) + '</h3><div class="answers">' +
+        kr.antworten.map((a, j) => '<button data-kr="' + j + '"' + (kst != null ? " disabled" : "") + ' class="' + (kst != null ? (j === kr.richtig ? "ok" : (j === kst ? "no" : "")) : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
+        (kst != null ? '<p class="erkl">' + (kst === kr.richtig ? "✓ Genau so würde das Kampfgericht werten! " : "✗ Nicht ganz. ") + linkTerms(kr.erklaerung) + "</p>" : "") + "</div></section>" : "") + "</div>";
+  }
+  function answerQuiz(i, j) {
+    const st = quizState(); if (st.picks[i] != null) return; st.picks[i] = j; store.set("quiz_" + (D.quizId || D.aktualisiert), st);
+    const m = store.get("game_erst", {}), qid = D.quizId || D.aktualisiert; m[qid] = m[qid] || {}; if (m[qid][i] == null) m[qid][i] = j === D.quiz[i].richtig; store.set("game_erst", m);
+    render();
+  }
+
+  /* ---------- Game ---------- */
+  function gameRichtig() { let v = 0; Object.values(store.get("game_erst", {})).forEach(r => Object.values(r).forEach(x => { if (x) v++; })); return v; }
+  function gameGuthaben() { return Math.max(0, Math.ceil(gameRichtig() / 2) - store.get("game_gespielt", 0)); }
+  let GM = null, Gletzt = null;
+  function vGame() {
+    if (GM) return '<div class="view"><div class="game-top"><span>' + (GM.art === "sprung" ? "Sprung" : "Reck") + "<b>" + (GM.art === "sprung" ? "🤸" : "🏅") + "</b></span><span>Rekord<b>" + komma(store.get("rek_" + GM.art, 0), 3) + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Turnspiel – tippe auf das Spielfeld"></canvas></div><button class="btn alt" data-gabbruch style="justify-self:center">Spiel beenden</button></div>';
+    const gut = gameGuthaben();
+    const karte = (a, t, txt) => '<div class="card game-wahl"><h3>' + t + "</h3><p style=\"margin:0\">" + txt + '</p><span class="small">Dein Rekord: <b>' + komma(store.get("rek_" + a, 0), 3) + "</b></span>" + (gut ? '<button class="btn" data-gstart="' + a + '">Spielen</button>' : "") + "</div>";
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Flickflack-Game</h2><p>Für je zwei Quizfragen, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel. Schon die erste richtige Antwort bringt ein Spiel.</p></div>' +
+      (Gletzt ? '<div class="card" style="display:grid;gap:4px"><span class="kicker">Letztes Spiel · ' + esc(Gletzt.titel) + '</span><b class="score">' + komma(Gletzt.note, 3) + (Gletzt.rekord ? " 🏆" : "") + "</b><span>" + esc(Gletzt.zeile) + "</span></div>" : "") +
+      '<div class="card game-zahlen" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap"><div><b>' + gut + '</b><span class="small">' + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div>" +
+      (gut ? '<p style="margin:0;font-weight:700">Such dir ein Gerät aus:</p>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
+      '<div class="game-wahlen">' + karte("sprung", "Sprung", "Anlauf, Brett, Abdruck, Landung: Triff mit deinem Tippen genau den richtigen Moment – und steh die Landung!") +
+      karte("reck", "Reck-Abgang", "Dein Turner schwingt Riesenfelgen. Lass im richtigen Moment los, mach den Salto und öffne rechtzeitig zur Landung.") + "</div>" +
+      '<details class="card"><summary style="font-weight:800;cursor:pointer">So geht der Sprung</summary><p>1. <b>Anlauf:</b> Tippe so schnell du kannst – je schneller, desto schwerer der Sprung.<br>2. <b>Brett:</b> Tippe, wenn der Turner das Brett erreicht.<br>3. <b>Abdruck:</b> Tippe, wenn die Hände auf dem Tisch sind.<br>4. <b>Landung:</b> Tippe, um aus dem Salto zu öffnen. Zu früh: Er dreht nicht genug. Zu spät: Er dreht zu weit.</p><p class="small muted">Die Noten im Spiel sind Spielwerte, keine echten Wertungen.</p></details>' +
+      '<details class="card"><summary style="font-weight:800;cursor:pointer">So geht der Reck-Abgang</summary><p>Der Turner schwingt um die Stange. Tippe zum <b>Loslassen</b>, wenn er unten durchgeschwungen ist und nach vorne-oben fliegt (der grüne Bereich). Danach tippst du noch einmal zum <b>Öffnen</b> vor der Landung. Mehr Riesenfelgen vorher bringen mehr Schwierigkeit – aber nach fünf werden die Hände müde!</p></details></section></div>';
+  }
+  function gameStart(a) {
+    if (!gameGuthaben()) return; store.set("game_gespielt", store.get("game_gespielt", 0) + 1);
+    GM = { art: a === "reck" ? "reck" : "sprung" }; render();
+  }
+  function gameEnde(res) {
+    const k = "rek_" + GM.art, alt = store.get(k, 0), rek = res.note > alt;
+    if (rek) store.set(k, res.note);
+    const hist = store.get("game_hist", []); hist.unshift({ art: GM.art, note: res.note, d: new Date().toISOString().slice(0, 10) }); store.set("game_hist", hist.slice(0, 30));
+    Gletzt = { titel: GM.art === "sprung" ? "Sprung" : "Reck-Abgang", note: res.note, rekord: rek, zeile: res.zeile };
+  }
+  function gameInit() {
+    const cv = $("#gcv"); if (!cv) return;
+    const dpr = Math.min(2, window.devicePixelRatio || 1); cv.width = 400 * dpr; cv.height = 560 * dpr;
+    const c = cv.getContext("2d"); c.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const css = getComputedStyle(document.documentElement), col = n => css.getPropertyValue(n).trim() || "#000";
+    const C = { pink: col("--pink"), ink: col("--ink"), soft: col("--ink-soft"), surf: col("--surface-2"), line: col("--line"), yel: "#FFC93C", teal: col("--teal") };
+    const GR = 470, SC = 1.5, S = GM;
+    S.t = 0; S.msg = ""; S.fertig = false; S.taps = 0;
+    const tap = () => { if (!GM || S.fertig) { if (S.fertig && S.endT > 1) { GM = null; render(); } return; } S.tapped = true; };
+    cv.addEventListener("pointerdown", e => { e.preventDefault(); tap(); });
+    S.key = e => { if (e.code === "Space" || e.key === " " || e.key === "Enter") { e.preventDefault(); tap(); } };
+    document.addEventListener("keydown", S.key);
+    if (S.art === "sprung") Object.assign(S, { ph: "anlauf", pt: 0, x: 24, sp: 0, rot: 0 });
+    else Object.assign(S, { ph: "schwung", phi: Math.PI, laps: 0, lastPhi: Math.PI, rot: 0 });
+    window.__ffGame = S; // nur für automatische Tests
+    let last = performance.now();
+    function bg() {
+      c.clearRect(0, 0, 400, 560);
+      const g = c.createLinearGradient(0, 0, 0, 560); g.addColorStop(0, C.surf); g.addColorStop(1, "transparent"); c.fillStyle = g; c.fillRect(0, 0, 400, 560);
+      c.fillStyle = C.line; c.fillRect(0, GR, 400, 90); c.fillStyle = C.teal; c.globalAlpha = .25; c.fillRect(0, GR, 400, 8); c.globalAlpha = 1;
+    }
+    function text(t, y, size, color) { c.fillStyle = color || C.ink; c.font = "800 " + (size || 22) + "px " + getComputedStyle(document.body).fontFamily; c.textAlign = "center"; c.fillText(t, 200, y); }
+    function ende(D_, E_, bonus, name, zeile) {
+      S.fertig = true; S.endT = 0; const note = Math.max(0, Math.round((D_ + E_ + bonus) * 1000) / 1000);
+      S.res = { D: D_, E: E_, bonus, name, zeile, note }; gameEnde({ note, zeile: name + " – " + zeile });
+    }
+    function drawEnd() {
+      c.fillStyle = "rgba(27,19,64,.82)"; c.fillRect(30, 120, 340, 250);
+      c.fillStyle = "#fff"; c.font = "800 20px sans-serif"; c.textAlign = "center";
+      const r = S.res;
+      c.fillText(r.name, 200, 160); c.font = "600 16px sans-serif"; c.fillText(r.zeile, 200, 188);
+      c.font = "800 18px sans-serif"; c.fillText("D " + komma(r.D, 3) + "  +  E " + komma(r.E, 3) + (r.bonus ? "  +  " + komma(r.bonus, 1) : ""), 200, 230);
+      c.fillStyle = C.yel; c.font = "800 52px sans-serif"; c.fillText(komma(r.note, 3), 200, 295);
+      c.fillStyle = "#fff"; c.font = "600 15px sans-serif"; if (S.endT > 1) c.fillText("Tippe, um weiterzumachen", 200, 345);
+    }
+    function landText(e) { return e < 22 ? ["Gestanden! Standbonus +0,2", 0, .2] : e < 45 ? ["Kleiner Schritt", .1, 0] : e < 75 ? ["Großer Schritt", .3, 0] : e < 105 ? ["Hände am Boden", .5, 0] : ["Sturz", 1, 0]; }
+    // ---- Sprung ----
+    const BR = 165, TX = 240, TY = 380, HIPH = 431;
+    function sprung(dt) {
+      bg();
+      c.fillStyle = C.soft; c.fillRect(TX - 26, TY, 52, 12); c.fillRect(TX - 5, TY + 12, 10, GR - TY - 12); c.fillRect(TX - 20, GR - 6, 40, 6);
+      c.beginPath(); c.moveTo(BR - 20, GR); c.lineTo(BR + 18, GR - 9); c.lineTo(BR + 18, GR); c.closePath(); c.fill();
+      c.fillStyle = C.teal; c.globalAlpha = .35; c.fillRect(272, GR - 18, 128, 18); c.globalAlpha = 1;
+      S.pt += dt; let pose = { a: 0 }, x = S.x, y = HIPH;
+      if (S.ph === "anlauf") {
+        if (S.tapped) { S.taps++; S.tapped = false; }
+        const ph = Math.sin(S.pt * 14); pose = { t: 8, a1: 40 + ph * 50, a2: 40 - ph * 50, l1: ph * 40, l2: -ph * 40, k1: 30, k2: 30 };
+        S.sp = Math.min(1, S.taps / 16);
+        c.fillStyle = C.surf; c.fillRect(60, 60, 280, 22); c.fillStyle = C.pink; c.fillRect(60, 60, 280 * S.sp, 22);
+        text("Anlauf: Tippe ganz schnell!", 48, 22); text((Math.max(0, 2.4 - S.pt)).toFixed(1) + " s", 110, 20, C.soft);
+        if (S.pt > 2.4) { S.ph = "einlauf"; S.pt = 0; S.v = 140 + 200 * S.sp; S.tapped = false; }
+      } else if (S.ph === "einlauf") {
+        S.x += S.v * dt; x = S.x; const ph = Math.sin(S.pt * 16); pose = { t: 10, a1: 40 + ph * 50, a2: 40 - ph * 50, l1: ph * 40, l2: -ph * 40, k1: 30, k2: 30 };
+        text("Tippe, wenn er das Brett erreicht!", 48, 21);
+        c.strokeStyle = C.yel; c.lineWidth = 3; c.beginPath(); c.arc(BR, GR - 4, 16, 0, Math.PI * 2); c.stroke();
+        if (S.tapped && S.x > 100) { S.errB = Math.min(1, Math.abs(S.x - BR) / 60); S.ph = "flug1"; S.pt = 0; S.x0 = S.x; S.tapped = false; }
+        else if (S.tapped) S.tapped = false;
+        if (S.x > BR + 55) { S.ph = "aus"; return ende(0, 0, 0, "Anlauf abgebrochen", "Kein Absprung vom Brett – 0 Punkte"); }
+      } else if (S.ph === "flug1") {
+        const u = Math.min(1, S.pt / .36); x = S.x0 + (TX - S.x0) * u; y = HIPH + (TY - 63 - HIPH) * u - 40 * Math.sin(Math.PI * u);
+        pose = { t: 180 * u, a: 180 }; text("Gleich: Abdruck!", 48, 21);
+        if (S.tapped) { S.early = true; S.tapped = false; }
+        if (u >= 1) { S.ph = "stuetz"; S.pt = 0; }
+      } else if (S.ph === "stuetz") {
+        x = TX; y = TY - 63; pose = { t: 180, a: 180 }; text("JETZT abdrücken!", 48, 24, C.pink);
+        const W = .6;
+        if (S.tapped) { S.errP = S.early ? .8 : Math.min(1, Math.abs(S.pt - W / 2) / (W / 2)); S.tapped = false; startFlug2(); }
+        else if (S.pt > W) { S.errP = 1; startFlug2(); }
+      } else if (S.ph === "flug2") {
+        S.fx += S.vx * dt; S.vy += 1100 * dt; S.fy += S.vy * dt;
+        S.rot += (S.offen ? S.wo : S.wc) * dt;
+        if (S.tapped) { S.offen = true; S.tapped = false; }
+        x = S.fx; y = S.fy;
+        pose = S.offen ? { t: S.rot, a: 160 } : (S.tuck ? { t: S.rot, a: 90, l: 130, k: 140 } : { t: S.rot, a: S.schraube ? 20 : 10 });
+        text(S.offen ? "Landung …" : "Tippe zum Öffnen!", 48, 22, S.offen ? C.soft : C.pink);
+        if (S.fy >= HIPH - 6) {
+          const e = Math.abs(S.rot - S.ziel), L = landText(e);
+          S.ph = "land"; S.pt = 0; S.landE = e; S.fy = HIPH;
+          const E_ = Math.max(0, 10 - 1.2 * (S.errB || 0) - 1.5 * (S.errP || 0) - L[1] - (S.offen ? 0 : .5));
+          S.endArgs = [S.D, Math.round(E_ * 1000) / 1000, L[2], S.name, L[0]];
+        }
+      } else if (S.ph === "land" || S.ph === "aus") {
+        x = S.fx || S.x; y = HIPH + 4;
+        pose = S.landE != null && S.landE >= 105 ? { t: -70, a: 40, l: 80 } : { t: 18, a: 95, l: 60, k: 80 };
+        if (S.ph === "land" && S.pt > .7 && !S.fertig) ende.apply(null, S.endArgs);
+      }
+      if (S.schraube && S.ph === "flug2" && !S.offen) { c.save(); c.translate(x, y); c.scale(Math.cos(S.pt * 18) * .5 + .5 + .2, 1); figCanvas(c, 0, 0, pose, SC, C.pink); c.restore(); }
+      else figCanvas(c, x, y, pose, SC, C.pink);
+    }
+    function startFlug2() {
+      const p = S.sp * (1 - .45 * S.errP) * (1 - .3 * (S.errB || 0));
+      S.power = p; S.ph = "flug2"; S.pt = 0; S.fx = TX; S.fy = TY - 63; S.vy = -(260 + 320 * p); S.vx = 50 + 50 * p; S.rot = 180;
+      if (p < .35) { S.ziel = 360; S.D = 2.0; S.name = "Handstütz-Überschlag"; }
+      else if (p < .6) { S.ziel = 720; S.D = 3.0; S.name = "Überschlag mit Salto gehockt"; S.tuck = true; }
+      else if (p < .85) { S.ziel = 720; S.D = 3.6; S.name = "Überschlag mit Salto gestreckt"; }
+      else { S.ziel = 720; S.D = 4.4; S.name = "Salto gestreckt mit ganzer Schraube"; S.schraube = true; }
+      const dy = (HIPH - 6) - S.fy, g = 1100, Tf = (-S.vy + Math.sqrt(S.vy * S.vy + 2 * g * dy)) / g, del = S.ziel - 180;
+      S.wc = (del + 130) / Tf; S.wo = S.wc * .22;
+    }
+    // ---- Reck ----
+    const BX = 150, BY = 210, R = 63;
+    function reck(dt) {
+      bg();
+      c.strokeStyle = C.soft; c.lineWidth = 5; c.beginPath(); c.moveTo(BX - 120, GR); c.lineTo(BX - 120, BY); c.lineTo(BX + 120, BY); c.lineTo(BX + 120, GR); c.stroke();
+      c.lineWidth = 3; c.beginPath(); c.moveTo(BX - 120, BY); c.lineTo(BX + 120, BY); c.stroke();
+      c.fillStyle = C.teal; c.globalAlpha = .35; c.fillRect(230, GR - 18, 170, 18); c.globalAlpha = 1;
+      S.pt += dt; let x, y, pose;
+      if (S.ph === "schwung") {
+        const w = Math.sqrt(3.2 * 3.2 + 13 * (1 + Math.cos(S.phi)));
+        S.phi += w * dt; if (S.phi >= 2 * Math.PI) { S.phi -= 2 * Math.PI; }
+        if (S.lastPhi < Math.PI && S.phi >= Math.PI) S.laps++;
+        S.lastPhi = S.phi;
+        x = BX + R * Math.sin(S.phi); y = BY + R * Math.cos(S.phi); pose = { t: -S.phi * 180 / Math.PI, a: 180 };
+        // grüner Bereich
+        c.strokeStyle = C.teal; c.lineWidth = 10; c.globalAlpha = .35; c.beginPath(); c.arc(BX, BY, R + 70, Math.PI / 2 - 75 * Math.PI / 180, Math.PI / 2 - 35 * Math.PI / 180); c.stroke(); c.globalAlpha = 1;
+        text(S.laps < 1 ? "Riesenfelgen … tippe zum Loslassen!" : "Riesenfelgen: " + S.laps + (S.laps >= 4 ? " – die Hände werden müde!" : ""), 48, 20);
+        if (S.tapped || S.laps >= 5) {
+          S.tapped = false; const vx = w * R * Math.cos(S.phi), vy = -w * R * Math.sin(S.phi);
+          S.ph = "flug"; S.pt = 0; S.fx = x; S.fy = y; S.vx = vx * .5; S.vy = vy; S.rot = -S.phi * 180 / Math.PI; S.wRel = w * 180 / Math.PI;
+          let deg = S.phi * 180 / Math.PI; S.relDeg = deg;
+          S.bad = deg > 120 && deg < 300 ? (deg <= 180 ? "zu spät" : "zu früh") : null;
+          const g = 700, dy = (431 - 6) - S.fy, Tf = Math.max(.3, (-S.vy + Math.sqrt(Math.max(0, S.vy * S.vy + 2 * g * dy))) / g);
+          const wc = S.wRel * 1.8, total = wc * Tf, start = -S.rot;
+          S.ziel = total > (720 - start) + 60 ? -720 : -360; S.n = S.ziel === -720 ? 2 : 1;
+          const del = -S.ziel - start; S.wc = Math.max(wc, (del + 140) / Tf); S.wo = S.wc * .18;
+        }
+      } else if (S.ph === "flug") {
+        S.fx += S.vx * dt; S.vy += 700 * dt; S.fy += S.vy * dt; S.rot -= (S.offen ? S.wo : S.wc) * dt;
+        if (S.tapped) { S.offen = true; S.tapped = false; }
+        x = S.fx; y = S.fy; pose = S.offen ? { t: S.rot, a: 160 } : { t: S.rot, a: 90, l: 125, k: 140 };
+        text(S.offen ? "Landung …" : "Tippe zum Öffnen!", 48, 22, S.offen ? C.soft : C.pink);
+        if (S.fy >= 425 || S.fx > 420 || S.fx < -20) {
+          S.fy = Math.min(S.fy, 431); S.fx = Math.max(10, Math.min(390, S.fx));
+          const e = S.bad ? 99 : Math.abs(S.rot - S.ziel), L = landText(e);
+          S.ph = "land"; S.pt = 0; S.landE = e;
+          const relPen = S.bad ? 2 : Math.min(1.2, Math.abs(S.relDeg - 55) / 35), D_ = 1.0 + .3 * Math.min(3, S.laps) + (S.n === 2 ? 3.4 : 2.0);
+          const E_ = Math.max(0, 10 - relPen - L[1] - (S.offen ? 0 : .5));
+          const nm = S.n === 2 ? "Doppelsalto-Abgang" : "Salto-Abgang";
+          S.endArgs = [Math.round(D_ * 1000) / 1000, Math.round(E_ * 1000) / 1000, L[2], nm, S.bad ? "Loslassen " + S.bad + " – " + L[0] : L[0] + " · " + Math.min(5, S.laps) + (Math.min(5, S.laps) === 1 ? " Riesenfelge" : " Riesenfelgen")];
+        }
+      } else {
+        x = S.fx; y = 435; pose = S.landE >= 105 ? { t: -70, a: 40, l: 80 } : { t: 18, a: 95, l: 60, k: 80 };
+        if (S.pt > .7 && !S.fertig) ende.apply(null, S.endArgs);
+      }
+      figCanvas(c, x, y, pose, SC, C.pink);
+    }
+    function loop(now) {
+      if (!GM || !document.body.contains(cv)) { document.removeEventListener("keydown", S.key); return; }
+      const dt = Math.min(.04, (now - last) / 1000); last = now;
+      const slow = S.ph === "stuetz" ? .5 : (S.ph === "flug2" || S.ph === "flug") ? .55 : 1;
+      if (S.art === "sprung") sprung(dt * slow); else reck(dt * slow);
+      if (S.fertig) { S.endT += dt; drawEnd(); }
+      requestAnimationFrame(loop);
+    }
+    requestAnimationFrame(loop);
+  }
+
+  /* ---------- Statistik ---------- */
+  function vStatistik() {
+    let tot = 0, ok = 0; const rows = [];
+    if (T) T.geraete.forEach(g => { const p = fortschritt(g.id, "pflicht"); tot += p[1]; ok += p[0]; rows.push([g.name, p]); });
+    const at = store.get("athl", {}), atSum = Object.values(at).reduce((a, b) => a + (Number(b) || 0), 0), atN = Object.values(at).filter(v => v !== "").length;
+    const hist = store.get("game_hist", []);
+    const B = [
+      ["🤸", "Erster Haken", ok >= 1], ["⭐", "10 Teile", ok >= 10], ["🔥", "25 Teile", ok >= 25], ["🏆", "Ganze Pflicht", tot && ok === tot],
+      ["🧠", "Quiz-Ass", gameRichtig() >= 20], ["🎮", "Erstes Game", hist.length > 0], ["💪", "Athletik-Check", atN >= 20]
+    ];
+    if (T) T.geraete.forEach(g => { const p = fortschritt(g.id, "pflicht"); B.push([g.name.slice(0, 1), g.name + " komplett", p[1] && p[0] === p[1]]); });
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Mein Fortschritt</h2><p>Hake im Training ab, was du schon kannst.</p></div><div class="card fort">' +
+      rows.map(r => '<div class="fort-row"><span>' + esc(r[0]) + '</span><div class="bar"><i style="width:' + (r[1][1] ? Math.round(r[1][0] / r[1][1] * 100) : 0) + '%"></i></div><span>' + r[1][0] + "/" + r[1][1] + "</span></div>").join("") +
+      '<div class="fort-row" style="border-top:1px solid var(--line);padding-top:8px"><span>Gesamt</span><div class="bar"><i style="width:' + (tot ? Math.round(ok / tot * 100) : 0) + '%"></i></div><span>' + ok + "/" + tot + "</span></div>" +
+      (atN ? '<span class="small">Athletik-Tests: <b>' + atSum + " Punkte</b> aus " + atN + " Tests</span>" : "") + "</div>" +
+      '<div class="badges">' + B.map(b => '<div class="badge' + (b[2] ? " on" : "") + '"><i>' + b[0] + "</i>" + esc(b[1]) + "</div>").join("") + "</div></section>" +
+      (S ? '<section class="sec"><div class="sec-h"><h2>Turn-Helden aus Deutschland</h2></div><div class="grid">' + S.helden.map(h => '<div class="card held"><div class="meta"><span class="pill">' + esc(h.sparte) + "</span></div><h3>" + esc(h.name) + '</h3><ul>' + h.erfolge.map(e => "<li>" + esc(e) + "</li>").join("") + "</ul></div>").join("") + "</div></section>" +
+        '<section class="sec"><div class="sec-h"><h2>Weltstars und Rekorde</h2></div><div class="grid">' + S.rekorde.map(r => '<div class="card held"><span class="kicker">' + esc(r.kategorie) + '</span><span class="big num" style="font-size:40px;font-weight:800;color:var(--pink);line-height:1">' + esc(r.wert) + "</span><span>" + esc(r.text) + "</span></div>").join("") + "</div></section>" +
+        '<section class="sec"><div class="sec-h"><h2>Elemente mit Namen</h2><p>Wer ein neues Element als Erster zeigt, darf ihm seinen Namen geben.</p></div><div class="card tbl-wrap"><table class="tbl"><thead><tr><th>Name</th><th>Gerät</th><th>Was ist das?</th></tr></thead><tbody>' +
+        S.elemente.map(e => "<tr><td><b>" + esc(e.name) + "</b></td><td>" + esc(e.geraet) + "</td><td>" + esc(e.text) + "</td></tr>").join("") + "</tbody></table></div></section>" : "") +
+      (hist.length ? '<section class="sec"><div class="sec-h"><h2>Meine Game-Noten</h2></div><div class="card"><table class="tbl"><tbody>' + hist.slice(0, 10).map(h => "<tr><td>" + esc(fmtDate(h.d, 1)) + "</td><td>" + (h.art === "sprung" ? "Sprung" : "Reck") + '</td><td class="n"><b>' + komma(h.note, 3) + "</b></td></tr>").join("") + "</tbody></table></div></section>" : "") + "</div>";
+  }
+
+  /* ---------- Rahmen ---------- */
+  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, training: vTraining, quiz: vQuiz, game: vGame, statistik: vStatistik };
+  function render() {
+    $("#tabs").innerHTML = TABS.map(t => '<button class="tab" role="tab" data-tab="' + t.id + '" aria-selected="' + (t.id === current) + '"><svg viewBox="0 0 32 32" aria-hidden="true">' + t.icon + "</svg>" + t.label + "</button>").join("");
+    if (!D) return;
+    $("#main").innerHTML = VIEWS[current]();
+    if (current === "game" && GM && !GM.lauf) { GM.lauf = true; gameInit(); }
+  }
+  function go(id) { if (!VIEWS[id]) id = "heute"; if (id !== "game") GM = null; current = id; try { history.replaceState(null, "", "#" + id); } catch (e) {} render(); window.scrollTo(0, 0); }
+  function sheet(html) {
+    $("#overlay").innerHTML = '<div class="ov" data-ovbg><div class="sheet" role="dialog" aria-modal="true"><button class="close" data-close aria-label="Schließen">×</button>' + html + "</div></div>";
+    document.body.style.overflow = "hidden";
+  }
+  function closeSheet() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
+  document.addEventListener("click", e => {
+    const b = e.target.closest("button, [data-ovbg], select"); if (!b) return;
+    const d = b.dataset;
+    if (d.ovbg != null && e.target === b) return closeSheet();
+    if (d.close != null) return closeSheet();
+    if (d.term) { e.preventDefault(); return showTerm(d.term); }
+    if (d.tab) { closeSheet(); return go(d.tab); }
+    if (d.news) return openNews(d.news);
+    if (d.note) return openNote(d.note);
+    if (d.rub) { ui.rubrik = d.rub; saveUi(); return render(); }
+    if (d.ebene) { ui.ebene = d.ebene; saveUi(); return render(); }
+    if (d.sparte) { ui.sparte = d.sparte; saveUi(); return render(); }
+    if (d.ak) { ui.ak = d.ak; saveUi(); return render(); }
+    if (d.geraet) { ui.geraet = d.geraet; saveUi(); return render(); }
+    if (d.uebung) { const p = d.uebung.split("|"); ui.uebung[p[0]] = p[1]; saveUi(); return render(); }
+    if (d.kann) { const p = d.kann.split("|"), k = kannAlle(), key = kannKey(p[0], p[1], p[2]); if (k[key]) delete k[key]; else k[key] = 1; store.set("kann", k); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
+    if (d.quiz) { const p = d.quiz.split("|").map(Number), y = window.scrollY; answerQuiz(p[0], p[1]); window.scrollTo(0, y); return; }
+    if (d.kr != null) { store.set("kr_" + (D.quizId || ""), Number(d.kr)); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
+    if (d.gstart) return gameStart(d.gstart);
+    if (d.gabbruch != null) { GM = null; return render(); }
+  });
+  document.addEventListener("change", e => {
+    const s = e.target.closest("select[data-athl]"); if (!s) return;
+    const a = store.get("athl", {}); if (s.value === "") delete a[s.dataset.athl]; else a[s.dataset.athl] = Number(s.value); store.set("athl", a);
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+
+  window.addEventListener("hashchange", () => { const h = (location.hash || "").slice(1); if (VIEWS[h] && h !== current) go(h); });
+  const h0 = (location.hash || "").slice(1); if (VIEWS[h0]) current = h0;
+  render();
+  const get = f => fetch(f + "?v=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
+  Promise.all([get("data.json"), get("training.json"), get("statistik.json")]).then(([d, t, s]) => {
+    D = d || { news: [] }; T = t; S = s;
+    const st = $("#stamp");
+    if (d) { const a = new Date(d.aktualisiert); st.innerHTML = "<strong>" + esc((d.ausgabe || "").replace(/ \d{4}-\d{2}-\d{2}$/, "")) + "</strong>" + (isNaN(a) ? "" : WT[a.getDay()] + ", " + a.getDate() + ". " + MON[a.getMonth()] + ", " + String(a.getHours()).padStart(2, "0") + ":" + String(a.getMinutes()).padStart(2, "0") + " Uhr"); }
+    else st.innerHTML = "<strong>Offline</strong>Keine neuen Daten";
+    render();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "helden": [
+    {"name": "Fabian Hambüchen", "sparte": "Turnen", "erfolge": ["Olympiasieger am Reck 2016 in Rio", "Olympia-Silber am Reck 2012 in London", "Olympia-Bronze am Reck 2008 in Peking", "Weltmeister am Reck 2007 in Stuttgart"]},
+    {"name": "Marcel Nguyen", "sparte": "Turnen", "erfolge": ["Olympia-Silber im Mehrkampf 2012 in London", "Olympia-Silber am Barren 2012 in London"]},
+    {"name": "Lukas Dauser", "sparte": "Turnen", "erfolge": ["Olympia-Silber am Barren 2021 in Tokio", "Weltmeister am Barren 2023 in Antwerpen – das erste deutsche WM-Gold seit 2007"]},
+    {"name": "Andreas Wecker", "sparte": "Turnen", "erfolge": ["Olympiasieger am Reck 1996 in Atlanta"]},
+    {"name": "Eberhard Gienger", "sparte": "Turnen", "erfolge": ["Weltmeister am Reck 1974", "Nach ihm ist der Gienger-Salto am Reck benannt"]},
+    {"name": "Helen Kevric", "sparte": "Turnen", "erfolge": ["WM-Silber am Stufenbarren 2026 in Rotterdam", "Europameisterin am Stufenbarren 2026"]},
+    {"name": "Pauline Schäfer-Betz", "sparte": "Turnen", "erfolge": ["Weltmeisterin am Schwebebalken 2017 in Montreal", "WM-Silber am Schwebebalken 2021", "Nach ihr ist das Element „Schäfer“ am Balken benannt"]},
+    {"name": "Elisabeth Seitz", "sparte": "Turnen", "erfolge": ["WM-Bronze am Stufenbarren 2018 in Doha", "Nach ihr ist das Element „Seitz“ am Stufenbarren benannt"]},
+    {"name": "Darja Varfolomeev", "sparte": "Rhythmische Sportgymnastik", "erfolge": ["Olympiasiegerin im Mehrkampf 2024 in Paris", "Fünf Goldmedaillen bei der WM 2023 in Valencia"]},
+    {"name": "Anna Dogonadze", "sparte": "Trampolin", "erfolge": ["Olympiasiegerin 2004 in Athen"]}
+  ],
+  "rekorde": [
+    {"kategorie": "Olympia-Rekord", "wert": "18", "text": "Olympia-Medaillen hat die sowjetische Turnerin Larissa Latynina gewonnen (1956 bis 1964) – so viele wie keine andere Turnerin."},
+    {"kategorie": "Weltstar", "wert": "11 + 30", "text": "Simone Biles (USA) hat 11 Olympia-Medaillen und 30 WM-Medaillen gewonnen – mehr WM-Medaillen hat niemand im Turnen."},
+    {"kategorie": "Serie", "wert": "6×", "text": "Kōhei Uchimura (Japan) wurde sechsmal hintereinander Mehrkampf-Weltmeister (2009 bis 2015)."},
+    {"kategorie": "Erste 10,0", "wert": "10,0", "text": "Nadia Comăneci (Rumänien) bekam 1976 in Montreal als Erste bei Olympia die Traumnote 10,0. Die Anzeigetafel konnte das gar nicht anzeigen und zeigte 1,00."},
+    {"kategorie": "Olympia", "wert": "6× Gold", "text": "Witali Scherbo gewann 1992 in Barcelona sechs Goldmedaillen bei denselben Spielen."},
+    {"kategorie": "Mehrkampf-König", "wert": "4×", "text": "Daiki Hashimoto (Japan) ist nach der WM 2026 in Rotterdam zum vierten Mal hintereinander Mehrkampf-Weltmeister."}
+  ],
+  "elemente": [
+    {"name": "Tsukahara", "geraet": "Sprung", "text": "Halbe Drehung auf den Tisch und Salto rückwärts. Benannt nach Mitsuo Tsukahara (Japan)."},
+    {"name": "Jurtschenko", "geraet": "Sprung", "text": "Mit einem Rondat aufs Brett und mit Flick-Flack auf den Tisch – wie der Rondatsprung in der Pflicht. Benannt nach Natalja Jurtschenko."},
+    {"name": "Kovacs", "geraet": "Reck", "text": "Doppelsalto rückwärts über die Stange und wieder fassen. Benannt nach Péter Kovács (Ungarn)."},
+    {"name": "Gienger", "geraet": "Reck", "text": "Salto mit halber Drehung über die Stange und wieder fassen. Benannt nach Eberhard Gienger (Deutschland)."},
+    {"name": "Bretschneider", "geraet": "Reck", "text": "Doppelsalto gestreckt mit zwei Schrauben über die Stange – eines der schwierigsten Elemente überhaupt. Benannt nach Andreas Bretschneider (Deutschland)."},
+    {"name": "Stalder", "geraet": "Reck", "text": "Mit gegrätschten Beinen rückwärts um die Stange in den Handstand – das Bonusteil in deiner Reck-Pflicht! Benannt nach Josef Stalder (Schweiz)."},
+    {"name": "Thomas", "geraet": "Pferd / Boden", "text": "Kreis-Flanke mit gegrätschten Beinen – die Thomasflanken turnst du am Pilz. Benannt nach Kurt Thomas (USA)."},
+    {"name": "Magyar", "geraet": "Pauschenpferd", "text": "Mit Kreis-Flanken einmal über das ganze Pferd wandern. Benannt nach Zoltán Magyar (Ungarn)."},
+    {"name": "Diamidov", "geraet": "Barren", "text": "Eine ganze Drehung im Handstand auf einem Holm. Benannt nach Sergei Diamidov."},
+    {"name": "Schäfer", "geraet": "Schwebebalken", "text": "Salto seitwärts mit halber Drehung auf dem Balken. Benannt nach Pauline Schäfer (Deutschland)."},
+    {"name": "Seitz", "geraet": "Stufenbarren", "text": "Flug vom unteren zum oberen Holm mit ganzer Drehung. Benannt nach Elisabeth Seitz (Deutschland)."},
+    {"name": "Biles", "geraet": "Boden", "text": "Doppelsalto gestreckt mit halber Schraube. Benannt nach Simone Biles (USA)."}
+  ]
+}

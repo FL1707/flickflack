@@ -1,0 +1,1061 @@
+{
+  "aktualisiert": "2026-11-03T21:30:00+01:00",
+  "ausgabe": "Erstausgabe 2026-11-03",
+  "gruss": "Hallo und willkommen bei Flickflack! Diese Woche ist viel los: Die Trampolin-WM in China startet, in der Schweiz turnen vier Deutsche beim Swiss Cup, und am Samstag geht die Bundesliga weiter. Im Training findest du ab jetzt die komplette DTB-Pflicht für die AK 11 und 12.",
+  "quizId": "2026-11-03",
+  "zahlDesTages": {
+    "zahl": "113",
+    "text": "Jahre musste Italien auf eine WM-Medaille am Pauschenpferd warten – bis Gabriele Targhetta in Rotterdam Silber holte."
+  },
+  "turnerDerWoche": {
+    "name": "Helen Kevric",
+    "land": "Deutschland · MTV Stuttgart",
+    "sparte": "Turnen",
+    "text": "Bei ihrer ersten WM gewann die 18-Jährige Silber am Stufenbarren – mit einer fehlerfreien Übung. Es ist die erste WM-Medaille einer deutschen Turnerin seit 2021."
+  },
+  "news": [
+    {
+      "id": "2026-11-03-kevric-silber",
+      "rubrik": "DE",
+      "motiv": "stufenbarren",
+      "datum": "2026-10-24",
+      "titel": "Silber für Helen Kevric!",
+      "teaser": "Bei ihrer ersten Weltmeisterschaft holt die Stuttgarterin am Stufenbarren die einzige Medaille für Deutschland.",
+      "text": [
+        "Helen Kevric hat bei der Turn-WM in Rotterdam Silber am Stufenbarren gewonnen. Die 18-Jährige vom MTV Stuttgart bekam für ihre fehlerfreie Übung 14,833 Punkte. Nur Olympiasiegerin Kaylia Nemour aus Algerien war mit 15,333 Punkten noch besser. Bronze ging an Skye Blakely aus den USA.",
+        "„Europameisterin klang schon ganz gut, aber jetzt Vize-Weltmeisterin, das ist nochmal etwas ganz anderes“, sagte Helen nach dem Finale. Sie sei sehr nervös gewesen, habe aber versucht, ruhig zu bleiben und „ihr Ding zu machen“.",
+        "Es ist die erste WM-Medaille einer deutschen Turnerin seit dem Silber von Pauline Schäfer-Betz am Schwebebalken 2021. Im August war Helen schon Europameisterin am Stufenbarren geworden."
+      ],
+      "quelle": "sportschau.de"
+    },
+    {
+      "id": "2026-11-03-deutschlandpokal",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-02",
+      "titel": "Deutschland-Pokal: Die besten Nachwuchsturner",
+      "teaser": "In Herbolzheim traten die Teams der Bundesländer gegeneinander an – auch in der AK 11/12.",
+      "text": [
+        "Am Wochenende fand in Herbolzheim im Breisgau der Deutschland-Pokal im Gerätturnen der Jungen statt. Dabei turnen Mannschaften der Landesturnverbände in den Altersklassen 9/10, 11/12, 13/14 und 15–18 gegeneinander. Die jüngeren Turner zeigen dort die Pflichtübungen, die du auch im Training-Tab findest.",
+        "In der AK 15–18 gewann Bayern vor Brandenburg und Baden. Die Brandenburger Mannschaft aus Cottbus holte außerdem Bronze in der AK 9/10. Sachsen-Anhalt wurde in der AK 11/12 Fünfter und gewann in der AK 13/14 Silber.",
+        "Der Lahrer Andrei Mihai gewann die Einzelwertung in seiner Altersklasse. Für ihn geht es jetzt direkt weiter zu den Olympischen Jugendspielen nach Dakar."
+      ],
+      "quelle": "radiocottbus.de, LTV Sachsen-Anhalt, Badische Zeitung"
+    },
+    {
+      "id": "2026-11-03-trampolin-wm",
+      "rubrik": "TRA",
+      "motiv": "trampolin",
+      "datum": "2026-11-03",
+      "titel": "Trampolin-WM in China startet",
+      "teaser": "Lars Garmann und Matthias Schuldt springen ab Donnerstag in Nanjing – im Synchron wollen sie ins Finale.",
+      "text": [
+        "Ab Donnerstag kämpfen die besten Trampolinturner der Welt in Nanjing in China um WM-Titel. Für Deutschland starten Lars Garmann vom SC Cottbus und Matthias Schuldt von der TG Dietzenbach.",
+        "Die beiden haben sich in einem Trainingslager in China gemeinsam mit der chinesischen Jugendnationalmannschaft vorbereitet. Beim Weltcup in Cottbus hatten sie zuletzt Silber im Synchronspringen geholt.",
+        "„Im Synchron wollen wir auf jeden Fall ins Finale“, sagt Cheftrainerin Katarina Prokesova. Für Lars ist es die erste Weltmeisterschaft."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-03-hashimoto",
+      "rubrik": "INT",
+      "motiv": "boden",
+      "datum": "2026-10-22",
+      "titel": "Hashimoto zum vierten Mal Weltmeister",
+      "teaser": "Der Japaner gewinnt den Mehrkampf in Rotterdam. Timo Eder wird bester Deutscher auf Platz 14.",
+      "text": [
+        "Daiki Hashimoto aus Japan ist zum vierten Mal hintereinander Mehrkampf-Weltmeister. Im Sechskampf aus Boden, Pferd, Ringen, Sprung, Barren und Reck kam er auf 85,998 Punkte. Zweiter wurde Yang Haonan aus China, Dritter Joe Fraser aus Großbritannien.",
+        "Timo Eder aus Ludwigsburg war der einzige deutsche Turner im Finale. Er steigerte sich gegenüber der Qualifikation um mehr als einen Punkt und wurde 14. Besonders freute er sich über einen neuen Sprung mit dreifacher Schraube, den er zum ersten Mal international gezeigt hat.",
+        "Die deutsche Männer-Mannschaft hatte das Team-Finale als 15. verpasst. Bundestrainer Jens Milbradt sagte, die Turner müssten sich steigern, um 2028 als Team zu Olympia nach Los Angeles zu fahren."
+      ],
+      "quelle": "sportschau.de"
+    },
+    {
+      "id": "2026-11-03-targhetta",
+      "rubrik": "INT",
+      "motiv": "pferd",
+      "datum": "2026-10-24",
+      "titel": "Silber nach 113 Jahren",
+      "teaser": "Bundesliga-Turner Gabriele Targhetta holt am Pauschenpferd die erste italienische WM-Medaille seit 1913.",
+      "text": [
+        "Gabriele Targhetta turnt in der Bundesliga für den Siegerländer KV. Bei der WM in Rotterdam musste er als Erster der acht Finalisten ans Pauschenpferd – und bekam 15,233 Punkte. Am Ende war nur Hamlet Manukyan aus Armenien um 0,067 Punkte besser.",
+        "Spannend: Beide hatten genau dieselbe D-Note (5,9). Der Unterschied lag nur in der E-Note, also in der Ausführung: 9,400 für Manukyan, 9,333 für Targhetta.",
+        "Schon als Vierjähriger hat Gabriele am Turnpilz seine ersten Kreis-Flanken gemacht. „Mir fiel es von Anfang an leicht“, erzählt er. Noch heute trainiert er oft eineinhalb bis zwei Stunden nur am Pauschenpferd."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-03-swisscup",
+      "rubrik": "DE",
+      "motiv": "team",
+      "datum": "2026-11-03",
+      "titel": "Vier Deutsche turnen in der Schweiz",
+      "teaser": "Erst das Gander-Memorial in Chiasso, dann der Swiss Cup in Zürich mit seiner besonderen Paarwertung.",
+      "text": [
+        "Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini starten bei den zwei wichtigsten Turn-Wettkämpfen der Schweiz. Am Donnerstag geht es beim Memorial Arturo Gander in Chiasso los. Dort turnen die Frauen drei und die Männer vier Geräte ihrer Wahl.",
+        "Am Samstag folgt im Zürcher Hallenstadion der Swiss Cup. Dort turnen immer eine Turnerin und ein Turner zusammen als Paar. „Die Stimmung ist einfach krass“, sagt Karina Schönmaier, die 2024 schon Dritte wurde. Ab 2026 gibt es den Swiss Cup nur noch alle zwei Jahre."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-03-dakar",
+      "rubrik": "NW",
+      "motiv": "medaille",
+      "datum": "2026-11-02",
+      "titel": "Olympische Jugendspiele in Afrika",
+      "teaser": "Vier junge deutsche Turner starten in Dakar – zum ersten Mal gibt es Olympische Spiele in Afrika.",
+      "text": [
+        "In Dakar im Senegal laufen bis zum 13. November die Olympischen Jugendspiele. Es ist die erste olympische Veranstaltung auf dem afrikanischen Kontinent. Rund 2.700 junge Sportlerinnen und Sportler sind dabei.",
+        "Im Turnen startet Luna Zimmermann (15) aus Heidelberg. Bei den Jungen sind Zénó Csuka (16), Kimi Köhnlein (17) und Andrei Mihai (16) dabei. Die Turn-Wettkämpfe beginnen am 7. November und laufen in der ARD-Mediathek."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-03-bundesliga",
+      "rubrik": "DTL",
+      "motiv": "ringe",
+      "datum": "2026-11-03",
+      "titel": "Straubenhardt bleibt ungeschlagen",
+      "teaser": "Der Meister führt die 1. Bundesliga der Männer an. Am Samstag kommt es zum Spitzenspiel in Kreuztal.",
+      "text": [
+        "In der 1. Bundesliga der Männer hat die KTV Straubenhardt alle vier Wettkämpfe gewonnen und führt mit 8 Punkten. Dahinter folgen der SC Cottbus und die TG Saar mit je 6 Punkten. Bester Punktesammler der Liga ist Illia Kovtun aus Straubenhardt – er holte bei der WM Silber am Barren.",
+        "Am Samstag, 7. November, muss der Spitzenreiter zum Siegerländer KV nach Kreuztal. Der Siegerländer KV hat zwar erst 2 Punkte, aber an den Geräten schon viele Duelle gewonnen – und mit Gabriele Targhetta einen WM-Zweiten im Team.",
+        "In der 2. Bundesliga Nord ist der MTV Ludwigsburg neuer Tabellenführer. Beim 64:27 in Sulzbach war WM-Starter Timo Eder mit 28 Scorepunkten der beste Turner des Wochenendes."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-03-berlin",
+      "rubrik": "BER",
+      "motiv": "kalender",
+      "datum": "2026-11-03",
+      "titel": "Berlin: Adventspokal am 14. November",
+      "teaser": "In der Gretel-Bergmann-Sporthalle geht es um Motorik-Test und Technische Grundlagen – und um den Berliner Kader.",
+      "text": [
+        "Am Samstag, 14. November, richtet der Berliner Turn- und Freizeitsport-Bund den Berliner Adventspokal im Gerätturnen der Jungen aus. In der Gretel-Bergmann-Sporthalle in Wilmersdorf werden der Allgemeine Motorik-Test und die Technischen Grundlagen abgenommen. Der Wettkampf zählt für den Berliner Kaderschulungskreis.",
+        "Am 29. November folgt in der Leistikowhalle der Jahrgangsbesten-Wettkampf. Dort wird im P-Stufen- und LK-Programm geturnt – vier aus sechs Geräten.",
+        "Und noch ein Termin für Berlin-Fans: Das DTL-Finale der Rhythmischen Sportgymnastik findet am 28. November in Berlin statt."
+      ],
+      "quelle": "btfb.de, deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-03-rsg-berlin",
+      "rubrik": "RSG",
+      "motiv": "rsg",
+      "datum": "2026-11-02",
+      "titel": "Team Berlin in der RSG-Bundesliga",
+      "teaser": "Der Berliner TSC und Fortuna Berlin turnen zum ersten Mal gemeinsam in der 1. Bundesliga.",
+      "text": [
+        "Zwei Vereine, eine Mannschaft: Der Berliner TSC und Fortuna Berlin treten als „Team Berlin“ in der 1. Bundesliga der Rhythmischen Sportgymnastik an. Am 7. und 8. November steht schon das zweite Wettkampfwochenende an.",
+        "Neu in dieser Saison: In der Bundesliga dürfen Gymnastinnen erst ab 13 Jahren starten. Für die Jüngeren gibt es deshalb einen neuen Nachwuchspokal vor dem DTL-Finale am 28. November in Berlin."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-03-blakely",
+      "rubrik": "INT",
+      "motiv": "balken",
+      "datum": "2026-10-23",
+      "titel": "Blakely Weltmeisterin – Pech für Nemour",
+      "teaser": "Die Favoritin trifft beim Sprung das Brett nicht und verpasst eine Medaille um 0,034 Punkte.",
+      "text": [
+        "Skye Blakely aus den USA ist Mehrkampf-Weltmeisterin. Sie gewann den Vierkampf aus Sprung, Stufenbarren, Schwebebalken und Boden mit 55,733 Punkten.",
+        "Pech hatte Kaylia Nemour aus Algerien: Gleich am ersten Gerät traf sie beim Anlauf das Sprungbrett nicht richtig und turnte nur einen leichten Sprung. Danach holte sie mächtig auf – am Ende fehlten ihr nur 0,034 Punkte zu Bronze.",
+        "Später holte Nemour dann doch noch zwei Goldmedaillen: am Stufenbarren und am Schwebebalken."
+      ],
+      "quelle": "sportschau.de"
+    }
+  ],
+  "wettkaempfe": [
+    {
+      "id": "wm2026-m",
+      "name": "Turn-WM Rotterdam – Männer",
+      "ort": "Rotterdam (Niederlande)",
+      "von": "2026-10-17",
+      "bis": "2026-10-25",
+      "rubrik": "INT",
+      "sparte": "Turnen Männer",
+      "bericht": "Japan wurde Mannschafts-Weltmeister, Daiki Hashimoto gewann zum vierten Mal in Folge den Mehrkampf. Für die Deutschen reichte es nicht für ein Finale-Podest.",
+      "entscheidungen": [
+        {
+          "titel": "Mehrkampf",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Daiki Hashimoto",
+              "land": "JPN",
+              "note": 85.998
+            },
+            {
+              "platz": 2,
+              "name": "Yang Haonan",
+              "land": "CHN",
+              "note": 84.199
+            },
+            {
+              "platz": 3,
+              "name": "Joe Fraser",
+              "land": "GBR",
+              "note": 83.531
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 14,
+              "name": "Timo Eder",
+              "land": "GER",
+              "note": 79.632
+            }
+          ]
+        },
+        {
+          "titel": "Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Japan",
+              "land": "JPN",
+              "note": 251.928
+            },
+            {
+              "platz": 2,
+              "name": "Neutrales Team",
+              "land": "neutral"
+            },
+            {
+              "platz": 3,
+              "name": "China",
+              "land": "CHN"
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 15,
+              "name": "Deutschland (Qualifikation)",
+              "land": "GER"
+            }
+          ]
+        },
+        {
+          "titel": "Boden",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Frederick Richard",
+              "land": "USA",
+              "note": 14.633
+            },
+            {
+              "platz": 2,
+              "name": "Jake Jarman",
+              "land": "GBR",
+              "note": 14.6
+            },
+            {
+              "platz": 3,
+              "name": "Artem Dolgopyat",
+              "land": "ISR",
+              "note": 14.466
+            }
+          ]
+        },
+        {
+          "titel": "Pauschenpferd",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Hamlet Manukyan",
+              "land": "ARM",
+              "note": 15.3,
+              "d": 5.9,
+              "e": 9.4
+            },
+            {
+              "platz": 2,
+              "name": "Gabriele Targhetta",
+              "land": "ITA",
+              "note": 15.233,
+              "d": 5.9,
+              "e": 9.333
+            },
+            {
+              "platz": 3,
+              "name": "Mamikon Khachatryan",
+              "land": "ARM",
+              "note": 15.0
+            }
+          ]
+        },
+        {
+          "titel": "Ringe",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Lan Xingyu",
+              "land": "CHN"
+            },
+            {
+              "platz": 2,
+              "name": "Eleftherios Petrounias",
+              "land": "GRE"
+            },
+            {
+              "platz": 3,
+              "name": "Artur Avetisyan",
+              "land": "ARM"
+            }
+          ]
+        },
+        {
+          "titel": "Sprung",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Artur Davtyan",
+              "land": "ARM"
+            },
+            {
+              "platz": 2,
+              "name": "Jake Jarman",
+              "land": "GBR"
+            },
+            {
+              "platz": 3,
+              "name": "Sebastian Sponevik",
+              "land": "NOR"
+            }
+          ]
+        },
+        {
+          "titel": "Barren",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Zou Jingyuan",
+              "land": "CHN"
+            },
+            {
+              "platz": 2,
+              "name": "Illia Kovtun",
+              "land": "CRO"
+            },
+            {
+              "platz": 3,
+              "name": "Daniel Marinov",
+              "land": "neutral"
+            }
+          ]
+        },
+        {
+          "titel": "Reck",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Tang Chia-hung",
+              "land": "TPE"
+            },
+            {
+              "platz": 2,
+              "name": "Shinnosuke Oka",
+              "land": "JPN"
+            },
+            {
+              "platz": 3,
+              "name": "Sergei Naidin",
+              "land": "neutral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wm2026-w",
+      "name": "Turn-WM Rotterdam – Frauen",
+      "ort": "Rotterdam (Niederlande)",
+      "von": "2026-10-17",
+      "bis": "2026-10-25",
+      "rubrik": "INT",
+      "sparte": "Turnen Frauen",
+      "bericht": "China beendete die Siegesserie der USA im Team. Helen Kevric holte Silber am Stufenbarren – die einzige Medaille für Deutschland.",
+      "entscheidungen": [
+        {
+          "titel": "Mehrkampf",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Skye Blakely",
+              "land": "USA",
+              "note": 55.733
+            },
+            {
+              "platz": 2,
+              "name": "Ljudmila Roschtschina",
+              "land": "neutral",
+              "note": 55.199
+            },
+            {
+              "platz": 3,
+              "name": "Ke Qinqin",
+              "land": "CHN",
+              "note": 55.032
+            }
+          ]
+        },
+        {
+          "titel": "Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "China",
+              "land": "CHN"
+            },
+            {
+              "platz": 2,
+              "name": "USA",
+              "land": "USA"
+            },
+            {
+              "platz": 3,
+              "name": "Japan",
+              "land": "JPN"
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 10,
+              "name": "Deutschland (Qualifikation)",
+              "land": "GER"
+            }
+          ]
+        },
+        {
+          "titel": "Sprung",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Rebeca Andrade",
+              "land": "BRA"
+            },
+            {
+              "platz": 2,
+              "name": "Claire Pease",
+              "land": "USA"
+            },
+            {
+              "platz": 3,
+              "name": "Skye Blakely",
+              "land": "USA"
+            }
+          ]
+        },
+        {
+          "titel": "Stufenbarren",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Kaylia Nemour",
+              "land": "ALG",
+              "note": 15.333
+            },
+            {
+              "platz": 2,
+              "name": "Helen Kevric",
+              "land": "GER",
+              "note": 14.833
+            },
+            {
+              "platz": 3,
+              "name": "Skye Blakely",
+              "land": "USA",
+              "note": 14.6
+            }
+          ]
+        },
+        {
+          "titel": "Schwebebalken",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Kaylia Nemour",
+              "land": "ALG"
+            },
+            {
+              "platz": 2,
+              "name": "Zhang Qingying",
+              "land": "CHN"
+            },
+            {
+              "platz": 3,
+              "name": "Flávia Saraiva",
+              "land": "BRA"
+            }
+          ]
+        },
+        {
+          "titel": "Boden",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Claire Pease",
+              "land": "USA"
+            },
+            {
+              "platz": 2,
+              "name": "Reese Esponda",
+              "land": "USA"
+            },
+            {
+              "platz": 3,
+              "name": "Maïana Prat",
+              "land": "FRA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dpokal2026",
+      "name": "Deutschland-Pokal Gerätturnen männlich",
+      "ort": "Herbolzheim",
+      "von": "2026-10-31",
+      "bis": "2026-11-01",
+      "rubrik": "NW",
+      "sparte": "Turnen Männer",
+      "bericht": "Mannschaften der Landesturnverbände in den AK 9/10, 11/12, 13/14 und 15–18. Bis zur AK 14 wird die DTB-Pflicht geturnt. Eine vollständige Ergebnisliste haben wir noch nicht gefunden – sobald sie da ist, tragen wir sie nach.",
+      "entscheidungen": [
+        {
+          "titel": "AK 15–18 Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Bayerischer Turnverband",
+              "verein": "ca. 219,80"
+            },
+            {
+              "platz": 2,
+              "name": "Märkischer Turnerbund Brandenburg",
+              "verein": "ca. 213,90"
+            },
+            {
+              "platz": 3,
+              "name": "Badischer Turner-Bund",
+              "verein": "ca. 211,25"
+            }
+          ]
+        },
+        {
+          "titel": "AK 9/10 Mannschaft",
+          "podium": [
+            {
+              "platz": 3,
+              "name": "Märkischer Turnerbund Brandenburg"
+            }
+          ]
+        },
+        {
+          "titel": "AK 13/14 Mannschaft",
+          "podium": [
+            {
+              "platz": 2,
+              "name": "Landesturnverband Sachsen-Anhalt"
+            }
+          ]
+        },
+        {
+          "titel": "AK 11/12 Mannschaft",
+          "podium": [
+            {
+              "platz": 5,
+              "name": "Landesturnverband Sachsen-Anhalt"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "liga": {
+    "titel": "Deutsche Turnliga 2026",
+    "info": "Tabellen der 1. Bundesliga – Stand 3. November",
+    "duelle": [
+      {
+        "liga": "2. BL Nord Männer",
+        "datum": "2026-10-31",
+        "ort": "Sulzbach",
+        "heim": "TSG Sulzbach",
+        "gast": "MTV Ludwigsburg",
+        "heimScore": 27,
+        "gastScore": 64,
+        "heimPkt": 0,
+        "gastPkt": 12,
+        "info": "Topscorer: Timo Eder (Ludwigsburg) mit 28 Scorepunkten"
+      },
+      {
+        "liga": "2. BL Nord Männer",
+        "datum": "2026-10-31",
+        "ort": "Karlsruhe",
+        "heim": "TSV Grötzingen-Karlsruhe",
+        "gast": "TSG Grünstadt",
+        "heimScore": 16,
+        "gastScore": 62,
+        "heimPkt": 2,
+        "gastPkt": 10,
+        "info": "Grünstadt gewann am Pauschenpferd alle Duelle (18:0)"
+      }
+    ],
+    "tabellen": [
+      {
+        "titel": "1. Bundesliga Männer",
+        "stand": "Nach 4 von 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte.",
+        "zeilen": [
+          {
+            "platz": 1,
+            "team": "KTV Straubenhardt",
+            "punkte": 8,
+            "score": "41:7"
+          },
+          {
+            "platz": 2,
+            "team": "SC Cottbus",
+            "punkte": 6,
+            "score": "29:19"
+          },
+          {
+            "platz": 3,
+            "team": "TG Saar",
+            "punkte": 6,
+            "score": "28:20"
+          },
+          {
+            "platz": 4,
+            "team": "KTV Koblenz",
+            "punkte": 4,
+            "score": "24:24"
+          },
+          {
+            "platz": 5,
+            "team": "TV Schwäbisch Gmünd-Wetzgau",
+            "punkte": 4,
+            "score": "13:35"
+          },
+          {
+            "platz": 6,
+            "team": "Siegerländer KV",
+            "punkte": 2,
+            "score": "32:16"
+          },
+          {
+            "platz": 7,
+            "team": "TuS Vinnhorst",
+            "punkte": 2,
+            "score": "12:36"
+          },
+          {
+            "platz": 8,
+            "team": "StTV Singen",
+            "punkte": 0,
+            "score": "13:35"
+          }
+        ]
+      },
+      {
+        "titel": "1. Bundesliga Frauen",
+        "stand": "Nach drei Wettkampftagen. Score = Gesamtpunkte aller Geräte. Mit dabei: Aufsteiger TSG Berlin Steglitz.",
+        "zeilen": [
+          {
+            "platz": 1,
+            "team": "TG Mannheim",
+            "punkte": 38,
+            "score": "577,55"
+          },
+          {
+            "platz": 2,
+            "team": "MTV Stuttgart",
+            "punkte": 32,
+            "score": "571,70"
+          },
+          {
+            "platz": 3,
+            "team": "TuS Chemnitz-Altendorf",
+            "punkte": 28,
+            "score": "580,95"
+          },
+          {
+            "platz": 4,
+            "team": "TG Karlsruhe-Söllingen",
+            "punkte": 24,
+            "score": "550,65"
+          },
+          {
+            "platz": 5,
+            "team": "TZ DSHS Köln",
+            "punkte": 18,
+            "score": "546,15"
+          },
+          {
+            "platz": 6,
+            "team": "KTG Eintracht Hannover",
+            "punkte": 14,
+            "score": "540,90"
+          },
+          {
+            "platz": 7,
+            "team": "TSG Berlin Steglitz",
+            "punkte": 10,
+            "score": "534,35"
+          },
+          {
+            "platz": 8,
+            "team": "Dresdner SC",
+            "punkte": 4,
+            "score": "533,10"
+          }
+        ]
+      }
+    ]
+  },
+  "termine": [
+    {
+      "name": "Trampolin-WM",
+      "ort": "Nanjing (China)",
+      "von": "2026-11-05",
+      "bis": "2026-11-08",
+      "ebene": "international",
+      "sparte": "Trampolin",
+      "info": "Für Deutschland: Lars Garmann und Matthias Schuldt – auch im Synchron.",
+      "highlight": true
+    },
+    {
+      "name": "Memorial Arturo Gander",
+      "ort": "Chiasso (Schweiz)",
+      "von": "2026-11-05",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Mit Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini."
+    },
+    {
+      "name": "Olympische Jugendspiele – Turnen",
+      "ort": "Dakar (Senegal)",
+      "von": "2026-11-07",
+      "bis": "2026-11-13",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Mit Luna Zimmermann, Zénó Csuka, Kimi Köhnlein und Andrei Mihai. Live in der ARD-Mediathek."
+    },
+    {
+      "name": "Swiss Cup",
+      "ort": "Zürich, Hallenstadion",
+      "von": "2026-11-07",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Turnerin und Turner treten als Paar an."
+    },
+    {
+      "name": "1. Bundesliga Männer – 5. Wettkampftag",
+      "ort": "Cottbus, Kreuztal, Koblenz, Dillingen",
+      "von": "2026-11-07",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "Spitzenspiel: Siegerländer KV gegen KTV Straubenhardt (17 Uhr, Kreuztal). Außerdem SC Cottbus – StTV Singen, KTV Koblenz – TV Schwäbisch Gmünd-Wetzgau, TG Saar – TuS Vinnhorst."
+    },
+    {
+      "name": "Bundespokal",
+      "ort": "Chemnitz",
+      "von": "2026-11-07",
+      "bis": "2026-11-08",
+      "ebene": "national",
+      "sparte": "Turnen"
+    },
+    {
+      "name": "RSG-Bundesliga – 2. Wettkampfwochenende",
+      "ort": "Gütersloh und Saarbrücken",
+      "von": "2026-11-07",
+      "bis": "2026-11-08",
+      "ebene": "national",
+      "sparte": "RSG",
+      "info": "Mit dem neuen Team Berlin."
+    },
+    {
+      "name": "Berliner Adventspokal Gerätturnen männlich",
+      "ort": "Berlin, Gretel-Bergmann-Sporthalle",
+      "von": "2026-11-14",
+      "ebene": "berlin",
+      "sparte": "Turnen",
+      "info": "Allgemeiner Motorik-Test und Technische Grundlagen. Kaderrelevant für den Berliner Kaderschulungskreis.",
+      "highlight": true
+    },
+    {
+      "name": "Berlin: Mannschaftswettkampf P-Stufen weiblich",
+      "ort": "Berlin, Sporthalle Woelckpromenade",
+      "von": "2026-11-14",
+      "bis": "2026-11-15",
+      "ebene": "berlin",
+      "sparte": "Turnen",
+      "info": "P3 am Samstag, P1 und P2 am Sonntag."
+    },
+    {
+      "name": "1. Bundesliga Frauen – letzter Wettkampftag",
+      "ort": "Esslingen",
+      "von": "2026-11-14",
+      "ebene": "national",
+      "sparte": "Turnen"
+    },
+    {
+      "name": "1. Bundesliga Männer – 6. Wettkampftag",
+      "von": "2026-11-14",
+      "ebene": "national",
+      "sparte": "Turnen"
+    },
+    {
+      "name": "1. Bundesliga Männer – 7. Wettkampftag",
+      "von": "2026-11-21",
+      "ebene": "national",
+      "sparte": "Turnen"
+    },
+    {
+      "name": "DTL-Finale Turnen",
+      "ort": "Heidelberg, SNP dome",
+      "von": "2026-11-28",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "Die besten Bundesliga-Teams kämpfen um den deutschen Mannschaftstitel.",
+      "highlight": true
+    },
+    {
+      "name": "DTL-Finale Rhythmische Sportgymnastik",
+      "ort": "Berlin",
+      "von": "2026-11-28",
+      "ebene": "berlin",
+      "sparte": "RSG",
+      "info": "Davor gibt es einen neuen Nachwuchspokal für jüngere Gymnastinnen."
+    },
+    {
+      "name": "Jahrgangsbesten-Wettkampf Gerätturnen männlich",
+      "ort": "Berlin, Leistikowhalle",
+      "von": "2026-11-29",
+      "ebene": "berlin",
+      "sparte": "Turnen",
+      "info": "P-Stufen und LK-Programm, 4 aus 6 Geräten. Meldeschluss 6. November."
+    },
+    {
+      "name": "Turnier der Meister (Weltcup)",
+      "ort": "Cottbus, Lausitz-Arena",
+      "von": "2027-02-25",
+      "bis": "2027-02-28",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Termin laut Wettkampfkalender – noch nicht offiziell bestätigt."
+    },
+    {
+      "name": "Die Finals – Deutsche Meisterschaften",
+      "ort": "Stuttgart",
+      "von": "2027-07-29",
+      "bis": "2027-08-01",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "Termin laut Terminplan 2027 des Hessischen Turnverbands."
+    }
+  ],
+  "quiz": [
+    {
+      "rubrik": "DE",
+      "frage": "Welche Medaille gewann Helen Kevric bei der WM 2026 am Stufenbarren?",
+      "antworten": [
+        "Gold",
+        "Silber",
+        "Bronze",
+        "Sie wurde Vierte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Helen holte mit 14,833 Punkten Silber. Nur Kaylia Nemour aus Algerien war besser."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Zum wievielten Mal hintereinander wurde Daiki Hashimoto Mehrkampf-Weltmeister?",
+      "antworten": [
+        "Zum zweiten Mal",
+        "Zum dritten Mal",
+        "Zum vierten Mal",
+        "Zum sechsten Mal"
+      ],
+      "richtig": 2,
+      "erklaerung": "Es war sein vierter Titel in Folge. Den Rekord hält sein Landsmann Kōhei Uchimura mit sechs Titeln hintereinander."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Wie viele Geräte turnen die Männer im Mehrkampf?",
+      "antworten": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "richtig": 2,
+      "erklaerung": "Sechs: Boden, Pauschenpferd, Ringe, Sprung, Barren und Reck. Die Frauen turnen vier Geräte."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "In welchem Land findet die Trampolin-WM 2026 statt?",
+      "antworten": [
+        "China",
+        "Deutschland",
+        "Japan",
+        "USA"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Trampolin-WM ist in Nanjing in China. Für Deutschland springen Lars Garmann und Matthias Schuldt."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wie lange musste Italien auf eine WM-Medaille am Pauschenpferd warten?",
+      "antworten": [
+        "13 Jahre",
+        "50 Jahre",
+        "113 Jahre",
+        "213 Jahre"
+      ],
+      "richtig": 2,
+      "erklaerung": "113 Jahre! Zuletzt hatten Italiener 1913 in Paris eine Medaille am Pauschenpferd gewonnen. Jetzt holte Gabriele Targhetta Silber."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Was ist ein Rondat?",
+      "antworten": [
+        "Ein Rad mit Vierteldrehung und Landung auf beiden Füßen",
+        "Ein Salto vorwärts",
+        "Eine Rolle rückwärts",
+        "Ein Handstand mit ganzer Drehung"
+      ],
+      "richtig": 0,
+      "erklaerung": "Beim Rondat landest du mit beiden Füßen gleichzeitig und schaust zurück. Danach folgt oft ein Flick-Flack."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie viele Punkte ist die DTB-Pflichtübung der AK 11/12 höchstens wert, wenn du beide Bonusteile turnst?",
+      "antworten": [
+        "10,0",
+        "10,5",
+        "11,0",
+        "12,0"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Normalübung hat 10,0 Punkte. Mit den zwei Bonusteilen (je 0,5) sind 11,0 Punkte möglich."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wo finden die Olympischen Jugendspiele 2026 statt?",
+      "antworten": [
+        "In Paris",
+        "In Dakar (Senegal)",
+        "In Los Angeles",
+        "In Berlin"
+      ],
+      "richtig": 1,
+      "erklaerung": "In Dakar im Senegal – es ist die erste olympische Veranstaltung in Afrika."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Welches Team führt die 1. Bundesliga der Männer an?",
+      "antworten": [
+        "KTV Straubenhardt",
+        "SC Cottbus",
+        "TG Saar",
+        "TuS Vinnhorst"
+      ],
+      "richtig": 0,
+      "erklaerung": "Straubenhardt hat alle vier Wettkämpfe gewonnen und steht mit 8 Punkten an der Spitze."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Wofür steht das „E“ in der E-Note?",
+      "antworten": [
+        "Für Ende",
+        "Für Ausführung",
+        "Für Element",
+        "Für Extra"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das E kommt vom englischen Wort „Execution“ – Ausführung. Die E-Note startet bei 10,0, und für jeden Fehler wird etwas abgezogen."
+    }
+  ],
+  "kampfrichter": {
+    "titel": "Das Bonusteil am Barren (AK 11/12)",
+    "situation": "Ein Turner zeigt das Bonusteil „Abschwingen, Felgumschwung in den Stütz“. Die Kampfrichter sehen drei Fehler: leicht gebeugte Knie (0,1), leicht gebeugte Arme (0,3) und eine nicht ganz erreichte Endlage (0,3). Zusammen sind das 0,7 Punkte Abzug.",
+    "frage": "Bekommt er trotzdem den vollen Wert für das Bonusteil?",
+    "antworten": [
+      "Ja – es war kein großer Fehler und kein Sturz dabei",
+      "Nein – die Abzüge sind zusammen mehr als 0,5",
+      "Nur die Hälfte des Bonus"
+    ],
+    "richtig": 0,
+    "erklaerung": "Laut DTB-FAQ (Juni 2026) kommt es nicht auf die Summe an, sondern auf die Art der Fehler. Nur ein einzelner großer Fehler (0,5) oder ein Sturz kostet den vollen Bonuswert. Mehrere kleine und mittlere Fehler sind erlaubt."
+  },
+  "lexikon": [
+    {
+      "begriff": "D-Note",
+      "erklaerung": "Die Schwierigkeitsnote: Sie zählt zusammen, wie schwer die Elemente einer Übung sind. Je schwieriger, desto höher – nach oben ist sie offen."
+    },
+    {
+      "begriff": "E-Note",
+      "erklaerung": "Die Ausführungsnote: Sie startet bei 10,0. Für jeden Fehler wird abgezogen – 0,1 für kleine, 0,3 für mittlere, 0,5 für große Fehler und 1,0 für einen Sturz."
+    },
+    {
+      "begriff": "Mehrkampf",
+      "erklaerung": "Ein Wettkampf an allen Geräten. Männer turnen sechs Geräte (Sechskampf), Frauen vier (Vierkampf). Alle Noten werden zusammengezählt."
+    },
+    {
+      "begriff": "Gerätefinale",
+      "erklaerung": "Ein Finale an nur einem Gerät. Dort turnen die acht Besten aus der Qualifikation um Medaillen."
+    },
+    {
+      "begriff": "Scorepunkte",
+      "erklaerung": "In der Bundesliga turnt immer ein Turner gegen einen Turner aus dem anderen Team. Wer besser ist, bekommt Scorepunkte – je größer der Abstand, desto mehr."
+    },
+    {
+      "begriff": "Gerätepunkte",
+      "erklaerung": "In der Bundesliga bekommt das Team, das an einem Gerät mehr Scorepunkte holt, zwei Gerätepunkte."
+    },
+    {
+      "begriff": "Synchron",
+      "erklaerung": "Beim Trampolin springen zwei Turner gleichzeitig auf zwei Trampolinen dieselbe Übung – möglichst genau im gleichen Takt."
+    },
+    {
+      "begriff": "Pauschenpferd",
+      "erklaerung": "Ein Turngerät mit zwei Griffen (Pauschen) oben drauf. Hier werden vor allem Kreis-Flanken und Scheren geturnt – ohne Pause."
+    },
+    {
+      "begriff": "Stufenbarren",
+      "erklaerung": "Ein Gerät der Turnerinnen mit zwei unterschiedlich hohen Holmen. Die Turnerinnen fliegen zwischen den Holmen hin und her."
+    },
+    {
+      "begriff": "Schwebebalken",
+      "erklaerung": "Ein nur 10 Zentimeter breiter Balken in 1,25 Meter Höhe. Darauf turnen die Turnerinnen Sprünge, Drehungen und sogar Saltos."
+    },
+    {
+      "begriff": "Code de Pointage",
+      "erklaerung": "Das internationale Wertungsbuch. Darin steht, wie viel jedes Element wert ist und welche Abzüge es gibt. Es wird alle vier Jahre erneuert – gerade gilt die Fassung 2025–2028."
+    },
+    {
+      "begriff": "Neutrale Athleten",
+      "erklaerung": "Turnerinnen und Turner aus Russland und Belarus dürfen derzeit nicht für ihr Land starten, sondern nur ohne Flagge als neutrale Athleten."
+    },
+    {
+      "begriff": "Deutschland-Pokal",
+      "erklaerung": "Ein Wettkampf, bei dem die Mannschaften der Bundesländer im Nachwuchs gegeneinander antreten – auch in der AK 11/12 mit der DTB-Pflicht."
+    }
+  ],
+  "quizGestellt": [
+    "Kevric WM-Silber Stufenbarren 2026",
+    "Hashimoto vier Mehrkampftitel",
+    "Anzahl Geräte Männer-Mehrkampf",
+    "Trampolin-WM 2026 Ort",
+    "Italien 113 Jahre Pauschenpferd",
+    "Rondat Definition",
+    "Pflicht AK 11/12 Höchstwert 11,0",
+    "Jugendspiele Dakar",
+    "DTL-Tabellenführer Männer 2026",
+    "E-Note Bedeutung"
+  ],
+  "kampfrichterGestellt": [
+    "Bonusteil Barren AK 11/12 mehrere kleine Fehler"
+  ]
+}
