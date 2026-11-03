@@ -782,19 +782,82 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
     $("#main").innerHTML = VIEWS[current]();
     if (current === "game" && GM && !GM.lauf) { GM.lauf = true; gameInit(); }
   }
-  function go(id) { if (!VIEWS[id]) id = "heute"; if (id !== "game") GM = null; current = id; try { history.replaceState(null, "", "#" + id); } catch (e) {} render(); window.scrollTo(0, 0); }
+  /* ---------- Verlauf: jeder Seitenwechsel und jedes Fenster bekommt einen Eintrag, damit die Zurück-Geste des Handys funktioniert ---------- */
+  const tiefe = () => (history.state && history.state.ff && history.state.n) || 0;
+  const scrollPos = {}; let nachZurueck = null;
+  function zeigeTab(id, y) { if (!VIEWS[id]) id = "heute"; if (id !== "game") GM = null; current = id; render(); window.scrollTo(0, y || 0); }
+  function go(id) {
+    if (!VIEWS[id]) id = "heute"; if (id === current) { window.scrollTo(0, 0); return; }
+    scrollPos[current] = window.scrollY;
+    try { history.pushState({ ff: 1, tab: id, n: tiefe() + 1 }, "", "#" + id); } catch (e) {}
+    zeigeTab(id, 0);
+  }
+  function zurueck() { if (ovOffen()) return closeSheet(); if (tiefe() > 0) history.back(); else { const i = TABS.findIndex(t => t.id === current); if (i > 0) go(TABS[i - 1].id); } }
+  const ovOffen = () => !!$("#overlay .ov");
+  function overlayZu() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
   function sheet(html) {
+    const offen = ovOffen();
     $("#overlay").innerHTML = '<div class="ov" data-ovbg><div class="sheet" role="dialog" aria-modal="true"><button class="close" data-close aria-label="Schließen">×</button>' + html + "</div></div>";
     document.body.style.overflow = "hidden";
+    try { if (offen) history.replaceState({ ff: 1, tab: current, ov: 1, n: tiefe() }, ""); else history.pushState({ ff: 1, tab: current, ov: 1, n: tiefe() + 1 }, ""); } catch (e) {}
   }
-  function closeSheet() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
+  function closeSheet() { if (!ovOffen()) return; if (history.state && history.state.ov) history.back(); else overlayZu(); }
+  window.addEventListener("popstate", e => {
+    const st = e.state || {};
+    if (ovOffen() && !st.ov) overlayZu();
+    const h = st.tab || (location.hash || "").slice(1) || "heute";
+    if (VIEWS[h] && h !== current) { const y = scrollPos[h] || 0; zeigeTab(h, y); }
+    if (nachZurueck) { const z = nachZurueck; nachZurueck = null; go(z); }
+  });
+
+  /* ---------- Wischgesten (Handy/Tablet) ----------
+     nach rechts wischen = zurück zur letzten Seite (bzw. Fenster schließen), nach links wischen = nächster Tab */
+  (function () {
+    let sx = 0, sy = 0, st = 0, aktiv = false, rand = false, richtung = 0;
+    const main = $("#main");
+    const standalone = navigator.standalone === true || (window.matchMedia && matchMedia("(display-mode: standalone)").matches);
+    function scrollbarQuer(el) {
+      for (; el && el !== document.body; el = el.parentElement) {
+        if (el.matches && el.matches(".game-feld, canvas, input, select, textarea, details.fehler ul")) return true;
+        if (el.scrollWidth > el.clientWidth + 2) { const ox = getComputedStyle(el).overflowX; if (ox === "auto" || ox === "scroll") return true; }
+      }
+      return false;
+    }
+    function zuruecksetzen() { main.style.transition = "transform .2s ease, opacity .2s ease"; main.style.transform = ""; main.style.opacity = ""; }
+    document.addEventListener("touchstart", e => {
+      if (e.touches.length !== 1) { aktiv = false; return; }
+      const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); richtung = 0;
+      rand = sx < 24 || sx > window.innerWidth - 24;
+      // Am linken Rand übernimmt im Browser (Safari) die eingebaute Zurück-Geste – dort nicht doppelt reagieren
+      aktiv = !(sx < 24 && !standalone) && !scrollbarQuer(e.target) && !(current === "game" && GM);
+    }, { passive: true });
+    document.addEventListener("touchmove", e => {
+      if (!aktiv) return;
+      const t = e.touches[0], dx = t.clientX - sx, dy = t.clientY - sy;
+      if (!richtung && (Math.abs(dx) > 12 || Math.abs(dy) > 12)) richtung = Math.abs(dx) > Math.abs(dy) * 1.4 ? 1 : 2;
+      if (richtung !== 1) return;
+      const ziel = ovOffen() ? $("#overlay .sheet") : main;
+      if (!ziel) return;
+      ziel.style.transition = "none"; ziel.style.transform = "translateX(" + Math.round(dx * .35) + "px)"; ziel.style.opacity = String(1 - Math.min(.35, Math.abs(dx) / 900));
+    }, { passive: true });
+    document.addEventListener("touchend", e => {
+      if (!aktiv) return; aktiv = false;
+      const t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy, dt = Date.now() - st;
+      const sh = $("#overlay .sheet"); if (sh) { sh.style.transition = "transform .2s ease"; sh.style.transform = ""; sh.style.opacity = ""; }
+      zuruecksetzen();
+      if (richtung !== 1 || Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 1.4 || dt > 800) return;
+      if (dx > 0) zurueck();
+      else if (!ovOffen()) { const i = TABS.findIndex(x => x.id === current); if (i < TABS.length - 1) go(TABS[i + 1].id); }
+    }, { passive: true });
+    document.addEventListener("touchcancel", () => { aktiv = false; zuruecksetzen(); }, { passive: true });
+  })();
   document.addEventListener("click", e => {
     const b = e.target.closest("button, [data-ovbg], select"); if (!b) return;
     const d = b.dataset;
     if (d.ovbg != null && e.target === b) return closeSheet();
     if (d.close != null) return closeSheet();
     if (d.term) { e.preventDefault(); return showTerm(d.term); }
-    if (d.tab) { closeSheet(); return go(d.tab); }
+    if (d.tab) { if (ovOffen() && history.state && history.state.ov) { nachZurueck = d.tab; return history.back(); } overlayZu(); return go(d.tab); }
     if (d.news) return openNews(d.news);
     if (d.note) return openNote(d.note);
     if (d.rub) { ui.rubrik = d.rub; saveUi(); return render(); }
@@ -815,8 +878,9 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
   });
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
 
-  window.addEventListener("hashchange", () => { const h = (location.hash || "").slice(1); if (VIEWS[h] && h !== current) go(h); });
+  window.addEventListener("hashchange", () => { const h = (location.hash || "").slice(1); if (VIEWS[h] && h !== current) zeigeTab(h, 0); });
   const h0 = (location.hash || "").slice(1); if (VIEWS[h0]) current = h0;
+  try { history.replaceState({ ff: 1, tab: current, n: 0 }, "", "#" + current); } catch (e) {}
   render();
   const get = f => fetch(f + "?v=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
   Promise.all([get("data.json"), get("training.json"), get("statistik.json")]).then(([d, t, s]) => {
