@@ -577,7 +577,7 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
   function vQuiz() {
     const Q = D.quiz || [], st = quizState(), richtig = st.picks.filter((p, i) => p != null && Q[i] && p === Q[i].richtig).length, beantw = st.picks.filter(p => p != null).length;
     const kr = D.kampfrichter, kst = store.get("kr_" + (D.quizId || ""), null);
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Quiz</h2><p>Neue Fragen jeden Morgen. Jede richtige Antwort beim ersten Versuch bringt dich näher an ein Game.</p></div>' +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Quiz</h2><p>Neue Fragen jeden Morgen. Jede richtige Antwort – auch in der Kampfrichter-Ecke – bringt dir ein Spiel im Game-Tab.</p></div>' +
       '<div class="card" style="display:flex;gap:16px;align-items:center"><span class="score">' + richtig + "/" + Q.length + '</span><span class="small">' + (beantw === Q.length && Q.length ? (richtig === Q.length ? "Alles richtig – du bist ein Turn-Profi! 🏆" : "Fertig! Morgen gibt es neue Fragen.") : "Noch " + (Q.length - beantw) + " Fragen offen.") + "</span></div>" +
       Q.map((q, i) => {
         const p = st.picks[i];
@@ -597,13 +597,13 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
 
   /* ---------- Game ---------- */
   function gameRichtig() { let v = 0; Object.values(store.get("game_erst", {})).forEach(r => Object.values(r).forEach(x => { if (x) v++; })); return v; }
-  function gameGuthaben() { return Math.max(0, Math.ceil(gameRichtig() / 2) - store.get("game_gespielt", 0)); }
+  function gameGuthaben() { return Math.max(0, gameRichtig() - store.get("game_gespielt", 0)); }
   let GM = null, Gletzt = null;
   function vGame() {
     if (GM) return '<div class="view"><div class="game-top"><span>' + (GM.art === "sprung" ? "Sprung" : "Reck") + "<b>" + (GM.art === "sprung" ? "🤸" : "🏅") + "</b></span><span>Rekord<b>" + komma(store.get("rek_" + GM.art, 0), 3) + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Turnspiel – tippe auf das Spielfeld"></canvas></div><button class="btn alt" data-gabbruch style="justify-self:center">Spiel beenden</button></div>';
     const gut = gameGuthaben();
     const karte = (a, t, txt) => '<div class="card game-wahl"><h3>' + t + "</h3><p style=\"margin:0\">" + txt + '</p><span class="small">Dein Rekord: <b>' + komma(store.get("rek_" + a, 0), 3) + "</b></span>" + (gut ? '<button class="btn" data-gstart="' + a + '">Spielen</button>' : "") + "</div>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Flickflack-Game</h2><p>Für je zwei Quizfragen, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel. Schon die erste richtige Antwort bringt ein Spiel.</p></div>' +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Flickflack-Game</h2><p>Für jede richtig beantwortete Quizfrage bekommst du ein Spiel – auch für die Kampfrichter-Ecke.</p></div>' +
       (Gletzt ? '<div class="card" style="display:grid;gap:4px"><span class="kicker">Letztes Spiel · ' + esc(Gletzt.titel) + '</span><b class="score">' + komma(Gletzt.note, 3) + (Gletzt.rekord ? " 🏆" : "") + "</b><span>" + esc(Gletzt.zeile) + "</span></div>" : "") +
       '<div class="card game-zahlen" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap"><div><b>' + gut + '</b><span class="small">' + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div>" +
       (gut ? '<p style="margin:0;font-weight:700">Such dir ein Gerät aus:</p>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
@@ -897,7 +897,7 @@ details.fehler ul { margin: 6px 0 0; padding-left: 18px; font-size: 14.5px; colo
     if (d.uebung) { const p = d.uebung.split("|"); ui.uebung[p[0]] = p[1]; saveUi(); return render(); }
     if (d.kann) { const p = d.kann.split("|"), k = kannAlle(), key = kannKey(p[0], p[1], p[2]); if (k[key]) delete k[key]; else k[key] = 1; store.set("kann", k); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.quiz) { const p = d.quiz.split("|").map(Number), y = window.scrollY; answerQuiz(p[0], p[1]); window.scrollTo(0, y); return; }
-    if (d.kr != null) { store.set("kr_" + (D.quizId || ""), Number(d.kr)); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
+    if (d.kr != null) { if (store.get("kr_" + (D.quizId || ""), null) != null) return; store.set("kr_" + (D.quizId || ""), Number(d.kr)); const m = store.get("game_erst", {}), q = D.quizId || D.aktualisiert; m[q] = m[q] || {}; m[q].kr = Number(d.kr) === D.kampfrichter.richtig; store.set("game_erst", m); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.gstart) return gameStart(d.gstart);
     if (d.gabbruch != null) { GM = null; return render(); }
   });
