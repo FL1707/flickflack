@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-03T21:30:00+01:00",
-  "ausgabe": "Erstausgabe 2026-11-03",
-  "gruss": "Hallo und willkommen bei Flickflack! Diese Woche ist viel los: Die Trampolin-WM in China startet, in der Schweiz turnen vier Deutsche beim Swiss Cup, und am Samstag geht die Bundesliga weiter. Im Training findest du ab jetzt die komplette DTB-Pflicht für die AK 11 und 12.",
-  "quizId": "2026-11-03",
+  "aktualisiert": "2026-11-07T08:07:45+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-07",
+  "gruss": "Guten Morgen! Heute ist Turn-Samstag: Die Olympischen Jugendspiele in Dakar starten mit den Jungs, in Zürich läuft am Nachmittag der Swiss Cup, und in der Bundesliga steigt das Spitzenspiel Siegerland gegen Straubenhardt. Gestern hat Timo Eder in Chiasso Bronze geholt.",
+  "quizId": "2026-11-07",
   "zahlDesTages": {
-    "zahl": "113",
-    "text": "Jahre musste Italien auf eine WM-Medaille am Pauschenpferd warten – bis Gabriele Targhetta in Rotterdam Silber holte."
+    "zahl": "206",
+    "text": "Länder schicken ihre jungen Sportlerinnen und Sportler zu den Olympischen Jugendspielen nach Dakar – insgesamt rund 2.700. Es sind die ersten Olympia-Spiele in Afrika."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,18 +75,85 @@
   },
   "news": [
     {
-      "id": "2026-11-03-kevric-silber",
+      "id": "2026-11-07-chiasso",
+      "rubrik": "INT",
+      "motiv": "medaille",
+      "datum": "2026-11-06",
+      "titel": "Zwei Podestplätze in Chiasso",
+      "teaser": "Karina Schönmaier wird Zweite, Timo Eder Dritter beim Memorial Arthur Gander in der Schweiz.",
+      "text": [
+        "Beim Einladungswettkampf Memorial Arthur Gander in Chiasso haben zwei Deutsche aufs Treppchen geturnt. Karina Schönmaier aus Chemnitz wurde mit 39,700 Punkten Zweite. Nur die US-Amerikanerin Tatum Drusch war besser. Am Sprung gewann Karina sogar die Gerätewertung mit 13,750 Punkten.",
+        "Bei den Männern wurde Timo Eder mit 54,600 Punkten Dritter. Am Pauschenpferd bekam er 13,300 Punkte, am Sprung hatte er die zweitbeste Wertung des ganzen Feldes. Milan Hosseini wurde Achter, Charleen Pach belegte bei den Frauen Platz neun.",
+        "Trainer Anatol Ashurkov lobte: „Timo turnte sicher, locker und mit einer schönen Ausstrahlung.“ Beim Memorial turnt jeder vier Geräte nach eigener Wahl, so wie später in der Kür."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-07-trampolin-wm",
+      "rubrik": "TRA",
+      "motiv": "trampolin",
+      "datum": "2026-11-06",
+      "titel": "Trampolin-WM: Synchron-Duo scheitert im Halbfinale",
+      "teaser": "Lars Garmann und Matthias Schuldt konnten ihre Übung nicht zu Ende springen.",
+      "text": [
+        "Bei der Trampolin-WM in Nanjing ist für das deutsche Synchron-Duo Lars Garmann und Matthias Schuldt im Halbfinale Schluss. In der Qualifikation waren die beiden noch auf Rang elf gekommen. Im Halbfinale musste die Übung abgebrochen werden, weil Lars nach einer Korrektur seitlich vom Trampolin sprang.",
+        "Cheftrainerin Katarina Prokesova sagte, es fehle noch die Stabilität. Das Paar hat erst zwei Wettkämpfe zusammen bestritten. Auf Platz 13 sind die beiden jetzt zweite Reserve, falls ein anderes Paar ausfällt.",
+        "Die Frauen wurden im Teamfinale am Doppel-Mini-Trampolin Fünfte. Gold ging an die USA, Silber an Russland, Bronze an Großbritannien. Am Wochenende folgen noch die Finals der Männer."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-07-kevric-sportlerin",
       "rubrik": "DE",
       "motiv": "stufenbarren",
-      "datum": "2026-10-24",
-      "titel": "Silber für Helen Kevric!",
-      "teaser": "Bei ihrer ersten Weltmeisterschaft holt die Stuttgarterin am Stufenbarren die einzige Medaille für Deutschland.",
+      "datum": "2026-11-05",
+      "titel": "Helen Kevric ist Sportlerin des Monats",
+      "teaser": "Nach ihrem WM-Silber wählen Deutschlands beste Athleten die Stuttgarterin auf Platz eins.",
       "text": [
-        "Helen Kevric hat bei der Turn-WM in Rotterdam Silber am Stufenbarren gewonnen. Die 18-Jährige vom MTV Stuttgart bekam für ihre fehlerfreie Übung 14,833 Punkte. Nur Olympiasiegerin Kaylia Nemour aus Algerien war mit 15,333 Punkten noch besser. Bronze ging an Skye Blakely aus den USA.",
-        "„Europameisterin klang schon ganz gut, aber jetzt Vize-Weltmeisterin, das ist nochmal etwas ganz anderes“, sagte Helen nach dem Finale. Sie sei sehr nervös gewesen, habe aber versucht, ruhig zu bleiben und „ihr Ding zu machen“.",
-        "Es ist die erste WM-Medaille einer deutschen Turnerin seit dem Silber von Pauline Schäfer-Betz am Schwebebalken 2021. Im August war Helen schon Europameisterin am Stufenbarren geworden."
+        "Helen Kevric vom MTV Stuttgart ist „Sportlerin des Monats“ Oktober. Sie bekam 44,1 Prozent der Stimmen. Zweite wurde die Bahnradfahrerin Pauline Grabosch, Dritte die Kunstradfahrerin Lara Füller.",
+        "Das Besondere an der Wahl: Nicht Fans oder Medien stimmen ab, sondern Deutschlands beste Nachwuchs- und Spitzenathletinnen und -athleten. Helen hatte bei der WM in Rotterdam mit einer fehlerfreien Übung Silber am Stufenbarren gewonnen."
       ],
-      "quelle": "sportschau.de"
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-07-dakar",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-07",
+      "titel": "Dakar: Heute turnen die Jungs",
+      "teaser": "Bei den Olympischen Jugendspielen beginnt das Gerätturnen mit der Qualifikation der Männer.",
+      "text": [
+        "Die Olympischen Jugendspiele finden zum ersten Mal in Afrika statt, in Dakar im Senegal. Rund 2.700 junge Sportlerinnen und Sportler aus 206 Ländern sind dabei. Für Deutschland turnen Luna Zimmermann, Zénó Csuka, Kimi Köhnlein und Andrei Mihai.",
+        "Heute ab 14:55 Uhr deutscher Zeit starten die Männer in die Qualifikation. Bundestrainer Robert Hirsch traut allen dreien den Einzug ins Teamfinale und ins Mehrkampffinale zu. Luna turnt am Sonntag.",
+        "Alle Wettkämpfe laufen live in der ARD-Mediathek. Das Teamfinale der Männer ist am Montag, die Mehrkampffinals sind am Dienstag."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-07-swisscup",
+      "rubrik": "DE",
+      "motiv": "team",
+      "datum": "2026-11-07",
+      "titel": "Swiss Cup in Zürich: Turnerin und Turner im Duo",
+      "teaser": "Heute um 16 Uhr beginnt der besondere Paar-Wettkampf im Hallenstadion.",
+      "text": [
+        "Beim Swiss Cup turnen eine Turnerin und ein Turner als Paar. Es ist ein Einladungswettkampf mit viel Show und Stimmung. Deutsche Teams waren dort schon oft erfolgreich.",
+        "Ab 2026 wird der Swiss Cup nur noch alle zwei Jahre ausgetragen. Wir berichten in der nächsten Ausgabe, wie es für die Deutschen gelaufen ist."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-07-bundesliga",
+      "rubrik": "DTL",
+      "motiv": "zahlen",
+      "datum": "2026-11-07",
+      "titel": "Bundesliga: Spitzenspiel in Kreuztal",
+      "teaser": "Der Tabellenführer aus Straubenhardt tritt heute beim Siegerländer KV an.",
+      "text": [
+        "Heute ist der 5. Wettkampftag der 1. Bundesliga Männer. Das Spitzenspiel steigt um 17 Uhr in Kreuztal: Der Siegerländer KV empfängt den KTV Straubenhardt, der bisher alle vier Wettkämpfe gewonnen hat.",
+        "Außerdem turnen der SC Cottbus gegen den StTV Singen, der KTV Koblenz gegen Schwäbisch Gmünd-Wetzgau und die TG Saar gegen den TuS Vinnhorst. Die Ergebnisse gibt es in der nächsten Ausgabe."
+      ],
+      "quelle": "deutsche-turnliga.de, dtb.de"
     },
     {
       "id": "2026-11-03-deutschlandpokal",
@@ -101,88 +168,6 @@
         "Der Lahrer Andrei Mihai gewann die Einzelwertung in seiner Altersklasse. Für ihn geht es jetzt direkt weiter zu den Olympischen Jugendspielen nach Dakar."
       ],
       "quelle": "radiocottbus.de, LTV Sachsen-Anhalt, Badische Zeitung"
-    },
-    {
-      "id": "2026-11-03-trampolin-wm",
-      "rubrik": "TRA",
-      "motiv": "trampolin",
-      "datum": "2026-11-03",
-      "titel": "Trampolin-WM in China startet",
-      "teaser": "Lars Garmann und Matthias Schuldt springen ab Donnerstag in Nanjing – im Synchron wollen sie ins Finale.",
-      "text": [
-        "Ab Donnerstag kämpfen die besten Trampolinturner der Welt in Nanjing in China um WM-Titel. Für Deutschland starten Lars Garmann vom SC Cottbus und Matthias Schuldt von der TG Dietzenbach.",
-        "Die beiden haben sich in einem Trainingslager in China gemeinsam mit der chinesischen Jugendnationalmannschaft vorbereitet. Beim Weltcup in Cottbus hatten sie zuletzt Silber im Synchronspringen geholt.",
-        "„Im Synchron wollen wir auf jeden Fall ins Finale“, sagt Cheftrainerin Katarina Prokesova. Für Lars ist es die erste Weltmeisterschaft."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-03-hashimoto",
-      "rubrik": "INT",
-      "motiv": "boden",
-      "datum": "2026-10-22",
-      "titel": "Hashimoto zum vierten Mal Weltmeister",
-      "teaser": "Der Japaner gewinnt den Mehrkampf in Rotterdam. Timo Eder wird bester Deutscher auf Platz 14.",
-      "text": [
-        "Daiki Hashimoto aus Japan ist zum vierten Mal hintereinander Mehrkampf-Weltmeister. Im Sechskampf aus Boden, Pferd, Ringen, Sprung, Barren und Reck kam er auf 85,998 Punkte. Zweiter wurde Yang Haonan aus China, Dritter Joe Fraser aus Großbritannien.",
-        "Timo Eder aus Ludwigsburg war der einzige deutsche Turner im Finale. Er steigerte sich gegenüber der Qualifikation um mehr als einen Punkt und wurde 14. Besonders freute er sich über einen neuen Sprung mit dreifacher Schraube, den er zum ersten Mal international gezeigt hat.",
-        "Die deutsche Männer-Mannschaft hatte das Team-Finale als 15. verpasst. Bundestrainer Jens Milbradt sagte, die Turner müssten sich steigern, um 2028 als Team zu Olympia nach Los Angeles zu fahren."
-      ],
-      "quelle": "sportschau.de"
-    },
-    {
-      "id": "2026-11-03-targhetta",
-      "rubrik": "INT",
-      "motiv": "pferd",
-      "datum": "2026-10-24",
-      "titel": "Silber nach 113 Jahren",
-      "teaser": "Bundesliga-Turner Gabriele Targhetta holt am Pauschenpferd die erste italienische WM-Medaille seit 1913.",
-      "text": [
-        "Gabriele Targhetta turnt in der Bundesliga für den Siegerländer KV. Bei der WM in Rotterdam musste er als Erster der acht Finalisten ans Pauschenpferd – und bekam 15,233 Punkte. Am Ende war nur Hamlet Manukyan aus Armenien um 0,067 Punkte besser.",
-        "Spannend: Beide hatten genau dieselbe D-Note (5,9). Der Unterschied lag nur in der E-Note, also in der Ausführung: 9,400 für Manukyan, 9,333 für Targhetta.",
-        "Schon als Vierjähriger hat Gabriele am Turnpilz seine ersten Kreis-Flanken gemacht. „Mir fiel es von Anfang an leicht“, erzählt er. Noch heute trainiert er oft eineinhalb bis zwei Stunden nur am Pauschenpferd."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-03-swisscup",
-      "rubrik": "DE",
-      "motiv": "team",
-      "datum": "2026-11-03",
-      "titel": "Vier Deutsche turnen in der Schweiz",
-      "teaser": "Erst das Gander-Memorial in Chiasso, dann der Swiss Cup in Zürich mit seiner besonderen Paarwertung.",
-      "text": [
-        "Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini starten bei den zwei wichtigsten Turn-Wettkämpfen der Schweiz. Am Donnerstag geht es beim Memorial Arturo Gander in Chiasso los. Dort turnen die Frauen drei und die Männer vier Geräte ihrer Wahl.",
-        "Am Samstag folgt im Zürcher Hallenstadion der Swiss Cup. Dort turnen immer eine Turnerin und ein Turner zusammen als Paar. „Die Stimmung ist einfach krass“, sagt Karina Schönmaier, die 2024 schon Dritte wurde. Ab 2026 gibt es den Swiss Cup nur noch alle zwei Jahre."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-03-dakar",
-      "rubrik": "NW",
-      "motiv": "medaille",
-      "datum": "2026-11-02",
-      "titel": "Olympische Jugendspiele in Afrika",
-      "teaser": "Vier junge deutsche Turner starten in Dakar – zum ersten Mal gibt es Olympische Spiele in Afrika.",
-      "text": [
-        "In Dakar im Senegal laufen bis zum 13. November die Olympischen Jugendspiele. Es ist die erste olympische Veranstaltung auf dem afrikanischen Kontinent. Rund 2.700 junge Sportlerinnen und Sportler sind dabei.",
-        "Im Turnen startet Luna Zimmermann (15) aus Heidelberg. Bei den Jungen sind Zénó Csuka (16), Kimi Köhnlein (17) und Andrei Mihai (16) dabei. Die Turn-Wettkämpfe beginnen am 7. November und laufen in der ARD-Mediathek."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-03-bundesliga",
-      "rubrik": "DTL",
-      "motiv": "ringe",
-      "datum": "2026-11-03",
-      "titel": "Straubenhardt bleibt ungeschlagen",
-      "teaser": "Der Meister führt die 1. Bundesliga der Männer an. Am Samstag kommt es zum Spitzenspiel in Kreuztal.",
-      "text": [
-        "In der 1. Bundesliga der Männer hat die KTV Straubenhardt alle vier Wettkämpfe gewonnen und führt mit 8 Punkten. Dahinter folgen der SC Cottbus und die TG Saar mit je 6 Punkten. Bester Punktesammler der Liga ist Illia Kovtun aus Straubenhardt – er holte bei der WM Silber am Barren.",
-        "Am Samstag, 7. November, muss der Spitzenreiter zum Siegerländer KV nach Kreuztal. Der Siegerländer KV hat zwar erst 2 Punkte, aber an den Geräten schon viele Duelle gewonnen – und mit Gabriele Targhetta einen WM-Zweiten im Team.",
-        "In der 2. Bundesliga Nord ist der MTV Ludwigsburg neuer Tabellenführer. Beim 64:27 in Sulzbach war WM-Starter Timo Eder mit 28 Scorepunkten der beste Turner des Wochenendes."
-      ],
-      "quelle": "deutsche-turnliga.de"
     },
     {
       "id": "2026-11-03-berlin",
@@ -210,23 +195,73 @@
         "Neu in dieser Saison: In der Bundesliga dürfen Gymnastinnen erst ab 13 Jahren starten. Für die Jüngeren gibt es deshalb einen neuen Nachwuchspokal vor dem DTL-Finale am 28. November in Berlin."
       ],
       "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-03-blakely",
-      "rubrik": "INT",
-      "motiv": "balken",
-      "datum": "2026-10-23",
-      "titel": "Blakely Weltmeisterin – Pech für Nemour",
-      "teaser": "Die Favoritin trifft beim Sprung das Brett nicht und verpasst eine Medaille um 0,034 Punkte.",
-      "text": [
-        "Skye Blakely aus den USA ist Mehrkampf-Weltmeisterin. Sie gewann den Vierkampf aus Sprung, Stufenbarren, Schwebebalken und Boden mit 55,733 Punkten.",
-        "Pech hatte Kaylia Nemour aus Algerien: Gleich am ersten Gerät traf sie beim Anlauf das Sprungbrett nicht richtig und turnte nur einen leichten Sprung. Danach holte sie mächtig auf – am Ende fehlten ihr nur 0,034 Punkte zu Bronze.",
-        "Später holte Nemour dann doch noch zwei Goldmedaillen: am Stufenbarren und am Schwebebalken."
-      ],
-      "quelle": "sportschau.de"
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "gander2026",
+      "name": "Memorial Arthur Gander",
+      "ort": "Chiasso (Schweiz)",
+      "von": "2026-11-05",
+      "rubrik": "INT",
+      "sparte": "Turnen Männer",
+      "bericht": "Internationaler Einladungswettkampf mit Wahlübungen an vier Geräten. Die Deutschen Karina Schönmaier und Timo Eder turnten aufs Podium.",
+      "entscheidungen": [
+        {
+          "titel": "Frauen Mehrkampf (vier Geräte)",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Tatum Drusch",
+              "land": "USA"
+            },
+            {
+              "platz": 2,
+              "name": "Karina Schönmaier",
+              "land": "GER",
+              "note": 39.7
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 9,
+              "name": "Charleen Pach",
+              "land": "GER"
+            }
+          ]
+        },
+        {
+          "titel": "Frauen Sprung",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Karina Schönmaier",
+              "land": "GER",
+              "note": 13.75
+            }
+          ]
+        },
+        {
+          "titel": "Männer Mehrkampf (vier Geräte)",
+          "podium": [
+            {
+              "platz": 3,
+              "name": "Timo Eder",
+              "land": "GER",
+              "note": 54.6
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 8,
+              "name": "Milan Hosseini",
+              "land": "GER",
+              "note": 38.35
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "wm2026-m",
       "name": "Turn-WM Rotterdam – Männer",
@@ -635,7 +670,7 @@
   ],
   "liga": {
     "titel": "Deutsche Turnliga 2026",
-    "info": "Tabellen der 1. Bundesliga – Stand 3. November",
+    "info": "Tabellen der 1. Bundesliga – Stand 7. November (heute läuft der 5. Wettkampftag der Männer)",
     "duelle": [
       {
         "liga": "2. BL Nord Männer",
@@ -775,31 +810,13 @@
   },
   "termine": [
     {
-      "name": "Trampolin-WM",
-      "ort": "Nanjing (China)",
-      "von": "2026-11-05",
-      "bis": "2026-11-08",
-      "ebene": "international",
-      "sparte": "Trampolin",
-      "info": "Für Deutschland: Lars Garmann und Matthias Schuldt – auch im Synchron.",
-      "highlight": true
-    },
-    {
-      "name": "Memorial Arturo Gander",
-      "ort": "Chiasso (Schweiz)",
-      "von": "2026-11-05",
-      "ebene": "international",
-      "sparte": "Turnen",
-      "info": "Mit Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini."
-    },
-    {
       "name": "Olympische Jugendspiele – Turnen",
       "ort": "Dakar (Senegal)",
       "von": "2026-11-07",
       "bis": "2026-11-13",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "Mit Luna Zimmermann, Zénó Csuka, Kimi Köhnlein und Andrei Mihai. Live in der ARD-Mediathek."
+      "info": "Mit Luna Zimmermann, Zénó Csuka, Kimi Köhnlein und Andrei Mihai. Männer-Qualifikation 7.11., Frauen 8.11., Teamfinale Männer 9.11., Mehrkampffinals 10.11. Live in der ARD-Mediathek."
     },
     {
       "name": "Swiss Cup",
@@ -807,7 +824,7 @@
       "von": "2026-11-07",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "Turnerin und Turner treten als Paar an."
+      "info": "Turnerin und Turner treten als Paar an. Start 16 Uhr."
     },
     {
       "name": "1. Bundesliga Männer – 5. Wettkampftag",
@@ -918,136 +935,137 @@
   "quiz": [
     {
       "rubrik": "DE",
-      "frage": "Welche Medaille gewann Helen Kevric bei der WM 2026 am Stufenbarren?",
+      "frage": "Wer wurde beim Memorial Arthur Gander in Chiasso Dritter bei den Männern?",
       "antworten": [
-        "Gold",
-        "Silber",
-        "Bronze",
-        "Sie wurde Vierte"
+        "Milan Hosseini",
+        "Timo Eder",
+        "Daiki Hashimoto",
+        "Lars Garmann"
       ],
       "richtig": 1,
-      "erklaerung": "Helen holte mit 14,833 Punkten Silber. Nur Kaylia Nemour aus Algerien war besser."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Zum wievielten Mal hintereinander wurde Daiki Hashimoto Mehrkampf-Weltmeister?",
-      "antworten": [
-        "Zum zweiten Mal",
-        "Zum dritten Mal",
-        "Zum vierten Mal",
-        "Zum sechsten Mal"
-      ],
-      "richtig": 2,
-      "erklaerung": "Es war sein vierter Titel in Folge. Den Rekord hält sein Landsmann Kōhei Uchimura mit sechs Titeln hintereinander."
+      "erklaerung": "Timo Eder turnte mit 54,600 Punkten aufs Podium."
     },
     {
       "rubrik": "DE",
-      "frage": "Wie viele Geräte turnen die Männer im Mehrkampf?",
+      "frage": "Welche Auszeichnung hat Helen Kevric für Oktober 2026 bekommen?",
       "antworten": [
-        "4",
-        "5",
-        "6",
-        "8"
-      ],
-      "richtig": 2,
-      "erklaerung": "Sechs: Boden, Pauschenpferd, Ringe, Sprung, Barren und Reck. Die Frauen turnen vier Geräte."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "In welchem Land findet die Trampolin-WM 2026 statt?",
-      "antworten": [
-        "China",
-        "Deutschland",
-        "Japan",
-        "USA"
+        "Sportlerin des Monats",
+        "Weltsportlerin des Jahres",
+        "Goldenes Band",
+        "Turnerin des Jahres"
       ],
       "richtig": 0,
-      "erklaerung": "Die Trampolin-WM ist in Nanjing in China. Für Deutschland springen Lars Garmann und Matthias Schuldt."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Wie lange musste Italien auf eine WM-Medaille am Pauschenpferd warten?",
-      "antworten": [
-        "13 Jahre",
-        "50 Jahre",
-        "113 Jahre",
-        "213 Jahre"
-      ],
-      "richtig": 2,
-      "erklaerung": "113 Jahre! Zuletzt hatten Italiener 1913 in Paris eine Medaille am Pauschenpferd gewonnen. Jetzt holte Gabriele Targhetta Silber."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Was ist ein Rondat?",
-      "antworten": [
-        "Ein Rad mit Vierteldrehung und Landung auf beiden Füßen",
-        "Ein Salto vorwärts",
-        "Eine Rolle rückwärts",
-        "Ein Handstand mit ganzer Drehung"
-      ],
-      "richtig": 0,
-      "erklaerung": "Beim Rondat landest du mit beiden Füßen gleichzeitig und schaust zurück. Danach folgt oft ein Flick-Flack."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Wie viele Punkte ist die DTB-Pflichtübung der AK 11/12 höchstens wert, wenn du beide Bonusteile turnst?",
-      "antworten": [
-        "10,0",
-        "10,5",
-        "11,0",
-        "12,0"
-      ],
-      "richtig": 2,
-      "erklaerung": "Die Normalübung hat 10,0 Punkte. Mit den zwei Bonusteilen (je 0,5) sind 11,0 Punkte möglich."
+      "erklaerung": "Deutschlands beste Athleten wählten sie mit 44,1 Prozent auf Platz eins."
     },
     {
       "rubrik": "NW",
       "frage": "Wo finden die Olympischen Jugendspiele 2026 statt?",
       "antworten": [
-        "In Paris",
-        "In Dakar (Senegal)",
-        "In Los Angeles",
-        "In Berlin"
+        "Dakar im Senegal",
+        "Paris",
+        "Rotterdam",
+        "Nanjing"
       ],
-      "richtig": 1,
-      "erklaerung": "In Dakar im Senegal – es ist die erste olympische Veranstaltung in Afrika."
+      "richtig": 0,
+      "erklaerung": "Es sind die ersten Olympia-Spiele in Afrika überhaupt."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Auf welchem Platz landete das deutsche Frauen-Team im Doppel-Mini-Teamfinale der Trampolin-WM?",
+      "antworten": [
+        "Platz 1",
+        "Platz 3",
+        "Platz 5",
+        "Platz 8"
+      ],
+      "richtig": 2,
+      "erklaerung": "Deutschland wurde Fünfte, Gold ging an die USA."
     },
     {
       "rubrik": "DTL",
-      "frage": "Welches Team führt die 1. Bundesliga der Männer an?",
+      "frage": "Welches Team ist nach vier Wettkampftagen Tabellenführer der 1. Bundesliga Männer?",
       "antworten": [
-        "KTV Straubenhardt",
         "SC Cottbus",
         "TG Saar",
-        "TuS Vinnhorst"
+        "KTV Straubenhardt",
+        "Siegerländer KV"
       ],
-      "richtig": 0,
-      "erklaerung": "Straubenhardt hat alle vier Wettkämpfe gewonnen und steht mit 8 Punkten an der Spitze."
+      "richtig": 2,
+      "erklaerung": "Straubenhardt hat alle vier Wettkämpfe gewonnen (8 Punkte)."
     },
     {
-      "rubrik": "DE",
-      "frage": "Wofür steht das „E“ in der E-Note?",
+      "rubrik": "Geschichte",
+      "frage": "Wer gründete 1811 in Berlin den ersten öffentlichen Turnplatz?",
       "antworten": [
-        "Für Ende",
-        "Für Ausführung",
-        "Für Element",
-        "Für Extra"
+        "Friedrich Ludwig Jahn",
+        "Pierre de Coubertin",
+        "Alfred Schwarzmann",
+        "Eberhard Gienger"
+      ],
+      "richtig": 0,
+      "erklaerung": "„Turnvater“ Jahn eröffnete den Turnplatz in der Hasenheide. Daher kommt das Wort Turnen."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Seit wann ist Gerätturnen bei den Olympischen Spielen der Neuzeit dabei?",
+      "antworten": [
+        "1896",
+        "1924",
+        "1952",
+        "1972"
+      ],
+      "richtig": 0,
+      "erklaerung": "Schon bei den ersten Spielen 1896 in Athen wurde geturnt."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Wie viele Sekunden musst du ein Halteteil in der DTB-Pflicht still halten?",
+      "antworten": [
+        "1 Sekunde",
+        "2 Sekunden",
+        "5 Sekunden",
+        "10 Sekunden"
       ],
       "richtig": 1,
-      "erklaerung": "Das E kommt vom englischen Wort „Execution“ – Ausführung. Die E-Note startet bei 10,0, und für jeden Fehler wird etwas abgezogen."
+      "erklaerung": "Halteteile („– 2 s –“) musst du 2 Sekunden halten. Zu kurz ist ein mittlerer Fehler."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Wie viel Abzug gibt es für einen mittleren Fehler?",
+      "antworten": [
+        "0,1",
+        "0,3",
+        "0,5",
+        "1,0"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klein 0,1 · mittel 0,3 · groß 0,5 · Sturz 1,0."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie lange darf die Bodenübung in der DTB-Pflicht AK 11/12 höchstens dauern?",
+      "antworten": [
+        "60 Sekunden",
+        "70 Sekunden",
+        "80 Sekunden",
+        "90 Sekunden"
+      ],
+      "richtig": 2,
+      "erklaerung": "Am Boden sind höchstens 80 Sekunden erlaubt."
     }
   ],
   "kampfrichter": {
-    "titel": "Das Bonusteil am Barren (AK 11/12)",
-    "situation": "Ein Turner zeigt das Bonusteil „Abschwingen, Felgumschwung in den Stütz“. Die Kampfrichter sehen drei Fehler: leicht gebeugte Knie (0,1), leicht gebeugte Arme (0,3) und eine nicht ganz erreichte Endlage (0,3). Zusammen sind das 0,7 Punkte Abzug.",
-    "frage": "Bekommt er trotzdem den vollen Wert für das Bonusteil?",
+    "titel": "Zu kurz gehalten",
+    "situation": "Ein Turner zeigt in der Pflichtübung ein Teil mit „– 2 s –“. Er hält die Position aber nur etwa eine Sekunde ruhig.",
+    "frage": "Welchen Abzug geben die Kampfrichter dafür?",
     "antworten": [
-      "Ja – es war kein großer Fehler und kein Sturz dabei",
-      "Nein – die Abzüge sind zusammen mehr als 0,5",
-      "Nur die Hälfte des Bonus"
+      "0,1 – kleiner Fehler",
+      "0,3 – mittlerer Fehler",
+      "0,5 – großer Fehler",
+      "Keinen Abzug"
     ],
-    "richtig": 0,
-    "erklaerung": "Laut DTB-FAQ (Juni 2026) kommt es nicht auf die Summe an, sondern auf die Art der Fehler. Nur ein einzelner großer Fehler (0,5) oder ein Sturz kostet den vollen Bonuswert. Mehrere kleine und mittlere Fehler sind erlaubt."
+    "richtig": 1,
+    "erklaerung": "Zu kurz gehaltene Halteteile sind ein mittlerer Fehler (0,3). Wird gar nicht gehalten, ist es ein großer Fehler (0,5)."
   },
   "lexikon": [
     {
@@ -1101,9 +1119,27 @@
     {
       "begriff": "Deutschland-Pokal",
       "erklaerung": "Ein Wettkampf, bei dem die Mannschaften der Bundesländer im Nachwuchs gegeneinander antreten – auch in der AK 11/12 mit der DTB-Pflicht."
+    },
+    {
+      "begriff": "Doppel-Mini-Trampolin",
+      "erklaerung": "Ein kleines Trampolin, das schräg gestellt ist. Man springt an, macht zwei Sprünge mit Saltos und landet auf einer Matte. Es gibt auch Teamwertungen."
+    },
+    {
+      "begriff": "Olympische Jugendspiele",
+      "erklaerung": "Olympia für Jugendliche zwischen etwa 15 und 18 Jahren. Sie finden alle vier Jahre statt, 2026 in Dakar im Senegal."
     }
   ],
   "quizGestellt": [
+    "Kevric Sportlerin des Monats",
+    "Gander Chiasso Dritter Männer",
+    "Jugendspiele Dakar Ort",
+    "Trampolin Frauen Doppel-Mini Platz",
+    "Tabellenführer Männer-Bundesliga",
+    "Turnvater Jahn 1811",
+    "Gerätturnen olympisch seit 1896",
+    "Halteteil 2 Sekunden",
+    "Abzug mittlerer Fehler",
+    "Boden höchstens 80 Sekunden",
     "Kevric WM-Silber Stufenbarren 2026",
     "Hashimoto vier Mehrkampftitel",
     "Anzahl Geräte Männer-Mehrkampf",
@@ -1116,6 +1152,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Halteteil zu kurz gehalten AK 11/12",
     "Bonusteil Barren AK 11/12 mehrere kleine Fehler"
   ]
 }
