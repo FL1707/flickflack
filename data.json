@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-07T08:07:45+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-07",
-  "gruss": "Guten Morgen! Heute ist Turn-Samstag: Die Olympischen Jugendspiele in Dakar starten mit den Jungs, in Zürich läuft am Nachmittag der Swiss Cup, und in der Bundesliga steigt das Spitzenspiel Siegerland gegen Straubenhardt. Gestern hat Timo Eder in Chiasso Bronze geholt.",
-  "quizId": "2026-11-07",
+  "aktualisiert": "2026-11-08T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-08",
+  "gruss": "Guten Morgen! Gestern war ein richtig großer Turn-Samstag: In Zürich hat das deutsche Team beim Swiss Cup nur drei Zehntel zum Sieg gefehlt, und in der Bundesliga hat der Meister seine erste Niederlage kassiert. Heute turnt Luna in Dakar bei den Olympischen Jugendspielen.",
+  "quizId": "2026-11-08",
   "zahlDesTages": {
-    "zahl": "206",
-    "text": "Länder schicken ihre jungen Sportlerinnen und Sportler zu den Olympischen Jugendspielen nach Dakar – insgesamt rund 2.700. Es sind die ersten Olympia-Spiele in Afrika."
+    "zahl": "0,3",
+    "text": "Nur drei Zehntelpunkte fehlten dem deutschen Team beim Swiss Cup zum Sieg: 52,750 zu 53,050 gegen Frankreich. So knapp kann Turnen sein!"
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,6 +75,61 @@
   },
   "news": [
     {
+      "id": "2026-11-08-swisscup",
+      "rubrik": "DE",
+      "motiv": "medaille",
+      "datum": "2026-11-07",
+      "titel": "Swiss Cup: Silber nach Krimi gegen Frankreich",
+      "teaser": "Das deutsche Team verpasst den Sieg in Zürich um nur drei Zehntelpunkte.",
+      "text": [
+        "Beim Swiss Cup in Zürich turnen immer gemischte Teams aus Turnerinnen und Turnern. Für Deutschland waren Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini dabei. In der Qualifikation wurden sie Dritte und zogen in die K.o.-Runde ein.",
+        "Dort schlugen sie im Halbfinale das Team aus den USA. Im Finale gegen Frankreich hieß es am Ende 53,050 zu 52,750 Punkte – nur drei Zehntel fehlten zum Turniersieg.",
+        "Karina und Timo blieben den ganzen Tag ohne Fehler. Trainer Anatol Ashukorov lobte, dass die Mannschaft unter großem Druck Charakter und mentale Stärke gezeigt hat."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-08-dakar",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-07",
+      "titel": "Dakar: Deutsche Jungs im Teamfinale",
+      "teaser": "Die Qualifikation lief gut: Platz fünf für das Team und ein Mehrkampffinalist.",
+      "text": [
+        "Bei den Olympischen Jugendspielen in Dakar haben sich die deutschen Turner im Teamfinale qualifiziert. Zénó Csuka, Kimi Köhnlein und Andrei Mihai wurden mit 149,596 Punkten Fünfte. Das Teamfinale ist am Montag.",
+        "Andrei Mihai kam mit 75,164 Punkten auf Rang neun in den Mehrkampf. Am Reck zeigte er einen Doppel-Doppel-Abgang und bekam mit 12,600 Punkten die beste Wertung des Trios. Zénó verpasste das Mehrkampffinale knapp und ist erster Ersatzturner.",
+        "Heute turnt Luna Zimmermann als einzige Turnerin und jüngste im Team D ihre Qualifikation. Alles läuft in der ARD-Mediathek."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-08-bundesliga",
+      "rubrik": "DTL",
+      "motiv": "ringe",
+      "datum": "2026-11-07",
+      "titel": "Bundesliga: Der Meister patzt",
+      "teaser": "Siegerland schlägt Straubenhardt – an der Spitze wird es eng.",
+      "text": [
+        "Der Rekordmeister KTV Straubenhardt hat in der 1. Bundesliga seine erste Saisonniederlage kassiert. In Kreuztal gewann die Siegerländer KV mit 34:29 Scorepunkten. Am Barren holten die Gastgeber alle acht Punkte.",
+        "Davon profitieren Cottbus und die TG Saar: Cottbus gewann 51:23 gegen Singen, die TG Saar 36:30 gegen Vinnhorst. Alle drei Teams haben jetzt acht Punkte wie Straubenhardt, das nur wegen der besseren Gerätpunkte vorn bleibt.",
+        "Koblenz siegte 43:34 gegen Schwäbisch Gmünd-Wetzgau und bleibt Vierter. Weiter geht es am 14. November."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-08-rsg-bundesliga",
+      "rubrik": "RSG",
+      "motiv": "rsg",
+      "datum": "2026-11-07",
+      "titel": "RSG: Berlin im kleinen DTL-Finale",
+      "teaser": "Team Berlin wird Zweiter in Staffel A hinter Leverkusen.",
+      "text": [
+        "In der 1. Bundesliga der Rhythmischen Sportgymnastik ging die Staffel A in Gütersloh zu Ende. Bayer 04 Leverkusen gewann mit 16 Rangpunkten. Team Berlin wurde Zweiter und darf im kleinen DTL-Finale um Platz drei turnen.",
+        "Leverkusen trifft im großen Finale am 28. November in Berlin auf den Sieger der Staffel B. Der KRS-Charlottenburger TSV steigt in die 2. Bundesliga ab."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
       "id": "2026-11-07-chiasso",
       "rubrik": "INT",
       "motiv": "medaille",
@@ -116,46 +171,6 @@
       "quelle": "dtb.de"
     },
     {
-      "id": "2026-11-07-dakar",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-07",
-      "titel": "Dakar: Heute turnen die Jungs",
-      "teaser": "Bei den Olympischen Jugendspielen beginnt das Gerätturnen mit der Qualifikation der Männer.",
-      "text": [
-        "Die Olympischen Jugendspiele finden zum ersten Mal in Afrika statt, in Dakar im Senegal. Rund 2.700 junge Sportlerinnen und Sportler aus 206 Ländern sind dabei. Für Deutschland turnen Luna Zimmermann, Zénó Csuka, Kimi Köhnlein und Andrei Mihai.",
-        "Heute ab 14:55 Uhr deutscher Zeit starten die Männer in die Qualifikation. Bundestrainer Robert Hirsch traut allen dreien den Einzug ins Teamfinale und ins Mehrkampffinale zu. Luna turnt am Sonntag.",
-        "Alle Wettkämpfe laufen live in der ARD-Mediathek. Das Teamfinale der Männer ist am Montag, die Mehrkampffinals sind am Dienstag."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-07-swisscup",
-      "rubrik": "DE",
-      "motiv": "team",
-      "datum": "2026-11-07",
-      "titel": "Swiss Cup in Zürich: Turnerin und Turner im Duo",
-      "teaser": "Heute um 16 Uhr beginnt der besondere Paar-Wettkampf im Hallenstadion.",
-      "text": [
-        "Beim Swiss Cup turnen eine Turnerin und ein Turner als Paar. Es ist ein Einladungswettkampf mit viel Show und Stimmung. Deutsche Teams waren dort schon oft erfolgreich.",
-        "Ab 2026 wird der Swiss Cup nur noch alle zwei Jahre ausgetragen. Wir berichten in der nächsten Ausgabe, wie es für die Deutschen gelaufen ist."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-07-bundesliga",
-      "rubrik": "DTL",
-      "motiv": "zahlen",
-      "datum": "2026-11-07",
-      "titel": "Bundesliga: Spitzenspiel in Kreuztal",
-      "teaser": "Der Tabellenführer aus Straubenhardt tritt heute beim Siegerländer KV an.",
-      "text": [
-        "Heute ist der 5. Wettkampftag der 1. Bundesliga Männer. Das Spitzenspiel steigt um 17 Uhr in Kreuztal: Der Siegerländer KV empfängt den KTV Straubenhardt, der bisher alle vier Wettkämpfe gewonnen hat.",
-        "Außerdem turnen der SC Cottbus gegen den StTV Singen, der KTV Koblenz gegen Schwäbisch Gmünd-Wetzgau und die TG Saar gegen den TuS Vinnhorst. Die Ergebnisse gibt es in der nächsten Ausgabe."
-      ],
-      "quelle": "deutsche-turnliga.de, dtb.de"
-    },
-    {
       "id": "2026-11-03-deutschlandpokal",
       "rubrik": "NW",
       "motiv": "team",
@@ -182,22 +197,70 @@
         "Und noch ein Termin für Berlin-Fans: Das DTL-Finale der Rhythmischen Sportgymnastik findet am 28. November in Berlin statt."
       ],
       "quelle": "btfb.de, deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-03-rsg-berlin",
-      "rubrik": "RSG",
-      "motiv": "rsg",
-      "datum": "2026-11-02",
-      "titel": "Team Berlin in der RSG-Bundesliga",
-      "teaser": "Der Berliner TSC und Fortuna Berlin turnen zum ersten Mal gemeinsam in der 1. Bundesliga.",
-      "text": [
-        "Zwei Vereine, eine Mannschaft: Der Berliner TSC und Fortuna Berlin treten als „Team Berlin“ in der 1. Bundesliga der Rhythmischen Sportgymnastik an. Am 7. und 8. November steht schon das zweite Wettkampfwochenende an.",
-        "Neu in dieser Saison: In der Bundesliga dürfen Gymnastinnen erst ab 13 Jahren starten. Für die Jüngeren gibt es deshalb einen neuen Nachwuchspokal vor dem DTL-Finale am 28. November in Berlin."
-      ],
-      "quelle": "deutsche-turnliga.de"
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "swisscup2026",
+      "name": "Swiss Cup Zürich",
+      "ort": "Zürich (Schweiz)",
+      "von": "2026-11-07",
+      "rubrik": "INT",
+      "sparte": "Turnen Männer",
+      "bericht": "Gemischte Vierer-Teams aus Turnerinnen und Turnern. Deutschland wurde Zweiter, im Finale fehlten drei Zehntel.",
+      "entscheidungen": [
+        {
+          "titel": "Finale Team",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Frankreich",
+              "land": "FRA",
+              "note": 53.05
+            },
+            {
+              "platz": 2,
+              "name": "Deutschland",
+              "land": "GER",
+              "note": 52.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yog2026-m",
+      "name": "Olympische Jugendspiele – Qualifikation Männer",
+      "ort": "Dakar (Senegal)",
+      "von": "2026-11-07",
+      "rubrik": "NW",
+      "sparte": "Turnen Männer",
+      "bericht": "Deutschland zog als Fünfter ins Teamfinale ein, Andrei Mihai als Neunter ins Mehrkampffinale.",
+      "entscheidungen": [
+        {
+          "titel": "Qualifikation Team",
+          "podium": [
+            {
+              "platz": 5,
+              "name": "Deutschland",
+              "land": "GER",
+              "note": 149.596
+            }
+          ]
+        },
+        {
+          "titel": "Qualifikation Mehrkampf",
+          "podium": [
+            {
+              "platz": 9,
+              "name": "Andrei Mihai",
+              "land": "GER",
+              "note": 75.164
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "gander2026",
       "name": "Memorial Arthur Gander",
@@ -257,352 +320,6 @@
               "name": "Milan Hosseini",
               "land": "GER",
               "note": 38.35
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wm2026-m",
-      "name": "Turn-WM Rotterdam – Männer",
-      "ort": "Rotterdam (Niederlande)",
-      "von": "2026-10-17",
-      "bis": "2026-10-25",
-      "rubrik": "INT",
-      "sparte": "Turnen Männer",
-      "bericht": "Japan wurde Mannschafts-Weltmeister, Daiki Hashimoto gewann zum vierten Mal in Folge den Mehrkampf. Für die Deutschen reichte es nicht für ein Finale-Podest.",
-      "entscheidungen": [
-        {
-          "titel": "Mehrkampf",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Daiki Hashimoto",
-              "land": "JPN",
-              "note": 85.998
-            },
-            {
-              "platz": 2,
-              "name": "Yang Haonan",
-              "land": "CHN",
-              "note": 84.199
-            },
-            {
-              "platz": 3,
-              "name": "Joe Fraser",
-              "land": "GBR",
-              "note": 83.531
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 14,
-              "name": "Timo Eder",
-              "land": "GER",
-              "note": 79.632
-            }
-          ]
-        },
-        {
-          "titel": "Mannschaft",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Japan",
-              "land": "JPN",
-              "note": 251.928
-            },
-            {
-              "platz": 2,
-              "name": "Neutrales Team",
-              "land": "neutral"
-            },
-            {
-              "platz": 3,
-              "name": "China",
-              "land": "CHN"
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 15,
-              "name": "Deutschland (Qualifikation)",
-              "land": "GER"
-            }
-          ]
-        },
-        {
-          "titel": "Boden",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Frederick Richard",
-              "land": "USA",
-              "note": 14.633
-            },
-            {
-              "platz": 2,
-              "name": "Jake Jarman",
-              "land": "GBR",
-              "note": 14.6
-            },
-            {
-              "platz": 3,
-              "name": "Artem Dolgopyat",
-              "land": "ISR",
-              "note": 14.466
-            }
-          ]
-        },
-        {
-          "titel": "Pauschenpferd",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Hamlet Manukyan",
-              "land": "ARM",
-              "note": 15.3,
-              "d": 5.9,
-              "e": 9.4
-            },
-            {
-              "platz": 2,
-              "name": "Gabriele Targhetta",
-              "land": "ITA",
-              "note": 15.233,
-              "d": 5.9,
-              "e": 9.333
-            },
-            {
-              "platz": 3,
-              "name": "Mamikon Khachatryan",
-              "land": "ARM",
-              "note": 15.0
-            }
-          ]
-        },
-        {
-          "titel": "Ringe",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Lan Xingyu",
-              "land": "CHN"
-            },
-            {
-              "platz": 2,
-              "name": "Eleftherios Petrounias",
-              "land": "GRE"
-            },
-            {
-              "platz": 3,
-              "name": "Artur Avetisyan",
-              "land": "ARM"
-            }
-          ]
-        },
-        {
-          "titel": "Sprung",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Artur Davtyan",
-              "land": "ARM"
-            },
-            {
-              "platz": 2,
-              "name": "Jake Jarman",
-              "land": "GBR"
-            },
-            {
-              "platz": 3,
-              "name": "Sebastian Sponevik",
-              "land": "NOR"
-            }
-          ]
-        },
-        {
-          "titel": "Barren",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Zou Jingyuan",
-              "land": "CHN"
-            },
-            {
-              "platz": 2,
-              "name": "Illia Kovtun",
-              "land": "CRO"
-            },
-            {
-              "platz": 3,
-              "name": "Daniel Marinov",
-              "land": "neutral"
-            }
-          ]
-        },
-        {
-          "titel": "Reck",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Tang Chia-hung",
-              "land": "TPE"
-            },
-            {
-              "platz": 2,
-              "name": "Shinnosuke Oka",
-              "land": "JPN"
-            },
-            {
-              "platz": 3,
-              "name": "Sergei Naidin",
-              "land": "neutral"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wm2026-w",
-      "name": "Turn-WM Rotterdam – Frauen",
-      "ort": "Rotterdam (Niederlande)",
-      "von": "2026-10-17",
-      "bis": "2026-10-25",
-      "rubrik": "INT",
-      "sparte": "Turnen Frauen",
-      "bericht": "China beendete die Siegesserie der USA im Team. Helen Kevric holte Silber am Stufenbarren – die einzige Medaille für Deutschland.",
-      "entscheidungen": [
-        {
-          "titel": "Mehrkampf",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Skye Blakely",
-              "land": "USA",
-              "note": 55.733
-            },
-            {
-              "platz": 2,
-              "name": "Ljudmila Roschtschina",
-              "land": "neutral",
-              "note": 55.199
-            },
-            {
-              "platz": 3,
-              "name": "Ke Qinqin",
-              "land": "CHN",
-              "note": 55.032
-            }
-          ]
-        },
-        {
-          "titel": "Mannschaft",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "China",
-              "land": "CHN"
-            },
-            {
-              "platz": 2,
-              "name": "USA",
-              "land": "USA"
-            },
-            {
-              "platz": 3,
-              "name": "Japan",
-              "land": "JPN"
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 10,
-              "name": "Deutschland (Qualifikation)",
-              "land": "GER"
-            }
-          ]
-        },
-        {
-          "titel": "Sprung",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Rebeca Andrade",
-              "land": "BRA"
-            },
-            {
-              "platz": 2,
-              "name": "Claire Pease",
-              "land": "USA"
-            },
-            {
-              "platz": 3,
-              "name": "Skye Blakely",
-              "land": "USA"
-            }
-          ]
-        },
-        {
-          "titel": "Stufenbarren",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Kaylia Nemour",
-              "land": "ALG",
-              "note": 15.333
-            },
-            {
-              "platz": 2,
-              "name": "Helen Kevric",
-              "land": "GER",
-              "note": 14.833
-            },
-            {
-              "platz": 3,
-              "name": "Skye Blakely",
-              "land": "USA",
-              "note": 14.6
-            }
-          ]
-        },
-        {
-          "titel": "Schwebebalken",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Kaylia Nemour",
-              "land": "ALG"
-            },
-            {
-              "platz": 2,
-              "name": "Zhang Qingying",
-              "land": "CHN"
-            },
-            {
-              "platz": 3,
-              "name": "Flávia Saraiva",
-              "land": "BRA"
-            }
-          ]
-        },
-        {
-          "titel": "Boden",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Claire Pease",
-              "land": "USA"
-            },
-            {
-              "platz": 2,
-              "name": "Reese Esponda",
-              "land": "USA"
-            },
-            {
-              "platz": 3,
-              "name": "Maïana Prat",
-              "land": "FRA"
             }
           ]
         }
@@ -670,85 +387,106 @@
   ],
   "liga": {
     "titel": "Deutsche Turnliga 2026",
-    "info": "Tabellen der 1. Bundesliga – Stand 7. November (heute läuft der 5. Wettkampftag der Männer)",
+    "info": "Stand 7. November – nach dem 5. Wettkampftag der Männer",
     "duelle": [
       {
-        "liga": "2. BL Nord Männer",
-        "datum": "2026-10-31",
-        "ort": "Sulzbach",
-        "heim": "TSG Sulzbach",
-        "gast": "MTV Ludwigsburg",
-        "heimScore": 27,
-        "gastScore": 64,
-        "heimPkt": 0,
-        "gastPkt": 12,
-        "info": "Topscorer: Timo Eder (Ludwigsburg) mit 28 Scorepunkten"
+        "liga": "1. BL Männer",
+        "datum": "2026-11-07",
+        "ort": "Kreuztal",
+        "heim": "Siegerländer KV",
+        "gast": "KTV Straubenhardt",
+        "heimScore": 34,
+        "gastScore": 29,
+        "heimPkt": 7,
+        "gastPkt": 5,
+        "info": "Überraschung: erste Niederlage des Meisters"
       },
       {
-        "liga": "2. BL Nord Männer",
-        "datum": "2026-10-31",
-        "ort": "Karlsruhe",
-        "heim": "TSV Grötzingen-Karlsruhe",
-        "gast": "TSG Grünstadt",
-        "heimScore": 16,
-        "gastScore": 62,
-        "heimPkt": 2,
-        "gastPkt": 10,
-        "info": "Grünstadt gewann am Pauschenpferd alle Duelle (18:0)"
+        "liga": "1. BL Männer",
+        "datum": "2026-11-07",
+        "ort": "Cottbus",
+        "heim": "SC Cottbus",
+        "gast": "StTV Singen",
+        "heimScore": 51,
+        "gastScore": 23,
+        "heimPkt": 11,
+        "gastPkt": 1
+      },
+      {
+        "liga": "1. BL Männer",
+        "datum": "2026-11-07",
+        "ort": "Dillingen",
+        "heim": "TG Saar",
+        "gast": "TuS Vinnhorst",
+        "heimScore": 36,
+        "gastScore": 30,
+        "heimPkt": 6,
+        "gastPkt": 6
+      },
+      {
+        "liga": "1. BL Männer",
+        "datum": "2026-11-07",
+        "ort": "Koblenz",
+        "heim": "KTV Koblenz",
+        "gast": "TV Schwäbisch Gmünd-Wetzgau",
+        "heimScore": 43,
+        "gastScore": 34,
+        "heimPkt": 7,
+        "gastPkt": 5
       }
     ],
     "tabellen": [
       {
         "titel": "1. Bundesliga Männer",
-        "stand": "Nach 4 von 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte.",
+        "stand": "Nach 5 von 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte.",
         "zeilen": [
           {
             "platz": 1,
             "team": "KTV Straubenhardt",
             "punkte": 8,
-            "score": "41:7"
+            "score": "46:14"
           },
           {
             "platz": 2,
             "team": "SC Cottbus",
-            "punkte": 6,
-            "score": "29:19"
+            "punkte": 8,
+            "score": "40:20"
           },
           {
             "platz": 3,
             "team": "TG Saar",
-            "punkte": 6,
-            "score": "28:20"
+            "punkte": 8,
+            "score": "34:26"
           },
           {
             "platz": 4,
             "team": "KTV Koblenz",
-            "punkte": 4,
-            "score": "24:24"
+            "punkte": 6,
+            "score": "31:29"
           },
           {
             "platz": 5,
-            "team": "TV Schwäbisch Gmünd-Wetzgau",
+            "team": "Siegerländer KV",
             "punkte": 4,
-            "score": "13:35"
+            "score": "39:21"
           },
           {
             "platz": 6,
-            "team": "Siegerländer KV",
-            "punkte": 2,
-            "score": "32:16"
+            "team": "TV Schwäbisch Gmünd-Wetzgau",
+            "punkte": 4,
+            "score": "18:42"
           },
           {
             "platz": 7,
             "team": "TuS Vinnhorst",
             "punkte": 2,
-            "score": "12:36"
+            "score": "18:42"
           },
           {
             "platz": 8,
             "team": "StTV Singen",
             "punkte": 0,
-            "score": "13:35"
+            "score": "14:46"
           }
         ]
       },
@@ -810,46 +548,13 @@
   },
   "termine": [
     {
-      "name": "Olympische Jugendspiele – Turnen",
+      "name": "Olympische Jugendspiele – Turnen (Frauen-Quali, Teamfinale, Mehrkampf)",
       "ort": "Dakar (Senegal)",
-      "von": "2026-11-07",
-      "bis": "2026-11-13",
+      "von": "2026-11-08",
+      "bis": "2026-11-10",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "Mit Luna Zimmermann, Zénó Csuka, Kimi Köhnlein und Andrei Mihai. Männer-Qualifikation 7.11., Frauen 8.11., Teamfinale Männer 9.11., Mehrkampffinals 10.11. Live in der ARD-Mediathek."
-    },
-    {
-      "name": "Swiss Cup",
-      "ort": "Zürich, Hallenstadion",
-      "von": "2026-11-07",
-      "ebene": "international",
-      "sparte": "Turnen",
-      "info": "Turnerin und Turner treten als Paar an. Start 16 Uhr."
-    },
-    {
-      "name": "1. Bundesliga Männer – 5. Wettkampftag",
-      "ort": "Cottbus, Kreuztal, Koblenz, Dillingen",
-      "von": "2026-11-07",
-      "ebene": "national",
-      "sparte": "Turnen",
-      "info": "Spitzenspiel: Siegerländer KV gegen KTV Straubenhardt (17 Uhr, Kreuztal). Außerdem SC Cottbus – StTV Singen, KTV Koblenz – TV Schwäbisch Gmünd-Wetzgau, TG Saar – TuS Vinnhorst."
-    },
-    {
-      "name": "Bundespokal",
-      "ort": "Chemnitz",
-      "von": "2026-11-07",
-      "bis": "2026-11-08",
-      "ebene": "national",
-      "sparte": "Turnen"
-    },
-    {
-      "name": "RSG-Bundesliga – 2. Wettkampfwochenende",
-      "ort": "Gütersloh und Saarbrücken",
-      "von": "2026-11-07",
-      "bis": "2026-11-08",
-      "ebene": "national",
-      "sparte": "RSG",
-      "info": "Mit dem neuen Team Berlin."
+      "info": "laut DTB: Frauen-Quali Sonntag, Teamfinale Männer Montag, Mehrkampffinals Dienstag"
     },
     {
       "name": "Berliner Adventspokal Gerätturnen männlich",
@@ -935,137 +640,137 @@
   "quiz": [
     {
       "rubrik": "DE",
-      "frage": "Wer wurde beim Memorial Arthur Gander in Chiasso Dritter bei den Männern?",
+      "frage": "Wie viele Zehntelpunkte fehlten dem deutschen Team beim Swiss Cup zum Sieg gegen Frankreich?",
       "antworten": [
-        "Milan Hosseini",
-        "Timo Eder",
-        "Daiki Hashimoto",
-        "Lars Garmann"
-      ],
-      "richtig": 1,
-      "erklaerung": "Timo Eder turnte mit 54,600 Punkten aufs Podium."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "Welche Auszeichnung hat Helen Kevric für Oktober 2026 bekommen?",
-      "antworten": [
-        "Sportlerin des Monats",
-        "Weltsportlerin des Jahres",
-        "Goldenes Band",
-        "Turnerin des Jahres"
+        "Drei",
+        "Eins",
+        "Fünf",
+        "Zehn"
       ],
       "richtig": 0,
-      "erklaerung": "Deutschlands beste Athleten wählten sie mit 44,1 Prozent auf Platz eins."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Wo finden die Olympischen Jugendspiele 2026 statt?",
-      "antworten": [
-        "Dakar im Senegal",
-        "Paris",
-        "Rotterdam",
-        "Nanjing"
-      ],
-      "richtig": 0,
-      "erklaerung": "Es sind die ersten Olympia-Spiele in Afrika überhaupt."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Auf welchem Platz landete das deutsche Frauen-Team im Doppel-Mini-Teamfinale der Trampolin-WM?",
-      "antworten": [
-        "Platz 1",
-        "Platz 3",
-        "Platz 5",
-        "Platz 8"
-      ],
-      "richtig": 2,
-      "erklaerung": "Deutschland wurde Fünfte, Gold ging an die USA."
+      "erklaerung": "Frankreich gewann 53,050 zu 52,750 – also nur drei Zehntel."
     },
     {
       "rubrik": "DTL",
-      "frage": "Welches Team ist nach vier Wettkampftagen Tabellenführer der 1. Bundesliga Männer?",
+      "frage": "Wer hat in der Männer-Bundesliga den Meister Straubenhardt geschlagen?",
       "antworten": [
         "SC Cottbus",
         "TG Saar",
-        "KTV Straubenhardt",
-        "Siegerländer KV"
+        "Siegerländer KV",
+        "KTV Koblenz"
       ],
       "richtig": 2,
-      "erklaerung": "Straubenhardt hat alle vier Wettkämpfe gewonnen (8 Punkte)."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Wer gründete 1811 in Berlin den ersten öffentlichen Turnplatz?",
-      "antworten": [
-        "Friedrich Ludwig Jahn",
-        "Pierre de Coubertin",
-        "Alfred Schwarzmann",
-        "Eberhard Gienger"
-      ],
-      "richtig": 0,
-      "erklaerung": "„Turnvater“ Jahn eröffnete den Turnplatz in der Hasenheide. Daher kommt das Wort Turnen."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Seit wann ist Gerätturnen bei den Olympischen Spielen der Neuzeit dabei?",
-      "antworten": [
-        "1896",
-        "1924",
-        "1952",
-        "1972"
-      ],
-      "richtig": 0,
-      "erklaerung": "Schon bei den ersten Spielen 1896 in Athen wurde geturnt."
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie viele Sekunden musst du ein Halteteil in der DTB-Pflicht still halten?",
-      "antworten": [
-        "1 Sekunde",
-        "2 Sekunden",
-        "5 Sekunden",
-        "10 Sekunden"
-      ],
-      "richtig": 1,
-      "erklaerung": "Halteteile („– 2 s –“) musst du 2 Sekunden halten. Zu kurz ist ein mittlerer Fehler."
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie viel Abzug gibt es für einen mittleren Fehler?",
-      "antworten": [
-        "0,1",
-        "0,3",
-        "0,5",
-        "1,0"
-      ],
-      "richtig": 1,
-      "erklaerung": "Klein 0,1 · mittel 0,3 · groß 0,5 · Sturz 1,0."
+      "erklaerung": "Die Siegerländer KV gewann in Kreuztal mit 34:29."
     },
     {
       "rubrik": "NW",
-      "frage": "Wie lange darf die Bodenübung in der DTB-Pflicht AK 11/12 höchstens dauern?",
+      "frage": "Welchen Platz belegte das deutsche Männer-Team in der Quali der Olympischen Jugendspiele?",
       "antworten": [
-        "60 Sekunden",
-        "70 Sekunden",
-        "80 Sekunden",
-        "90 Sekunden"
+        "Platz eins",
+        "Platz fünf",
+        "Platz zehn",
+        "Platz zwei"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mit 149,596 Punkten wurde Deutschland Fünfter und zog ins Teamfinale ein."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Wer gewann die Staffel A der RSG-Bundesliga in Gütersloh?",
+      "antworten": [
+        "Team Berlin",
+        "Schwerte",
+        "Bayer 04 Leverkusen",
+        "Bremen 1860"
       ],
       "richtig": 2,
-      "erklaerung": "Am Boden sind höchstens 80 Sekunden erlaubt."
+      "erklaerung": "Leverkusen holte die vollen 16 Rangpunkte, Berlin wurde Zweiter."
+    },
+    {
+      "rubrik": "BER",
+      "frage": "Wo findet das große DTL-Finale am 28. November statt?",
+      "antworten": [
+        "Berlin",
+        "Hamburg",
+        "München",
+        "Köln"
+      ],
+      "richtig": 0,
+      "erklaerung": "Es steigt im Horst-Korber-Sportzentrum in Berlin."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Wer turnte bei Olympia 1976 in Montreal die erste glatte 10,0?",
+      "antworten": [
+        "Olga Korbut",
+        "Nadia Comăneci",
+        "Simone Biles",
+        "Larissa Latynina"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nadia Comăneci aus Rumänien bekam die erste 10,0 – die Anzeigetafel zeigte 1,00, weil sie nicht mehr Stellen hatte."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Welcher Deutsche gewann 2016 in Rio Olympia-Gold am Reck?",
+      "antworten": [
+        "Marcel Nguyen",
+        "Philipp Boy",
+        "Fabian Hambüchen",
+        "Andreas Toba"
+      ],
+      "richtig": 2,
+      "erklaerung": "Fabian Hambüchen wurde 2016 in Rio Olympiasieger am Reck."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Wie viele Geräte gibt es im Mehrkampf der Frauen?",
+      "antworten": [
+        "Drei",
+        "Vier",
+        "Fünf",
+        "Sechs"
+      ],
+      "richtig": 1,
+      "erklaerung": "Sprung, Stufenbarren, Schwebebalken und Boden."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Was bedeutet das Wort Mehrkampf?",
+      "antworten": [
+        "Nur ein Gerät",
+        "Alle Geräte zählen zusammen",
+        "Ein Teamwettkampf",
+        "Ein Kampf gegen den Trainer"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Mehrkampf werden die Punkte von allen Geräten addiert."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie viel Bonus gibt es in der DTB-Pflicht AK 11/12 für einen sicheren Stand nach Abgang oder Sprung?",
+      "antworten": [
+        "0,05",
+        "0,10",
+        "0,20",
+        "0,50"
+      ],
+      "richtig": 2,
+      "erklaerung": "Füße geschlossen und aufrechter Oberkörper bringen 0,20 Punkte Bonus."
     }
   ],
   "kampfrichter": {
-    "titel": "Zu kurz gehalten",
-    "situation": "Ein Turner zeigt in der Pflichtübung ein Teil mit „– 2 s –“. Er hält die Position aber nur etwa eine Sekunde ruhig.",
-    "frage": "Welchen Abzug geben die Kampfrichter dafür?",
+    "titel": "Zwischenschwung am Reck",
+    "situation": "Ein Turner schwingt in der Pflichtübung am Reck einmal ohne Element zusätzlich hin und her, bevor er weiterturnt.",
+    "frage": "Welchen Abzug gibt es dafür laut DTB-Pflicht AK 11/12?",
     "antworten": [
-      "0,1 – kleiner Fehler",
-      "0,3 – mittlerer Fehler",
-      "0,5 – großer Fehler",
-      "Keinen Abzug"
+      "0,1",
+      "0,3",
+      "0,5",
+      "1,0"
     ],
-    "richtig": 1,
-    "erklaerung": "Zu kurz gehaltene Halteteile sind ein mittlerer Fehler (0,3). Wird gar nicht gehalten, ist es ein großer Fehler (0,5)."
+    "richtig": 2,
+    "erklaerung": "Ein Zwischenschwung kostet 0,5 Punkte. Zum Vergleich: Gerät verlassen oder aufs Gerät fallen kostet 1,0."
   },
   "lexikon": [
     {
@@ -1130,6 +835,16 @@
     }
   ],
   "quizGestellt": [
+    "Swiss Cup Finale drei Zehntel",
+    "Siegerland schlägt Straubenhardt",
+    "Dakar Quali Männer Platz fünf",
+    "RSG Staffel A Leverkusen",
+    "DTL-Finale Ort Berlin",
+    "Comaneci erste 10 1976",
+    "Hambüchen Reck Gold 2016",
+    "Anzahl Geräte Frauen-Mehrkampf",
+    "Mehrkampf Bedeutung",
+    "Standbonus 0,20 AK 11/12",
     "Kevric Sportlerin des Monats",
     "Gander Chiasso Dritter Männer",
     "Jugendspiele Dakar Ort",
@@ -1152,6 +867,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Zwischenschwung Abzug 0,5 AK 11/12",
     "Halteteil zu kurz gehalten AK 11/12",
     "Bonusteil Barren AK 11/12 mehrere kleine Fehler"
   ]
