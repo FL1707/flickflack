@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-08T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-08",
-  "gruss": "Guten Morgen! Gestern war ein richtig großer Turn-Samstag: In Zürich hat das deutsche Team beim Swiss Cup nur drei Zehntel zum Sieg gefehlt, und in der Bundesliga hat der Meister seine erste Niederlage kassiert. Heute turnt Luna in Dakar bei den Olympischen Jugendspielen.",
-  "quizId": "2026-11-08",
+  "aktualisiert": "2026-11-09T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-09",
+  "gruss": "Guten Morgen! Heute turnen die deutschen Jungs in Dakar um eine Medaille: Um 11:25 Uhr beginnt das Teamfinale der Olympischen Jugendspiele. Gestern gab es außerdem den Tag des Kinderturnens mit rund 74.000 Kindern.",
+  "quizId": "2026-11-09",
   "zahlDesTages": {
-    "zahl": "0,3",
-    "text": "Nur drei Zehntelpunkte fehlten dem deutschen Team beim Swiss Cup zum Sieg: 52,750 zu 53,050 gegen Frankreich. So knapp kann Turnen sein!"
+    "zahl": "74.000",
+    "text": "So viele Kinder machten am Wochenende beim bundesweiten Tag des Kinderturnens mit – bei über 725 Vereinen. Das Motto: „Tierische Turn-Weltreise“."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -74,6 +74,48 @@
     }
   },
   "news": [
+    {
+      "id": "2026-11-09-luna-dakar",
+      "rubrik": "NW",
+      "motiv": "balken",
+      "datum": "2026-11-08",
+      "titel": "Dakar: Luna sammelt Erfahrung",
+      "teaser": "Die jüngste Athletin im Team D turnt ihre Quali bei den Olympischen Jugendspielen.",
+      "text": [
+        "Luna Zimmermann von der KTG Heidelberg war in Dakar die einzige deutsche Turnerin. In der Qualifikation wurde sie 28. mit 46,265 Punkten.",
+        "Am Sprung zeigte sie einen Yurchenko mit Schraube und bekam 12,933 Punkte. Am Boden endete ihre Übung mit einem Doppelsalto (12,566). Am Stufenbarren und am Balken gab es je einen Sturz.",
+        "Ihre Trainerin Narine Kirakosyan sagte: „Für Luna war es auf jeden Fall eine wertvolle Erfahrung.“ Mit ihrer Quali-Platzierung steht sie nicht im Mehrkampffinale."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-09-kinderturnen",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-08",
+      "titel": "Tag des Kinderturnens: Tierische Weltreise",
+      "teaser": "Rund 74.000 Kinder turnten am Wochenende bei über 725 Vereinen mit.",
+      "text": [
+        "Beim Tag des Kinderturnens machten Kinder in ganz Deutschland mit. Der Schwerpunkt war in Troisdorf, wo etwa 500 Kinder Stars des Turn-Teams trafen, zum Beispiel Alexander Kunz, Nils Dunkel, Viktoria Steinfeld und Margarita Kolosov.",
+        "Das Motto hieß „Tierische Turn-Weltreise“. Die Kinder machten Purzelbäume wie Pandas, rutschten auf dem Bauch wie Pinguine und sprangen Seil wie Kängurus. Es gab auch einen Parcours mit Radschlag und Balance-Challenge – und am Ende eine Urkunde.",
+        "Botschafter Andy Toba sagte, beim Kinderturnen müsse niemand vorher etwas können: Man solle einfach loslegen."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-09-braig",
+      "rubrik": "TRA",
+      "motiv": "trampolin",
+      "datum": "2026-11-07",
+      "titel": "Trampolin-WM: Braig wird 14. im Doppel-Mini",
+      "teaser": "Moritz Braig verbessert sich im Halbfinale um fünf Plätze.",
+      "text": [
+        "Bei der Trampolin-WM in Nanjing (China) turnte Moritz Braig von den Munich Airriders im Doppel-Mini-Trampolin auf Platz 14. Er bekam 27,600 Punkte.",
+        "Im Halbfinale kletterte er gegen die Quali um fünf Plätze nach oben. Beide Sprünge waren sauber, nur für einen kleinen Fehler beim Stand gab es 0,800 Punkte Abzug.",
+        "Trainer Olaf Schmidt sagte, Moritz habe im Vergleich zum letzten Jahr einen großen Schritt nach vorn gemacht. Ins Finale kam er diesmal nicht."
+      ],
+      "quelle": "dtb.de"
+    },
     {
       "id": "2026-11-08-swisscup",
       "rubrik": "DE",
@@ -200,6 +242,28 @@
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "yog2026-f",
+      "name": "Olympische Jugendspiele – Qualifikation Frauen",
+      "ort": "Dakar (Senegal)",
+      "von": "2026-11-08",
+      "rubrik": "NW",
+      "sparte": "Turnen Frauen",
+      "bericht": "Luna Zimmermann war die einzige deutsche Turnerin und wurde in der Qualifikation 28.",
+      "entscheidungen": [
+        {
+          "titel": "Qualifikation Mehrkampf",
+          "podium": [
+            {
+              "platz": 28,
+              "name": "Luna Zimmermann",
+              "land": "GER",
+              "note": 46.265
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "swisscup2026",
       "name": "Swiss Cup Zürich",
@@ -548,13 +612,13 @@
   },
   "termine": [
     {
-      "name": "Olympische Jugendspiele – Turnen (Frauen-Quali, Teamfinale, Mehrkampf)",
+      "name": "Olympische Jugendspiele – Turnen (Teamfinale, Mehrkampf, Mixed-Team)",
       "ort": "Dakar (Senegal)",
-      "von": "2026-11-08",
-      "bis": "2026-11-10",
+      "von": "2026-11-09",
+      "bis": "2026-11-11",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "laut DTB: Frauen-Quali Sonntag, Teamfinale Männer Montag, Mehrkampffinals Dienstag"
+      "info": "laut DTB: Teamfinale Männer Montag 11:25 Uhr, Mehrkampffinale Männer und Frauen Dienstag, Mixed-Team-Finale Mittwoch (deutsche Zeit). Live in der ARD Mediathek."
     },
     {
       "name": "Berliner Adventspokal Gerätturnen männlich",
@@ -639,138 +703,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "DE",
-      "frage": "Wie viele Zehntelpunkte fehlten dem deutschen Team beim Swiss Cup zum Sieg gegen Frankreich?",
+      "rubrik": "NW",
+      "frage": "Wie hieß das Motto beim Tag des Kinderturnens?",
       "antworten": [
-        "Drei",
-        "Eins",
-        "Fünf",
-        "Zehn"
+        "Tierische Turn-Weltreise",
+        "Turnen im Zoo",
+        "Rund um die Welt",
+        "Salto-Safari"
       ],
       "richtig": 0,
-      "erklaerung": "Frankreich gewann 53,050 zu 52,750 – also nur drei Zehntel."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wer hat in der Männer-Bundesliga den Meister Straubenhardt geschlagen?",
-      "antworten": [
-        "SC Cottbus",
-        "TG Saar",
-        "Siegerländer KV",
-        "KTV Koblenz"
-      ],
-      "richtig": 2,
-      "erklaerung": "Die Siegerländer KV gewann in Kreuztal mit 34:29."
+      "erklaerung": "Die Kinder machten Tierbewegungen wie Pandas, Pinguine und Kängurus nach."
     },
     {
       "rubrik": "NW",
-      "frage": "Welchen Platz belegte das deutsche Männer-Team in der Quali der Olympischen Jugendspiele?",
+      "frage": "Wie viele Kinder machten ungefähr beim Tag des Kinderturnens mit?",
       "antworten": [
-        "Platz eins",
-        "Platz fünf",
-        "Platz zehn",
-        "Platz zwei"
-      ],
-      "richtig": 1,
-      "erklaerung": "Mit 149,596 Punkten wurde Deutschland Fünfter und zog ins Teamfinale ein."
-    },
-    {
-      "rubrik": "RSG",
-      "frage": "Wer gewann die Staffel A der RSG-Bundesliga in Gütersloh?",
-      "antworten": [
-        "Team Berlin",
-        "Schwerte",
-        "Bayer 04 Leverkusen",
-        "Bremen 1860"
+        "740",
+        "7.400",
+        "74.000",
+        "740.000"
       ],
       "richtig": 2,
-      "erklaerung": "Leverkusen holte die vollen 16 Rangpunkte, Berlin wurde Zweiter."
+      "erklaerung": "Rund 74.000 Kinder turnten bei über 725 Vereinen mit."
     },
     {
-      "rubrik": "BER",
-      "frage": "Wo findet das große DTL-Finale am 28. November statt?",
+      "rubrik": "TRA",
+      "frage": "Auf welchem Platz landete Moritz Braig im Doppel-Mini bei der Trampolin-WM?",
       "antworten": [
-        "Berlin",
-        "Hamburg",
-        "München",
-        "Köln"
+        "Platz 4",
+        "Platz 8",
+        "Platz 14",
+        "Platz 24"
+      ],
+      "richtig": 2,
+      "erklaerung": "Er wurde 14. mit 27,600 Punkten und verbesserte sich im Halbfinale um fünf Plätze."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie viele deutsche Turnerinnen waren bei den Olympischen Jugendspielen in Dakar am Start?",
+      "antworten": [
+        "Eine",
+        "Zwei",
+        "Drei",
+        "Vier"
       ],
       "richtig": 0,
-      "erklaerung": "Es steigt im Horst-Korber-Sportzentrum in Berlin."
+      "erklaerung": "Luna Zimmermann war die einzige Turnerin und die jüngste Athletin im Team D."
     },
     {
-      "rubrik": "Geschichte",
-      "frage": "Wer turnte bei Olympia 1976 in Montreal die erste glatte 10,0?",
+      "rubrik": "NW",
+      "frage": "Wann turnen die deutschen Junioren in Dakar ihr Teamfinale?",
       "antworten": [
-        "Olga Korbut",
-        "Nadia Comăneci",
-        "Simone Biles",
-        "Larissa Latynina"
+        "Samstag",
+        "Sonntag",
+        "Montag",
+        "Mittwoch"
       ],
-      "richtig": 1,
-      "erklaerung": "Nadia Comăneci aus Rumänien bekam die erste 10,0 – die Anzeigetafel zeigte 1,00, weil sie nicht mehr Stellen hatte."
+      "richtig": 2,
+      "erklaerung": "Das Teamfinale der Männer ist am Montag, dem 9. November, ab 11:25 Uhr deutscher Zeit."
     },
     {
-      "rubrik": "Geschichte",
-      "frage": "Welcher Deutsche gewann 2016 in Rio Olympia-Gold am Reck?",
+      "rubrik": "INT",
+      "frage": "Wer gewann 2012 und 2016 Olympia-Gold im Mehrkampf der Männer?",
       "antworten": [
-        "Marcel Nguyen",
-        "Philipp Boy",
+        "Kohei Uchimura",
         "Fabian Hambüchen",
-        "Andreas Toba"
+        "Sam Mikulak",
+        "Max Whitlock"
       ],
-      "richtig": 2,
-      "erklaerung": "Fabian Hambüchen wurde 2016 in Rio Olympiasieger am Reck."
+      "richtig": 0,
+      "erklaerung": "Der Japaner Kohei Uchimura war in London 2012 und Rio 2016 der beste Mehrkämpfer."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wer wurde 2024 in Paris Olympiasieger im Mehrkampf der Männer?",
+      "antworten": [
+        "Shinnosuke Oka",
+        "Zhang Boheng",
+        "Daiki Hashimoto",
+        "Ilia Kovtun"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Japaner Shinnosuke Oka gewann Gold vor Xiao Ruoteng und Zhang Boheng."
     },
     {
       "rubrik": "Regeln",
-      "frage": "Wie viele Geräte gibt es im Mehrkampf der Frauen?",
+      "frage": "An welchem dieser Geräte turnen nur Männer?",
       "antworten": [
-        "Drei",
-        "Vier",
-        "Fünf",
-        "Sechs"
+        "Ringe",
+        "Schwebebalken",
+        "Stufenbarren",
+        "Boden"
       ],
-      "richtig": 1,
-      "erklaerung": "Sprung, Stufenbarren, Schwebebalken und Boden."
+      "richtig": 0,
+      "erklaerung": "Ringe, Pauschenpferd, Reck und Barren turnen die Männer – Balken und Stufenbarren nur die Frauen."
     },
     {
       "rubrik": "Regeln",
-      "frage": "Was bedeutet das Wort Mehrkampf?",
+      "frage": "Wie viele Punkte Ausgangswert hat in der AK 11/12 die erleichterte Übung?",
       "antworten": [
-        "Nur ein Gerät",
-        "Alle Geräte zählen zusammen",
-        "Ein Teamwettkampf",
-        "Ein Kampf gegen den Trainer"
-      ],
-      "richtig": 1,
-      "erklaerung": "Beim Mehrkampf werden die Punkte von allen Geräten addiert."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Wie viel Bonus gibt es in der DTB-Pflicht AK 11/12 für einen sicheren Stand nach Abgang oder Sprung?",
-      "antworten": [
-        "0,05",
-        "0,10",
-        "0,20",
-        "0,50"
+        "6,0",
+        "7,0",
+        "8,0",
+        "10,0"
       ],
       "richtig": 2,
-      "erklaerung": "Füße geschlossen und aufrechter Oberkörper bringen 0,20 Punkte Bonus."
+      "erklaerung": "Die erleichterte Übung startet bei 8,0 Punkten und muss vorher dem Kampfgericht gesagt werden."
+    },
+    {
+      "rubrik": "Pflicht AK 11/12",
+      "frage": "Wie lang darf die Pause zwischen Pferd und Pilz in der AK 11/12 höchstens sein?",
+      "antworten": [
+        "10 Sekunden",
+        "20 Sekunden",
+        "30 Sekunden",
+        "60 Sekunden"
+      ],
+      "richtig": 2,
+      "erklaerung": "Pferd und Pilz turnst du direkt hintereinander, die Pause darf höchstens 30 Sekunden dauern."
     }
   ],
   "kampfrichter": {
-    "titel": "Zwischenschwung am Reck",
-    "situation": "Ein Turner schwingt in der Pflichtübung am Reck einmal ohne Element zusätzlich hin und her, bevor er weiterturnt.",
-    "frage": "Welchen Abzug gibt es dafür laut DTB-Pflicht AK 11/12?",
+    "titel": "Trainer hilft mit",
+    "situation": "Ein Turner turnt in der Pflichtübung ein Element nicht allein: Sein Trainer greift zur Sicherheit zu und hilft ihm durch das Element.",
+    "frage": "Was passiert laut DTB-Pflicht AK 11/12 mit der Wertung für dieses Element?",
     "antworten": [
-      "0,1",
-      "0,3",
-      "0,5",
-      "1,0"
+      "Es gibt 0,1 Abzug",
+      "Es gibt 0,5 Abzug",
+      "Der ganze Wert dieses Übungsteils wird abgezogen",
+      "Nichts, Hilfe ist erlaubt"
     ],
     "richtig": 2,
-    "erklaerung": "Ein Zwischenschwung kostet 0,5 Punkte. Zum Vergleich: Gerät verlassen oder aufs Gerät fallen kostet 1,0."
+    "erklaerung": "Bei Hilfestellung durch den Trainer wird der ganze Wert dieses Übungsteils abgezogen."
   },
   "lexikon": [
     {
@@ -832,9 +896,27 @@
     {
       "begriff": "Olympische Jugendspiele",
       "erklaerung": "Olympia für Jugendliche zwischen etwa 15 und 18 Jahren. Sie finden alle vier Jahre statt, 2026 in Dakar im Senegal."
+    },
+    {
+      "begriff": "Qualifikation",
+      "erklaerung": "Die Ausscheidung vor dem Finale. Nur die Besten kommen weiter, zum Beispiel ins Teamfinale oder ins Mehrkampffinale."
+    },
+    {
+      "begriff": "Hilfestellung",
+      "erklaerung": "Wenn ein Trainer beim Turnen anfasst und hilft. Im Wettkampf zählt der Übungsteil dann nicht mehr: Sein ganzer Wert wird abgezogen."
     }
   ],
   "quizGestellt": [
+    "Tag des Kinderturnens Motto",
+    "Tag des Kinderturnens 74.000",
+    "Braig Doppel-Mini Platz 14",
+    "Dakar eine Turnerin Team D",
+    "Dakar Teamfinale Montag",
+    "Uchimura Olympia-Gold 2012 2016",
+    "Oka Olympiasieger 2024",
+    "Männer-Geräte Ringe",
+    "Erleichterte Übung 8,0 AK 11/12",
+    "Pause Pferd Pilz 30 s AK 11/12",
     "Swiss Cup Finale drei Zehntel",
     "Siegerland schlägt Straubenhardt",
     "Dakar Quali Männer Platz fünf",
@@ -867,6 +949,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Hilfestellung Trainer ganzer Wert AK 11/12",
     "Zwischenschwung Abzug 0,5 AK 11/12",
     "Halteteil zu kurz gehalten AK 11/12",
     "Bonusteil Barren AK 11/12 mehrere kleine Fehler"
