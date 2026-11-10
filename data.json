@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-09T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-09",
-  "gruss": "Guten Morgen! Heute turnen die deutschen Jungs in Dakar um eine Medaille: Um 11:25 Uhr beginnt das Teamfinale der Olympischen Jugendspiele. Gestern gab es außerdem den Tag des Kinderturnens mit rund 74.000 Kindern.",
-  "quizId": "2026-11-09",
+  "aktualisiert": "2026-11-10T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-10",
+  "gruss": "Guten Morgen! Die deutschen Jungs haben in Dakar Platz vier im Teamfinale der Olympischen Jugendspiele geturnt. Heute um 12:25 Uhr startet Andrei Mihai im Mehrkampffinale, am Mittwoch folgt das Mixed-Team-Finale.",
+  "quizId": "2026-11-10",
   "zahlDesTages": {
-    "zahl": "74.000",
-    "text": "So viele Kinder machten am Wochenende beim bundesweiten Tag des Kinderturnens mit – bei über 725 Vereinen. Das Motto: „Tierische Turn-Weltreise“."
+    "zahl": "4,768",
+    "text": "So viele Punkte fehlten dem deutschen Team in Dakar zu Bronze: 148,995 gegen 153,763 für Großbritannien. Gold ging mit 158,463 Punkten an China."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,6 +75,20 @@
   },
   "news": [
     {
+      "id": "2026-11-10-dakar-team",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-09",
+      "titel": "Dakar: Platz vier im Teamfinale",
+      "teaser": "Das deutsche Trio turnte bei den Olympischen Jugendspielen einen starken Wettkampf und wurde Vierter.",
+      "text": [
+        "Im Teamfinale der Olympischen Jugendspiele in Dakar wurden Zénó Csuka, Kimi Köhnlein und Andrei Mihai Vierte mit 148,995 Punkten. Gold holte China (158,463) vor Japan (156,230) und Großbritannien (153,763).",
+        "Im Finale zählte jede Wertung. Kimi Köhnlein turnte an den Ringen 12,200 Punkte und am Boden 13,066 Punkte. Andrei Mihai bekam am Pauschenpferd 13,166 Punkte und sicherte so den vierten Platz.",
+        "Bundestrainer Nachwuchs Robert Hirsch sagte: „Damit haben wir das maximal mögliche aus diesem Wettkampf rausgeholt.“ Heute turnt Andrei Mihai noch im Mehrkampffinale."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
       "id": "2026-11-09-luna-dakar",
       "rubrik": "NW",
       "motiv": "balken",
@@ -127,20 +141,6 @@
         "Beim Swiss Cup in Zürich turnen immer gemischte Teams aus Turnerinnen und Turnern. Für Deutschland waren Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini dabei. In der Qualifikation wurden sie Dritte und zogen in die K.o.-Runde ein.",
         "Dort schlugen sie im Halbfinale das Team aus den USA. Im Finale gegen Frankreich hieß es am Ende 53,050 zu 52,750 Punkte – nur drei Zehntel fehlten zum Turniersieg.",
         "Karina und Timo blieben den ganzen Tag ohne Fehler. Trainer Anatol Ashukorov lobte, dass die Mannschaft unter großem Druck Charakter und mentale Stärke gezeigt hat."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-08-dakar",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-07",
-      "titel": "Dakar: Deutsche Jungs im Teamfinale",
-      "teaser": "Die Qualifikation lief gut: Platz fünf für das Team und ein Mehrkampffinalist.",
-      "text": [
-        "Bei den Olympischen Jugendspielen in Dakar haben sich die deutschen Turner im Teamfinale qualifiziert. Zénó Csuka, Kimi Köhnlein und Andrei Mihai wurden mit 149,596 Punkten Fünfte. Das Teamfinale ist am Montag.",
-        "Andrei Mihai kam mit 75,164 Punkten auf Rang neun in den Mehrkampf. Am Reck zeigte er einen Doppel-Doppel-Abgang und bekam mit 12,600 Punkten die beste Wertung des Trios. Zénó verpasste das Mehrkampffinale knapp und ist erster Ersatzturner.",
-        "Heute turnt Luna Zimmermann als einzige Turnerin und jüngste im Team D ihre Qualifikation. Alles läuft in der ARD-Mediathek."
       ],
       "quelle": "dtb.de"
     },
@@ -213,20 +213,6 @@
       "quelle": "dtb.de"
     },
     {
-      "id": "2026-11-03-deutschlandpokal",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-02",
-      "titel": "Deutschland-Pokal: Die besten Nachwuchsturner",
-      "teaser": "In Herbolzheim traten die Teams der Bundesländer gegeneinander an – auch in der AK 11/12.",
-      "text": [
-        "Am Wochenende fand in Herbolzheim im Breisgau der Deutschland-Pokal im Gerätturnen der Jungen statt. Dabei turnen Mannschaften der Landesturnverbände in den Altersklassen 9/10, 11/12, 13/14 und 15–18 gegeneinander. Die jüngeren Turner zeigen dort die Pflichtübungen, die du auch im Training-Tab findest.",
-        "In der AK 15–18 gewann Bayern vor Brandenburg und Baden. Die Brandenburger Mannschaft aus Cottbus holte außerdem Bronze in der AK 9/10. Sachsen-Anhalt wurde in der AK 11/12 Fünfter und gewann in der AK 13/14 Silber.",
-        "Der Lahrer Andrei Mihai gewann die Einzelwertung in seiner Altersklasse. Für ihn geht es jetzt direkt weiter zu den Olympischen Jugendspielen nach Dakar."
-      ],
-      "quelle": "radiocottbus.de, LTV Sachsen-Anhalt, Badische Zeitung"
-    },
-    {
       "id": "2026-11-03-berlin",
       "rubrik": "BER",
       "motiv": "kalender",
@@ -242,6 +228,48 @@
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "yog2026-team",
+      "name": "Olympische Jugendspiele – Teamfinale Männer",
+      "ort": "Dakar (Senegal)",
+      "von": "2026-11-09",
+      "rubrik": "NW",
+      "sparte": "Turnen Männer",
+      "bericht": "Deutschland turnte mit Csuka, Köhnlein und Mihai auf Platz vier. Im Finale ging jede Wertung in die Gesamtpunktzahl ein.",
+      "entscheidungen": [
+        {
+          "titel": "Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "China",
+              "land": "CHN",
+              "note": 158.463
+            },
+            {
+              "platz": 2,
+              "name": "Japan",
+              "land": "JPN",
+              "note": 156.23
+            },
+            {
+              "platz": 3,
+              "name": "Großbritannien",
+              "land": "GBR",
+              "note": 153.763
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 4,
+              "name": "Deutschland",
+              "land": "GER",
+              "note": 148.995
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "yog2026-f",
       "name": "Olympische Jugendspiele – Qualifikation Frauen",
@@ -384,65 +412,6 @@
               "name": "Milan Hosseini",
               "land": "GER",
               "note": 38.35
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dpokal2026",
-      "name": "Deutschland-Pokal Gerätturnen männlich",
-      "ort": "Herbolzheim",
-      "von": "2026-10-31",
-      "bis": "2026-11-01",
-      "rubrik": "NW",
-      "sparte": "Turnen Männer",
-      "bericht": "Mannschaften der Landesturnverbände in den AK 9/10, 11/12, 13/14 und 15–18. Bis zur AK 14 wird die DTB-Pflicht geturnt. Eine vollständige Ergebnisliste haben wir noch nicht gefunden – sobald sie da ist, tragen wir sie nach.",
-      "entscheidungen": [
-        {
-          "titel": "AK 15–18 Mannschaft",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Bayerischer Turnverband",
-              "verein": "ca. 219,80"
-            },
-            {
-              "platz": 2,
-              "name": "Märkischer Turnerbund Brandenburg",
-              "verein": "ca. 213,90"
-            },
-            {
-              "platz": 3,
-              "name": "Badischer Turner-Bund",
-              "verein": "ca. 211,25"
-            }
-          ]
-        },
-        {
-          "titel": "AK 9/10 Mannschaft",
-          "podium": [
-            {
-              "platz": 3,
-              "name": "Märkischer Turnerbund Brandenburg"
-            }
-          ]
-        },
-        {
-          "titel": "AK 13/14 Mannschaft",
-          "podium": [
-            {
-              "platz": 2,
-              "name": "Landesturnverband Sachsen-Anhalt"
-            }
-          ]
-        },
-        {
-          "titel": "AK 11/12 Mannschaft",
-          "podium": [
-            {
-              "platz": 5,
-              "name": "Landesturnverband Sachsen-Anhalt"
             }
           ]
         }
@@ -612,9 +581,9 @@
   },
   "termine": [
     {
-      "name": "Olympische Jugendspiele – Turnen (Teamfinale, Mehrkampf, Mixed-Team)",
+      "name": "Olympische Jugendspiele – Turnen (Mehrkampffinals, Mixed-Team-Finale)",
       "ort": "Dakar (Senegal)",
-      "von": "2026-11-09",
+      "von": "2026-11-10",
       "bis": "2026-11-11",
       "ebene": "international",
       "sparte": "Turnen",
@@ -704,137 +673,137 @@
   "quiz": [
     {
       "rubrik": "NW",
-      "frage": "Wie hieß das Motto beim Tag des Kinderturnens?",
+      "frage": "Auf welchem Platz landete das deutsche Männerteam im Teamfinale in Dakar?",
       "antworten": [
-        "Tierische Turn-Weltreise",
-        "Turnen im Zoo",
-        "Rund um die Welt",
-        "Salto-Safari"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Kinder machten Tierbewegungen wie Pandas, Pinguine und Kängurus nach."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Wie viele Kinder machten ungefähr beim Tag des Kinderturnens mit?",
-      "antworten": [
-        "740",
-        "7.400",
-        "74.000",
-        "740.000"
-      ],
-      "richtig": 2,
-      "erklaerung": "Rund 74.000 Kinder turnten bei über 725 Vereinen mit."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Auf welchem Platz landete Moritz Braig im Doppel-Mini bei der Trampolin-WM?",
-      "antworten": [
+        "Platz 2",
+        "Platz 3",
         "Platz 4",
-        "Platz 8",
-        "Platz 14",
-        "Platz 24"
+        "Platz 6"
       ],
       "richtig": 2,
-      "erklaerung": "Er wurde 14. mit 27,600 Punkten und verbesserte sich im Halbfinale um fünf Plätze."
+      "erklaerung": "Deutschland wurde mit 148,995 Punkten Vierter."
     },
     {
       "rubrik": "NW",
-      "frage": "Wie viele deutsche Turnerinnen waren bei den Olympischen Jugendspielen in Dakar am Start?",
+      "frage": "Welches Land gewann das Teamfinale der Jungs in Dakar?",
       "antworten": [
-        "Eine",
-        "Zwei",
-        "Drei",
-        "Vier"
+        "Japan",
+        "China",
+        "Großbritannien",
+        "Deutschland"
       ],
-      "richtig": 0,
-      "erklaerung": "Luna Zimmermann war die einzige Turnerin und die jüngste Athletin im Team D."
+      "richtig": 1,
+      "erklaerung": "China holte Gold mit 158,463 Punkten vor Japan und Großbritannien."
     },
     {
       "rubrik": "NW",
-      "frage": "Wann turnen die deutschen Junioren in Dakar ihr Teamfinale?",
+      "frage": "Wer turnt heute für Deutschland im Mehrkampffinale der Jungs in Dakar?",
       "antworten": [
-        "Samstag",
-        "Sonntag",
-        "Montag",
-        "Mittwoch"
+        "Kimi Köhnlein",
+        "Zénó Csuka",
+        "Andrei Mihai",
+        "Luna Zimmermann"
       ],
       "richtig": 2,
-      "erklaerung": "Das Teamfinale der Männer ist am Montag, dem 9. November, ab 11:25 Uhr deutscher Zeit."
+      "erklaerung": "Andrei Mihai hatte sich als Neunter für das Mehrkampffinale qualifiziert."
     },
     {
-      "rubrik": "INT",
-      "frage": "Wer gewann 2012 und 2016 Olympia-Gold im Mehrkampf der Männer?",
+      "rubrik": "NW",
+      "frage": "Wann ist in Dakar das Mixed-Team-Finale?",
       "antworten": [
-        "Kohei Uchimura",
-        "Fabian Hambüchen",
-        "Sam Mikulak",
-        "Max Whitlock"
+        "Dienstag, 10.11.",
+        "Mittwoch, 11.11.",
+        "Samstag, 14.11.",
+        "Sonntag, 15.11."
       ],
-      "richtig": 0,
-      "erklaerung": "Der Japaner Kohei Uchimura war in London 2012 und Rio 2016 der beste Mehrkämpfer."
+      "richtig": 1,
+      "erklaerung": "Das Mixed-Team-Finale ist am Mittwoch, 11.11.2026."
     },
     {
-      "rubrik": "INT",
-      "frage": "Wer wurde 2024 in Paris Olympiasieger im Mehrkampf der Männer?",
+      "rubrik": "BER",
+      "frage": "An welchem Tag ist der Berliner Adventspokal im Gerätturnen männlich?",
       "antworten": [
-        "Shinnosuke Oka",
-        "Zhang Boheng",
-        "Daiki Hashimoto",
-        "Ilia Kovtun"
+        "7. November",
+        "14. November",
+        "21. November",
+        "28. November"
       ],
-      "richtig": 0,
-      "erklaerung": "Der Japaner Shinnosuke Oka gewann Gold vor Xiao Ruoteng und Zhang Boheng."
+      "richtig": 1,
+      "erklaerung": "Der Adventspokal steht am 14. November im Terminplan."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Wie viele Olympiamedaillen holte die Turnerin Larissa Latynina (Sowjetunion) insgesamt?",
+      "antworten": [
+        "8",
+        "12",
+        "18",
+        "28"
+      ],
+      "richtig": 2,
+      "erklaerung": "Latynina gewann zwischen 1956 und 1964 insgesamt 18 Olympiamedaillen."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "In welcher Stadt fanden die Olympischen Spiele 2024 statt?",
+      "antworten": [
+        "Tokio",
+        "Paris",
+        "Rio de Janeiro",
+        "London"
+      ],
+      "richtig": 1,
+      "erklaerung": "2024 turnten die Besten in Paris."
     },
     {
       "rubrik": "Regeln",
-      "frage": "An welchem dieser Geräte turnen nur Männer?",
+      "frage": "Wie hoch ist der Abzug für einen kleinen Fehler im Turnen?",
       "antworten": [
-        "Ringe",
-        "Schwebebalken",
-        "Stufenbarren",
-        "Boden"
+        "0,1",
+        "0,3",
+        "0,5",
+        "1,0"
       ],
       "richtig": 0,
-      "erklaerung": "Ringe, Pauschenpferd, Reck und Barren turnen die Männer – Balken und Stufenbarren nur die Frauen."
+      "erklaerung": "Klein = 0,1, mittel = 0,3, groß = 0,5."
     },
     {
       "rubrik": "Regeln",
-      "frage": "Wie viele Punkte Ausgangswert hat in der AK 11/12 die erleichterte Übung?",
+      "frage": "Wie viel Abzug gibt es für einen Übungshalt (AK 11/12)?",
       "antworten": [
-        "6,0",
-        "7,0",
-        "8,0",
-        "10,0"
+        "0,1",
+        "0,3",
+        "0,5",
+        "1,0"
       ],
       "richtig": 2,
-      "erklaerung": "Die erleichterte Übung startet bei 8,0 Punkten und muss vorher dem Kampfgericht gesagt werden."
+      "erklaerung": "Ein Übungshalt kostet 0,5 Punkte."
     },
     {
-      "rubrik": "Pflicht AK 11/12",
-      "frage": "Wie lang darf die Pause zwischen Pferd und Pilz in der AK 11/12 höchstens sein?",
+      "rubrik": "Pflicht",
+      "frage": "Wie werden Pferd und Pilz in der AK 11/12 gewertet?",
       "antworten": [
-        "10 Sekunden",
-        "20 Sekunden",
-        "30 Sekunden",
-        "60 Sekunden"
+        "Nur das Pferd zählt",
+        "Beide werden zusammengezählt und durch 2 geteilt",
+        "Nur der bessere Wert zählt",
+        "Beide zählen doppelt"
       ],
-      "richtig": 2,
-      "erklaerung": "Pferd und Pilz turnst du direkt hintereinander, die Pause darf höchstens 30 Sekunden dauern."
+      "richtig": 1,
+      "erklaerung": "Beide gelten als halbes Gerät: Summe geteilt durch 2."
     }
   ],
   "kampfrichter": {
-    "titel": "Trainer hilft mit",
-    "situation": "Ein Turner turnt in der Pflichtübung ein Element nicht allein: Sein Trainer greift zur Sicherheit zu und hilft ihm durch das Element.",
-    "frage": "Was passiert laut DTB-Pflicht AK 11/12 mit der Wertung für dieses Element?",
+    "titel": "Sturz vom Gerät",
+    "situation": "Ein Turner fällt in seiner Pflichtübung am Reck vom Gerät und steht danach wieder auf dem Boden.",
+    "frage": "Wie viel Abzug gibt es laut DTB-Pflicht AK 11/12 für Gerät verlassen oder auf das Gerät fallen?",
     "antworten": [
-      "Es gibt 0,1 Abzug",
-      "Es gibt 0,5 Abzug",
-      "Der ganze Wert dieses Übungsteils wird abgezogen",
-      "Nichts, Hilfe ist erlaubt"
+      "0,1",
+      "0,5",
+      "1,0",
+      "3,0"
     ],
     "richtig": 2,
-    "erklaerung": "Bei Hilfestellung durch den Trainer wird der ganze Wert dieses Übungsteils abgezogen."
+    "erklaerung": "Gerät verlassen oder auf das Gerät fallen kostet 1,0 Punkte Abzug."
   },
   "lexikon": [
     {
@@ -907,6 +876,16 @@
     }
   ],
   "quizGestellt": [
+    "Dakar Teamfinale Platz vier",
+    "Dakar Teamfinale Sieger China",
+    "Mihai Mehrkampffinale Dakar",
+    "Mixed-Team-Finale Mittwoch",
+    "Adventspokal 14. November",
+    "Latynina 18 Medaillen",
+    "Olympia 2024 Paris",
+    "Kleiner Fehler 0,1",
+    "Übungshalt 0,5 AK 11/12",
+    "Pferd Pilz geteilt durch 2",
     "Tag des Kinderturnens Motto",
     "Tag des Kinderturnens 74.000",
     "Braig Doppel-Mini Platz 14",
@@ -949,6 +928,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Sturz vom Gerät 1,0 AK 11/12",
     "Hilfestellung Trainer ganzer Wert AK 11/12",
     "Zwischenschwung Abzug 0,5 AK 11/12",
     "Halteteil zu kurz gehalten AK 11/12",
