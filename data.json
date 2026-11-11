@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-10T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-10",
-  "gruss": "Guten Morgen! Die deutschen Jungs haben in Dakar Platz vier im Teamfinale der Olympischen Jugendspiele geturnt. Heute um 12:25 Uhr startet Andrei Mihai im Mehrkampffinale, am Mittwoch folgt das Mixed-Team-Finale.",
-  "quizId": "2026-11-10",
+  "aktualisiert": "2026-11-11T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-11",
+  "gruss": "Guten Morgen! Die Olympischen Jugendspiele in Dakar sind für die deutschen Turner vorbei: Im Mehrkampffinale wurde Zénó Csuka 13. und Andrei Mihai 18. Am Samstag geht es in Berlin beim Adventspokal und in der Bundesliga weiter.",
+  "quizId": "2026-11-11",
   "zahlDesTages": {
-    "zahl": "4,768",
-    "text": "So viele Punkte fehlten dem deutschen Team in Dakar zu Bronze: 148,995 gegen 153,763 für Großbritannien. Gold ging mit 158,463 Punkten an China."
+    "zahl": "5.280.902",
+    "text": "So viele Mitgliedschaften hatte der Deutsche Turner-Bund am 1. Januar 2026. Damit ist er der zweitgrößte Sportverband in Deutschland – nur der Fußball-Bund ist größer."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,6 +75,62 @@
   },
   "news": [
     {
+      "id": "2026-11-11-dakar-mehrkampf",
+      "rubrik": "NW",
+      "motiv": "barren",
+      "datum": "2026-11-10",
+      "titel": "Dakar: Zwei Deutsche im Mehrkampffinale",
+      "teaser": "Zénó Csuka rückte als Reserve ins Finale nach und wurde 13., Andrei Mihai landete auf Platz 18.",
+      "text": [
+        "Zum Abschluss der Olympischen Jugendspiele in Dakar turnten gleich zwei Deutsche im Mehrkampffinale. Andrei Mihai vom TV Lahr hatte sich als Neunter qualifiziert. Zénó Csuka vom TSV Unterföhring durfte als erster Reserveathlet nachrücken, weil ein anderer Turner verletzt ausfiel.",
+        "Zénó nutzte seine Chance: Am Barren stand er den Doppelsalto vorwärts als Abgang perfekt und bekam dafür sogar einen Bonus für den sicheren Stand. Mit 12,700 Punkten war er dort mehr als einen Punkt besser als in der Qualifikation. Am Ende wurde er mit 72,099 Punkten 13.",
+        "Andrei startete stark am Pauschenpferd mit 13,066 Punkten. Am Boden lief es diesmal gar nicht, er kam nur auf 8,866 Punkte und wurde 18. Gold holte Daniil Smirnov mit 81,298 Punkten vor Uzair Chowdhury aus Großbritannien und Ikki Nishihara aus Japan."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-11-dtb-mitglieder",
+      "rubrik": "DE",
+      "motiv": "zahlen",
+      "datum": "2026-11-10",
+      "titel": "Über 5,2 Millionen Turn-Mitgliedschaften",
+      "teaser": "Der Deutsche Turner-Bund bleibt der zweitgrößte Sportverband in Deutschland.",
+      "text": [
+        "Noch nie waren so viele Menschen in Deutschland in einem Sportverein: Am 1. Januar 2026 waren es über 30 Millionen Mitgliedschaften.",
+        "Der Deutsche Turner-Bund zählte 5.280.902 Mitgliedschaften – ein kleines Plus von rund 2.200 im Vergleich zum Vorjahr. Nur der Deutsche Fußball-Bund ist noch größer.",
+        "DTB-Präsident Alfons Hölzl freut sich: Die Angebote der Turnvereine würden nicht nur gut angenommen, sondern richtig gesucht."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-11-rsg-3bl-berlin",
+      "rubrik": "BER",
+      "motiv": "rsg",
+      "datum": "2026-11-08",
+      "titel": "RSG: Reflect Berlin verpasst Aufstieg ganz knapp",
+      "teaser": "Ein einziger Gerätepunkt entschied in der 3. Bundesliga über den Staffelsieg.",
+      "text": [
+        "In der 3. Bundesliga der Rhythmischen Sportgymnastik ging es zum Saisonende in Gütersloh richtig spannend zu. Reflect Berlin gewann den letzten Wettkampftag mit 209,650 Punkten vor der TG Münsterland.",
+        "Am Ende hatten beide Teams zehn Rangpunkte. Weil Münsterland mit 19 zu 18 einen Gerätepunkt mehr hatte, steigt Münsterland in die 2. Bundesliga auf. Reflect Berlin wurde Zweiter – obwohl die Berlinerinnen insgesamt sogar mehr Punkte geturnt hatten.",
+        "Für einen anderen Berliner Verein endete die Saison traurig: Der VfL Zehlendorf wurde Letzter und steigt in die Regionalliga ab."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-11-zweite-liga",
+      "rubrik": "DTL",
+      "motiv": "pferd",
+      "datum": "2026-11-07",
+      "titel": "2. Bundesliga: Wer schafft den Aufstieg?",
+      "teaser": "Ludwigsburg bleibt im Norden ungeschlagen, im Süden hat die TG Allgäu schon ihr Ticket.",
+      "text": [
+        "In der 2. Bundesliga Nord gewann der MTV Ludwigsburg auch seinen sechsten Wettkampf – 60:16 gegen den TuS Vinnhorst II. Die TSG Grünstadt liegt zwei Punkte dahinter. Ein Turner aus Grünstadt zeigte am Reck sogar einen Dreifachsalto als Abgang.",
+        "In der 3. Bundesliga Süd gewann die TG Allgäu das Spitzenduell bei der WTG Heckengäu mit 37:27. Am Pauschenpferd holte Allgäu 9:4 Scorepunkte und drehte damit den Wettkampf.",
+        "Damit darf Allgäu schon sicher beim Aufstiegswettkampf zur 2. Bundesliga am 5. Dezember in Oberhausen antreten. Dort turnen die besten Teams aus dem Süden gegen die besten aus dem Norden."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
       "id": "2026-11-10-dakar-team",
       "rubrik": "NW",
       "motiv": "team",
@@ -84,7 +140,7 @@
       "text": [
         "Im Teamfinale der Olympischen Jugendspiele in Dakar wurden Zénó Csuka, Kimi Köhnlein und Andrei Mihai Vierte mit 148,995 Punkten. Gold holte China (158,463) vor Japan (156,230) und Großbritannien (153,763).",
         "Im Finale zählte jede Wertung. Kimi Köhnlein turnte an den Ringen 12,200 Punkte und am Boden 13,066 Punkte. Andrei Mihai bekam am Pauschenpferd 13,166 Punkte und sicherte so den vierten Platz.",
-        "Bundestrainer Nachwuchs Robert Hirsch sagte: „Damit haben wir das maximal mögliche aus diesem Wettkampf rausgeholt.“ Heute turnt Andrei Mihai noch im Mehrkampffinale."
+        "Bundestrainer Nachwuchs Robert Hirsch sagte: „Damit haben wir das maximal mögliche aus diesem Wettkampf rausgeholt.“"
       ],
       "quelle": "dtb.de"
     },
@@ -172,47 +228,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-07-chiasso",
-      "rubrik": "INT",
-      "motiv": "medaille",
-      "datum": "2026-11-06",
-      "titel": "Zwei Podestplätze in Chiasso",
-      "teaser": "Karina Schönmaier wird Zweite, Timo Eder Dritter beim Memorial Arthur Gander in der Schweiz.",
-      "text": [
-        "Beim Einladungswettkampf Memorial Arthur Gander in Chiasso haben zwei Deutsche aufs Treppchen geturnt. Karina Schönmaier aus Chemnitz wurde mit 39,700 Punkten Zweite. Nur die US-Amerikanerin Tatum Drusch war besser. Am Sprung gewann Karina sogar die Gerätewertung mit 13,750 Punkten.",
-        "Bei den Männern wurde Timo Eder mit 54,600 Punkten Dritter. Am Pauschenpferd bekam er 13,300 Punkte, am Sprung hatte er die zweitbeste Wertung des ganzen Feldes. Milan Hosseini wurde Achter, Charleen Pach belegte bei den Frauen Platz neun.",
-        "Trainer Anatol Ashurkov lobte: „Timo turnte sicher, locker und mit einer schönen Ausstrahlung.“ Beim Memorial turnt jeder vier Geräte nach eigener Wahl, so wie später in der Kür."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-07-trampolin-wm",
-      "rubrik": "TRA",
-      "motiv": "trampolin",
-      "datum": "2026-11-06",
-      "titel": "Trampolin-WM: Synchron-Duo scheitert im Halbfinale",
-      "teaser": "Lars Garmann und Matthias Schuldt konnten ihre Übung nicht zu Ende springen.",
-      "text": [
-        "Bei der Trampolin-WM in Nanjing ist für das deutsche Synchron-Duo Lars Garmann und Matthias Schuldt im Halbfinale Schluss. In der Qualifikation waren die beiden noch auf Rang elf gekommen. Im Halbfinale musste die Übung abgebrochen werden, weil Lars nach einer Korrektur seitlich vom Trampolin sprang.",
-        "Cheftrainerin Katarina Prokesova sagte, es fehle noch die Stabilität. Das Paar hat erst zwei Wettkämpfe zusammen bestritten. Auf Platz 13 sind die beiden jetzt zweite Reserve, falls ein anderes Paar ausfällt.",
-        "Die Frauen wurden im Teamfinale am Doppel-Mini-Trampolin Fünfte. Gold ging an die USA, Silber an Russland, Bronze an Großbritannien. Am Wochenende folgen noch die Finals der Männer."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-07-kevric-sportlerin",
-      "rubrik": "DE",
-      "motiv": "stufenbarren",
-      "datum": "2026-11-05",
-      "titel": "Helen Kevric ist Sportlerin des Monats",
-      "teaser": "Nach ihrem WM-Silber wählen Deutschlands beste Athleten die Stuttgarterin auf Platz eins.",
-      "text": [
-        "Helen Kevric vom MTV Stuttgart ist „Sportlerin des Monats“ Oktober. Sie bekam 44,1 Prozent der Stimmen. Zweite wurde die Bahnradfahrerin Pauline Grabosch, Dritte die Kunstradfahrerin Lara Füller.",
-        "Das Besondere an der Wahl: Nicht Fans oder Medien stimmen ab, sondern Deutschlands beste Nachwuchs- und Spitzenathletinnen und -athleten. Helen hatte bei der WM in Rotterdam mit einer fehlerfreien Übung Silber am Stufenbarren gewonnen."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
       "id": "2026-11-03-berlin",
       "rubrik": "BER",
       "motiv": "kalender",
@@ -228,6 +243,53 @@
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "yog2026-mk",
+      "name": "Olympische Jugendspiele – Mehrkampffinale Männer",
+      "ort": "Dakar (Senegal)",
+      "von": "2026-11-10",
+      "rubrik": "NW",
+      "sparte": "Turnen Männer",
+      "bericht": "Zwei Deutsche im Finale: Zénó Csuka rückte als Reserve nach und wurde 13., Andrei Mihai wurde 18.",
+      "entscheidungen": [
+        {
+          "titel": "Mehrkampf",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Daniil Smirnov",
+              "note": 81.298
+            },
+            {
+              "platz": 2,
+              "name": "Uzair Chowdhury",
+              "land": "GBR",
+              "note": 79.132
+            },
+            {
+              "platz": 3,
+              "name": "Ikki Nishihara",
+              "land": "JPN",
+              "note": 79.065
+            }
+          ],
+          "deutsche": [
+            {
+              "platz": 13,
+              "name": "Zénó Csuka",
+              "land": "GER",
+              "note": 72.099
+            },
+            {
+              "platz": 18,
+              "name": "Andrei Mihai",
+              "land": "GER",
+              "note": 68.298
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "yog2026-team",
       "name": "Olympische Jugendspiele – Teamfinale Männer",
@@ -348,70 +410,6 @@
               "name": "Andrei Mihai",
               "land": "GER",
               "note": 75.164
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gander2026",
-      "name": "Memorial Arthur Gander",
-      "ort": "Chiasso (Schweiz)",
-      "von": "2026-11-05",
-      "rubrik": "INT",
-      "sparte": "Turnen Männer",
-      "bericht": "Internationaler Einladungswettkampf mit Wahlübungen an vier Geräten. Die Deutschen Karina Schönmaier und Timo Eder turnten aufs Podium.",
-      "entscheidungen": [
-        {
-          "titel": "Frauen Mehrkampf (vier Geräte)",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Tatum Drusch",
-              "land": "USA"
-            },
-            {
-              "platz": 2,
-              "name": "Karina Schönmaier",
-              "land": "GER",
-              "note": 39.7
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 9,
-              "name": "Charleen Pach",
-              "land": "GER"
-            }
-          ]
-        },
-        {
-          "titel": "Frauen Sprung",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Karina Schönmaier",
-              "land": "GER",
-              "note": 13.75
-            }
-          ]
-        },
-        {
-          "titel": "Männer Mehrkampf (vier Geräte)",
-          "podium": [
-            {
-              "platz": 3,
-              "name": "Timo Eder",
-              "land": "GER",
-              "note": 54.6
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 8,
-              "name": "Milan Hosseini",
-              "land": "GER",
-              "note": 38.35
             }
           ]
         }
@@ -581,13 +579,12 @@
   },
   "termine": [
     {
-      "name": "Olympische Jugendspiele – Turnen (Mehrkampffinals, Mixed-Team-Finale)",
+      "name": "Olympische Jugendspiele – Mixed-Team-Finale Turnen",
       "ort": "Dakar (Senegal)",
-      "von": "2026-11-10",
-      "bis": "2026-11-11",
+      "von": "2026-11-11",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "laut DTB: Teamfinale Männer Montag 11:25 Uhr, Mehrkampffinale Männer und Frauen Dienstag, Mixed-Team-Finale Mittwoch (deutsche Zeit). Live in der ARD Mediathek."
+      "info": "laut DTB am Mittwoch. Die deutschen Turner sind nach dem Mehrkampffinale fertig."
     },
     {
       "name": "Berliner Adventspokal Gerätturnen männlich",
@@ -652,13 +649,22 @@
       "info": "P-Stufen und LK-Programm, 4 aus 6 Geräten. Meldeschluss 6. November."
     },
     {
+      "name": "Aufstiegswettkampf zur 2. Bundesliga Männer",
+      "ort": "Oberhausen",
+      "von": "2026-12-05",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "Die zwei Besten der 3. Bundesliga Süd treffen auf die zwei Besten aus dem Norden. Die TG Allgäu ist schon dabei."
+    },
+    {
       "name": "Turnier der Meister (Weltcup)",
       "ort": "Cottbus, Lausitz-Arena",
       "von": "2027-02-25",
       "bis": "2027-02-28",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "Termin laut Wettkampfkalender – noch nicht offiziell bestätigt."
+      "info": "Termin laut Wettkampfkalender – noch nicht offiziell bestätigt.",
+      "highlight": true
     },
     {
       "name": "Die Finals – Deutsche Meisterschaften",
@@ -673,137 +679,137 @@
   "quiz": [
     {
       "rubrik": "NW",
-      "frage": "Auf welchem Platz landete das deutsche Männerteam im Teamfinale in Dakar?",
+      "frage": "Wer gewann bei den Olympischen Jugendspielen in Dakar das Mehrkampffinale der Jungs?",
       "antworten": [
-        "Platz 2",
-        "Platz 3",
-        "Platz 4",
-        "Platz 6"
-      ],
-      "richtig": 2,
-      "erklaerung": "Deutschland wurde mit 148,995 Punkten Vierter."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Welches Land gewann das Teamfinale der Jungs in Dakar?",
-      "antworten": [
-        "Japan",
-        "China",
-        "Großbritannien",
-        "Deutschland"
-      ],
-      "richtig": 1,
-      "erklaerung": "China holte Gold mit 158,463 Punkten vor Japan und Großbritannien."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Wer turnt heute für Deutschland im Mehrkampffinale der Jungs in Dakar?",
-      "antworten": [
-        "Kimi Köhnlein",
+        "Ikki Nishihara",
+        "Uzair Chowdhury",
         "Zénó Csuka",
-        "Andrei Mihai",
-        "Luna Zimmermann"
+        "Daniil Smirnov"
       ],
-      "richtig": 2,
-      "erklaerung": "Andrei Mihai hatte sich als Neunter für das Mehrkampffinale qualifiziert."
+      "richtig": 3,
+      "erklaerung": "Daniil Smirnov siegte mit 81,298 Punkten vor Chowdhury und Nishihara."
     },
     {
       "rubrik": "NW",
-      "frage": "Wann ist in Dakar das Mixed-Team-Finale?",
+      "frage": "Warum durfte Zénó Csuka im Mehrkampffinale in Dakar mitturnen?",
       "antworten": [
-        "Dienstag, 10.11.",
-        "Mittwoch, 11.11.",
-        "Samstag, 14.11.",
-        "Sonntag, 15.11."
+        "Er war erster Reserveathlet und rückte nach",
+        "Er war Erster der Qualifikation",
+        "Er wurde ausgelost",
+        "Er hatte eine Wildcard"
+      ],
+      "richtig": 0,
+      "erklaerung": "Ein anderer Turner fiel verletzt aus, deshalb rückte Zénó als erster Reserveathlet nach. Er wurde 13."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Welcher Sportverband in Deutschland hat noch mehr Mitgliedschaften als der Deutsche Turner-Bund?",
+      "antworten": [
+        "Der Schwimmverband",
+        "Der Fußball-Bund",
+        "Der Tennis-Bund",
+        "Der Leichtathletik-Verband"
       ],
       "richtig": 1,
-      "erklaerung": "Das Mixed-Team-Finale ist am Mittwoch, 11.11.2026."
+      "erklaerung": "Der DTB ist mit über 5,2 Millionen Mitgliedschaften die Nummer 2 hinter dem Deutschen Fußball-Bund."
     },
     {
       "rubrik": "BER",
-      "frage": "An welchem Tag ist der Berliner Adventspokal im Gerätturnen männlich?",
+      "frage": "Wie viele Gerätepunkte fehlten Reflect Berlin in der 3. RSG-Bundesliga zum Staffelsieg?",
       "antworten": [
-        "7. November",
-        "14. November",
-        "21. November",
-        "28. November"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der Adventspokal steht am 14. November im Terminplan."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Wie viele Olympiamedaillen holte die Turnerin Larissa Latynina (Sowjetunion) insgesamt?",
-      "antworten": [
-        "8",
-        "12",
-        "18",
-        "28"
-      ],
-      "richtig": 2,
-      "erklaerung": "Latynina gewann zwischen 1956 und 1964 insgesamt 18 Olympiamedaillen."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "In welcher Stadt fanden die Olympischen Spiele 2024 statt?",
-      "antworten": [
-        "Tokio",
-        "Paris",
-        "Rio de Janeiro",
-        "London"
-      ],
-      "richtig": 1,
-      "erklaerung": "2024 turnten die Besten in Paris."
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie hoch ist der Abzug für einen kleinen Fehler im Turnen?",
-      "antworten": [
-        "0,1",
-        "0,3",
-        "0,5",
-        "1,0"
+        "Einer",
+        "Drei",
+        "Fünf",
+        "Zehn"
       ],
       "richtig": 0,
-      "erklaerung": "Klein = 0,1, mittel = 0,3, groß = 0,5."
+      "erklaerung": "Münsterland hatte 19 Gerätepunkte, Reflect Berlin 18 – bei gleich vielen Rangpunkten."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Wo ist am 5. Dezember der Aufstiegswettkampf zur 2. Bundesliga der Männer?",
+      "antworten": [
+        "Berlin",
+        "Heidelberg",
+        "Oberhausen",
+        "Cottbus"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der Aufstiegswettkampf findet in Oberhausen statt. Die TG Allgäu ist schon qualifiziert."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Wie viele Goldmedaillen gewann Witali Scherbo 1992 in Barcelona bei denselben Olympischen Spielen?",
+      "antworten": [
+        "Zwei",
+        "Vier",
+        "Sechs",
+        "Acht"
+      ],
+      "richtig": 2,
+      "erklaerung": "Witali Scherbo holte 1992 in Barcelona sechs Goldmedaillen."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "An welchem Gerät turnt man den Gienger-Salto, benannt nach Eberhard Gienger?",
+      "antworten": [
+        "Barren",
+        "Ringe",
+        "Boden",
+        "Reck"
+      ],
+      "richtig": 3,
+      "erklaerung": "Der Gienger ist ein Flugelement am Reck. Eberhard Gienger wurde 1974 Weltmeister am Reck."
     },
     {
       "rubrik": "Regeln",
-      "frage": "Wie viel Abzug gibt es für einen Übungshalt (AK 11/12)?",
+      "frage": "Was bewertet die D-Note?",
       "antworten": [
-        "0,1",
-        "0,3",
-        "0,5",
-        "1,0"
+        "Wie schwierig die Übung ist",
+        "Wie sauber die Übung ist",
+        "Wie lange die Übung dauert",
+        "Wie laut das Publikum jubelt"
       ],
-      "richtig": 2,
-      "erklaerung": "Ein Übungshalt kostet 0,5 Punkte."
+      "richtig": 0,
+      "erklaerung": "D steht für Schwierigkeit (englisch difficulty). Die Sauberkeit bewertet die E-Note."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Wie viele Gerätepunkte bekommt in der Bundesliga das Team, das ein Gerät gewinnt?",
+      "antworten": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "richtig": 1,
+      "erklaerung": "Wer an einem Gerät mehr Scorepunkte holt, bekommt zwei Gerätepunkte."
     },
     {
       "rubrik": "Pflicht",
-      "frage": "Wie werden Pferd und Pilz in der AK 11/12 gewertet?",
+      "frage": "Wie viel ist der Bonus-Salto rückwärts gestreckt mit 1/1 LAD am Boden (AK 11/12) wert, wenn weniger als 0,5 abgezogen wird?",
       "antworten": [
-        "Nur das Pferd zählt",
-        "Beide werden zusammengezählt und durch 2 geteilt",
-        "Nur der bessere Wert zählt",
-        "Beide zählen doppelt"
+        "1,4",
+        "1,5",
+        "1,9",
+        "2,5"
       ],
-      "richtig": 1,
-      "erklaerung": "Beide gelten als halbes Gerät: Summe geteilt durch 2."
+      "richtig": 2,
+      "erklaerung": "Als Bonusteil zählt der Salto 1,9 Punkte. Gibt es einen großen Fehler, ist er nur 1,4 wert."
     }
   ],
   "kampfrichter": {
-    "titel": "Sturz vom Gerät",
-    "situation": "Ein Turner fällt in seiner Pflichtübung am Reck vom Gerät und steht danach wieder auf dem Boden.",
-    "frage": "Wie viel Abzug gibt es laut DTB-Pflicht AK 11/12 für Gerät verlassen oder auf das Gerät fallen?",
+    "titel": "Riesenfelge vergessen",
+    "situation": "Ein Turner lässt in seiner Pflichtübung am Reck eine Riesenfelge einfach weg und turnt danach normal weiter.",
+    "frage": "Was zieht das Kampfgericht laut DTB-Pflicht AK 11/12 ab?",
     "antworten": [
-      "0,1",
-      "0,5",
-      "1,0",
-      "3,0"
+      "Nur den Wert der Riesenfelge",
+      "Den Wert der Riesenfelge und zusätzlich 0,3",
+      "Pauschal 1,0",
+      "Gar nichts"
     ],
-    "richtig": 2,
-    "erklaerung": "Gerät verlassen oder auf das Gerät fallen kostet 1,0 Punkte Abzug."
+    "richtig": 1,
+    "erklaerung": "Fehlt ein Element, wird normalerweise nur sein Wert abgezogen. Bei einer fehlenden Riesenfelge (Reck) oder Kreis-Flanke (Pferd/Pilz) kommen noch 0,3 Punkte Abzug dazu."
   },
   "lexikon": [
     {
@@ -873,9 +879,31 @@
     {
       "begriff": "Hilfestellung",
       "erklaerung": "Wenn ein Trainer beim Turnen anfasst und hilft. Im Wettkampf zählt der Übungsteil dann nicht mehr: Sein ganzer Wert wird abgezogen."
+    },
+    {
+      "begriff": "Reserveathlet",
+      "erklaerung": "Ein Ersatzturner. Fällt jemand aus, darf der erste Reserveathlet nachrücken und mitturnen."
+    },
+    {
+      "begriff": "Aufstiegswettkampf",
+      "erklaerung": "Ein Extra-Wettkampf am Saisonende. Die besten Teams einer unteren Liga turnen darum, wer in die höhere Liga aufsteigen darf."
+    },
+    {
+      "begriff": "Rangpunkte",
+      "erklaerung": "In der RSG-Bundesliga bekommt jedes Team je nach Platz an einem Wettkampftag Rangpunkte. Wer am Saisonende die meisten hat, gewinnt."
     }
   ],
   "quizGestellt": [
+    "Smirnov Mehrkampf-Gold Dakar",
+    "Csuka Reserve Mehrkampffinale",
+    "DTB Nummer 2 hinter DFB",
+    "Reflect Berlin ein Gerätepunkt",
+    "Aufstiegswettkampf Oberhausen",
+    "Scherbo sechs Gold 1992",
+    "Gienger-Salto Reck",
+    "D-Note Bedeutung",
+    "Gerätepunkte zwei pro Gerät",
+    "Boden Bonus-Salto 1,9 AK 11/12",
     "Dakar Teamfinale Platz vier",
     "Dakar Teamfinale Sieger China",
     "Mihai Mehrkampffinale Dakar",
@@ -928,6 +956,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Fehlende Riesenfelge Zusatzabzug 0,3 AK 11/12",
     "Sturz vom Gerät 1,0 AK 11/12",
     "Hilfestellung Trainer ganzer Wert AK 11/12",
     "Zwischenschwung Abzug 0,5 AK 11/12",
