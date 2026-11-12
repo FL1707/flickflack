@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-11T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-11",
-  "gruss": "Guten Morgen! Die Olympischen Jugendspiele in Dakar sind für die deutschen Turner vorbei: Im Mehrkampffinale wurde Zénó Csuka 13. und Andrei Mihai 18. Am Samstag geht es in Berlin beim Adventspokal und in der Bundesliga weiter.",
-  "quizId": "2026-11-11",
+  "aktualisiert": "2026-11-12T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-12",
+  "gruss": "Guten Morgen! In Dakar ist das letzte Turn-Gold vergeben: China gewinnt auch das Mixed-Team-Finale. Außerdem gibt es bald einen neuen Online-Wettkampf für Turnvereine in ganz Europa – und am Samstag turnt Berlin beim Adventspokal.",
+  "quizId": "2026-11-12",
   "zahlDesTages": {
-    "zahl": "5.280.902",
-    "text": "So viele Mitgliedschaften hatte der Deutsche Turner-Bund am 1. Januar 2026. Damit ist er der zweitgrößte Sportverband in Deutschland – nur der Fußball-Bund ist größer."
+    "zahl": "911",
+    "text": "So viele Turnerinnen und Turner zeigen am 5. Dezember beim Bundesfinale „Rendezvous der Besten“ in Rodalben ihre Shows – in 34 Gruppen aus zwölf Landesturnverbänden."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,6 +75,48 @@
   },
   "news": [
     {
+      "id": "2026-11-12-dakar-mixed",
+      "rubrik": "INT",
+      "motiv": "team",
+      "datum": "2026-11-11",
+      "titel": "Dakar: China gewinnt auch das Mixed-Team",
+      "teaser": "Im letzten Turn-Finale der Olympischen Jugendspiele siegte China vor Japan und Israel.",
+      "text": [
+        "Zum Schluss der Turn-Wettkämpfe in Dakar gab es noch einmal ein ganz besonderes Format: das Mixed-Team. Jede Mannschaft bestand aus einer Turnerin und einem Turner. In jeder Runde turnte jeder nur an einem Gerät, und beide Noten wurden zusammengezählt.",
+        "Nach Vorrunde und Halbfinale standen vier Teams im Finale. China kam dort auf 27,832 Punkte – die Turnerin am Schwebebalken, der Turner am Boden. Silber ging an Japan mit 25,966 Punkten, Bronze an Israel mit 24,366 Punkten. Italien wurde Vierter.",
+        "Damit hat China bei diesen Jugendspielen alle drei Team-Wettbewerbe im Turnen gewonnen: bei den Jungs, bei den Mädchen und im Mixed-Team."
+      ],
+      "quelle": "olympics.com, thegymter.net"
+    },
+    {
+      "id": "2026-11-12-club-cup",
+      "rubrik": "INT",
+      "motiv": "reck",
+      "datum": "2026-11-03",
+      "titel": "Neu: Europapokal für Vereine – ganz online",
+      "teaser": "Bis zu 32 Turnvereine aus Europa treten ab dem 23. November gegeneinander an, ohne zu reisen.",
+      "text": [
+        "Der Europäische Turnverband hat einen ganz neuen Wettkampf für Turner erfunden: den „MAG Online European Club Cup“. Bis zu 32 Vereine aus ganz Europa sollen mitmachen.",
+        "Das Besondere: Niemand muss dafür verreisen. Die Trainer filmen die Übungen ihrer Turner in der eigenen Halle mit einer App. Die Kampfrichter schauen sich die Videos an und geben ihre Noten von zu Hause aus. Geturnt wird an allen sechs Geräten der Männer.",
+        "Los geht es am 23. November 2026. Nach Gruppenphase und K.-o.-Runden gibt es am Ende ein „Final 4“ mit den vier besten Vereinen. Wer gewinnt, darf sich erster Online-Europapokalsieger nennen."
+      ],
+      "quelle": "europeangymnastics.com"
+    },
+    {
+      "id": "2026-11-12-rendezvous",
+      "rubrik": "DE",
+      "motiv": "salto",
+      "datum": "2026-12-05",
+      "titel": "Showturnen: Die besten Gruppen treffen sich in Rodalben",
+      "teaser": "34 Showgruppen kämpfen am 5. Dezember um den Titel „DTB-Showgruppe 2026“.",
+      "text": [
+        "Turnen kann man nicht nur im Wettkampf, sondern auch als Show – mit Musik, Kostümen und einer Geschichte. Die besten Showgruppen Deutschlands treffen sich am 5. Dezember beim Bundesfinale „Rendezvous der Besten“ in Rodalben in der Pfalz.",
+        "Dabei sind 34 Gruppen aus zwölf Landesturnverbänden mit zusammen 911 Turnerinnen und Turnern. Eine Jury sucht die „DTB-Showgruppe 2026“ aus.",
+        "Am Abend gibt es eine große Show mit den 15 besten Vorführungen. Eine Gruppe bekommt außerdem das Prädikat „Das besondere Etwas“ – für besonders viel Ausstrahlung und Ideen."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
       "id": "2026-11-11-dakar-mehrkampf",
       "rubrik": "NW",
       "motiv": "barren",
@@ -129,34 +171,6 @@
         "Damit darf Allgäu schon sicher beim Aufstiegswettkampf zur 2. Bundesliga am 5. Dezember in Oberhausen antreten. Dort turnen die besten Teams aus dem Süden gegen die besten aus dem Norden."
       ],
       "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-10-dakar-team",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-09",
-      "titel": "Dakar: Platz vier im Teamfinale",
-      "teaser": "Das deutsche Trio turnte bei den Olympischen Jugendspielen einen starken Wettkampf und wurde Vierter.",
-      "text": [
-        "Im Teamfinale der Olympischen Jugendspiele in Dakar wurden Zénó Csuka, Kimi Köhnlein und Andrei Mihai Vierte mit 148,995 Punkten. Gold holte China (158,463) vor Japan (156,230) und Großbritannien (153,763).",
-        "Im Finale zählte jede Wertung. Kimi Köhnlein turnte an den Ringen 12,200 Punkte und am Boden 13,066 Punkte. Andrei Mihai bekam am Pauschenpferd 13,166 Punkte und sicherte so den vierten Platz.",
-        "Bundestrainer Nachwuchs Robert Hirsch sagte: „Damit haben wir das maximal mögliche aus diesem Wettkampf rausgeholt.“"
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-09-luna-dakar",
-      "rubrik": "NW",
-      "motiv": "balken",
-      "datum": "2026-11-08",
-      "titel": "Dakar: Luna sammelt Erfahrung",
-      "teaser": "Die jüngste Athletin im Team D turnt ihre Quali bei den Olympischen Jugendspielen.",
-      "text": [
-        "Luna Zimmermann von der KTG Heidelberg war in Dakar die einzige deutsche Turnerin. In der Qualifikation wurde sie 28. mit 46,265 Punkten.",
-        "Am Sprung zeigte sie einen Yurchenko mit Schraube und bekam 12,933 Punkte. Am Boden endete ihre Übung mit einem Doppelsalto (12,566). Am Stufenbarren und am Balken gab es je einen Sturz.",
-        "Ihre Trainerin Narine Kirakosyan sagte: „Für Luna war es auf jeden Fall eine wertvolle Erfahrung.“ Mit ihrer Quali-Platzierung steht sie nicht im Mehrkampffinale."
-      ],
-      "quelle": "dtb.de"
     },
     {
       "id": "2026-11-09-kinderturnen",
@@ -215,19 +229,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-08-rsg-bundesliga",
-      "rubrik": "RSG",
-      "motiv": "rsg",
-      "datum": "2026-11-07",
-      "titel": "RSG: Berlin im kleinen DTL-Finale",
-      "teaser": "Team Berlin wird Zweiter in Staffel A hinter Leverkusen.",
-      "text": [
-        "In der 1. Bundesliga der Rhythmischen Sportgymnastik ging die Staffel A in Gütersloh zu Ende. Bayer 04 Leverkusen gewann mit 16 Rangpunkten. Team Berlin wurde Zweiter und darf im kleinen DTL-Finale um Platz drei turnen.",
-        "Leverkusen trifft im großen Finale am 28. November in Berlin auf den Sieger der Staffel B. Der KRS-Charlottenburger TSV steigt in die 2. Bundesliga ab."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
       "id": "2026-11-03-berlin",
       "rubrik": "BER",
       "motiv": "kalender",
@@ -243,6 +244,40 @@
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "yog2026-mixed",
+      "name": "Olympische Jugendspiele – Mixed-Team-Finale",
+      "ort": "Dakar (Senegal)",
+      "von": "2026-11-11",
+      "rubrik": "INT",
+      "sparte": "Turnen Frauen",
+      "bericht": "Je eine Turnerin und ein Turner pro Team, jeder an einem Gerät. China gewann vor Japan und Israel.",
+      "entscheidungen": [
+        {
+          "titel": "Mixed-Team Finale",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "China",
+              "land": "CHN",
+              "note": 27.832
+            },
+            {
+              "platz": 2,
+              "name": "Japan",
+              "land": "JPN",
+              "note": 25.966
+            },
+            {
+              "platz": 3,
+              "name": "Israel",
+              "land": "ISR",
+              "note": 24.366
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "yog2026-mk",
       "name": "Olympische Jugendspiele – Mehrkampffinale Männer",
@@ -377,39 +412,6 @@
               "name": "Deutschland",
               "land": "GER",
               "note": 52.75
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "yog2026-m",
-      "name": "Olympische Jugendspiele – Qualifikation Männer",
-      "ort": "Dakar (Senegal)",
-      "von": "2026-11-07",
-      "rubrik": "NW",
-      "sparte": "Turnen Männer",
-      "bericht": "Deutschland zog als Fünfter ins Teamfinale ein, Andrei Mihai als Neunter ins Mehrkampffinale.",
-      "entscheidungen": [
-        {
-          "titel": "Qualifikation Team",
-          "podium": [
-            {
-              "platz": 5,
-              "name": "Deutschland",
-              "land": "GER",
-              "note": 149.596
-            }
-          ]
-        },
-        {
-          "titel": "Qualifikation Mehrkampf",
-          "podium": [
-            {
-              "platz": 9,
-              "name": "Andrei Mihai",
-              "land": "GER",
-              "note": 75.164
             }
           ]
         }
@@ -579,14 +581,6 @@
   },
   "termine": [
     {
-      "name": "Olympische Jugendspiele – Mixed-Team-Finale Turnen",
-      "ort": "Dakar (Senegal)",
-      "von": "2026-11-11",
-      "ebene": "international",
-      "sparte": "Turnen",
-      "info": "laut DTB am Mittwoch. Die deutschen Turner sind nach dem Mehrkampffinale fertig."
-    },
-    {
       "name": "Berliner Adventspokal Gerätturnen männlich",
       "ort": "Berlin, Gretel-Bergmann-Sporthalle",
       "von": "2026-11-14",
@@ -624,6 +618,13 @@
       "sparte": "Turnen"
     },
     {
+      "name": "MAG Online European Club Cup – Start",
+      "von": "2026-11-23",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Neuer Online-Europapokal für bis zu 32 Männer-Vereine. Final 4 nach Gruppenphase und K.-o.-Runden."
+    },
+    {
       "name": "DTL-Finale Turnen",
       "ort": "Heidelberg, SNP dome",
       "von": "2026-11-28",
@@ -657,6 +658,14 @@
       "info": "Die zwei Besten der 3. Bundesliga Süd treffen auf die zwei Besten aus dem Norden. Die TG Allgäu ist schon dabei."
     },
     {
+      "name": "Rendezvous der Besten – Bundesfinale Showgruppen",
+      "ort": "Rodalben",
+      "von": "2026-12-05",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "34 Showgruppen kämpfen um den Titel „DTB-Showgruppe 2026“. Große Show ab 20 Uhr."
+    },
+    {
       "name": "Turnier der Meister (Weltcup)",
       "ort": "Cottbus, Lausitz-Arena",
       "von": "2027-02-25",
@@ -678,138 +687,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "NW",
-      "frage": "Wer gewann bei den Olympischen Jugendspielen in Dakar das Mehrkampffinale der Jungs?",
+      "rubrik": "INT",
+      "frage": "Welches Land gewann in Dakar das Mixed-Team-Finale im Turnen?",
       "antworten": [
-        "Ikki Nishihara",
-        "Uzair Chowdhury",
-        "Zénó Csuka",
-        "Daniil Smirnov"
+        "Japan",
+        "Israel",
+        "China",
+        "Italien"
       ],
-      "richtig": 3,
-      "erklaerung": "Daniil Smirnov siegte mit 81,298 Punkten vor Chowdhury und Nishihara."
+      "richtig": 2,
+      "erklaerung": "China siegte mit 27,832 Punkten vor Japan und Israel."
     },
     {
-      "rubrik": "NW",
-      "frage": "Warum durfte Zénó Csuka im Mehrkampffinale in Dakar mitturnen?",
+      "rubrik": "INT",
+      "frage": "Wer bildete beim Mixed-Team in Dakar eine Mannschaft?",
       "antworten": [
-        "Er war erster Reserveathlet und rückte nach",
-        "Er war Erster der Qualifikation",
-        "Er wurde ausgelost",
-        "Er hatte eine Wildcard"
+        "Eine Turnerin und ein Turner",
+        "Drei Turner",
+        "Zwei Turnerinnen",
+        "Fünf Turnerinnen und Turner"
       ],
       "richtig": 0,
-      "erklaerung": "Ein anderer Turner fiel verletzt aus, deshalb rückte Zénó als erster Reserveathlet nach. Er wurde 13."
+      "erklaerung": "Jedes Team bestand aus einer Turnerin und einem Turner. Beide turnten je ein Gerät, die Noten wurden addiert."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wie treten die Vereine beim neuen „MAG Online European Club Cup“ gegeneinander an?",
+      "antworten": [
+        "Alle reisen nach Paris",
+        "Sie filmen ihre Übungen in der eigenen Halle",
+        "Nur am Reck",
+        "Mit Mannschaften aus Kindern unter 10"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Trainer filmen die Übungen mit einer App, die Kampfrichter bewerten die Videos online."
     },
     {
       "rubrik": "DE",
-      "frage": "Welcher Sportverband in Deutschland hat noch mehr Mitgliedschaften als der Deutsche Turner-Bund?",
-      "antworten": [
-        "Der Schwimmverband",
-        "Der Fußball-Bund",
-        "Der Tennis-Bund",
-        "Der Leichtathletik-Verband"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der DTB ist mit über 5,2 Millionen Mitgliedschaften die Nummer 2 hinter dem Deutschen Fußball-Bund."
-    },
-    {
-      "rubrik": "BER",
-      "frage": "Wie viele Gerätepunkte fehlten Reflect Berlin in der 3. RSG-Bundesliga zum Staffelsieg?",
-      "antworten": [
-        "Einer",
-        "Drei",
-        "Fünf",
-        "Zehn"
-      ],
-      "richtig": 0,
-      "erklaerung": "Münsterland hatte 19 Gerätepunkte, Reflect Berlin 18 – bei gleich vielen Rangpunkten."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wo ist am 5. Dezember der Aufstiegswettkampf zur 2. Bundesliga der Männer?",
+      "frage": "Wo findet am 5. Dezember das Bundesfinale „Rendezvous der Besten“ statt?",
       "antworten": [
         "Berlin",
-        "Heidelberg",
-        "Oberhausen",
-        "Cottbus"
-      ],
-      "richtig": 2,
-      "erklaerung": "Der Aufstiegswettkampf findet in Oberhausen statt. Die TG Allgäu ist schon qualifiziert."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Wie viele Goldmedaillen gewann Witali Scherbo 1992 in Barcelona bei denselben Olympischen Spielen?",
-      "antworten": [
-        "Zwei",
-        "Vier",
-        "Sechs",
-        "Acht"
-      ],
-      "richtig": 2,
-      "erklaerung": "Witali Scherbo holte 1992 in Barcelona sechs Goldmedaillen."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "An welchem Gerät turnt man den Gienger-Salto, benannt nach Eberhard Gienger?",
-      "antworten": [
-        "Barren",
-        "Ringe",
-        "Boden",
-        "Reck"
+        "Stuttgart",
+        "Hannover",
+        "Rodalben"
       ],
       "richtig": 3,
-      "erklaerung": "Der Gienger ist ein Flugelement am Reck. Eberhard Gienger wurde 1974 Weltmeister am Reck."
+      "erklaerung": "Die Sporthalle der TS Rodalben in der Pfalz wird zur Bühne für die besten Showgruppen."
     },
     {
-      "rubrik": "Regeln",
-      "frage": "Was bewertet die D-Note?",
+      "rubrik": "DE",
+      "frage": "Wie viele Showgruppen sind beim „Rendezvous der Besten“ 2026 dabei?",
       "antworten": [
-        "Wie schwierig die Übung ist",
-        "Wie sauber die Übung ist",
-        "Wie lange die Übung dauert",
-        "Wie laut das Publikum jubelt"
-      ],
-      "richtig": 0,
-      "erklaerung": "D steht für Schwierigkeit (englisch difficulty). Die Sauberkeit bewertet die E-Note."
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie viele Gerätepunkte bekommt in der Bundesliga das Team, das ein Gerät gewinnt?",
-      "antworten": [
-        "1",
-        "2",
-        "4",
-        "6"
+        "12",
+        "34",
+        "15",
+        "100"
       ],
       "richtig": 1,
-      "erklaerung": "Wer an einem Gerät mehr Scorepunkte holt, bekommt zwei Gerätepunkte."
+      "erklaerung": "34 Gruppen aus zwölf Landesturnverbänden mit 911 Teilnehmenden haben sich qualifiziert."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Wer wurde 1996 in Atlanta Olympiasieger am Reck?",
+      "antworten": [
+        "Fabian Hambüchen",
+        "Eberhard Gienger",
+        "Andreas Wecker",
+        "Marcel Nguyen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Andreas Wecker holte 1996 Olympia-Gold am Reck. Hambüchen schaffte das erst 2016."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Nach wem ist der Sprung „Tsukahara“ benannt?",
+      "antworten": [
+        "Nach einem japanischen Turner",
+        "Nach einer Stadt in Japan",
+        "Nach einem Trainer aus Deutschland",
+        "Nach einem Tier"
+      ],
+      "richtig": 0,
+      "erklaerung": "Mitsuo Tsukahara aus Japan erfand ihn: halbe Drehung auf den Tisch, dann Salto rückwärts."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Wie viel zieht das Kampfgericht für einen großen Fehler ab?",
+      "antworten": [
+        "0,1",
+        "0,3",
+        "1,0",
+        "0,5"
+      ],
+      "richtig": 3,
+      "erklaerung": "Kleiner Fehler 0,1, mittlerer 0,3, großer 0,5 – ein Sturz kostet 1,0."
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Mit welchen Handgeräten turnen die Gymnastinnen in der RSG-Bundesliga?",
+      "antworten": [
+        "Reifen, Ball, Keulen, Band",
+        "Seil, Ball, Stab, Fahne",
+        "Ball, Ring, Hantel, Band",
+        "Reifen, Stab, Tuch, Seil"
+      ],
+      "richtig": 0,
+      "erklaerung": "In der RSG-Bundesliga gibt es Durchgänge mit Reifen, Ball, Keulen und Band."
     },
     {
       "rubrik": "Pflicht",
-      "frage": "Wie viel ist der Bonus-Salto rückwärts gestreckt mit 1/1 LAD am Boden (AK 11/12) wert, wenn weniger als 0,5 abgezogen wird?",
+      "frage": "Wie viel ist eine Kreis-Flanke in der Pflichtübung am Pauschenpferd (AK 11/12) wert?",
       "antworten": [
-        "1,4",
-        "1,5",
-        "1,9",
-        "2,5"
+        "0,2",
+        "0,5",
+        "0,7",
+        "1,0"
       ],
       "richtig": 2,
-      "erklaerung": "Als Bonusteil zählt der Salto 1,9 Punkte. Gibt es einen großen Fehler, ist er nur 1,4 wert."
+      "erklaerung": "Jede Kreis-Flanke ist in der Pferd-Pflicht 0,7 Punkte wert. Pferd zählt als halbes Gerät, zusammen mit dem Pilz."
     }
   ],
   "kampfrichter": {
-    "titel": "Riesenfelge vergessen",
-    "situation": "Ein Turner lässt in seiner Pflichtübung am Reck eine Riesenfelge einfach weg und turnt danach normal weiter.",
-    "frage": "Was zieht das Kampfgericht laut DTB-Pflicht AK 11/12 ab?",
+    "titel": "Eine Kreis-Flanke zu viel",
+    "situation": "Ein Turner ist am Pauschenpferd so im Schwung, dass er in seiner Pflichtübung eine Kreis-Flanke mehr turnt, als vorgeschrieben ist. Sonst klappt alles.",
+    "frage": "Was passiert laut DTB-Pflicht AK 11/12?",
     "antworten": [
-      "Nur den Wert der Riesenfelge",
-      "Den Wert der Riesenfelge und zusätzlich 0,3",
-      "Pauschal 1,0",
-      "Gar nichts"
+      "Er bekommt 0,7 Bonus",
+      "Es gibt 0,3 Punkte Abzug",
+      "Die Übung ist ungültig",
+      "Gar nichts – mehr ist immer besser"
     ],
     "richtig": 1,
-    "erklaerung": "Fehlt ein Element, wird normalerweise nur sein Wert abgezogen. Bei einer fehlenden Riesenfelge (Reck) oder Kreis-Flanke (Pferd/Pilz) kommen noch 0,3 Punkte Abzug dazu."
+    "erklaerung": "Zusätzliche Kreis-Flanken (oder am Reck zusätzliche Riesenfelgen) kosten 0,3 Punkte Abzug. In der Pflicht zählt genau das, was im Übungstext steht."
   },
   "lexikon": [
     {
@@ -891,9 +900,27 @@
     {
       "begriff": "Rangpunkte",
       "erklaerung": "In der RSG-Bundesliga bekommt jedes Team je nach Platz an einem Wettkampftag Rangpunkte. Wer am Saisonende die meisten hat, gewinnt."
+    },
+    {
+      "begriff": "Mixed-Team",
+      "erklaerung": "Eine gemischte Mannschaft aus Turnerinnen und Turnern. Bei den Olympischen Jugendspielen bestand jedes Team aus einer Turnerin und einem Turner."
+    },
+    {
+      "begriff": "Showgruppe",
+      "erklaerung": "Eine Gruppe, die Turnen als Show zeigt – mit Musik, Kostümen und einer Geschichte. Bewertet werden Ideen, Ausstrahlung und wie gut alles zusammenpasst."
     }
   ],
   "quizGestellt": [
+    "China Mixed-Team-Gold Dakar",
+    "Mixed-Team Turnerin und Turner",
+    "Online Club Cup Videos",
+    "Rendezvous der Besten Rodalben",
+    "Rendezvous 34 Showgruppen",
+    "Wecker Reck-Gold 1996",
+    "Tsukahara Namensgeber",
+    "Großer Fehler 0,5",
+    "RSG vier Handgeräte",
+    "Kreis-Flanke Wert 0,7 AK 11/12",
     "Smirnov Mehrkampf-Gold Dakar",
     "Csuka Reserve Mehrkampffinale",
     "DTB Nummer 2 hinter DFB",
@@ -956,6 +983,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Zusätzliche Kreis-Flanke Abzug 0,3 AK 11/12",
     "Fehlende Riesenfelge Zusatzabzug 0,3 AK 11/12",
     "Sturz vom Gerät 1,0 AK 11/12",
     "Hilfestellung Trainer ganzer Wert AK 11/12",
