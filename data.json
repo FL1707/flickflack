@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-12T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-12",
-  "gruss": "Guten Morgen! In Dakar ist das letzte Turn-Gold vergeben: China gewinnt auch das Mixed-Team-Finale. Außerdem gibt es bald einen neuen Online-Wettkampf für Turnvereine in ganz Europa – und am Samstag turnt Berlin beim Adventspokal.",
-  "quizId": "2026-11-12",
+  "aktualisiert": "2026-11-13T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-13",
+  "gruss": "Guten Morgen! In China springt gerade der Trampolin-Nachwuchs aus der ganzen Welt – auch viele junge Deutsche sind dabei. Morgen ist ein großer Turn-Samstag: Adventspokal in Berlin und Bundesliga bei Männern und Frauen. Und die RSG-Finalisten für Berlin stehen fest.",
+  "quizId": "2026-11-13",
   "zahlDesTages": {
-    "zahl": "911",
-    "text": "So viele Turnerinnen und Turner zeigen am 5. Dezember beim Bundesfinale „Rendezvous der Besten“ in Rodalben ihre Shows – in 34 Gruppen aus zwölf Landesturnverbänden."
+    "zahl": "31,400",
+    "text": "So viele Punkte bekam eine Gymnastin aus Leverkusen für ihre Übung mit dem Reifen – die beste Einzelwertung am letzten Tag der RSG-Bundesliga in Gütersloh."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,6 +75,62 @@
   },
   "news": [
     {
+      "id": "2026-11-13-trampolin-nanjing",
+      "rubrik": "TRA",
+      "motiv": "trampolin",
+      "datum": "2026-11-12",
+      "titel": "Trampolin: Deutscher Nachwuchs springt in China",
+      "teaser": "Bis zum 15. November kämpfen junge Trampolinturner in Nanjing um Medaillen – sogar schon in der AK 11/12.",
+      "text": [
+        "Gleich nach der Trampolin-WM geht es in China weiter: In der Stadt Nanjing treffen sich bis zum 15. November die besten jungen Trampolinturnerinnen und -turner der Welt. Es gibt eine Junioren-WM für die Altersklasse 15–16 und Wettkämpfe für die jüngeren Altersklassen.",
+        "Deutschland ist mit einer großen Mannschaft dabei – von der AK 11/12 bis zur AK 17. Gesprungen wird auf dem Trampolin, im Synchron und auf dem Doppel-Mini-Trampolin.",
+        "Für viele ist es der erste große internationale Wettkampf. Laut Bundestrainerin sollen sie vor allem Erfahrungen sammeln. Bei der Junioren-WM hofft das Team aber auch auf Plätze im Halbfinale."
+      ],
+      "quelle": "dtb.de, gymnastics.sport"
+    },
+    {
+      "id": "2026-11-13-dtl-vorschau",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-14",
+      "titel": "Bundesliga: Wer schafft es ins Finale?",
+      "teaser": "Am Samstag steigt der vorletzte Wettkampftag der Männer – an der Spitze haben drei Teams je 8 Punkte.",
+      "text": [
+        "In der 1. Bundesliga der Männer wird es spannend. Straubenhardt, Cottbus und die TG Saar haben alle 8 Punkte. Nur die besten vier Teams dürfen am 28. November zum DTL-Finale nach Heidelberg.",
+        "Am Samstag treffen sich: Cottbus gegen Vinnhorst, Schwäbisch Gmünd-Wetzgau gegen die TG Saar, Straubenhardt gegen Koblenz und Singen gegen Siegerland. Eine Woche später folgt der letzte Wettkampftag.",
+        "Auch die Frauen turnen am Samstag – in Esslingen ist ihr letzter Wettkampftag vor dem Finale. Mit dabei ist der Berliner Aufsteiger TSG Berlin Steglitz."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-13-berlin-kadertest",
+      "rubrik": "BER",
+      "motiv": "kalender",
+      "datum": "2026-12-11",
+      "titel": "Berlin: Termin für den Landeskader-Test steht",
+      "teaser": "Am 11. und 12. Dezember werden im Sportforum Hohenschönhausen Technik und Athletik geprüft.",
+      "text": [
+        "Der Berliner Turn- und Freizeitsport-Bund hat den Termin für den Landeskadernominierungstest im Gerätturnen der Jungen veröffentlicht. Er findet am 11. und 12. Dezember im Sportforum Berlin in Hohenschönhausen statt.",
+        "Am Freitag werden die Technischen Grundlagen für die AK 9 bis 17 abgenommen. Am Samstag folgen die Athletischen Tests – zuerst für die Jüngsten der AK 5 und 6, danach für die AK 7 bis 18.",
+        "Die Ergebnisse der AK 7 bis 18 zählen für die Aufnahme in den Berliner Landeskader. Bei den AK 5 und 6 geht es um den Berliner Kaderschulungskreis."
+      ],
+      "quelle": "btfb.de"
+    },
+    {
+      "id": "2026-11-13-rsg-finale",
+      "rubrik": "RSG",
+      "motiv": "rsg",
+      "datum": "2026-11-07",
+      "titel": "RSG: Leverkusen gegen Schmiden um den Titel",
+      "teaser": "Das Finale in Berlin steht fest – und Team Berlin turnt um Platz drei.",
+      "text": [
+        "In der 1. Bundesliga der Rhythmischen Sportgymnastik ist die Hauptrunde vorbei. In der Staffel B gewann Titelverteidiger TSV Schmiden den letzten Wettkampftag in Saarbrücken. Schmiden siegte dort an allen vier Handgeräten: Reifen, Ball, Keulen und Band.",
+        "Damit steht das große Finale fest: Am 28. November kämpfen Bayer 04 Leverkusen und der TSV Schmiden in Berlin um die Deutsche Mannschaftsmeisterschaft.",
+        "Im kleinen Finale um Platz drei turnt Team Berlin gegen Aufsteiger TSV Nürnberg. Nürnberg und der TB Oppau hatten gleich viele Rang- und Gerätepunkte – am Ende entschied die höhere Gesamtpunktzahl für Nürnberg."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
       "id": "2026-11-12-dakar-mixed",
       "rubrik": "INT",
       "motiv": "team",
@@ -131,20 +187,6 @@
       "quelle": "dtb.de"
     },
     {
-      "id": "2026-11-11-dtb-mitglieder",
-      "rubrik": "DE",
-      "motiv": "zahlen",
-      "datum": "2026-11-10",
-      "titel": "Über 5,2 Millionen Turn-Mitgliedschaften",
-      "teaser": "Der Deutsche Turner-Bund bleibt der zweitgrößte Sportverband in Deutschland.",
-      "text": [
-        "Noch nie waren so viele Menschen in Deutschland in einem Sportverein: Am 1. Januar 2026 waren es über 30 Millionen Mitgliedschaften.",
-        "Der Deutsche Turner-Bund zählte 5.280.902 Mitgliedschaften – ein kleines Plus von rund 2.200 im Vergleich zum Vorjahr. Nur der Deutsche Fußball-Bund ist noch größer.",
-        "DTB-Präsident Alfons Hölzl freut sich: Die Angebote der Turnvereine würden nicht nur gut angenommen, sondern richtig gesucht."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
       "id": "2026-11-11-rsg-3bl-berlin",
       "rubrik": "BER",
       "motiv": "rsg",
@@ -171,48 +213,6 @@
         "Damit darf Allgäu schon sicher beim Aufstiegswettkampf zur 2. Bundesliga am 5. Dezember in Oberhausen antreten. Dort turnen die besten Teams aus dem Süden gegen die besten aus dem Norden."
       ],
       "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-09-kinderturnen",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-08",
-      "titel": "Tag des Kinderturnens: Tierische Weltreise",
-      "teaser": "Rund 74.000 Kinder turnten am Wochenende bei über 725 Vereinen mit.",
-      "text": [
-        "Beim Tag des Kinderturnens machten Kinder in ganz Deutschland mit. Der Schwerpunkt war in Troisdorf, wo etwa 500 Kinder Stars des Turn-Teams trafen, zum Beispiel Alexander Kunz, Nils Dunkel, Viktoria Steinfeld und Margarita Kolosov.",
-        "Das Motto hieß „Tierische Turn-Weltreise“. Die Kinder machten Purzelbäume wie Pandas, rutschten auf dem Bauch wie Pinguine und sprangen Seil wie Kängurus. Es gab auch einen Parcours mit Radschlag und Balance-Challenge – und am Ende eine Urkunde.",
-        "Botschafter Andy Toba sagte, beim Kinderturnen müsse niemand vorher etwas können: Man solle einfach loslegen."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-09-braig",
-      "rubrik": "TRA",
-      "motiv": "trampolin",
-      "datum": "2026-11-07",
-      "titel": "Trampolin-WM: Braig wird 14. im Doppel-Mini",
-      "teaser": "Moritz Braig verbessert sich im Halbfinale um fünf Plätze.",
-      "text": [
-        "Bei der Trampolin-WM in Nanjing (China) turnte Moritz Braig von den Munich Airriders im Doppel-Mini-Trampolin auf Platz 14. Er bekam 27,600 Punkte.",
-        "Im Halbfinale kletterte er gegen die Quali um fünf Plätze nach oben. Beide Sprünge waren sauber, nur für einen kleinen Fehler beim Stand gab es 0,800 Punkte Abzug.",
-        "Trainer Olaf Schmidt sagte, Moritz habe im Vergleich zum letzten Jahr einen großen Schritt nach vorn gemacht. Ins Finale kam er diesmal nicht."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-08-swisscup",
-      "rubrik": "DE",
-      "motiv": "medaille",
-      "datum": "2026-11-07",
-      "titel": "Swiss Cup: Silber nach Krimi gegen Frankreich",
-      "teaser": "Das deutsche Team verpasst den Sieg in Zürich um nur drei Zehntelpunkte.",
-      "text": [
-        "Beim Swiss Cup in Zürich turnen immer gemischte Teams aus Turnerinnen und Turnern. Für Deutschland waren Karina Schönmaier, Charleen Pach, Timo Eder und Milan Hosseini dabei. In der Qualifikation wurden sie Dritte und zogen in die K.o.-Runde ein.",
-        "Dort schlugen sie im Halbfinale das Team aus den USA. Im Finale gegen Frankreich hieß es am Ende 53,050 zu 52,750 Punkte – nur drei Zehntel fehlten zum Turniersieg.",
-        "Karina und Timo blieben den ganzen Tag ohne Fehler. Trainer Anatol Ashukorov lobte, dass die Mannschaft unter großem Druck Charakter und mentale Stärke gezeigt hat."
-      ],
-      "quelle": "dtb.de"
     },
     {
       "id": "2026-11-08-bundesliga",
@@ -368,22 +368,50 @@
       ]
     },
     {
-      "id": "yog2026-f",
-      "name": "Olympische Jugendspiele – Qualifikation Frauen",
-      "ort": "Dakar (Senegal)",
-      "von": "2026-11-08",
-      "rubrik": "NW",
-      "sparte": "Turnen Frauen",
-      "bericht": "Luna Zimmermann war die einzige deutsche Turnerin und wurde in der Qualifikation 28.",
+      "id": "rsgbl2026-hr",
+      "name": "RSG-Bundesliga – letzter Wettkampftag",
+      "ort": "Gütersloh und Saarbrücken",
+      "von": "2026-11-07",
+      "rubrik": "RSG",
+      "sparte": "RSG",
+      "bericht": "Leverkusen gewann Staffel A, Schmiden Staffel B – beide treffen sich im DTL-Finale. Angegeben ist die Gesamtpunktzahl des Tages.",
       "entscheidungen": [
         {
-          "titel": "Qualifikation Mehrkampf",
+          "titel": "Staffel A (Gütersloh)",
           "podium": [
             {
-              "platz": 28,
-              "name": "Luna Zimmermann",
-              "land": "GER",
-              "note": 46.265
+              "platz": 1,
+              "name": "TSV Bayer 04 Leverkusen",
+              "note": 307.65
+            },
+            {
+              "platz": 2,
+              "name": "Team Berlin",
+              "note": 280.45
+            },
+            {
+              "platz": 3,
+              "name": "Schwerter Turnerschaft",
+              "note": 272.1
+            }
+          ]
+        },
+        {
+          "titel": "Staffel B (Saarbrücken)",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "TSV Schmiden",
+              "note": 293.1
+            },
+            {
+              "platz": 2,
+              "name": "TB Oppau",
+              "note": 258.25
+            },
+            {
+              "platz": 3,
+              "name": "TV Dahn"
             }
           ]
         }
@@ -581,13 +609,27 @@
   },
   "termine": [
     {
-      "name": "Berliner Adventspokal Gerätturnen männlich",
-      "ort": "Berlin, Gretel-Bergmann-Sporthalle",
+      "name": "Trampolin: Junioren-WM und World Age Group Competition",
+      "ort": "Nanjing (China)",
+      "von": "2026-11-12",
+      "bis": "2026-11-15",
+      "ebene": "international",
+      "sparte": "Trampolin",
+      "info": "Großes deutsches Nachwuchsteam von AK 11/12 bis AK 17."
+    },
+    {
+      "name": "1. Bundesliga Frauen – letzter Wettkampftag",
+      "ort": "Esslingen am Neckar, Sporthalle Weil",
       "von": "2026-11-14",
-      "ebene": "berlin",
+      "ebene": "national",
+      "sparte": "Turnen"
+    },
+    {
+      "name": "1. Bundesliga Männer – 6. Wettkampftag",
+      "von": "2026-11-14",
+      "ebene": "national",
       "sparte": "Turnen",
-      "info": "Allgemeiner Motorik-Test und Technische Grundlagen. Kaderrelevant für den Berliner Kaderschulungskreis.",
-      "highlight": true
+      "info": "Cottbus – Vinnhorst, Wetzgau – TG Saar, Straubenhardt – Koblenz, Singen – Siegerland."
     },
     {
       "name": "Berlin: Mannschaftswettkampf P-Stufen weiblich",
@@ -599,17 +641,13 @@
       "info": "P3 am Samstag, P1 und P2 am Sonntag."
     },
     {
-      "name": "1. Bundesliga Frauen – letzter Wettkampftag",
-      "ort": "Esslingen",
+      "name": "Berliner Adventspokal Gerätturnen männlich",
+      "ort": "Berlin, Gretel-Bergmann-Sporthalle",
       "von": "2026-11-14",
-      "ebene": "national",
-      "sparte": "Turnen"
-    },
-    {
-      "name": "1. Bundesliga Männer – 6. Wettkampftag",
-      "von": "2026-11-14",
-      "ebene": "national",
-      "sparte": "Turnen"
+      "ebene": "berlin",
+      "sparte": "Turnen",
+      "info": "Allgemeiner Motorik-Test und Technische Grundlagen. Kaderrelevant für den Berliner Kaderschulungskreis.",
+      "highlight": true
     },
     {
       "name": "1. Bundesliga Männer – 7. Wettkampftag",
@@ -625,6 +663,14 @@
       "info": "Neuer Online-Europapokal für bis zu 32 Männer-Vereine. Final 4 nach Gruppenphase und K.-o.-Runden."
     },
     {
+      "name": "DTL-Finale Rhythmische Sportgymnastik",
+      "ort": "Berlin",
+      "von": "2026-11-28",
+      "ebene": "berlin",
+      "sparte": "RSG",
+      "info": "Davor gibt es einen neuen Nachwuchspokal für jüngere Gymnastinnen."
+    },
+    {
       "name": "DTL-Finale Turnen",
       "ort": "Heidelberg, SNP dome",
       "von": "2026-11-28",
@@ -632,14 +678,6 @@
       "sparte": "Turnen",
       "info": "Die besten Bundesliga-Teams kämpfen um den deutschen Mannschaftstitel.",
       "highlight": true
-    },
-    {
-      "name": "DTL-Finale Rhythmische Sportgymnastik",
-      "ort": "Berlin",
-      "von": "2026-11-28",
-      "ebene": "berlin",
-      "sparte": "RSG",
-      "info": "Davor gibt es einen neuen Nachwuchspokal für jüngere Gymnastinnen."
     },
     {
       "name": "Jahrgangsbesten-Wettkampf Gerätturnen männlich",
@@ -666,6 +704,15 @@
       "info": "34 Showgruppen kämpfen um den Titel „DTB-Showgruppe 2026“. Große Show ab 20 Uhr."
     },
     {
+      "name": "Berliner Landeskadernominierungstest Gerätturnen männlich",
+      "ort": "Berlin, Sportforum Hohenschönhausen",
+      "von": "2026-12-11",
+      "bis": "2026-12-12",
+      "ebene": "berlin",
+      "sparte": "Turnen",
+      "info": "Freitag Technische Grundlagen (AK 9–17), Samstag Athletische Tests (AK 5–18)."
+    },
+    {
       "name": "Turnier der Meister (Weltcup)",
       "ort": "Cottbus, Lausitz-Arena",
       "von": "2027-02-25",
@@ -687,138 +734,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "INT",
-      "frage": "Welches Land gewann in Dakar das Mixed-Team-Finale im Turnen?",
+      "rubrik": "TRA",
+      "frage": "In welcher chinesischen Stadt springt gerade der Trampolin-Nachwuchs der Welt?",
       "antworten": [
-        "Japan",
-        "Israel",
-        "China",
-        "Italien"
-      ],
-      "richtig": 2,
-      "erklaerung": "China siegte mit 27,832 Punkten vor Japan und Israel."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Wer bildete beim Mixed-Team in Dakar eine Mannschaft?",
-      "antworten": [
-        "Eine Turnerin und ein Turner",
-        "Drei Turner",
-        "Zwei Turnerinnen",
-        "Fünf Turnerinnen und Turner"
-      ],
-      "richtig": 0,
-      "erklaerung": "Jedes Team bestand aus einer Turnerin und einem Turner. Beide turnten je ein Gerät, die Noten wurden addiert."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Wie treten die Vereine beim neuen „MAG Online European Club Cup“ gegeneinander an?",
-      "antworten": [
-        "Alle reisen nach Paris",
-        "Sie filmen ihre Übungen in der eigenen Halle",
-        "Nur am Reck",
-        "Mit Mannschaften aus Kindern unter 10"
+        "Peking",
+        "Nanjing",
+        "Shanghai",
+        "Hongkong"
       ],
       "richtig": 1,
-      "erklaerung": "Die Trainer filmen die Übungen mit einer App, die Kampfrichter bewerten die Videos online."
+      "erklaerung": "Die Junioren-WM und die Wettkämpfe der Altersklassen finden bis 15. November in Nanjing statt."
     },
     {
-      "rubrik": "DE",
-      "frage": "Wo findet am 5. Dezember das Bundesfinale „Rendezvous der Besten“ statt?",
+      "rubrik": "DTL",
+      "frage": "Gegen wen turnt Bundesliga-Spitzenreiter Straubenhardt am Samstag?",
       "antworten": [
-        "Berlin",
+        "SC Cottbus",
+        "StTV Singen",
+        "TuS Vinnhorst",
+        "KTV Koblenz"
+      ],
+      "richtig": 3,
+      "erklaerung": "Straubenhardt empfängt die KTV Koblenz in der Straubenhardthalle."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Wo turnen die Bundesliga-Frauen am Samstag ihren letzten Wettkampftag?",
+      "antworten": [
+        "Esslingen",
+        "Heidelberg",
+        "Mannheim",
+        "Chemnitz"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der letzte Wettkampftag der Frauen findet in Esslingen am Neckar statt."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Welche zwei Teams kämpfen im RSG-Finale um die Deutsche Meisterschaft?",
+      "antworten": [
+        "Team Berlin und Nürnberg",
+        "Leverkusen und Schmiden",
+        "Oppau und Bremen",
+        "Schmiden und Nürnberg"
+      ],
+      "richtig": 1,
+      "erklaerung": "Leverkusen gewann Staffel A, Schmiden Staffel B. Team Berlin und Nürnberg turnen um Platz drei."
+    },
+    {
+      "rubrik": "BER",
+      "frage": "Wo findet im Dezember der Berliner Landeskader-Test der Turner statt?",
+      "antworten": [
+        "Leistikowhalle",
+        "Gretel-Bergmann-Sporthalle",
+        "Sportforum Hohenschönhausen",
+        "Olympiastadion"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der Landeskadernominierungstest ist am 11. und 12. Dezember im Sportforum Berlin in Hohenschönhausen."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Nach welchem Turner ist die Thomasflanke am Pferd benannt?",
+      "antworten": [
+        "Kurt Thomas (USA)",
+        "Thomas Müller (GER)",
+        "Thomas Bimis (GRE)",
+        "Tommy Ramos (PUR)"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der US-Amerikaner Kurt Thomas zeigte die Spreiz-Kreis-Flanken in den 1970er-Jahren berühmt am Pauschenpferd und am Boden."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "In welcher Stadt wurde Fabian Hambüchen 2007 Weltmeister am Reck?",
+      "antworten": [
+        "Tokio",
+        "London",
         "Stuttgart",
-        "Hannover",
-        "Rodalben"
-      ],
-      "richtig": 3,
-      "erklaerung": "Die Sporthalle der TS Rodalben in der Pfalz wird zur Bühne für die besten Showgruppen."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "Wie viele Showgruppen sind beim „Rendezvous der Besten“ 2026 dabei?",
-      "antworten": [
-        "12",
-        "34",
-        "15",
-        "100"
-      ],
-      "richtig": 1,
-      "erklaerung": "34 Gruppen aus zwölf Landesturnverbänden mit 911 Teilnehmenden haben sich qualifiziert."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Wer wurde 1996 in Atlanta Olympiasieger am Reck?",
-      "antworten": [
-        "Fabian Hambüchen",
-        "Eberhard Gienger",
-        "Andreas Wecker",
-        "Marcel Nguyen"
+        "Antwerpen"
       ],
       "richtig": 2,
-      "erklaerung": "Andreas Wecker holte 1996 Olympia-Gold am Reck. Hambüchen schaffte das erst 2016."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Nach wem ist der Sprung „Tsukahara“ benannt?",
-      "antworten": [
-        "Nach einem japanischen Turner",
-        "Nach einer Stadt in Japan",
-        "Nach einem Trainer aus Deutschland",
-        "Nach einem Tier"
-      ],
-      "richtig": 0,
-      "erklaerung": "Mitsuo Tsukahara aus Japan erfand ihn: halbe Drehung auf den Tisch, dann Salto rückwärts."
+      "erklaerung": "Bei der Heim-WM 2007 in Stuttgart holte Fabian Hambüchen Gold am Reck."
     },
     {
       "rubrik": "Regeln",
-      "frage": "Wie viel zieht das Kampfgericht für einen großen Fehler ab?",
+      "frage": "Wie viele Rangpunkte bekommt ein Team in der RSG-Bundesliga für einen Tagessieg?",
       "antworten": [
-        "0,1",
-        "0,3",
-        "1,0",
-        "0,5"
+        "2",
+        "5",
+        "10",
+        "8"
       ],
       "richtig": 3,
-      "erklaerung": "Kleiner Fehler 0,1, mittlerer 0,3, großer 0,5 – ein Sturz kostet 1,0."
+      "erklaerung": "Für die Plätze eins bis fünf gibt es 8, 6, 4, 2 und 0 Rangpunkte."
     },
     {
       "rubrik": "Regeln",
-      "frage": "Mit welchen Handgeräten turnen die Gymnastinnen in der RSG-Bundesliga?",
+      "frage": "Was bedeutet „Synchron“ beim Trampolinturnen?",
       "antworten": [
-        "Reifen, Ball, Keulen, Band",
-        "Seil, Ball, Stab, Fahne",
-        "Ball, Ring, Hantel, Band",
-        "Reifen, Stab, Tuch, Seil"
+        "Zwei Turner springen gleichzeitig auf zwei Trampolinen",
+        "Ein Turner springt zu Musik",
+        "Man springt nur Saltos rückwärts",
+        "Zwei Turner teilen sich ein Trampolin"
       ],
       "richtig": 0,
-      "erklaerung": "In der RSG-Bundesliga gibt es Durchgänge mit Reifen, Ball, Keulen und Band."
+      "erklaerung": "Beim Synchronspringen turnen zwei Athleten auf zwei Trampolinen nebeneinander die gleiche Übung – möglichst im selben Moment."
     },
     {
       "rubrik": "Pflicht",
-      "frage": "Wie viel ist eine Kreis-Flanke in der Pflichtübung am Pauschenpferd (AK 11/12) wert?",
+      "frage": "Wie lang darf der Anlauf beim Sprung in der DTB-Pflicht AK 11/12 höchstens sein?",
       "antworten": [
-        "0,2",
-        "0,5",
-        "0,7",
-        "1,0"
+        "15 m",
+        "20 m",
+        "25 m",
+        "30 m"
       ],
       "richtig": 2,
-      "erklaerung": "Jede Kreis-Flanke ist in der Pferd-Pflicht 0,7 Punkte wert. Pferd zählt als halbes Gerät, zusammen mit dem Pilz."
+      "erklaerung": "Der Anlauf darf höchstens 25 Meter lang sein. Gezeigt werden zwei Sprünge: Überschlag und Rondatsprung."
     }
   ],
   "kampfrichter": {
-    "titel": "Eine Kreis-Flanke zu viel",
-    "situation": "Ein Turner ist am Pauschenpferd so im Schwung, dass er in seiner Pflichtübung eine Kreis-Flanke mehr turnt, als vorgeschrieben ist. Sonst klappt alles.",
-    "frage": "Was passiert laut DTB-Pflicht AK 11/12?",
+    "titel": "Die vergessene Standwaage",
+    "situation": "Ein Turner turnt seine Bodenübung nach der DTB-Pflicht AK 11/12. Kurz vor Schluss vergisst er die Standwaage seitlings (Teil 7, Wert 0,2) und macht direkt mit dem nächsten Teil weiter. Sonst klappt alles.",
+    "frage": "Was ziehen die Kampfrichter für die fehlende Standwaage ab?",
     "antworten": [
-      "Er bekommt 0,7 Bonus",
-      "Es gibt 0,3 Punkte Abzug",
-      "Die Übung ist ungültig",
-      "Gar nichts – mehr ist immer besser"
+      "Nur ihren Wert: 0,2 Punkte",
+      "0,2 plus 0,3 Zusatzabzug",
+      "1,0 Punkte wie bei einem Sturz",
+      "Die ganze Übung ist ungültig"
     ],
-    "richtig": 1,
-    "erklaerung": "Zusätzliche Kreis-Flanken (oder am Reck zusätzliche Riesenfelgen) kosten 0,3 Punkte Abzug. In der Pflicht zählt genau das, was im Übungstext steht."
+    "richtig": 0,
+    "erklaerung": "Lässt ein Turner ein Element weg, wird nur dessen Wert abgezogen. Einen Zusatzabzug von 0,3 gibt es nur, wenn eine Kreis-Flanke (Pferd/Pilz) oder eine Riesenfelge (Reck) fehlt."
   },
   "lexikon": [
     {
@@ -908,9 +955,27 @@
     {
       "begriff": "Showgruppe",
       "erklaerung": "Eine Gruppe, die Turnen als Show zeigt – mit Musik, Kostümen und einer Geschichte. Bewertet werden Ideen, Ausstrahlung und wie gut alles zusammenpasst."
+    },
+    {
+      "begriff": "Landeskader",
+      "erklaerung": "Die besten Nachwuchssportler eines Bundeslandes. Wer im Landeskader ist, wird vom Landesverband besonders gefördert."
+    },
+    {
+      "begriff": "Gerätpunktzahl",
+      "erklaerung": "In der RSG-Bundesliga die Summe aller Übungswertungen eines Teams an einem Wettkampftag. Sie entscheidet, wenn Rang- und Gerätepunkte gleich sind."
     }
   ],
   "quizGestellt": [
+    "Trampolin Nachwuchs Nanjing",
+    "Straubenhardt gegen Koblenz",
+    "Frauen-Bundesliga Esslingen",
+    "RSG-Finale Leverkusen Schmiden",
+    "Landeskadertest Hohenschönhausen",
+    "Thomasflanke Kurt Thomas",
+    "Hambüchen WM Reck 2007",
+    "RSG Rangpunkte Tagessieg 8",
+    "Synchron Trampolin Bedeutung",
+    "Sprung Anlauf 25 m AK 11/12",
     "China Mixed-Team-Gold Dakar",
     "Mixed-Team Turnerin und Turner",
     "Online Club Cup Videos",
@@ -983,6 +1048,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Element weggelassen nur Wert Abzug AK 11/12",
     "Zusätzliche Kreis-Flanke Abzug 0,3 AK 11/12",
     "Fehlende Riesenfelge Zusatzabzug 0,3 AK 11/12",
     "Sturz vom Gerät 1,0 AK 11/12",
