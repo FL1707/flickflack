@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-13T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-13",
-  "gruss": "Guten Morgen! In China springt gerade der Trampolin-Nachwuchs aus der ganzen Welt – auch viele junge Deutsche sind dabei. Morgen ist ein großer Turn-Samstag: Adventspokal in Berlin und Bundesliga bei Männern und Frauen. Und die RSG-Finalisten für Berlin stehen fest.",
-  "quizId": "2026-11-13",
+  "aktualisiert": "2026-11-14T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-14",
+  "gruss": "Guten Morgen und schönes Wochenende! Heute ist großer Turn-Samstag: Adventspokal in Berlin, Bundesliga bei Männern und Frauen und in China springt der Trampolin-Nachwuchs um Medaillen. Bei den Frauen geht es um die letzten Plätze im DTL-Finale.",
+  "quizId": "2026-11-14",
   "zahlDesTages": {
-    "zahl": "31,400",
-    "text": "So viele Punkte bekam eine Gymnastin aus Leverkusen für ihre Übung mit dem Reifen – die beste Einzelwertung am letzten Tag der RSG-Bundesliga in Gütersloh."
+    "zahl": "90",
+    "text": "So viele Mädchen der AK 11/12 sprangen in Nanjing (China) in der Trampolin-Qualifikation. Nur die besten acht kamen ins Finale."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,18 +75,47 @@
   },
   "news": [
     {
-      "id": "2026-11-13-trampolin-nanjing",
+      "id": "2026-11-14-nanjing-ak1112",
       "rubrik": "TRA",
       "motiv": "trampolin",
       "datum": "2026-11-12",
-      "titel": "Trampolin: Deutscher Nachwuchs springt in China",
-      "teaser": "Bis zum 15. November kämpfen junge Trampolinturner in Nanjing um Medaillen – sogar schon in der AK 11/12.",
+      "titel": "Trampolin: China und Belarus siegen in der AK 11/12",
+      "teaser": "In Nanjing sind die ersten Nachwuchs-Finals vorbei – die deutschen Mädchen verpassten das Finale nur knapp.",
       "text": [
-        "Gleich nach der Trampolin-WM geht es in China weiter: In der Stadt Nanjing treffen sich bis zum 15. November die besten jungen Trampolinturnerinnen und -turner der Welt. Es gibt eine Junioren-WM für die Altersklasse 15–16 und Wettkämpfe für die jüngeren Altersklassen.",
-        "Deutschland ist mit einer großen Mannschaft dabei – von der AK 11/12 bis zur AK 17. Gesprungen wird auf dem Trampolin, im Synchron und auf dem Doppel-Mini-Trampolin.",
-        "Für viele ist es der erste große internationale Wettkampf. Laut Bundestrainerin sollen sie vor allem Erfahrungen sammeln. Bei der Junioren-WM hofft das Team aber auch auf Plätze im Halbfinale."
+        "In Nanjing (China) springt gerade der Trampolin-Nachwuchs aus aller Welt. Die ersten Finals der Altersklasse 11/12 sind vorbei. Bei den Mädchen gab es einen Doppelsieg für China, Dritte wurde eine Springerin aus Belarus. Bei den Jungen gewann ein Springer aus Belarus ganz knapp vor zwei Chinesen – der Abstand zu Platz zwei betrug nur vier Hundertstel.",
+        "In der Qualifikation der Mädchen waren 90 Springerinnen am Start. Die drei besten Deutschen landeten auf den Plätzen 18, 20 und 21. Ins Finale kamen nur die besten acht.",
+        "Gut lief es im Synchron der AK 13/14: Ein deutsches Jungen-Paar zog als Vierter ins Finale ein, ein Mädchen-Paar als Siebtes. Und bei den 17- bis 21-Jährigen schaffte Greta Steinbrenner (MTV Bad Kreuznach) als Achte den Sprung ins Finale am Sonntag."
       ],
-      "quelle": "dtb.de, gymnastics.sport"
+      "quelle": "gymnastics.sport, dtb.de"
+    },
+    {
+      "id": "2026-11-14-frauen-bundesliga",
+      "rubrik": "DTL",
+      "motiv": "stufenbarren",
+      "datum": "2026-11-14",
+      "titel": "Frauen-Bundesliga: Showdown um Platz zwei",
+      "teaser": "Stuttgart hat vier Punkte Vorsprung auf Chemnitz – doch beim Saisonfinale in Esslingen ist alles möglich.",
+      "text": [
+        "Heute um 16 Uhr turnen die Frauen ihren letzten Bundesliga-Wettkampftag in Esslingen. Die TG Mannheim führt mit 38 Punkten. Dahinter kämpfen der MTV Stuttgart (32 Punkte) und der TuS Chemnitz-Altendorf (28 Punkte) um Platz zwei.",
+        "Warum das so wichtig ist: Der Zweite turnt beim DTL-Finale am 28. November in Heidelberg gegen den Ersten um den Titel. Der Dritte muss ins „kleine Finale“ um Bronze. Chemnitz hat in dieser Saison die höchste Gesamtpunktzahl aller Teams geturnt – bei Punktgleichheit wäre Chemnitz vorne.",
+        "Stuttgart muss umbauen: Helen Kevric und Madita Mayr können nur ein kleines Programm turnen. Deshalb müssen junge Turnerinnen ran, darunter zwei 14-Jährige. Bei Mannheim kommt Luna Zimmermann erst am Freitagabend von den Olympischen Jugendspielen in Dakar zurück.",
+        "Am Tabellenende kämpft die TSG Berlin Steglitz gegen den Abstieg. Der Aufsteiger hat sechs Punkte mehr als der Dresdner SC. Der Letzte steigt in die 2. Bundesliga ab."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-14-3bl-nord",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-14",
+      "titel": "3. Liga: Zwei Spitzenreiter im direkten Duell",
+      "teaser": "Koblenz II und Weißkirchen sind punktgleich – heute treffen sie aufeinander.",
+      "text": [
+        "In der 3. Bundesliga Nord der Männer wird es heute richtig spannend. Die KTV Koblenz II und der TV Weißkirchen haben beide 10 Punkte und genau gleich viele Gerätepunkte. Jetzt turnen sie in Conweiler direkt gegeneinander.",
+        "Der Sieger gewinnt die Nordstaffel und darf zum Aufstiegswettkampf in die 2. Bundesliga. Turnen beide unentschieden, sind sogar beide dabei. Der TV Hösbach-Großostheim lauert mit zwei Punkten Rückstand.",
+        "Der Aufstiegswettkampf findet am 5. Dezember in Oberhausen statt. Aus dem Süden ist die TG Allgäu schon sicher dabei."
+      ],
+      "quelle": "deutsche-turnliga.de"
     },
     {
       "id": "2026-11-13-dtl-vorschau",
@@ -201,34 +230,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-11-zweite-liga",
-      "rubrik": "DTL",
-      "motiv": "pferd",
-      "datum": "2026-11-07",
-      "titel": "2. Bundesliga: Wer schafft den Aufstieg?",
-      "teaser": "Ludwigsburg bleibt im Norden ungeschlagen, im Süden hat die TG Allgäu schon ihr Ticket.",
-      "text": [
-        "In der 2. Bundesliga Nord gewann der MTV Ludwigsburg auch seinen sechsten Wettkampf – 60:16 gegen den TuS Vinnhorst II. Die TSG Grünstadt liegt zwei Punkte dahinter. Ein Turner aus Grünstadt zeigte am Reck sogar einen Dreifachsalto als Abgang.",
-        "In der 3. Bundesliga Süd gewann die TG Allgäu das Spitzenduell bei der WTG Heckengäu mit 37:27. Am Pauschenpferd holte Allgäu 9:4 Scorepunkte und drehte damit den Wettkampf.",
-        "Damit darf Allgäu schon sicher beim Aufstiegswettkampf zur 2. Bundesliga am 5. Dezember in Oberhausen antreten. Dort turnen die besten Teams aus dem Süden gegen die besten aus dem Norden."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-08-bundesliga",
-      "rubrik": "DTL",
-      "motiv": "ringe",
-      "datum": "2026-11-07",
-      "titel": "Bundesliga: Der Meister patzt",
-      "teaser": "Siegerland schlägt Straubenhardt – an der Spitze wird es eng.",
-      "text": [
-        "Der Rekordmeister KTV Straubenhardt hat in der 1. Bundesliga seine erste Saisonniederlage kassiert. In Kreuztal gewann die Siegerländer KV mit 34:29 Scorepunkten. Am Barren holten die Gastgeber alle acht Punkte.",
-        "Davon profitieren Cottbus und die TG Saar: Cottbus gewann 51:23 gegen Singen, die TG Saar 36:30 gegen Vinnhorst. Alle drei Teams haben jetzt acht Punkte wie Straubenhardt, das nur wegen der besseren Gerätpunkte vorn bleibt.",
-        "Koblenz siegte 43:34 gegen Schwäbisch Gmünd-Wetzgau und bleibt Vierter. Weiter geht es am 14. November."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
       "id": "2026-11-03-berlin",
       "rubrik": "BER",
       "motiv": "kalender",
@@ -244,6 +245,63 @@
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "wagc2026-nanjing-1112",
+      "name": "Trampolin: World Age Group Competition – Finale AK 11/12",
+      "ort": "Nanjing (China)",
+      "von": "2026-11-12",
+      "rubrik": "TRA",
+      "sparte": "Trampolin",
+      "bericht": "Das erste Nachwuchs-Finale im Einzel-Trampolin. Wegen des Datenschutzes stehen hier die Länder statt der Namen. Die besten deutschen Mädchen wurden in der Qualifikation 18., 20. und 21. von 90.",
+      "entscheidungen": [
+        {
+          "titel": "Einzel Mädchen AK 11/12",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "China",
+              "land": "CHN",
+              "note": 52.01
+            },
+            {
+              "platz": 2,
+              "name": "China",
+              "land": "CHN",
+              "note": 51.57
+            },
+            {
+              "platz": 3,
+              "name": "Belarus",
+              "land": "BLR",
+              "note": 50.39
+            }
+          ]
+        },
+        {
+          "titel": "Einzel Jungen AK 11/12",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Belarus",
+              "land": "BLR",
+              "note": 53.52
+            },
+            {
+              "platz": 2,
+              "name": "China",
+              "land": "CHN",
+              "note": 53.48
+            },
+            {
+              "platz": 3,
+              "name": "China",
+              "land": "CHN",
+              "note": 52.27
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "yog2026-mixed",
       "name": "Olympische Jugendspiele – Mixed-Team-Finale",
@@ -416,34 +474,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "swisscup2026",
-      "name": "Swiss Cup Zürich",
-      "ort": "Zürich (Schweiz)",
-      "von": "2026-11-07",
-      "rubrik": "INT",
-      "sparte": "Turnen Männer",
-      "bericht": "Gemischte Vierer-Teams aus Turnerinnen und Turnern. Deutschland wurde Zweiter, im Finale fehlten drei Zehntel.",
-      "entscheidungen": [
-        {
-          "titel": "Finale Team",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Frankreich",
-              "land": "FRA",
-              "note": 53.05
-            },
-            {
-              "platz": 2,
-              "name": "Deutschland",
-              "land": "GER",
-              "note": 52.75
-            }
-          ]
-        }
-      ]
     }
   ],
   "liga": {
@@ -609,6 +639,15 @@
   },
   "termine": [
     {
+      "name": "Northern European Championships",
+      "ort": "Aalborg (Dänemark)",
+      "von": "2026-11-12",
+      "bis": "2026-11-15",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Nordeuropameisterschaften für Turnerinnen und Turner aus 12 Ländern. Auch dänische Bundesliga-Gastturner sind dort am Start."
+    },
+    {
       "name": "Trampolin: Junioren-WM und World Age Group Competition",
       "ort": "Nanjing (China)",
       "von": "2026-11-12",
@@ -735,137 +774,137 @@
   "quiz": [
     {
       "rubrik": "TRA",
-      "frage": "In welcher chinesischen Stadt springt gerade der Trampolin-Nachwuchs der Welt?",
+      "frage": "Wie viele Mädchen der AK 11/12 sprangen in Nanjing in der Trampolin-Qualifikation?",
       "antworten": [
-        "Peking",
-        "Nanjing",
-        "Shanghai",
-        "Hongkong"
+        "45",
+        "90",
+        "150",
+        "24"
       ],
       "richtig": 1,
-      "erklaerung": "Die Junioren-WM und die Wettkämpfe der Altersklassen finden bis 15. November in Nanjing statt."
+      "erklaerung": "Es waren 90 Springerinnen. Nur die besten acht kamen ins Finale."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Welches Land holte bei den Mädchen AK 11/12 in Nanjing Gold und Silber?",
+      "antworten": [
+        "China",
+        "Japan",
+        "Deutschland",
+        "Belarus"
+      ],
+      "richtig": 0,
+      "erklaerung": "Zwei Springerinnen aus China belegten die Plätze eins und zwei."
     },
     {
       "rubrik": "DTL",
-      "frage": "Gegen wen turnt Bundesliga-Spitzenreiter Straubenhardt am Samstag?",
+      "frage": "Wie viele Punkte liegt Stuttgart vor dem letzten Frauen-Wettkampftag vor Chemnitz?",
       "antworten": [
-        "SC Cottbus",
-        "StTV Singen",
-        "TuS Vinnhorst",
-        "KTV Koblenz"
+        "Zwei",
+        "Sechs",
+        "Zehn",
+        "Vier"
       ],
       "richtig": 3,
-      "erklaerung": "Straubenhardt empfängt die KTV Koblenz in der Straubenhardthalle."
+      "erklaerung": "Stuttgart hat 32 Punkte, Chemnitz 28 – also vier Punkte Vorsprung."
     },
     {
       "rubrik": "DTL",
-      "frage": "Wo turnen die Bundesliga-Frauen am Samstag ihren letzten Wettkampftag?",
+      "frage": "Welches Frauen-Team hat in dieser Saison die höchste Gesamtpunktzahl geturnt?",
       "antworten": [
-        "Esslingen",
-        "Heidelberg",
-        "Mannheim",
-        "Chemnitz"
+        "TG Mannheim",
+        "MTV Stuttgart",
+        "TuS Chemnitz-Altendorf",
+        "Dresdner SC"
       ],
-      "richtig": 0,
-      "erklaerung": "Der letzte Wettkampftag der Frauen findet in Esslingen am Neckar statt."
+      "richtig": 2,
+      "erklaerung": "Chemnitz-Altendorf schaffte 580,95 Punkte – knapp zehn mehr als Stuttgart."
     },
     {
-      "rubrik": "RSG",
-      "frage": "Welche zwei Teams kämpfen im RSG-Finale um die Deutsche Meisterschaft?",
+      "rubrik": "DTL",
+      "frage": "Was passiert, wenn Koblenz II und Weißkirchen in der 3. Liga Nord unentschieden turnen?",
       "antworten": [
-        "Team Berlin und Nürnberg",
-        "Leverkusen und Schmiden",
-        "Oppau und Bremen",
-        "Schmiden und Nürnberg"
+        "Beide müssen absteigen",
+        "Beide kommen in den Aufstiegswettkampf",
+        "Es gibt ein Stechen am Reck",
+        "Hösbach gewinnt automatisch"
       ],
       "richtig": 1,
-      "erklaerung": "Leverkusen gewann Staffel A, Schmiden Staffel B. Team Berlin und Nürnberg turnen um Platz drei."
+      "erklaerung": "Bei einem Unentschieden wären beide Spitzenreiter für den Aufstiegswettkampf qualifiziert."
     },
     {
-      "rubrik": "BER",
-      "frage": "Wo findet im Dezember der Berliner Landeskader-Test der Turner statt?",
+      "rubrik": "INT",
+      "frage": "Wer wurde 2008 in Peking Olympiasieger im Mehrkampf der Männer?",
       "antworten": [
-        "Leistikowhalle",
-        "Gretel-Bergmann-Sporthalle",
-        "Sportforum Hohenschönhausen",
-        "Olympiastadion"
-      ],
-      "richtig": 2,
-      "erklaerung": "Der Landeskadernominierungstest ist am 11. und 12. Dezember im Sportforum Berlin in Hohenschönhausen."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "Nach welchem Turner ist die Thomasflanke am Pferd benannt?",
-      "antworten": [
-        "Kurt Thomas (USA)",
-        "Thomas Müller (GER)",
-        "Thomas Bimis (GRE)",
-        "Tommy Ramos (PUR)"
-      ],
-      "richtig": 0,
-      "erklaerung": "Der US-Amerikaner Kurt Thomas zeigte die Spreiz-Kreis-Flanken in den 1970er-Jahren berühmt am Pauschenpferd und am Boden."
-    },
-    {
-      "rubrik": "Geschichte",
-      "frage": "In welcher Stadt wurde Fabian Hambüchen 2007 Weltmeister am Reck?",
-      "antworten": [
-        "Tokio",
-        "London",
-        "Stuttgart",
-        "Antwerpen"
-      ],
-      "richtig": 2,
-      "erklaerung": "Bei der Heim-WM 2007 in Stuttgart holte Fabian Hambüchen Gold am Reck."
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie viele Rangpunkte bekommt ein Team in der RSG-Bundesliga für einen Tagessieg?",
-      "antworten": [
-        "2",
-        "5",
-        "10",
-        "8"
+        "Kohei Uchimura",
+        "Fabian Hambüchen",
+        "Philipp Boy",
+        "Yang Wei"
       ],
       "richtig": 3,
-      "erklaerung": "Für die Plätze eins bis fünf gibt es 8, 6, 4, 2 und 0 Rangpunkte."
+      "erklaerung": "Der Chinese Yang Wei gewann 2008 vor heimischem Publikum Gold im Mehrkampf."
     },
     {
-      "rubrik": "Regeln",
-      "frage": "Was bedeutet „Synchron“ beim Trampolinturnen?",
+      "rubrik": "TRA",
+      "frage": "Seit wann ist Trampolinturnen olympisch?",
       "antworten": [
-        "Zwei Turner springen gleichzeitig auf zwei Trampolinen",
-        "Ein Turner springt zu Musik",
-        "Man springt nur Saltos rückwärts",
-        "Zwei Turner teilen sich ein Trampolin"
+        "Seit 2000 in Sydney",
+        "Seit 1972 in München",
+        "Seit 1996 in Atlanta",
+        "Seit 2012 in London"
       ],
       "richtig": 0,
-      "erklaerung": "Beim Synchronspringen turnen zwei Athleten auf zwei Trampolinen nebeneinander die gleiche Übung – möglichst im selben Moment."
+      "erklaerung": "Bei den Spielen 2000 in Sydney war Trampolin zum ersten Mal olympisch."
     },
     {
-      "rubrik": "Pflicht",
-      "frage": "Wie lang darf der Anlauf beim Sprung in der DTB-Pflicht AK 11/12 höchstens sein?",
+      "rubrik": "TRA",
+      "frage": "Was misst beim Trampolin die „Flugzeit“ (ToF)?",
       "antworten": [
-        "15 m",
-        "20 m",
-        "25 m",
-        "30 m"
+        "Wie hoch das Trampolin ist",
+        "Wie lange die ganze Übung dauert",
+        "Wie lange du in der Luft bist",
+        "Wie schnell du anläufst"
       ],
       "richtig": 2,
-      "erklaerung": "Der Anlauf darf höchstens 25 Meter lang sein. Gezeigt werden zwei Sprünge: Überschlag und Rondatsprung."
+      "erklaerung": "ToF heißt „Time of Flight“. Gemessen wird, wie lange du bei allen Sprüngen in der Luft bist – je höher du springst, desto mehr Punkte."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Wofür gibt es beim Trampolin die HD-Wertung?",
+      "antworten": [
+        "Für schöne Haltung",
+        "Dafür, wie nah du an der Mitte des Tuchs landest",
+        "Für die Schwierigkeit",
+        "Für das Synchron-Springen"
+      ],
+      "richtig": 1,
+      "erklaerung": "HD steht für „horizontal displacement“. Wer immer schön in der Mitte des Tuchs landet, bekommt hier viele Punkte."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie viele Riesen-Felgumschwünge turnst du in der Pflicht AK 11/12 am Reck in Teil 4a?",
+      "antworten": [
+        "Einen",
+        "Drei",
+        "Zwei",
+        "Keinen"
+      ],
+      "richtig": 2,
+      "erklaerung": "In Teil 4a heißt es: Abschwingen, 2 x Riesen-Felgumschwung. Jeder ist 0,5 Punkte wert."
     }
   ],
   "kampfrichter": {
-    "titel": "Die vergessene Standwaage",
-    "situation": "Ein Turner turnt seine Bodenübung nach der DTB-Pflicht AK 11/12. Kurz vor Schluss vergisst er die Standwaage seitlings (Teil 7, Wert 0,2) und macht direkt mit dem nächsten Teil weiter. Sonst klappt alles.",
-    "frage": "Was ziehen die Kampfrichter für die fehlende Standwaage ab?",
+    "titel": "Der kurze Schweizer",
+    "situation": "Ein Turner zeigt an den Ringen das Bonusteil 3b: Schweizer in den Handstand (Wert 2,5). Die Arme bleiben gestreckt, alles sieht gut aus. Aber er hält den Handstand nur etwa eine Sekunde statt zwei. Sonst passiert kein Fehler.",
+    "frage": "Wie viel ist das Bonusteil wert?",
     "antworten": [
-      "Nur ihren Wert: 0,2 Punkte",
-      "0,2 plus 0,3 Zusatzabzug",
-      "1,0 Punkte wie bei einem Sturz",
-      "Die ganze Übung ist ungültig"
+      "Voll 2,5 – es gibt nur 0,3 Abzug für das kurze Halten",
+      "Nur 2,0, weil es kein Bonus mehr ist",
+      "Gar nichts – das Teil zählt nicht",
+      "2,5 ohne jeden Abzug"
     ],
     "richtig": 0,
-    "erklaerung": "Lässt ein Turner ein Element weg, wird nur dessen Wert abgezogen. Einen Zusatzabzug von 0,3 gibt es nur, wenn eine Kreis-Flanke (Pferd/Pilz) oder eine Riesenfelge (Reck) fehlt."
+    "erklaerung": "Ein zu kurz gehaltenes Halteteil ist ein mittlerer Fehler (0,3). Das Bonusteil verliert seinen vollen Wert nur bei einem großen Fehler (0,5) oder einem Sturz. Also zählt der Schweizer 2,5 Punkte, und es werden 0,3 abgezogen."
   },
   "lexikon": [
     {
@@ -963,9 +1002,31 @@
     {
       "begriff": "Gerätpunktzahl",
       "erklaerung": "In der RSG-Bundesliga die Summe aller Übungswertungen eines Teams an einem Wettkampftag. Sie entscheidet, wenn Rang- und Gerätepunkte gleich sind."
+    },
+    {
+      "begriff": "Flugzeit",
+      "erklaerung": "Beim Trampolin wird gemessen, wie lange du bei deinen Sprüngen in der Luft bist (englisch: Time of Flight, ToF). Je höher du springst, desto mehr Punkte gibt es."
+    },
+    {
+      "begriff": "Kleines Finale",
+      "erklaerung": "Ein Wettkampf um Platz drei: Beim DTL-Finale turnen der Dritte und der Vierte der Tabelle gegeneinander um Bronze."
+    },
+    {
+      "begriff": "Nordstaffel",
+      "erklaerung": "In der 3. Bundesliga sind die Teams nach Regionen aufgeteilt. Die Nordstaffel ist die Gruppe der Teams aus dem Norden und der Mitte Deutschlands."
     }
   ],
   "quizGestellt": [
+    "Nanjing AK 11/12 Mädchen 90 Starterinnen",
+    "Nanjing AK 11/12 Mädchen Doppelsieg China",
+    "Stuttgart vier Punkte vor Chemnitz",
+    "Chemnitz höchste Gesamtpunktzahl Frauen",
+    "3. BL Nord Unentschieden beide weiter",
+    "Yang Wei Mehrkampf-Gold 2008",
+    "Trampolin olympisch seit 2000",
+    "Trampolin ToF Flugzeit",
+    "Trampolin HD Mitte Tuch",
+    "Reck Teil 4a zwei Riesenfelgen AK 11/12",
     "Trampolin Nachwuchs Nanjing",
     "Straubenhardt gegen Koblenz",
     "Frauen-Bundesliga Esslingen",
@@ -1048,6 +1109,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Schweizer Ringe 1 s gehalten Bonus zählt AK 11/12",
     "Element weggelassen nur Wert Abzug AK 11/12",
     "Zusätzliche Kreis-Flanke Abzug 0,3 AK 11/12",
     "Fehlende Riesenfelge Zusatzabzug 0,3 AK 11/12",
