@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-14T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-14",
-  "gruss": "Guten Morgen und schönes Wochenende! Heute ist großer Turn-Samstag: Adventspokal in Berlin, Bundesliga bei Männern und Frauen und in China springt der Trampolin-Nachwuchs um Medaillen. Bei den Frauen geht es um die letzten Plätze im DTL-Finale.",
-  "quizId": "2026-11-14",
+  "aktualisiert": "2026-11-15T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-15",
+  "gruss": "Guten Morgen! Die Frauen-Bundesliga hat ihre vier Finalteams – Mannheim gewinnt die Saison, Berlin Steglitz muss leider absteigen. In China holte ein deutsches Trampolin-Duo der AK 11/12 Bronze im Synchronspringen, und bei den Männern ist vor dem letzten Wettkampftag noch ein Finalplatz frei.",
+  "quizId": "2026-11-15",
   "zahlDesTages": {
-    "zahl": "90",
-    "text": "So viele Mädchen der AK 11/12 sprangen in Nanjing (China) in der Trampolin-Qualifikation. Nur die besten acht kamen ins Finale."
+    "zahl": "0,15",
+    "text": "So wenige Gerätepunkte fehlten der TSG Berlin Steglitz am Samstag auf Platz sieben des Tages – das sind gerade mal anderthalb kleine Fehler."
   },
   "turnerDerWoche": {
     "name": "Helen Kevric",
@@ -75,6 +75,77 @@
   },
   "news": [
     {
+      "id": "2026-11-15-frauen-finale",
+      "rubrik": "DTL",
+      "motiv": "stufenbarren",
+      "datum": "2026-11-14",
+      "titel": "Frauen-Bundesliga: Mannheim gewinnt die Saison",
+      "teaser": "Chemnitz turnte in Esslingen am stärksten – doch Mannheim bleibt Tabellenerster.",
+      "text": [
+        "Beim letzten Wettkampftag der 1. Bundesliga Frauen in Esslingen war der TuS Chemnitz-Altendorf klar die Nummer eins. Die Sächsinnen turnten 200,90 Punkte – über zehn Punkte mehr als der MTV Stuttgart auf Platz zwei. Die TG Mannheim wurde an diesem Tag nur Dritte.",
+        "Trotzdem bleibt Mannheim vorne: Mit 48 Punkten gewinnt die TG die Saison vor Stuttgart (44) und Chemnitz (42). In der Tabelle zählen nämlich die Plätze an jedem Wettkampftag – nicht die Gesamtpunkte. Dabei hatte Chemnitz über die ganze Saison die meisten Punkte an den Geräten gesammelt.",
+        "Vierter Finalist ist die TG Karlsruhe-Söllingen. Die vier Teams turnen am 28. November beim DTL-Finale in Heidelberg um den deutschen Mannschaftstitel. Die beste Einzelwertung am Samstag gelang einer Chemnitzerin am Schwebebalken mit 14,35 Punkten. Helen Kevric turnte für Stuttgart nur am Stufenbarren."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-15-steglitz",
+      "rubrik": "BER",
+      "motiv": "team",
+      "datum": "2026-11-14",
+      "titel": "Berlin Steglitz muss die 1. Bundesliga verlassen",
+      "teaser": "Der Berliner Aufsteiger verlor am letzten Wettkampftag noch den rettenden Platz.",
+      "text": [
+        "Bitterer Samstag für die Turnerinnen der TSG Berlin Steglitz: Vor dem Saisonfinale hatten sie sechs Punkte Vorsprung auf den Dresdner SC. Doch Dresden turnte in Esslingen stark auf Platz vier, Steglitz wurde Letzter.",
+        "Damit zog Dresden in der Tabelle noch vorbei. Steglitz steigt nach nur einer Saison wieder in die 2. Bundesliga ab. Am Ende fehlten am Samstag nur 0,15 Punkte auf Platz sieben – den Abstieg hätte aber auch dieser Platz nicht mehr verhindert.",
+        "Für die Steglitzerinnen war es trotzdem eine besondere Saison: Als Aufsteiger durften sie ein Jahr lang gegen die besten Teams Deutschlands turnen. Vielleicht klappt ja bald der Wiederaufstieg."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-15-maenner-bl",
+      "rubrik": "DTL",
+      "motiv": "reck",
+      "datum": "2026-11-14",
+      "titel": "Männer-Bundesliga: Ein Finalplatz ist noch frei",
+      "teaser": "Straubenhardt, Cottbus und die TG Saar haben je 10 Punkte – dahinter kämpfen Siegerland und Koblenz.",
+      "text": [
+        "Am vorletzten Wettkampftag der 1. Bundesliga Männer haben die drei Spitzenteams alle gewonnen. Meister Straubenhardt schlug Koblenz deutlich mit 68:15 Scorepunkten. Cottbus gewann 63:11 gegen Vinnhorst, die TG Saar 43:27 in Schwäbisch Gmünd.",
+        "Spannend war es in Singen: Bei den Gerätepunkten stand es 6:6. Dann entscheiden die Scorepunkte – und da lag der Siegerländer KV mit 43:27 vorne.",
+        "Jetzt haben Straubenhardt, Cottbus und Saar je 10 Punkte. Siegerland und Koblenz haben 6 und können höchstens noch 8 erreichen. Damit sind die drei Spitzenteams sicher im DTL-Finale dabei. Um den vierten Platz kämpfen Siegerland und Koblenz am 21. November.",
+        "Am letzten Wettkampftag turnt Siegerland zu Hause gegen Cottbus, Koblenz empfängt Singen. Außerdem gibt es das Spitzenduell TG Saar gegen Straubenhardt."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-15-nanjing-synchron",
+      "rubrik": "TRA",
+      "motiv": "trampolin",
+      "datum": "2026-11-14",
+      "titel": "Trampolin: Bronze für deutsches Synchron-Duo der AK 11/12",
+      "teaser": "Zwei deutsche Mädchen sprangen in Nanjing im Synchron auf Platz drei.",
+      "text": [
+        "Große Freude in Nanjing (China): Ein deutsches Mädchen-Paar der Altersklasse 11/12 hat im Synchronspringen die Bronzemedaille gewonnen. In der Qualifikation waren sie noch Siebte von 19 Paaren – im Finale sprangen sie dann aufs Treppchen.",
+        "Gold ging an China, Silber an ein Paar aus Russland. Besonders genau sprangen die Deutschen in der Mitte des Tuchs: Für diesen Wert (HD) bekamen sie 9,80 – mehr als alle anderen Paare im Finale.",
+        "Bei den Jungen der AK 11/12 gewann ein Paar aus Russland vor China und Usbekistan. Heute, am Sonntag, endet der große Nachwuchs-Wettkampf mit weiteren Finals."
+      ],
+      "quelle": "gymnastics.sport, dtb.de"
+    },
+    {
+      "id": "2026-11-15-3bl-nord",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-14",
+      "titel": "3. Liga: Koblenz II gewinnt das Spitzenduell",
+      "teaser": "Weißkirchen verlor knapp und rutschte sogar noch auf Platz drei.",
+      "text": [
+        "Im Spitzenspiel der 3. Bundesliga Nord gewann die KTV Koblenz II gegen den TV Weißkirchen mit 34:30 Scorepunkten. Bei den Gerätepunkten stand es 6:6. Erst am Barren und am Reck drehte Koblenz das Duell.",
+        "Damit ist Koblenz II Staffelsieger. Zweiter wurde noch der TV Hösbach-Großostheim, der Melsungen klar mit 48:15 besiegte. Hösbach und Weißkirchen hatten gleich viele Punkte, aber Hösbach hatte die bessere Gerätepunkte-Bilanz.",
+        "Hösbach darf damit zum Aufstiegswettkampf am 5. Dezember nach Oberhausen. Ob auch Koblenz II dort aufsteigen kann, hängt von der ersten Mannschaft ab: Sie muss in der 1. Bundesliga bleiben."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
       "id": "2026-11-14-nanjing-ak1112",
       "rubrik": "TRA",
       "motiv": "trampolin",
@@ -87,49 +158,6 @@
         "Gut lief es im Synchron der AK 13/14: Ein deutsches Jungen-Paar zog als Vierter ins Finale ein, ein Mädchen-Paar als Siebtes. Und bei den 17- bis 21-Jährigen schaffte Greta Steinbrenner (MTV Bad Kreuznach) als Achte den Sprung ins Finale am Sonntag."
       ],
       "quelle": "gymnastics.sport, dtb.de"
-    },
-    {
-      "id": "2026-11-14-frauen-bundesliga",
-      "rubrik": "DTL",
-      "motiv": "stufenbarren",
-      "datum": "2026-11-14",
-      "titel": "Frauen-Bundesliga: Showdown um Platz zwei",
-      "teaser": "Stuttgart hat vier Punkte Vorsprung auf Chemnitz – doch beim Saisonfinale in Esslingen ist alles möglich.",
-      "text": [
-        "Heute um 16 Uhr turnen die Frauen ihren letzten Bundesliga-Wettkampftag in Esslingen. Die TG Mannheim führt mit 38 Punkten. Dahinter kämpfen der MTV Stuttgart (32 Punkte) und der TuS Chemnitz-Altendorf (28 Punkte) um Platz zwei.",
-        "Warum das so wichtig ist: Der Zweite turnt beim DTL-Finale am 28. November in Heidelberg gegen den Ersten um den Titel. Der Dritte muss ins „kleine Finale“ um Bronze. Chemnitz hat in dieser Saison die höchste Gesamtpunktzahl aller Teams geturnt – bei Punktgleichheit wäre Chemnitz vorne.",
-        "Stuttgart muss umbauen: Helen Kevric und Madita Mayr können nur ein kleines Programm turnen. Deshalb müssen junge Turnerinnen ran, darunter zwei 14-Jährige. Bei Mannheim kommt Luna Zimmermann erst am Freitagabend von den Olympischen Jugendspielen in Dakar zurück.",
-        "Am Tabellenende kämpft die TSG Berlin Steglitz gegen den Abstieg. Der Aufsteiger hat sechs Punkte mehr als der Dresdner SC. Der Letzte steigt in die 2. Bundesliga ab."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-14-3bl-nord",
-      "rubrik": "DTL",
-      "motiv": "team",
-      "datum": "2026-11-14",
-      "titel": "3. Liga: Zwei Spitzenreiter im direkten Duell",
-      "teaser": "Koblenz II und Weißkirchen sind punktgleich – heute treffen sie aufeinander.",
-      "text": [
-        "In der 3. Bundesliga Nord der Männer wird es heute richtig spannend. Die KTV Koblenz II und der TV Weißkirchen haben beide 10 Punkte und genau gleich viele Gerätepunkte. Jetzt turnen sie in Conweiler direkt gegeneinander.",
-        "Der Sieger gewinnt die Nordstaffel und darf zum Aufstiegswettkampf in die 2. Bundesliga. Turnen beide unentschieden, sind sogar beide dabei. Der TV Hösbach-Großostheim lauert mit zwei Punkten Rückstand.",
-        "Der Aufstiegswettkampf findet am 5. Dezember in Oberhausen statt. Aus dem Süden ist die TG Allgäu schon sicher dabei."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-13-dtl-vorschau",
-      "rubrik": "DTL",
-      "motiv": "team",
-      "datum": "2026-11-14",
-      "titel": "Bundesliga: Wer schafft es ins Finale?",
-      "teaser": "Am Samstag steigt der vorletzte Wettkampftag der Männer – an der Spitze haben drei Teams je 8 Punkte.",
-      "text": [
-        "In der 1. Bundesliga der Männer wird es spannend. Straubenhardt, Cottbus und die TG Saar haben alle 8 Punkte. Nur die besten vier Teams dürfen am 28. November zum DTL-Finale nach Heidelberg.",
-        "Am Samstag treffen sich: Cottbus gegen Vinnhorst, Schwäbisch Gmünd-Wetzgau gegen die TG Saar, Straubenhardt gegen Koblenz und Singen gegen Siegerland. Eine Woche später folgt der letzte Wettkampftag.",
-        "Auch die Frauen turnen am Samstag – in Esslingen ist ihr letzter Wettkampftag vor dem Finale. Mit dabei ist der Berliner Aufsteiger TSG Berlin Steglitz."
-      ],
-      "quelle": "deutsche-turnliga.de"
     },
     {
       "id": "2026-11-13-berlin-kadertest",
@@ -174,20 +202,6 @@
       "quelle": "olympics.com, thegymter.net"
     },
     {
-      "id": "2026-11-12-club-cup",
-      "rubrik": "INT",
-      "motiv": "reck",
-      "datum": "2026-11-03",
-      "titel": "Neu: Europapokal für Vereine – ganz online",
-      "teaser": "Bis zu 32 Turnvereine aus Europa treten ab dem 23. November gegeneinander an, ohne zu reisen.",
-      "text": [
-        "Der Europäische Turnverband hat einen ganz neuen Wettkampf für Turner erfunden: den „MAG Online European Club Cup“. Bis zu 32 Vereine aus ganz Europa sollen mitmachen.",
-        "Das Besondere: Niemand muss dafür verreisen. Die Trainer filmen die Übungen ihrer Turner in der eigenen Halle mit einer App. Die Kampfrichter schauen sich die Videos an und geben ihre Noten von zu Hause aus. Geturnt wird an allen sechs Geräten der Männer.",
-        "Los geht es am 23. November 2026. Nach Gruppenphase und K.-o.-Runden gibt es am Ende ein „Final 4“ mit den vier besten Vereinen. Wer gewinnt, darf sich erster Online-Europapokalsieger nennen."
-      ],
-      "quelle": "europeangymnastics.com"
-    },
-    {
       "id": "2026-11-12-rendezvous",
       "rubrik": "DE",
       "motiv": "salto",
@@ -228,32 +242,95 @@
         "Für einen anderen Berliner Verein endete die Saison traurig: Der VfL Zehlendorf wurde Letzter und steigt in die Regionalliga ab."
       ],
       "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-03-berlin",
-      "rubrik": "BER",
-      "motiv": "kalender",
-      "datum": "2026-11-03",
-      "titel": "Berlin: Adventspokal am 14. November",
-      "teaser": "In der Gretel-Bergmann-Sporthalle geht es um Motorik-Test und Technische Grundlagen – und um den Berliner Kader.",
-      "text": [
-        "Am Samstag, 14. November, richtet der Berliner Turn- und Freizeitsport-Bund den Berliner Adventspokal im Gerätturnen der Jungen aus. In der Gretel-Bergmann-Sporthalle in Wilmersdorf werden der Allgemeine Motorik-Test und die Technischen Grundlagen abgenommen. Der Wettkampf zählt für den Berliner Kaderschulungskreis.",
-        "Am 29. November folgt in der Leistikowhalle der Jahrgangsbesten-Wettkampf. Dort wird im P-Stufen- und LK-Programm geturnt – vier aus sechs Geräten.",
-        "Und noch ein Termin für Berlin-Fans: Das DTL-Finale der Rhythmischen Sportgymnastik findet am 28. November in Berlin statt."
-      ],
-      "quelle": "btfb.de, deutsche-turnliga.de"
     }
   ],
   "wettkaempfe": [
     {
+      "id": "dtl2026-frauen-wt4",
+      "name": "1. Bundesliga Frauen – letzter Wettkampftag",
+      "ort": "Esslingen am Neckar",
+      "von": "2026-11-14",
+      "rubrik": "DTL",
+      "sparte": "Turnen Frauen",
+      "bericht": "Chemnitz gewann den Tag klar, Mannheim gewann die Saison. Im DTL-Finale stehen Mannheim, Stuttgart, Chemnitz und Karlsruhe-Söllingen. Berlin Steglitz steigt ab.",
+      "entscheidungen": [
+        {
+          "titel": "Tageswertung Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "TuS Chemnitz-Altendorf",
+              "note": 200.9
+            },
+            {
+              "platz": 2,
+              "name": "MTV Stuttgart",
+              "note": 190.2
+            },
+            {
+              "platz": 3,
+              "name": "TG Mannheim",
+              "note": 188.25
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wagc2026-nanjing-1112",
-      "name": "Trampolin: World Age Group Competition – Finale AK 11/12",
+      "name": "Trampolin: World Age Group Competition – Finals AK 11/12",
       "ort": "Nanjing (China)",
       "von": "2026-11-12",
       "rubrik": "TRA",
       "sparte": "Trampolin",
-      "bericht": "Das erste Nachwuchs-Finale im Einzel-Trampolin. Wegen des Datenschutzes stehen hier die Länder statt der Namen. Die besten deutschen Mädchen wurden in der Qualifikation 18., 20. und 21. von 90.",
+      "bericht": "Die Nachwuchs-Finals im Einzel und im Synchron. Wegen des Datenschutzes stehen hier die Länder statt der Namen. Highlight: Bronze für ein deutsches Mädchen-Paar im Synchron.",
       "entscheidungen": [
+        {
+          "titel": "Synchron Mädchen AK 11/12",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "China",
+              "land": "CHN",
+              "note": 46.04
+            },
+            {
+              "platz": 2,
+              "name": "Russland",
+              "land": "RUS",
+              "note": 45.44
+            },
+            {
+              "platz": 3,
+              "name": "Deutschland",
+              "land": "GER",
+              "note": 44.66
+            }
+          ]
+        },
+        {
+          "titel": "Synchron Jungen AK 11/12",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Russland",
+              "land": "RUS",
+              "note": 47.75
+            },
+            {
+              "platz": 2,
+              "name": "China",
+              "land": "CHN",
+              "note": 47.24
+            },
+            {
+              "platz": 3,
+              "name": "Usbekistan",
+              "land": "UZB",
+              "note": 44.76
+            }
+          ]
+        },
         {
           "titel": "Einzel Mädchen AK 11/12",
           "podium": [
@@ -300,7 +377,8 @@
             }
           ]
         }
-      ]
+      ],
+      "bis": "2026-11-14"
     },
     {
       "id": "yog2026-mixed",
@@ -424,214 +502,164 @@
           ]
         }
       ]
-    },
-    {
-      "id": "rsgbl2026-hr",
-      "name": "RSG-Bundesliga – letzter Wettkampftag",
-      "ort": "Gütersloh und Saarbrücken",
-      "von": "2026-11-07",
-      "rubrik": "RSG",
-      "sparte": "RSG",
-      "bericht": "Leverkusen gewann Staffel A, Schmiden Staffel B – beide treffen sich im DTL-Finale. Angegeben ist die Gesamtpunktzahl des Tages.",
-      "entscheidungen": [
-        {
-          "titel": "Staffel A (Gütersloh)",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "TSV Bayer 04 Leverkusen",
-              "note": 307.65
-            },
-            {
-              "platz": 2,
-              "name": "Team Berlin",
-              "note": 280.45
-            },
-            {
-              "platz": 3,
-              "name": "Schwerter Turnerschaft",
-              "note": 272.1
-            }
-          ]
-        },
-        {
-          "titel": "Staffel B (Saarbrücken)",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "TSV Schmiden",
-              "note": 293.1
-            },
-            {
-              "platz": 2,
-              "name": "TB Oppau",
-              "note": 258.25
-            },
-            {
-              "platz": 3,
-              "name": "TV Dahn"
-            }
-          ]
-        }
-      ]
     }
   ],
   "liga": {
     "titel": "Deutsche Turnliga 2026",
-    "info": "Stand 7. November – nach dem 5. Wettkampftag der Männer",
+    "info": "Stand 14. November – nach dem 6. Wettkampftag der Männer und dem Saisonende der Frauen",
     "duelle": [
       {
         "liga": "1. BL Männer",
-        "datum": "2026-11-07",
-        "ort": "Kreuztal",
-        "heim": "Siegerländer KV",
-        "gast": "KTV Straubenhardt",
-        "heimScore": 34,
-        "gastScore": 29,
-        "heimPkt": 7,
-        "gastPkt": 5,
-        "info": "Überraschung: erste Niederlage des Meisters"
-      },
-      {
-        "liga": "1. BL Männer",
-        "datum": "2026-11-07",
+        "datum": "2026-11-14",
         "ort": "Cottbus",
         "heim": "SC Cottbus",
-        "gast": "StTV Singen",
-        "heimScore": 51,
-        "gastScore": 23,
-        "heimPkt": 11,
-        "gastPkt": 1
-      },
-      {
-        "liga": "1. BL Männer",
-        "datum": "2026-11-07",
-        "ort": "Dillingen",
-        "heim": "TG Saar",
         "gast": "TuS Vinnhorst",
-        "heimScore": 36,
-        "gastScore": 30,
-        "heimPkt": 6,
-        "gastPkt": 6
+        "heimScore": 63,
+        "gastScore": 11,
+        "heimPkt": 12,
+        "gastPkt": 0
       },
       {
         "liga": "1. BL Männer",
-        "datum": "2026-11-07",
-        "ort": "Koblenz",
-        "heim": "KTV Koblenz",
-        "gast": "TV Schwäbisch Gmünd-Wetzgau",
-        "heimScore": 43,
-        "gastScore": 34,
-        "heimPkt": 7,
-        "gastPkt": 5
+        "datum": "2026-11-14",
+        "ort": "Schwäbisch Gmünd",
+        "heim": "TV Schwäbisch Gmünd-Wetzgau",
+        "gast": "TG Saar",
+        "heimScore": 27,
+        "gastScore": 43,
+        "heimPkt": 2,
+        "gastPkt": 10
+      },
+      {
+        "liga": "1. BL Männer",
+        "datum": "2026-11-14",
+        "ort": "Straubenhardt",
+        "heim": "KTV Straubenhardt",
+        "gast": "KTV Koblenz",
+        "heimScore": 68,
+        "gastScore": 15,
+        "heimPkt": 12,
+        "gastPkt": 0
+      },
+      {
+        "liga": "1. BL Männer",
+        "datum": "2026-11-14",
+        "ort": "Singen",
+        "heim": "StTV Singen",
+        "gast": "Siegerländer KV",
+        "heimScore": 27,
+        "gastScore": 43,
+        "heimPkt": 6,
+        "gastPkt": 6,
+        "info": "Gerätepunkte gleich – Siegerland gewinnt durch mehr Scorepunkte"
       }
     ],
     "tabellen": [
       {
         "titel": "1. Bundesliga Männer",
-        "stand": "Nach 5 von 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte.",
+        "stand": "Nach 6 von 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte. Die ersten drei sind sicher im DTL-Finale.",
         "zeilen": [
           {
             "platz": 1,
             "team": "KTV Straubenhardt",
-            "punkte": 8,
-            "score": "46:14"
+            "punkte": 10,
+            "score": "58:14"
           },
           {
             "platz": 2,
             "team": "SC Cottbus",
-            "punkte": 8,
-            "score": "40:20"
+            "punkte": 10,
+            "score": "52:20"
           },
           {
             "platz": 3,
             "team": "TG Saar",
-            "punkte": 8,
-            "score": "34:26"
+            "punkte": 10,
+            "score": "44:28"
           },
           {
             "platz": 4,
-            "team": "KTV Koblenz",
+            "team": "Siegerländer KV",
             "punkte": 6,
-            "score": "31:29"
+            "score": "45:27"
           },
           {
             "platz": 5,
-            "team": "Siegerländer KV",
-            "punkte": 4,
-            "score": "39:21"
+            "team": "KTV Koblenz",
+            "punkte": 6,
+            "score": "31:41"
           },
           {
             "platz": 6,
             "team": "TV Schwäbisch Gmünd-Wetzgau",
             "punkte": 4,
-            "score": "18:42"
+            "score": "20:52"
           },
           {
             "platz": 7,
             "team": "TuS Vinnhorst",
             "punkte": 2,
-            "score": "18:42"
+            "score": "18:54"
           },
           {
             "platz": 8,
             "team": "StTV Singen",
             "punkte": 0,
-            "score": "14:46"
+            "score": "20:52"
           }
         ]
       },
       {
         "titel": "1. Bundesliga Frauen",
-        "stand": "Nach drei Wettkampftagen. Score = Gesamtpunkte aller Geräte. Mit dabei: Aufsteiger TSG Berlin Steglitz.",
+        "stand": "Endstand nach vier Wettkampftagen. Score = Gesamtpunkte aller Geräte. Die ersten vier turnen im DTL-Finale, Berlin Steglitz steigt ab.",
         "zeilen": [
           {
             "platz": 1,
             "team": "TG Mannheim",
-            "punkte": 38,
-            "score": "577,55"
+            "punkte": 48,
+            "score": "765,80"
           },
           {
             "platz": 2,
             "team": "MTV Stuttgart",
-            "punkte": 32,
-            "score": "571,70"
+            "punkte": 44,
+            "score": "761,90"
           },
           {
             "platz": 3,
             "team": "TuS Chemnitz-Altendorf",
-            "punkte": 28,
-            "score": "580,95"
+            "punkte": 42,
+            "score": "781,85"
           },
           {
             "platz": 4,
             "team": "TG Karlsruhe-Söllingen",
-            "punkte": 24,
-            "score": "550,65"
+            "punkte": 30,
+            "score": "733,65"
           },
           {
             "platz": 5,
             "team": "TZ DSHS Köln",
-            "punkte": 18,
-            "score": "546,15"
+            "punkte": 20,
+            "score": "722,50"
           },
           {
             "platz": 6,
             "team": "KTG Eintracht Hannover",
-            "punkte": 14,
-            "score": "540,90"
+            "punkte": 18,
+            "score": "722,00"
           },
           {
             "platz": 7,
-            "team": "TSG Berlin Steglitz",
-            "punkte": 10,
-            "score": "534,35"
+            "team": "Dresdner SC",
+            "punkte": 12,
+            "score": "720,50"
           },
           {
             "platz": 8,
-            "team": "Dresdner SC",
-            "punkte": 4,
-            "score": "533,10"
+            "team": "TSG Berlin Steglitz",
+            "punkte": 10,
+            "score": "710,55"
           }
         ]
       }
@@ -657,20 +685,6 @@
       "info": "Großes deutsches Nachwuchsteam von AK 11/12 bis AK 17."
     },
     {
-      "name": "1. Bundesliga Frauen – letzter Wettkampftag",
-      "ort": "Esslingen am Neckar, Sporthalle Weil",
-      "von": "2026-11-14",
-      "ebene": "national",
-      "sparte": "Turnen"
-    },
-    {
-      "name": "1. Bundesliga Männer – 6. Wettkampftag",
-      "von": "2026-11-14",
-      "ebene": "national",
-      "sparte": "Turnen",
-      "info": "Cottbus – Vinnhorst, Wetzgau – TG Saar, Straubenhardt – Koblenz, Singen – Siegerland."
-    },
-    {
       "name": "Berlin: Mannschaftswettkampf P-Stufen weiblich",
       "ort": "Berlin, Sporthalle Woelckpromenade",
       "von": "2026-11-14",
@@ -680,19 +694,11 @@
       "info": "P3 am Samstag, P1 und P2 am Sonntag."
     },
     {
-      "name": "Berliner Adventspokal Gerätturnen männlich",
-      "ort": "Berlin, Gretel-Bergmann-Sporthalle",
-      "von": "2026-11-14",
-      "ebene": "berlin",
-      "sparte": "Turnen",
-      "info": "Allgemeiner Motorik-Test und Technische Grundlagen. Kaderrelevant für den Berliner Kaderschulungskreis.",
-      "highlight": true
-    },
-    {
       "name": "1. Bundesliga Männer – 7. Wettkampftag",
       "von": "2026-11-21",
       "ebene": "national",
-      "sparte": "Turnen"
+      "sparte": "Turnen",
+      "info": "Letzter Wettkampftag: Vinnhorst – Wetzgau, TG Saar – Straubenhardt, Koblenz – Singen, Siegerland – Cottbus."
     },
     {
       "name": "MAG Online European Club Cup – Start",
@@ -715,7 +721,7 @@
       "von": "2026-11-28",
       "ebene": "national",
       "sparte": "Turnen",
-      "info": "Die besten Bundesliga-Teams kämpfen um den deutschen Mannschaftstitel.",
+      "info": "Die besten Bundesliga-Teams kämpfen um den deutschen Mannschaftstitel. Bei den Frauen dabei: Mannheim, Stuttgart, Chemnitz und Karlsruhe-Söllingen.",
       "highlight": true
     },
     {
@@ -768,143 +774,144 @@
       "bis": "2027-08-01",
       "ebene": "national",
       "sparte": "Turnen",
-      "info": "Termin laut Terminplan 2027 des Hessischen Turnverbands."
+      "info": "Termin laut Terminplan 2027 des Hessischen Turnverbands.",
+      "highlight": true
     }
   ],
   "quiz": [
     {
-      "rubrik": "TRA",
-      "frage": "Wie viele Mädchen der AK 11/12 sprangen in Nanjing in der Trampolin-Qualifikation?",
-      "antworten": [
-        "45",
-        "90",
-        "150",
-        "24"
-      ],
-      "richtig": 1,
-      "erklaerung": "Es waren 90 Springerinnen. Nur die besten acht kamen ins Finale."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Welches Land holte bei den Mädchen AK 11/12 in Nanjing Gold und Silber?",
-      "antworten": [
-        "China",
-        "Japan",
-        "Deutschland",
-        "Belarus"
-      ],
-      "richtig": 0,
-      "erklaerung": "Zwei Springerinnen aus China belegten die Plätze eins und zwei."
-    },
-    {
       "rubrik": "DTL",
-      "frage": "Wie viele Punkte liegt Stuttgart vor dem letzten Frauen-Wettkampftag vor Chemnitz?",
+      "frage": "Welches Team gewann die reguläre Saison der 1. Bundesliga Frauen 2026?",
       "antworten": [
-        "Zwei",
-        "Sechs",
-        "Zehn",
-        "Vier"
-      ],
-      "richtig": 3,
-      "erklaerung": "Stuttgart hat 32 Punkte, Chemnitz 28 – also vier Punkte Vorsprung."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Welches Frauen-Team hat in dieser Saison die höchste Gesamtpunktzahl geturnt?",
-      "antworten": [
-        "TG Mannheim",
         "MTV Stuttgart",
         "TuS Chemnitz-Altendorf",
+        "TG Mannheim",
         "Dresdner SC"
       ],
       "richtig": 2,
-      "erklaerung": "Chemnitz-Altendorf schaffte 580,95 Punkte – knapp zehn mehr als Stuttgart."
+      "erklaerung": "Die TG Mannheim hatte am Ende 48 Punkte – vor Stuttgart (44) und Chemnitz (42)."
+    },
+    {
+      "rubrik": "BER",
+      "frage": "Welches Berliner Team steigt aus der 1. Bundesliga Frauen ab?",
+      "antworten": [
+        "TSG Berlin Steglitz",
+        "Team Berlin",
+        "SC Berlin",
+        "KRS-Charlottenburger TSV"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Aufsteiger TSG Berlin Steglitz wurde am letzten Tag noch vom Dresdner SC überholt und muss in die 2. Bundesliga."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Welche Medaille holte ein deutsches Mädchen-Paar der AK 11/12 im Synchron-Trampolin in Nanjing?",
+      "antworten": [
+        "Gold",
+        "Silber",
+        "Bronze",
+        "Keine – Platz vier"
+      ],
+      "richtig": 2,
+      "erklaerung": "Das deutsche Duo sprang auf Platz drei. Gold ging an China, Silber nach Russland."
     },
     {
       "rubrik": "DTL",
-      "frage": "Was passiert, wenn Koblenz II und Weißkirchen in der 3. Liga Nord unentschieden turnen?",
+      "frage": "Wie viele Männer-Teams haben vor dem letzten Bundesliga-Wettkampftag 10 Punkte?",
       "antworten": [
-        "Beide müssen absteigen",
-        "Beide kommen in den Aufstiegswettkampf",
-        "Es gibt ein Stechen am Reck",
-        "Hösbach gewinnt automatisch"
+        "Eins",
+        "Zwei",
+        "Vier",
+        "Drei"
+      ],
+      "richtig": 3,
+      "erklaerung": "Straubenhardt, Cottbus und die TG Saar haben je 10 Punkte und sind damit sicher im DTL-Finale."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Wer gewann die Nordstaffel der 3. Bundesliga Männer?",
+      "antworten": [
+        "TV Weißkirchen",
+        "KTV Koblenz II",
+        "TV Hösbach-Großostheim",
+        "MT Melsungen"
       ],
       "richtig": 1,
-      "erklaerung": "Bei einem Unentschieden wären beide Spitzenreiter für den Aufstiegswettkampf qualifiziert."
+      "erklaerung": "Koblenz II gewann das Spitzenduell gegen Weißkirchen mit 34:30 Scorepunkten."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Welche Medaille gewann Fabian Hambüchen 2012 in London am Reck?",
+      "antworten": [
+        "Silber",
+        "Gold",
+        "Bronze",
+        "Keine"
+      ],
+      "richtig": 0,
+      "erklaerung": "2008 holte er Bronze, 2012 Silber und 2016 in Rio endlich Gold – an jedem Olympia eine andere Farbe!"
+    },
+    {
+      "rubrik": "DE",
+      "frage": "An welchem Gerät gibt es ein Element, das nach der Deutschen Pauline Schäfer benannt ist?",
+      "antworten": [
+        "Stufenbarren",
+        "Boden",
+        "Sprung",
+        "Schwebebalken"
+      ],
+      "richtig": 3,
+      "erklaerung": "Der „Schäfer“ ist ein Salto seitwärts mit halber Drehung auf dem Schwebebalken."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "In der Männer-Bundesliga steht es bei den Gerätepunkten 6:6. Wer gewinnt?",
+      "antworten": [
+        "Das Heimteam",
+        "Das Team mit mehr Scorepunkten",
+        "Niemand – Unentschieden",
+        "Das Team mit dem besten Einzelturner"
+      ],
+      "richtig": 1,
+      "erklaerung": "Dann zählen die Scorepunkte. So gewann Siegerland in Singen mit 43:27 Scorepunkten."
     },
     {
       "rubrik": "INT",
-      "frage": "Wer wurde 2008 in Peking Olympiasieger im Mehrkampf der Männer?",
+      "frage": "Wie breit ist ein Schwebebalken?",
       "antworten": [
-        "Kohei Uchimura",
-        "Fabian Hambüchen",
-        "Philipp Boy",
-        "Yang Wei"
-      ],
-      "richtig": 3,
-      "erklaerung": "Der Chinese Yang Wei gewann 2008 vor heimischem Publikum Gold im Mehrkampf."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Seit wann ist Trampolinturnen olympisch?",
-      "antworten": [
-        "Seit 2000 in Sydney",
-        "Seit 1972 in München",
-        "Seit 1996 in Atlanta",
-        "Seit 2012 in London"
-      ],
-      "richtig": 0,
-      "erklaerung": "Bei den Spielen 2000 in Sydney war Trampolin zum ersten Mal olympisch."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Was misst beim Trampolin die „Flugzeit“ (ToF)?",
-      "antworten": [
-        "Wie hoch das Trampolin ist",
-        "Wie lange die ganze Übung dauert",
-        "Wie lange du in der Luft bist",
-        "Wie schnell du anläufst"
+        "5 Zentimeter",
+        "20 Zentimeter",
+        "10 Zentimeter",
+        "30 Zentimeter"
       ],
       "richtig": 2,
-      "erklaerung": "ToF heißt „Time of Flight“. Gemessen wird, wie lange du bei allen Sprüngen in der Luft bist – je höher du springst, desto mehr Punkte."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Wofür gibt es beim Trampolin die HD-Wertung?",
-      "antworten": [
-        "Für schöne Haltung",
-        "Dafür, wie nah du an der Mitte des Tuchs landest",
-        "Für die Schwierigkeit",
-        "Für das Synchron-Springen"
-      ],
-      "richtig": 1,
-      "erklaerung": "HD steht für „horizontal displacement“. Wer immer schön in der Mitte des Tuchs landet, bekommt hier viele Punkte."
+      "erklaerung": "Der Balken ist nur 10 Zentimeter breit und steht 1,25 Meter hoch."
     },
     {
       "rubrik": "NW",
-      "frage": "Wie viele Riesen-Felgumschwünge turnst du in der Pflicht AK 11/12 am Reck in Teil 4a?",
+      "frage": "Wie viele Anlaufschritte darfst du in der Boden-Pflicht AK 11/12 vor dem Rondat machen?",
       "antworten": [
-        "Einen",
-        "Drei",
-        "Zwei",
-        "Keinen"
+        "Höchstens drei",
+        "Höchstens fünf",
+        "Beliebig viele",
+        "Gar keine"
       ],
-      "richtig": 2,
-      "erklaerung": "In Teil 4a heißt es: Abschwingen, 2 x Riesen-Felgumschwung. Jeder ist 0,5 Punkte wert."
+      "richtig": 0,
+      "erklaerung": "Teil 1 der Bodenübung beginnt mit einem Anlauf von maximal drei Schritten, dann Rondat und Flick-Flack."
     }
   ],
   "kampfrichter": {
-    "titel": "Der kurze Schweizer",
-    "situation": "Ein Turner zeigt an den Ringen das Bonusteil 3b: Schweizer in den Handstand (Wert 2,5). Die Arme bleiben gestreckt, alles sieht gut aus. Aber er hält den Handstand nur etwa eine Sekunde statt zwei. Sonst passiert kein Fehler.",
-    "frage": "Wie viel ist das Bonusteil wert?",
+    "titel": "Zu lange auf dem Tisch",
+    "situation": "Beim 1. Sprung (Handstütz-Überschlag) kommt ein Turner gut an den Sprungtisch. Doch statt sich schnell abzudrücken, bleibt er viel zu lange mit den Händen auf dem Tisch stehen. Danach fliegt er weiter und landet sicher.",
+    "frage": "Welcher Abzug gilt für den zu langen Stütz?",
     "antworten": [
-      "Voll 2,5 – es gibt nur 0,3 Abzug für das kurze Halten",
-      "Nur 2,0, weil es kein Bonus mehr ist",
-      "Gar nichts – das Teil zählt nicht",
-      "2,5 ohne jeden Abzug"
+      "0,1 – ein kleiner Fehler",
+      "0,3 – ein mittlerer Fehler",
+      "0,8 – ein großer Fehler",
+      "Gar keiner, weil er sicher landet"
     ],
-    "richtig": 0,
-    "erklaerung": "Ein zu kurz gehaltenes Halteteil ist ein mittlerer Fehler (0,3). Das Bonusteil verliert seinen vollen Wert nur bei einem großen Fehler (0,5) oder einem Sturz. Also zählt der Schweizer 2,5 Punkte, und es werden 0,3 abgezogen."
+    "richtig": 2,
+    "erklaerung": "In der DTB-Pflicht AK 11/12 steht beim Überschlag: Ein zu langer Stütz ist ein großer Fehler und kostet 0,8 Punkte. Der Abdruck vom Tisch soll schnell und kräftig sein."
   },
   "lexikon": [
     {
@@ -1014,9 +1021,27 @@
     {
       "begriff": "Nordstaffel",
       "erklaerung": "In der 3. Bundesliga sind die Teams nach Regionen aufgeteilt. Die Nordstaffel ist die Gruppe der Teams aus dem Norden und der Mitte Deutschlands."
+    },
+    {
+      "begriff": "Saisonfinale",
+      "erklaerung": "Der letzte Wettkampftag einer Saison. Danach steht fest, wer ins Finale kommt und wer absteigt."
+    },
+    {
+      "begriff": "Abstieg",
+      "erklaerung": "Wer am Ende einer Liga ganz hinten steht, muss in die nächstniedrigere Liga wechseln. Das Gegenteil ist der Aufstieg."
     }
   ],
   "quizGestellt": [
+    "Mannheim gewinnt Frauen-Saison 2026",
+    "Steglitz Abstieg 1. BL Frauen",
+    "Nanjing Synchron AK 11/12 Bronze",
+    "Drei Männer-Teams 10 Punkte",
+    "3. BL Nord Staffelsieger Koblenz II",
+    "Hambüchen Silber 2012",
+    "Schäfer Schwebebalken",
+    "Gerätepunkte 6:6 Scorepunkte entscheiden",
+    "Schwebebalken 10 cm breit",
+    "Boden Anlauf drei Schritte AK 11/12",
     "Nanjing AK 11/12 Mädchen 90 Starterinnen",
     "Nanjing AK 11/12 Mädchen Doppelsieg China",
     "Stuttgart vier Punkte vor Chemnitz",
@@ -1109,6 +1134,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Sprung Überschlag zu langer Stütz 0,8 AK 11/12",
     "Schweizer Ringe 1 s gehalten Bonus zählt AK 11/12",
     "Element weggelassen nur Wert Abzug AK 11/12",
     "Zusätzliche Kreis-Flanke Abzug 0,3 AK 11/12",
