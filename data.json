@@ -1,79 +1,109 @@
 {
-  "aktualisiert": "2026-11-15T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-15",
-  "gruss": "Guten Morgen! Die Frauen-Bundesliga hat ihre vier Finalteams – Mannheim gewinnt die Saison, Berlin Steglitz muss leider absteigen. In China holte ein deutsches Trampolin-Duo der AK 11/12 Bronze im Synchronspringen, und bei den Männern ist vor dem letzten Wettkampftag noch ein Finalplatz frei.",
-  "quizId": "2026-11-15",
+  "aktualisiert": "2026-11-16T05:39:17+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-16",
+  "gruss": "Guten Morgen und einen guten Start in die Woche! Die Trampolin-WM in China ist vorbei: Das deutsche Team fährt mit zweimal Bronze im Synchronspringen nach Hause. Unser Turner der Woche ist Barren-Weltmeister Lukas Dauser – und am Samstag fällt in der Männer-Bundesliga die Entscheidung um den letzten Finalplatz.",
+  "quizId": "2026-11-16",
   "zahlDesTages": {
-    "zahl": "0,15",
-    "text": "So wenige Gerätepunkte fehlten der TSG Berlin Steglitz am Samstag auf Platz sieben des Tages – das sind gerade mal anderthalb kleine Fehler."
+    "zahl": "18",
+    "text": "So viele Medaillen holte China allein in den Nachwuchsklassen bei der Trampolin-WM und der World Age Group Competition in Nanjing – sieben davon in Gold."
   },
   "turnerDerWoche": {
-    "name": "Helen Kevric",
-    "land": "Deutschland · MTV Stuttgart",
+    "name": "Lukas Dauser",
+    "land": "Deutschland · TSV Unterhaching",
     "sparte": "Turnen",
-    "text": "Bei ihrer ersten WM gewann die 18-Jährige Silber am Stufenbarren – mit einer fehlerfreien Übung. Es ist die erste WM-Medaille einer deutschen Turnerin seit 2021.",
+    "text": "Er ist einer der besten Barrenturner der Welt: Olympia-Silber in Tokio und Weltmeister 2023. Acht Jahre lang trainierte er in Berlin – und ein Barren-Element trägt sogar seinen Namen.",
     "profil": {
-      "geboren": "2008-03-21",
-      "geburtsort": "Stuttgart",
+      "geboren": "1993-06-15",
+      "geburtsort": "Ebersberg (Bayern)",
       "nation": "Deutschland",
-      "verein": "MTV Stuttgart",
-      "trainer": "Aimee Boorman",
-      "groesse": "1,62 m",
+      "verein": "TSV Unterhaching",
       "sparte": "Turnen",
-      "paradegeraet": "Stufenbarren",
+      "paradegeraet": "Barren",
       "erfolge": [
-        "WM-Silber am Stufenbarren 2026 in Rotterdam",
-        "Europameisterin am Stufenbarren 2026 in Zagreb",
-        "EM-Silber mit der Mannschaft 2025 in Leipzig",
-        "Deutsche Meisterin im Mehrkampf und am Boden 2024",
-        "Deutsche Meisterin am Stufenbarren und am Schwebebalken 2026",
-        "Achte im Mehrkampf und Sechste am Stufenbarren bei Olympia 2024 in Paris"
+        "Olympia-Silber am Barren bei den Spielen von Tokio (2021)",
+        "Weltmeister am Barren 2023 in Antwerpen (15,400 Punkte)",
+        "WM-Silber am Barren 2022 in Liverpool",
+        "Vize-Europameister 2017",
+        "Deutscher Mehrkampfmeister 2017",
+        "Deutschlands Sportler des Jahres 2023"
       ],
       "fakten": [
-        "Mit dem Turnen hat Helen schon mit vier Jahren angefangen – an der Sportschule Ruit in Ostfildern.",
-        "Bei Olympia 2024 in Paris war sie mit 16 Jahren die jüngste Teilnehmerin aus ganz Deutschland – in allen Sportarten.",
-        "Ihre Trainerin Aimee Boorman hat früher Simone Biles trainiert.",
-        "Ihr Vater Adnan Kevrić war Fußball-Nationalspieler für Bosnien-Herzegowina.",
-        "Nach einer Verletzungspause kam sie im Mai 2026 zurück – und gewann im selben Jahr EM-Gold und WM-Silber."
+        "Am Barren gibt es ein Element mit seinem Namen: den „Dauser“. Er zeigte es 2014 zum ersten Mal bei einem Wettkampf, danach kam es als C-Teil ins Wertungsbuch.",
+        "Von 2012 bis 2020 wohnte und trainierte er am Stützpunkt in Berlin.",
+        "2015 wurde er mit der KTV Straubenhardt Deutscher Mannschaftsmeister in der Bundesliga.",
+        "Er war bei drei Olympischen Spielen dabei: 2016 in Rio, 2021 in Tokio und 2024 in Paris.",
+        "Nach dem Barren-Finale in Paris 2024 beendete er seine internationale Karriere."
       ],
       "stationen": [
         {
-          "zeit": "2012",
-          "text": "Erste Turnstunden beim SV Ostfildern"
+          "zeit": "2012–2020",
+          "text": "Training am Stützpunkt in Berlin"
         },
         {
-          "zeit": "2022",
-          "text": "Jugend-Europameisterin im Mehrkampf in München"
+          "zeit": "2014",
+          "text": "Erste WM in Nanning (China), Platz 8 mit dem Team"
+        },
+        {
+          "zeit": "2016",
+          "text": "Erste Olympische Spiele in Rio de Janeiro"
+        },
+        {
+          "zeit": "2020",
+          "text": "Wechsel an den Stützpunkt Halle"
+        },
+        {
+          "zeit": "2021",
+          "text": "Olympia-Silber am Barren in Tokio"
         },
         {
           "zeit": "2023",
-          "text": "Jugend-WM: Silber am Stufenbarren"
-        },
-        {
-          "zeit": "2024",
-          "text": "Wechsel zu den Erwachsenen, Olympia in Paris"
-        },
-        {
-          "zeit": "2026",
-          "text": "Europameisterin und Vize-Weltmeisterin am Stufenbarren"
+          "text": "Weltmeister am Barren in Antwerpen"
         }
       ],
       "bild": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/European_Championships_2022-08-12_Junior_Women_All-around_Victory_ceremony_%28Norman_Seibert%29_-_DSC_9181_%28cropped%29.jpg",
-        "seite": "https://commons.wikimedia.org/wiki/File:European_Championships_2022-08-12_Junior_Women_All-around_Victory_ceremony_(Norman_Seibert)_-_DSC_9181_(cropped).jpg",
-        "autor": "Norman Seibert",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lukas_Dauser_%28GER%29_2017.jpg/500px-Lukas_Dauser_%28GER%29_2017.jpg",
+        "seite": "https://commons.wikimedia.org/wiki/File:Lukas_Dauser_(GER)_2017.jpg",
+        "autor": "Martin Rulsch",
         "lizenz": "CC BY-SA 4.0",
         "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "hinweis": "Siegerehrung bei der Jugend-EM 2022"
+        "hinweis": "Beim Internationalen Deutschen Turnfest 2017 in Berlin"
       },
       "quellen": [
-        "de.wikipedia.org (Helen Kevric)",
-        "dtb.de",
-        "sportschau.de"
+        "de.wikipedia.org",
+        "commons.wikimedia.org"
       ]
     }
   },
   "news": [
+    {
+      "id": "2026-11-16-nanjing-bilanz",
+      "rubrik": "TRA",
+      "motiv": "trampolin",
+      "datum": "2026-11-15",
+      "titel": "Trampolin-WM: Zweimal Bronze zum Abschluss",
+      "teaser": "Nach den Mädchen der AK 11/12 jubelte auch ein Synchron-Paar der ältesten Klasse über Platz drei.",
+      "text": [
+        "In Nanjing (China) sind die Trampolin-Weltmeisterschaften und die World Age Group Competition zu Ende. Das deutsche Team fährt mit zwei Bronzemedaillen nach Hause – beide im Synchronspringen. Zuerst sprang ein Mädchen-Duo der AK 11/12 aufs Treppchen.",
+        "Dann folgten Janis-Luca Braun (MTV Stuttgart) und Adrian Thomson (TG Münster) in der Altersklasse 17 bis 21. Die beiden sprangen zum ersten Mal zusammen. In der Qualifikation schafften sie als Achte gerade so den Einzug ins Finale. Dort steigerten sie sich um mehr als drei Punkte und holten Bronze.",
+        "Ganz zufrieden war Bundestrainerin Katarina Prokesova nicht, denn einige Springer machten Fehler und schieden früh aus. Über die Medaillen sagte sie: „Mit zwei Medaillen können wir noch einen großen Trost mitnehmen.“ Am stärksten war China mit 18 Medaillen in den Nachwuchsklassen.",
+        "Eine gute Nachricht gab es auch auf dem Doppel-Mini-Trampolin: Die deutschen Frauen und Männer haben je einen Startplatz für die European Games 2027 in Istanbul gesichert."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-16-em-2027",
+      "rubrik": "INT",
+      "motiv": "kalender",
+      "datum": "2027-04-27",
+      "titel": "Blick voraus: Die Turn-EM 2027 ist in Armenien",
+      "teaser": "Im Frühjahr treffen sich Europas beste Turnerinnen und Turner in Jerewan.",
+      "text": [
+        "Die Turn-Saison 2026 ist fast vorbei – Zeit für einen Blick ins nächste Jahr. Die Europameisterschaften im Gerätturnen der Frauen und Männer finden vom 27. April bis 2. Mai 2027 in Jerewan statt. Das ist die Hauptstadt von Armenien.",
+        "Der Europäische Turnverband hat die EM schon vor ein paar Jahren nach Jerewan vergeben. Das genaue Programm ist noch vorläufig.",
+        "Im Herbst 2027 folgt die Weltmeisterschaft in Chengdu (China). Vorher gibt es in Deutschland zwei große Termine: das Turnier der Meister in Cottbus und die Deutschen Meisterschaften bei den Finals in Stuttgart."
+      ],
+      "quelle": "europeangymnastics.com, asoif.com"
+    },
     {
       "id": "2026-11-15-frauen-finale",
       "rubrik": "DTL",
@@ -188,20 +218,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-12-dakar-mixed",
-      "rubrik": "INT",
-      "motiv": "team",
-      "datum": "2026-11-11",
-      "titel": "Dakar: China gewinnt auch das Mixed-Team",
-      "teaser": "Im letzten Turn-Finale der Olympischen Jugendspiele siegte China vor Japan und Israel.",
-      "text": [
-        "Zum Schluss der Turn-Wettkämpfe in Dakar gab es noch einmal ein ganz besonderes Format: das Mixed-Team. Jede Mannschaft bestand aus einer Turnerin und einem Turner. In jeder Runde turnte jeder nur an einem Gerät, und beide Noten wurden zusammengezählt.",
-        "Nach Vorrunde und Halbfinale standen vier Teams im Finale. China kam dort auf 27,832 Punkte – die Turnerin am Schwebebalken, der Turner am Boden. Silber ging an Japan mit 25,966 Punkten, Bronze an Israel mit 24,366 Punkten. Italien wurde Vierter.",
-        "Damit hat China bei diesen Jugendspielen alle drei Team-Wettbewerbe im Turnen gewonnen: bei den Jungs, bei den Mädchen und im Mixed-Team."
-      ],
-      "quelle": "olympics.com, thegymter.net"
-    },
-    {
       "id": "2026-11-12-rendezvous",
       "rubrik": "DE",
       "motiv": "salto",
@@ -228,20 +244,6 @@
         "Andrei startete stark am Pauschenpferd mit 13,066 Punkten. Am Boden lief es diesmal gar nicht, er kam nur auf 8,866 Punkte und wurde 18. Gold holte Daniil Smirnov mit 81,298 Punkten vor Uzair Chowdhury aus Großbritannien und Ikki Nishihara aus Japan."
       ],
       "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-11-rsg-3bl-berlin",
-      "rubrik": "BER",
-      "motiv": "rsg",
-      "datum": "2026-11-08",
-      "titel": "RSG: Reflect Berlin verpasst Aufstieg ganz knapp",
-      "teaser": "Ein einziger Gerätepunkt entschied in der 3. Bundesliga über den Staffelsieg.",
-      "text": [
-        "In der 3. Bundesliga der Rhythmischen Sportgymnastik ging es zum Saisonende in Gütersloh richtig spannend zu. Reflect Berlin gewann den letzten Wettkampftag mit 209,650 Punkten vor der TG Münsterland.",
-        "Am Ende hatten beide Teams zehn Rangpunkte. Weil Münsterland mit 19 zu 18 einen Gerätepunkt mehr hatte, steigt Münsterland in die 2. Bundesliga auf. Reflect Berlin wurde Zweiter – obwohl die Berlinerinnen insgesamt sogar mehr Punkte geturnt hatten.",
-        "Für einen anderen Berliner Verein endete die Saison traurig: Der VfL Zehlendorf wurde Letzter und steigt in die Regionalliga ab."
-      ],
-      "quelle": "deutsche-turnliga.de"
     }
   ],
   "wettkaempfe": [
@@ -278,12 +280,12 @@
     },
     {
       "id": "wagc2026-nanjing-1112",
-      "name": "Trampolin: World Age Group Competition – Finals AK 11/12",
+      "name": "Trampolin: World Age Group Competition – Finals",
       "ort": "Nanjing (China)",
       "von": "2026-11-12",
       "rubrik": "TRA",
       "sparte": "Trampolin",
-      "bericht": "Die Nachwuchs-Finals im Einzel und im Synchron. Wegen des Datenschutzes stehen hier die Länder statt der Namen. Highlight: Bronze für ein deutsches Mädchen-Paar im Synchron.",
+      "bericht": "Die Nachwuchs-Finals im Einzel und im Synchron (hier die AK 11/12 – wegen des Datenschutzes mit Ländern statt Namen). Deutschland holte zweimal Bronze im Synchron: bei den Mädchen der AK 11/12 und bei den Turnern der AK 17–21.",
       "entscheidungen": [
         {
           "titel": "Synchron Mädchen AK 11/12",
@@ -378,7 +380,7 @@
           ]
         }
       ],
-      "bis": "2026-11-14"
+      "bis": "2026-11-15"
     },
     {
       "id": "yog2026-mixed",
@@ -667,33 +669,6 @@
   },
   "termine": [
     {
-      "name": "Northern European Championships",
-      "ort": "Aalborg (Dänemark)",
-      "von": "2026-11-12",
-      "bis": "2026-11-15",
-      "ebene": "international",
-      "sparte": "Turnen",
-      "info": "Nordeuropameisterschaften für Turnerinnen und Turner aus 12 Ländern. Auch dänische Bundesliga-Gastturner sind dort am Start."
-    },
-    {
-      "name": "Trampolin: Junioren-WM und World Age Group Competition",
-      "ort": "Nanjing (China)",
-      "von": "2026-11-12",
-      "bis": "2026-11-15",
-      "ebene": "international",
-      "sparte": "Trampolin",
-      "info": "Großes deutsches Nachwuchsteam von AK 11/12 bis AK 17."
-    },
-    {
-      "name": "Berlin: Mannschaftswettkampf P-Stufen weiblich",
-      "ort": "Berlin, Sporthalle Woelckpromenade",
-      "von": "2026-11-14",
-      "bis": "2026-11-15",
-      "ebene": "berlin",
-      "sparte": "Turnen",
-      "info": "P3 am Samstag, P1 und P2 am Sonntag."
-    },
-    {
       "name": "1. Bundesliga Männer – 7. Wettkampftag",
       "von": "2026-11-21",
       "ebene": "national",
@@ -768,6 +743,16 @@
       "highlight": true
     },
     {
+      "name": "Europameisterschaften Gerätturnen",
+      "ort": "Jerewan (Armenien)",
+      "von": "2027-04-27",
+      "bis": "2027-05-02",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "EM der Frauen und Männer. Das Programm ist laut Europäischem Turnverband noch vorläufig.",
+      "highlight": true
+    },
+    {
       "name": "Die Finals – Deutsche Meisterschaften",
       "ort": "Stuttgart",
       "von": "2027-07-29",
@@ -780,138 +765,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "DTL",
-      "frage": "Welches Team gewann die reguläre Saison der 1. Bundesliga Frauen 2026?",
+      "rubrik": "TRA",
+      "frage": "Welche Medaille holten Janis-Luca Braun und Adrian Thomson in Nanjing im Synchronspringen?",
       "antworten": [
-        "MTV Stuttgart",
-        "TuS Chemnitz-Altendorf",
-        "TG Mannheim",
-        "Dresdner SC"
+        "Gold",
+        "Silber",
+        "Bronze",
+        "Sie wurden Vierte"
       ],
       "richtig": 2,
-      "erklaerung": "Die TG Mannheim hatte am Ende 48 Punkte – vor Stuttgart (44) und Chemnitz (42)."
-    },
-    {
-      "rubrik": "BER",
-      "frage": "Welches Berliner Team steigt aus der 1. Bundesliga Frauen ab?",
-      "antworten": [
-        "TSG Berlin Steglitz",
-        "Team Berlin",
-        "SC Berlin",
-        "KRS-Charlottenburger TSV"
-      ],
-      "richtig": 0,
-      "erklaerung": "Der Aufsteiger TSG Berlin Steglitz wurde am letzten Tag noch vom Dresdner SC überholt und muss in die 2. Bundesliga."
+      "erklaerung": "Die beiden sprangen zum ersten Mal zusammen und holten in der Altersklasse 17–21 Bronze."
     },
     {
       "rubrik": "TRA",
-      "frage": "Welche Medaille holte ein deutsches Mädchen-Paar der AK 11/12 im Synchron-Trampolin in Nanjing?",
+      "frage": "Welches Land holte in Nanjing allein 18 Medaillen in den Nachwuchsklassen?",
       "antworten": [
-        "Gold",
-        "Silber",
-        "Bronze",
-        "Keine – Platz vier"
-      ],
-      "richtig": 2,
-      "erklaerung": "Das deutsche Duo sprang auf Platz drei. Gold ging an China, Silber nach Russland."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wie viele Männer-Teams haben vor dem letzten Bundesliga-Wettkampftag 10 Punkte?",
-      "antworten": [
-        "Eins",
-        "Zwei",
-        "Vier",
-        "Drei"
-      ],
-      "richtig": 3,
-      "erklaerung": "Straubenhardt, Cottbus und die TG Saar haben je 10 Punkte und sind damit sicher im DTL-Finale."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wer gewann die Nordstaffel der 3. Bundesliga Männer?",
-      "antworten": [
-        "TV Weißkirchen",
-        "KTV Koblenz II",
-        "TV Hösbach-Großostheim",
-        "MT Melsungen"
+        "Japan",
+        "China",
+        "Deutschland",
+        "Großbritannien"
       ],
       "richtig": 1,
-      "erklaerung": "Koblenz II gewann das Spitzenduell gegen Weißkirchen mit 34:30 Scorepunkten."
+      "erklaerung": "China war bei der Trampolin-WM und der World Age Group Competition eine Klasse für sich – mit 18 Nachwuchs-Medaillen, sieben davon in Gold."
     },
     {
-      "rubrik": "DE",
-      "frage": "Welche Medaille gewann Fabian Hambüchen 2012 in London am Reck?",
+      "rubrik": "TRA",
+      "frage": "Für welches große Ereignis 2027 sicherten sich die deutschen Doppel-Mini-Springer Startplätze?",
       "antworten": [
-        "Silber",
-        "Gold",
-        "Bronze",
-        "Keine"
-      ],
-      "richtig": 0,
-      "erklaerung": "2008 holte er Bronze, 2012 Silber und 2016 in Rio endlich Gold – an jedem Olympia eine andere Farbe!"
-    },
-    {
-      "rubrik": "DE",
-      "frage": "An welchem Gerät gibt es ein Element, das nach der Deutschen Pauline Schäfer benannt ist?",
-      "antworten": [
-        "Stufenbarren",
-        "Boden",
-        "Sprung",
-        "Schwebebalken"
-      ],
-      "richtig": 3,
-      "erklaerung": "Der „Schäfer“ ist ein Salto seitwärts mit halber Drehung auf dem Schwebebalken."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "In der Männer-Bundesliga steht es bei den Gerätepunkten 6:6. Wer gewinnt?",
-      "antworten": [
-        "Das Heimteam",
-        "Das Team mit mehr Scorepunkten",
-        "Niemand – Unentschieden",
-        "Das Team mit dem besten Einzelturner"
+        "Olympische Spiele",
+        "European Games in Istanbul",
+        "Universiade",
+        "Commonwealth Games"
       ],
       "richtig": 1,
-      "erklaerung": "Dann zählen die Scorepunkte. So gewann Siegerland in Singen mit 43:27 Scorepunkten."
+      "erklaerung": "Bei der WM in Nanjing holten die deutschen Frauen und Männer je einen Startplatz für die European Games 2027 in Istanbul."
     },
     {
       "rubrik": "INT",
-      "frage": "Wie breit ist ein Schwebebalken?",
+      "frage": "In welcher Stadt finden die Turn-Europameisterschaften 2027 statt?",
       "antworten": [
-        "5 Zentimeter",
-        "20 Zentimeter",
-        "10 Zentimeter",
-        "30 Zentimeter"
+        "Istanbul",
+        "Rotterdam",
+        "Chengdu",
+        "Jerewan"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die EM 2027 ist vom 27. April bis 2. Mai in Jerewan, der Hauptstadt von Armenien."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "In welchem Jahr wurde Lukas Dauser Weltmeister am Barren?",
+      "antworten": [
+        "2019",
+        "2023",
+        "2021",
+        "2025"
+      ],
+      "richtig": 1,
+      "erklaerung": "2023 gewann er in Antwerpen WM-Gold am Barren mit 15,400 Punkten. Im selben Jahr wurde er Deutschlands Sportler des Jahres."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "An welchem Gerät gibt es ein Element, das nach Lukas Dauser benannt ist?",
+      "antworten": [
+        "Barren",
+        "Reck",
+        "Ringe",
+        "Boden"
+      ],
+      "richtig": 0,
+      "erklaerung": "Den „Dauser“ zeigte er 2014 zum ersten Mal am Barren. Danach wurde das Element als C-Teil ins Wertungsbuch aufgenommen."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wer wurde bei den Olympischen Spielen von Tokio Olympiasieger am Barren – vor Lukas Dauser?",
+      "antworten": [
+        "Kohei Uchimura",
+        "Zou Jingyuan",
+        "Oleg Verniaiev",
+        "Max Whitlock"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Chinese Zou Jingyuan gewann Gold, Lukas Dauser holte Silber."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Ein Turner soll ein Halteteil 2 Sekunden halten, hält es aber gar nicht. Wie groß ist der Fehler?",
+      "antworten": [
+        "Kleiner Fehler (0,1)",
+        "Mittlerer Fehler (0,3)",
+        "Großer Fehler (0,5)",
+        "Kein Abzug"
       ],
       "richtig": 2,
-      "erklaerung": "Der Balken ist nur 10 Zentimeter breit und steht 1,25 Meter hoch."
+      "erklaerung": "In der DTB-Pflicht gilt: zu kurz gehalten ist ein mittlerer Fehler, gar nicht gehalten ein großer Fehler."
     },
     {
       "rubrik": "NW",
-      "frage": "Wie viele Anlaufschritte darfst du in der Boden-Pflicht AK 11/12 vor dem Rondat machen?",
+      "frage": "Ab welcher Schwierigkeit darf beim Kür-Sprung der AK 12 eine zusätzliche 10-cm-Weichmatte liegen?",
       "antworten": [
-        "Höchstens drei",
-        "Höchstens fünf",
-        "Beliebig viele",
-        "Gar keine"
+        "Ab 2,0 Punkten",
+        "Ab 3,0 Punkten",
+        "Ab 3,6 Punkten",
+        "Ab 5,0 Punkten"
       ],
-      "richtig": 0,
-      "erklaerung": "Teil 1 der Bodenübung beginnt mit einem Anlauf von maximal drei Schritten, dann Rondat und Flick-Flack."
+      "richtig": 2,
+      "erklaerung": "Laut DTB-Küranforderungen darf bei Sprüngen ab 3,6 Punkten Schwierigkeit eine zusätzliche 10-cm-Weichmatte liegen."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie viele Punkte ist der Kurbet beim Rondatsprung (2. Sprung) der Pflicht AK 11/12 wert?",
+      "antworten": [
+        "1,0",
+        "2,0",
+        "3,0",
+        "4,0"
+      ],
+      "richtig": 3,
+      "erklaerung": "Der Kurbet in die geschlossene Körperposition ist mit 4,0 Punkten der wertvollste Teil des Rondatsprungs."
     }
   ],
   "kampfrichter": {
-    "titel": "Zu lange auf dem Tisch",
-    "situation": "Beim 1. Sprung (Handstütz-Überschlag) kommt ein Turner gut an den Sprungtisch. Doch statt sich schnell abzudrücken, bleibt er viel zu lange mit den Händen auf dem Tisch stehen. Danach fliegt er weiter und landet sicher.",
-    "frage": "Welcher Abzug gilt für den zu langen Stütz?",
+    "titel": "Andersrum geturnt",
+    "situation": "Ein Turner zeigt seine Pflicht-Bodenübung komplett gegengleich: Bei allen Drehungen dreht er nach rechts statt nach links. Sonst turnt er alle Elemente sauber und in der richtigen Reihenfolge.",
+    "frage": "Was ziehen die Kampfrichter dafür ab?",
     "antworten": [
-      "0,1 – ein kleiner Fehler",
+      "Nichts – gegengleich turnen ist erlaubt",
       "0,3 – ein mittlerer Fehler",
-      "0,8 – ein großer Fehler",
-      "Gar keiner, weil er sicher landet"
+      "0,5 – ein großer Fehler",
+      "Die Übung zählt nicht"
     ],
-    "richtig": 2,
-    "erklaerung": "In der DTB-Pflicht AK 11/12 steht beim Überschlag: Ein zu langer Stütz ist ein großer Fehler und kostet 0,8 Punkte. Der Abdruck vom Tisch soll schnell und kräftig sein."
+    "richtig": 0,
+    "erklaerung": "In der DTB-Pflicht AK 11/12 dürfen alle Übungen auch gegengleich geturnt werden. Die Bodenübung ist für Linksdreher beschrieben – wer lieber rechts herum dreht, verliert dafür keine Punkte."
   },
   "lexikon": [
     {
@@ -1029,9 +1014,27 @@
     {
       "begriff": "Abstieg",
       "erklaerung": "Wer am Ende einer Liga ganz hinten steht, muss in die nächstniedrigere Liga wechseln. Das Gegenteil ist der Aufstieg."
+    },
+    {
+      "begriff": "European Games",
+      "erklaerung": "Die Europaspiele: ein großes Sportfest für viele Sportarten in Europa, ähnlich wie Olympische Spiele. 2027 finden sie in Istanbul statt."
+    },
+    {
+      "begriff": "Gegengleich",
+      "erklaerung": "Eine Übung spiegelverkehrt turnen – also zum Beispiel rechts herum statt links herum drehen. In der DTB-Pflicht ist das erlaubt."
     }
   ],
   "quizGestellt": [
+    "Braun Thomson Synchron Bronze Nanjing",
+    "China 18 Nachwuchs-Medaillen Nanjing",
+    "DMT Startplätze European Games 2027",
+    "EM 2027 Jerewan",
+    "Dauser Weltmeister Barren 2023",
+    "Dauser Element Barren",
+    "Zou Jingyuan Barren Tokio",
+    "Halteteil gar nicht gehalten 0,5",
+    "Kür Sprung Weichmatte 3,6 AK 12",
+    "Rondatsprung Kurbet 4,0 AK 11/12",
     "Mannheim gewinnt Frauen-Saison 2026",
     "Steglitz Abstieg 1. BL Frauen",
     "Nanjing Synchron AK 11/12 Bronze",
@@ -1134,6 +1137,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Gegengleich turnen kein Abzug AK 11/12",
     "Sprung Überschlag zu langer Stütz 0,8 AK 11/12",
     "Schweizer Ringe 1 s gehalten Bonus zählt AK 11/12",
     "Element weggelassen nur Wert Abzug AK 11/12",
