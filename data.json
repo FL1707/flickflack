@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-16T05:39:17+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-16",
-  "gruss": "Guten Morgen und einen guten Start in die Woche! Die Trampolin-WM in China ist vorbei: Das deutsche Team fährt mit zweimal Bronze im Synchronspringen nach Hause. Unser Turner der Woche ist Barren-Weltmeister Lukas Dauser – und am Samstag fällt in der Männer-Bundesliga die Entscheidung um den letzten Finalplatz.",
-  "quizId": "2026-11-16",
+  "aktualisiert": "2026-11-17T05:38:28+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-17",
+  "gruss": "Guten Morgen! Große Vorfreude in Berlin: Olympiasiegerin Darja Varfolomeev kommt zum Finale der RSG-Bundesliga in die Hauptstadt. Außerdem steht fest, dass die Turn-WM 2027 in China stattfindet – und am Samstag geht es in der Männer-Bundesliga um den letzten Finalplatz.",
+  "quizId": "2026-11-17",
   "zahlDesTages": {
-    "zahl": "18",
-    "text": "So viele Medaillen holte China allein in den Nachwuchsklassen bei der Trampolin-WM und der World Age Group Competition in Nanjing – sieben davon in Gold."
+    "zahl": "14",
+    "text": "So oft ist Darja Varfolomeev schon Weltmeisterin in der Rhythmischen Sportgymnastik geworden. Am 28. November turnt sie beim RSG-Bundesligafinale in Berlin."
   },
   "turnerDerWoche": {
     "name": "Lukas Dauser",
@@ -75,6 +75,48 @@
     }
   },
   "news": [
+    {
+      "id": "2026-11-17-rsg-berlin-stars",
+      "rubrik": "RSG",
+      "motiv": "rsg",
+      "datum": "2026-11-16",
+      "titel": "Olympiasiegerin Varfolomeev kommt nach Berlin",
+      "teaser": "Beim Finale der RSG-Bundesliga am 28. November turnen echte Weltstars in Berlin.",
+      "text": [
+        "Darja Varfolomeev ist Olympiasiegerin und 14-fache Weltmeisterin in der Rhythmischen Sportgymnastik. Am 28. November startet sie mit ihrem Verein TSV Schmiden beim DTL-Finale in Berlin. Das hat der Berliner Turn- und Freizeitbund bestätigt.",
+        "Im großen Finale kämpft Schmiden gegen den TSV Bayer 04 Leverkusen um die Deutsche Mannschaftsmeisterschaft. Im Kleinen Finale um Platz drei turnt das Team Berlin gegen den TSV Nürnberg. Auch andere Stars sind dabei: Sofia Raffaeli aus Italien startet für Leverkusen, Eva Brezalieva aus Bulgarien für Berlin.",
+        "Gezeigt wird alles im Horst-Korber-Sportzentrum. Schon mittags gibt es zum ersten Mal einen Nachwuchspokal für junge Gymnastinnen. Am Nachmittag kämpfen Juniorinnen-Gruppen um die Fahrkarte zur EM 2027 in Pamplona (Spanien) – darunter die Gruppe vom Bundesstützpunkt Berlin, die in diesem Jahr Deutscher Meister wurde."
+      ],
+      "quelle": "deutsche-turnliga.de, btfb.de"
+    },
+    {
+      "id": "2026-11-17-berkheim-aufstieg",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-14",
+      "titel": "2. Bundesliga Frauen: Berkheim ist zurück in Liga eins",
+      "teaser": "Der TSV Berkheim gewinnt die 2. Bundesliga und steigt direkt wieder auf.",
+      "text": [
+        "Vor einem Jahr fehlten dem TSV Berkheim nur 0,25 Punkte zum Klassenerhalt in der 1. Bundesliga. Jetzt ist die Mannschaft zurück: Beim letzten Wettkampftag in Esslingen gewann Berkheim mit 178,85 Punkten auch den vierten Tag fast mühelos.",
+        "Am Ende hatte Berkheim 52 von 56 möglichen Punkten und 18 Zähler Vorsprung. Vizemeister wurde die TuG Leipzig vor dem TSV Unterföhring. Stark war auch die TS NeckarGym Nürtingen: Sie wurde Tageszweite, eine Turnerin zeigte am Stufenbarren die beste Übung des Tages.",
+        "Für den SV Großhansdorf und die KTV Dortmund geht es dagegen eine Liga tiefer in die 3. Bundesliga."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-17-wm-2027",
+      "rubrik": "INT",
+      "motiv": "kalender",
+      "datum": "2027-09-29",
+      "titel": "Turn-WM 2027 findet in China statt",
+      "teaser": "Der Kalender des Weltverbands verrät die großen Termine für das nächste Jahr.",
+      "text": [
+        "Die Weltmeisterschaften im Gerätturnen 2027 finden in Chengdu (China) statt – vom 29. September bis 8. Oktober. Das steht im Wettkampfkalender des Weltturnverbands.",
+        "Gute Nachricht für Fans in Deutschland: Der Weltcup in Cottbus ist dort für den 25. bis 28. Februar 2027 eingetragen. Im Oktober 2027 gibt es in Cottbus außerdem einen Weltcup im Trampolin.",
+        "Auch der Nachwuchs hat ein großes Ziel: Die Junioren-WM im Gerätturnen ist vom 26. bis 31. Oktober 2027 in Kairo (Ägypten). Die WM der Rhythmischen Sportgymnastik ist im September in Baku (Aserbaidschan)."
+      ],
+      "quelle": "gymnastics.sport"
+    },
     {
       "id": "2026-11-16-nanjing-bilanz",
       "rubrik": "TRA",
@@ -176,20 +218,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-14-nanjing-ak1112",
-      "rubrik": "TRA",
-      "motiv": "trampolin",
-      "datum": "2026-11-12",
-      "titel": "Trampolin: China und Belarus siegen in der AK 11/12",
-      "teaser": "In Nanjing sind die ersten Nachwuchs-Finals vorbei – die deutschen Mädchen verpassten das Finale nur knapp.",
-      "text": [
-        "In Nanjing (China) springt gerade der Trampolin-Nachwuchs aus aller Welt. Die ersten Finals der Altersklasse 11/12 sind vorbei. Bei den Mädchen gab es einen Doppelsieg für China, Dritte wurde eine Springerin aus Belarus. Bei den Jungen gewann ein Springer aus Belarus ganz knapp vor zwei Chinesen – der Abstand zu Platz zwei betrug nur vier Hundertstel.",
-        "In der Qualifikation der Mädchen waren 90 Springerinnen am Start. Die drei besten Deutschen landeten auf den Plätzen 18, 20 und 21. Ins Finale kamen nur die besten acht.",
-        "Gut lief es im Synchron der AK 13/14: Ein deutsches Jungen-Paar zog als Vierter ins Finale ein, ein Mädchen-Paar als Siebtes. Und bei den 17- bis 21-Jährigen schaffte Greta Steinbrenner (MTV Bad Kreuznach) als Achte den Sprung ins Finale am Sonntag."
-      ],
-      "quelle": "gymnastics.sport, dtb.de"
-    },
-    {
       "id": "2026-11-13-berlin-kadertest",
       "rubrik": "BER",
       "motiv": "kalender",
@@ -204,20 +232,6 @@
       "quelle": "btfb.de"
     },
     {
-      "id": "2026-11-13-rsg-finale",
-      "rubrik": "RSG",
-      "motiv": "rsg",
-      "datum": "2026-11-07",
-      "titel": "RSG: Leverkusen gegen Schmiden um den Titel",
-      "teaser": "Das Finale in Berlin steht fest – und Team Berlin turnt um Platz drei.",
-      "text": [
-        "In der 1. Bundesliga der Rhythmischen Sportgymnastik ist die Hauptrunde vorbei. In der Staffel B gewann Titelverteidiger TSV Schmiden den letzten Wettkampftag in Saarbrücken. Schmiden siegte dort an allen vier Handgeräten: Reifen, Ball, Keulen und Band.",
-        "Damit steht das große Finale fest: Am 28. November kämpfen Bayer 04 Leverkusen und der TSV Schmiden in Berlin um die Deutsche Mannschaftsmeisterschaft.",
-        "Im kleinen Finale um Platz drei turnt Team Berlin gegen Aufsteiger TSV Nürnberg. Nürnberg und der TB Oppau hatten gleich viele Rang- und Gerätepunkte – am Ende entschied die höhere Gesamtpunktzahl für Nürnberg."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
       "id": "2026-11-12-rendezvous",
       "rubrik": "DE",
       "motiv": "salto",
@@ -230,31 +244,17 @@
         "Am Abend gibt es eine große Show mit den 15 besten Vorführungen. Eine Gruppe bekommt außerdem das Prädikat „Das besondere Etwas“ – für besonders viel Ausstrahlung und Ideen."
       ],
       "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-11-dakar-mehrkampf",
-      "rubrik": "NW",
-      "motiv": "barren",
-      "datum": "2026-11-10",
-      "titel": "Dakar: Zwei Deutsche im Mehrkampffinale",
-      "teaser": "Zénó Csuka rückte als Reserve ins Finale nach und wurde 13., Andrei Mihai landete auf Platz 18.",
-      "text": [
-        "Zum Abschluss der Olympischen Jugendspiele in Dakar turnten gleich zwei Deutsche im Mehrkampffinale. Andrei Mihai vom TV Lahr hatte sich als Neunter qualifiziert. Zénó Csuka vom TSV Unterföhring durfte als erster Reserveathlet nachrücken, weil ein anderer Turner verletzt ausfiel.",
-        "Zénó nutzte seine Chance: Am Barren stand er den Doppelsalto vorwärts als Abgang perfekt und bekam dafür sogar einen Bonus für den sicheren Stand. Mit 12,700 Punkten war er dort mehr als einen Punkt besser als in der Qualifikation. Am Ende wurde er mit 72,099 Punkten 13.",
-        "Andrei startete stark am Pauschenpferd mit 13,066 Punkten. Am Boden lief es diesmal gar nicht, er kam nur auf 8,866 Punkte und wurde 18. Gold holte Daniil Smirnov mit 81,298 Punkten vor Uzair Chowdhury aus Großbritannien und Ikki Nishihara aus Japan."
-      ],
-      "quelle": "dtb.de"
     }
   ],
   "wettkaempfe": [
     {
       "id": "dtl2026-frauen-wt4",
-      "name": "1. Bundesliga Frauen – letzter Wettkampftag",
+      "name": "1. und 2. Bundesliga Frauen – letzter Wettkampftag",
       "ort": "Esslingen am Neckar",
       "von": "2026-11-14",
       "rubrik": "DTL",
       "sparte": "Turnen Frauen",
-      "bericht": "Chemnitz gewann den Tag klar, Mannheim gewann die Saison. Im DTL-Finale stehen Mannheim, Stuttgart, Chemnitz und Karlsruhe-Söllingen. Berlin Steglitz steigt ab.",
+      "bericht": "Chemnitz gewann den Tag, Mannheim die Saison der 1. Bundesliga. Berlin Steglitz steigt ab. In der 2. Bundesliga wurde Berkheim Meister und steigt auf.",
       "entscheidungen": [
         {
           "titel": "Tageswertung Mannschaft",
@@ -273,6 +273,26 @@
               "platz": 3,
               "name": "TG Mannheim",
               "note": 188.25
+            }
+          ]
+        },
+        {
+          "titel": "2. Bundesliga – Tageswertung",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "TSV Berkheim",
+              "note": 178.85
+            },
+            {
+              "platz": 2,
+              "name": "TS NeckarGym Nürtingen",
+              "note": 175.25
+            },
+            {
+              "platz": 3,
+              "name": "TSV Unterföhring",
+              "note": 168.9
             }
           ]
         }
@@ -684,11 +704,11 @@
     },
     {
       "name": "DTL-Finale Rhythmische Sportgymnastik",
-      "ort": "Berlin",
+      "ort": "Berlin, Horst-Korber-Sportzentrum",
       "von": "2026-11-28",
       "ebene": "berlin",
       "sparte": "RSG",
-      "info": "Davor gibt es einen neuen Nachwuchspokal für jüngere Gymnastinnen."
+      "info": "Schmiden (mit Olympiasiegerin Darja Varfolomeev) gegen Leverkusen um den Titel, Berlin gegen Nürnberg um Platz drei. Davor: neuer DTL-Nachwuchspokal und EM-Qualifikation der Juniorinnen-Gruppen."
     },
     {
       "name": "DTL-Finale Turnen",
@@ -739,7 +759,7 @@
       "bis": "2027-02-28",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "Termin laut Wettkampfkalender – noch nicht offiziell bestätigt.",
+      "info": "Weltcup an den einzelnen Geräten. Der Termin steht im Wettkampfkalender des Weltturnverbands.",
       "highlight": true
     },
     {
@@ -761,142 +781,170 @@
       "sparte": "Turnen",
       "info": "Termin laut Terminplan 2027 des Hessischen Turnverbands.",
       "highlight": true
+    },
+    {
+      "name": "Weltmeisterschaften Rhythmische Sportgymnastik",
+      "ort": "Baku (Aserbaidschan)",
+      "von": "2027-09-15",
+      "bis": "2027-09-19",
+      "ebene": "international",
+      "sparte": "RSG",
+      "info": "Laut Wettkampfkalender des Weltturnverbands."
+    },
+    {
+      "name": "Weltmeisterschaften Gerätturnen",
+      "ort": "Chengdu (China)",
+      "von": "2027-09-29",
+      "bis": "2027-10-08",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "WM der Frauen und Männer, laut Wettkampfkalender des Weltturnverbands.",
+      "highlight": true
+    },
+    {
+      "name": "Junioren-Weltmeisterschaften Gerätturnen",
+      "ort": "Kairo (Ägypten)",
+      "von": "2027-10-26",
+      "bis": "2027-10-31",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Laut Wettkampfkalender des Weltturnverbands."
     }
   ],
   "quiz": [
     {
-      "rubrik": "TRA",
-      "frage": "Welche Medaille holten Janis-Luca Braun und Adrian Thomson in Nanjing im Synchronspringen?",
+      "rubrik": "RSG",
+      "frage": "Welche Olympiasiegerin turnt beim RSG-Bundesligafinale in Berlin für den TSV Schmiden?",
       "antworten": [
-        "Gold",
-        "Silber",
-        "Bronze",
-        "Sie wurden Vierte"
+        "Margarita Kolosov",
+        "Darja Varfolomeev",
+        "Sofia Raffaeli",
+        "Eva Brezalieva"
+      ],
+      "richtig": 1,
+      "erklaerung": "Darja Varfolomeev wurde 2024 in Paris Olympiasiegerin im Mehrkampf. Am 28. November startet sie mit Schmiden in Berlin."
+    },
+    {
+      "rubrik": "BER",
+      "frage": "In welcher Berliner Halle findet das DTL-Finale der RSG statt?",
+      "antworten": [
+        "Max-Schmeling-Halle",
+        "Leistikowhalle",
+        "Horst-Korber-Sportzentrum",
+        "Sportforum Hohenschönhausen"
       ],
       "richtig": 2,
-      "erklaerung": "Die beiden sprangen zum ersten Mal zusammen und holten in der Altersklasse 17–21 Bronze."
+      "erklaerung": "Das RSG-Festival mit Nachwuchspokal, EM-Qualifikation und Finale steigt im Horst-Korber-Sportzentrum."
     },
     {
-      "rubrik": "TRA",
-      "frage": "Welches Land holte in Nanjing allein 18 Medaillen in den Nachwuchsklassen?",
+      "rubrik": "DTL",
+      "frage": "Welcher Verein steigt aus der 2. Bundesliga der Frauen in die 1. Bundesliga auf?",
       "antworten": [
-        "Japan",
-        "China",
-        "Deutschland",
-        "Großbritannien"
-      ],
-      "richtig": 1,
-      "erklaerung": "China war bei der Trampolin-WM und der World Age Group Competition eine Klasse für sich – mit 18 Nachwuchs-Medaillen, sieben davon in Gold."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Für welches große Ereignis 2027 sicherten sich die deutschen Doppel-Mini-Springer Startplätze?",
-      "antworten": [
-        "Olympische Spiele",
-        "European Games in Istanbul",
-        "Universiade",
-        "Commonwealth Games"
-      ],
-      "richtig": 1,
-      "erklaerung": "Bei der WM in Nanjing holten die deutschen Frauen und Männer je einen Startplatz für die European Games 2027 in Istanbul."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "In welcher Stadt finden die Turn-Europameisterschaften 2027 statt?",
-      "antworten": [
-        "Istanbul",
-        "Rotterdam",
-        "Chengdu",
-        "Jerewan"
-      ],
-      "richtig": 3,
-      "erklaerung": "Die EM 2027 ist vom 27. April bis 2. Mai in Jerewan, der Hauptstadt von Armenien."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "In welchem Jahr wurde Lukas Dauser Weltmeister am Barren?",
-      "antworten": [
-        "2019",
-        "2023",
-        "2021",
-        "2025"
-      ],
-      "richtig": 1,
-      "erklaerung": "2023 gewann er in Antwerpen WM-Gold am Barren mit 15,400 Punkten. Im selben Jahr wurde er Deutschlands Sportler des Jahres."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "An welchem Gerät gibt es ein Element, das nach Lukas Dauser benannt ist?",
-      "antworten": [
-        "Barren",
-        "Reck",
-        "Ringe",
-        "Boden"
+        "TSV Berkheim",
+        "TuG Leipzig",
+        "SV Großhansdorf",
+        "KTV Dortmund"
       ],
       "richtig": 0,
-      "erklaerung": "Den „Dauser“ zeigte er 2014 zum ersten Mal am Barren. Danach wurde das Element als C-Teil ins Wertungsbuch aufgenommen."
+      "erklaerung": "Berkheim gewann die 2. Bundesliga mit 18 Punkten Vorsprung und ist ein Jahr nach dem Abstieg wieder zurück."
     },
     {
       "rubrik": "INT",
-      "frage": "Wer wurde bei den Olympischen Spielen von Tokio Olympiasieger am Barren – vor Lukas Dauser?",
+      "frage": "In welchem Land finden die Turn-Weltmeisterschaften 2027 statt?",
       "antworten": [
-        "Kohei Uchimura",
-        "Zou Jingyuan",
-        "Oleg Verniaiev",
-        "Max Whitlock"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der Chinese Zou Jingyuan gewann Gold, Lukas Dauser holte Silber."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Ein Turner soll ein Halteteil 2 Sekunden halten, hält es aber gar nicht. Wie groß ist der Fehler?",
-      "antworten": [
-        "Kleiner Fehler (0,1)",
-        "Mittlerer Fehler (0,3)",
-        "Großer Fehler (0,5)",
-        "Kein Abzug"
-      ],
-      "richtig": 2,
-      "erklaerung": "In der DTB-Pflicht gilt: zu kurz gehalten ist ein mittlerer Fehler, gar nicht gehalten ein großer Fehler."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Ab welcher Schwierigkeit darf beim Kür-Sprung der AK 12 eine zusätzliche 10-cm-Weichmatte liegen?",
-      "antworten": [
-        "Ab 2,0 Punkten",
-        "Ab 3,0 Punkten",
-        "Ab 3,6 Punkten",
-        "Ab 5,0 Punkten"
-      ],
-      "richtig": 2,
-      "erklaerung": "Laut DTB-Küranforderungen darf bei Sprüngen ab 3,6 Punkten Schwierigkeit eine zusätzliche 10-cm-Weichmatte liegen."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Wie viele Punkte ist der Kurbet beim Rondatsprung (2. Sprung) der Pflicht AK 11/12 wert?",
-      "antworten": [
-        "1,0",
-        "2,0",
-        "3,0",
-        "4,0"
+        "Japan",
+        "Deutschland",
+        "USA",
+        "China"
       ],
       "richtig": 3,
-      "erklaerung": "Der Kurbet in die geschlossene Körperposition ist mit 4,0 Punkten der wertvollste Teil des Rondatsprungs."
+      "erklaerung": "Die WM 2027 ist laut Kalender des Weltturnverbands vom 29. September bis 8. Oktober in Chengdu (China)."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Wo ist die RSG-EM 2027, für die sich Juniorinnen-Gruppen in Berlin qualifizieren können?",
+      "antworten": [
+        "Pamplona (Spanien)",
+        "Jerewan (Armenien)",
+        "Baku (Aserbaidschan)",
+        "Varna (Bulgarien)"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Europameisterschaften der Rhythmischen Sportgymnastik 2027 finden in Pamplona statt."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Seit welchen Olympischen Spielen gehört die Rhythmische Sportgymnastik zum Programm?",
+      "antworten": [
+        "1972 München",
+        "1984 Los Angeles",
+        "1996 Atlanta",
+        "2000 Sydney"
+      ],
+      "richtig": 1,
+      "erklaerung": "1984 in Los Angeles war die RSG zum ersten Mal olympisch – damals nur im Einzel."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Welche Medaille gewann Marcel Nguyen 2012 in London im Mehrkampf?",
+      "antworten": [
+        "Gold",
+        "Bronze",
+        "Silber",
+        "Er wurde Vierter"
+      ],
+      "richtig": 2,
+      "erklaerung": "Marcel Nguyen holte in London Silber im Mehrkampf und dazu noch Silber am Barren."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Wie viele Gymnastinnen turnen in einer RSG-Gruppe gemeinsam auf der Fläche?",
+      "antworten": [
+        "Drei",
+        "Vier",
+        "Sechs",
+        "Fünf"
+      ],
+      "richtig": 3,
+      "erklaerung": "Eine Gruppe besteht aus fünf Gymnastinnen. Sie werfen sich die Handgeräte auch gegenseitig zu."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Wie viele Sprünge zeigt ein Trampolinturner in einer Übung?",
+      "antworten": [
+        "Zehn",
+        "Acht",
+        "Zwölf",
+        "Fünfzehn"
+      ],
+      "richtig": 0,
+      "erklaerung": "Eine Trampolin-Übung besteht aus zehn Sprüngen hintereinander, ohne Zwischensprung."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Wie viele Kreis-Flanken turnst du in Teil 5a der Pflichtübung am Pauschenpferd (AK 11/12) hintereinander?",
+      "antworten": [
+        "Drei",
+        "Vier",
+        "Fünf",
+        "Sieben"
+      ],
+      "richtig": 2,
+      "erklaerung": "In Teil 5a stehen 5 Kreis-Flanken in den Stütz vorlings, jede ist 0,7 Punkte wert. Statt 5a kann man das Bonusteil 5b turnen."
     }
   ],
   "kampfrichter": {
-    "titel": "Andersrum geturnt",
-    "situation": "Ein Turner zeigt seine Pflicht-Bodenübung komplett gegengleich: Bei allen Drehungen dreht er nach rechts statt nach links. Sonst turnt er alle Elemente sauber und in der richtigen Reihenfolge.",
+    "titel": "Falsche Reihenfolge am Pilz",
+    "situation": "Ein Turner zeigt seine Pflichtübung am Turnpilz. Er turnt alle Teile sauber – aber er macht die C9 (Tschechisch 90°) vor der K9 (Kehre 90°), obwohl es andersherum vorgeschrieben ist.",
     "frage": "Was ziehen die Kampfrichter dafür ab?",
     "antworten": [
-      "Nichts – gegengleich turnen ist erlaubt",
+      "Nichts, beide Teile wurden gezeigt",
       "0,3 – ein mittlerer Fehler",
       "0,5 – ein großer Fehler",
-      "Die Übung zählt nicht"
+      "1,0 Punkte"
     ],
-    "richtig": 0,
-    "erklaerung": "In der DTB-Pflicht AK 11/12 dürfen alle Übungen auch gegengleich geturnt werden. Die Bodenübung ist für Linksdreher beschrieben – wer lieber rechts herum dreht, verliert dafür keine Punkte."
+    "richtig": 3,
+    "erklaerung": "In der DTB-Pflicht AK 11/12 steht beim Turnpilz ausdrücklich: Falsche Reihenfolge (C9 vor K9) kostet 1,0 Punkte. Weil Pferd und Pilz zusammengezählt und durch 2 geteilt werden, wirkt sich das am Ende halb so stark aus."
   },
   "lexikon": [
     {
@@ -1022,9 +1070,31 @@
     {
       "begriff": "Gegengleich",
       "erklaerung": "Eine Übung spiegelverkehrt turnen – also zum Beispiel rechts herum statt links herum drehen. In der DTB-Pflicht ist das erlaubt."
+    },
+    {
+      "begriff": "Weltcup",
+      "erklaerung": "Eine Wettkampfserie des Weltturnverbands. Die besten Turnerinnen und Turner der Welt starten dort an einzelnen Geräten – zum Beispiel beim Turnier der Meister in Cottbus."
+    },
+    {
+      "begriff": "Handgerät",
+      "erklaerung": "In der Rhythmischen Sportgymnastik turnen die Gymnastinnen mit Reifen, Ball, Keulen oder Band. Diese Geräte heißen Handgeräte."
+    },
+    {
+      "begriff": "Masterclass",
+      "erklaerung": "Eine besondere Trainingsstunde, in der ein Star oder Profi Tipps gibt und den Nachwuchs anleitet."
     }
   ],
   "quizGestellt": [
+    "Varfolomeev Schmiden DTL-Finale Berlin",
+    "Horst-Korber-Sportzentrum RSG-Finale",
+    "Berkheim Aufstieg 1. BL Frauen",
+    "Turn-WM 2027 Chengdu",
+    "RSG-EM 2027 Pamplona",
+    "RSG olympisch seit 1984",
+    "Nguyen Silber Mehrkampf 2012",
+    "RSG-Gruppe fünf Gymnastinnen",
+    "Trampolin Übung zehn Sprünge",
+    "Pferd 5a fünf Kreis-Flanken AK 11/12",
     "Braun Thomson Synchron Bronze Nanjing",
     "China 18 Nachwuchs-Medaillen Nanjing",
     "DMT Startplätze European Games 2027",
@@ -1137,6 +1207,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Pilz C9 vor K9 Abzug 1,0 AK 11/12",
     "Gegengleich turnen kein Abzug AK 11/12",
     "Sprung Überschlag zu langer Stütz 0,8 AK 11/12",
     "Schweizer Ringe 1 s gehalten Bonus zählt AK 11/12",
