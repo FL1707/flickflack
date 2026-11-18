@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-17T05:38:28+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-17",
-  "gruss": "Guten Morgen! Große Vorfreude in Berlin: Olympiasiegerin Darja Varfolomeev kommt zum Finale der RSG-Bundesliga in die Hauptstadt. Außerdem steht fest, dass die Turn-WM 2027 in China stattfindet – und am Samstag geht es in der Männer-Bundesliga um den letzten Finalplatz.",
-  "quizId": "2026-11-17",
+  "aktualisiert": "2026-11-18T05:38:55+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-18",
+  "gruss": "Guten Morgen! In Wetzgau hieß es Abschied nehmen: Der viermalige Olympiateilnehmer Andreas Toba hat seinen letzten Heimwettkampf in der Bundesliga geturnt. Am Samstag wird es spannend – dann fällt die Entscheidung über den letzten Finalplatz der Männer, und in Frankfurt trifft sich das Turnparlament des DTB.",
+  "quizId": "2026-11-18",
   "zahlDesTages": {
-    "zahl": "14",
-    "text": "So oft ist Darja Varfolomeev schon Weltmeisterin in der Rhythmischen Sportgymnastik geworden. Am 28. November turnt sie beim RSG-Bundesligafinale in Berlin."
+    "zahl": "15",
+    "text": "So viele Jahre turnte Andreas Toba in der Bundesliga für Wetzgau. Mit dem Verein wurde er viermal Deutscher Mannschaftsmeister – jetzt hat er sich verabschiedet."
   },
   "turnerDerWoche": {
     "name": "Lukas Dauser",
@@ -76,6 +76,34 @@
   },
   "news": [
     {
+      "id": "2026-11-18-toba-abschied",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-14",
+      "titel": "Abschied mit Tränen: Andreas Toba sagt Servus",
+      "teaser": "Nach 15 Jahren in Wetzgau hat der viermalige Olympiateilnehmer seinen letzten Heimwettkampf geturnt.",
+      "text": [
+        "Andreas Toba ist einer der bekanntesten deutschen Turner. Er war viermal bei Olympischen Spielen dabei. 15 Jahre lang turnte er in der Bundesliga für den TV Schwäbisch Gmünd-Wetzgau und wurde mit dem Verein viermal Deutscher Mannschaftsmeister. Beim letzten Heimwettkampf der Saison haben ihn die Fans verabschiedet.",
+        "Toba arbeitet inzwischen als Trainer am Bundesstützpunkt in Hannover. Beruf, Familie und die Wettkämpfe in Schwäbisch Gmünd passen nicht mehr zusammen. Bei seiner Verabschiedung sagte er: „Ich war immer ein Teil von euch und ihr wart immer ein Teil von mir. Und das bleibt auch.“ Auch Carlo Hörr, der acht Jahre für Wetzgau turnte, hörte auf.",
+        "Sportlich lief es nicht so gut: Wetzgau verlor gegen die TG Saar mit 27:43 Scorepunkten. Lange war es knapp, doch am Barren holten die Saarländer 13:3 Scorepunkte. Damit kann Wetzgau beim DTL-Finale nicht mehr dabei sein. Bester Turner des Tages war Noel Seifert von der TG Saar mit 14 Scorepunkten."
+      ],
+      "quelle": "deutsche-turnliga.de, Schwäbische Post"
+    },
+    {
+      "id": "2026-11-18-turntag",
+      "rubrik": "DE",
+      "motiv": "kalender",
+      "datum": "2026-11-21",
+      "titel": "Das Turnparlament trifft sich in Frankfurt",
+      "teaser": "Beim Deutschen Turntag am Samstag entscheidet der DTB über wichtige Fragen für die nächsten Jahre.",
+      "text": [
+        "Der Deutsche Turner-Bund ist ein riesiger Verband mit vielen Vereinen. Wichtige Entscheidungen trifft er beim Deutschen Turntag – man nennt ihn auch das Turnparlament. Am Samstag, 21. November, kommen die Delegierten in Frankfurt-Höchst zusammen.",
+        "Zwei Arbeitsgruppen haben sich zwei Jahre lang Gedanken gemacht. Eine davon hat überlegt, wie das Wettkampfsystem im Turnen besser werden kann. Über ihre Vorschläge wird jetzt beraten.",
+        "Außerdem werden fünf Menschen geehrt, die sich besonders für das Turnen eingesetzt haben."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
       "id": "2026-11-17-rsg-berlin-stars",
       "rubrik": "RSG",
       "motiv": "rsg",
@@ -133,20 +161,6 @@
       "quelle": "dtb.de"
     },
     {
-      "id": "2026-11-16-em-2027",
-      "rubrik": "INT",
-      "motiv": "kalender",
-      "datum": "2027-04-27",
-      "titel": "Blick voraus: Die Turn-EM 2027 ist in Armenien",
-      "teaser": "Im Frühjahr treffen sich Europas beste Turnerinnen und Turner in Jerewan.",
-      "text": [
-        "Die Turn-Saison 2026 ist fast vorbei – Zeit für einen Blick ins nächste Jahr. Die Europameisterschaften im Gerätturnen der Frauen und Männer finden vom 27. April bis 2. Mai 2027 in Jerewan statt. Das ist die Hauptstadt von Armenien.",
-        "Der Europäische Turnverband hat die EM schon vor ein paar Jahren nach Jerewan vergeben. Das genaue Programm ist noch vorläufig.",
-        "Im Herbst 2027 folgt die Weltmeisterschaft in Chengdu (China). Vorher gibt es in Deutschland zwei große Termine: das Turnier der Meister in Cottbus und die Deutschen Meisterschaften bei den Finals in Stuttgart."
-      ],
-      "quelle": "europeangymnastics.com, asoif.com"
-    },
-    {
       "id": "2026-11-15-frauen-finale",
       "rubrik": "DTL",
       "motiv": "stufenbarren",
@@ -202,20 +216,6 @@
         "Bei den Jungen der AK 11/12 gewann ein Paar aus Russland vor China und Usbekistan. Heute, am Sonntag, endet der große Nachwuchs-Wettkampf mit weiteren Finals."
       ],
       "quelle": "gymnastics.sport, dtb.de"
-    },
-    {
-      "id": "2026-11-15-3bl-nord",
-      "rubrik": "DTL",
-      "motiv": "team",
-      "datum": "2026-11-14",
-      "titel": "3. Liga: Koblenz II gewinnt das Spitzenduell",
-      "teaser": "Weißkirchen verlor knapp und rutschte sogar noch auf Platz drei.",
-      "text": [
-        "Im Spitzenspiel der 3. Bundesliga Nord gewann die KTV Koblenz II gegen den TV Weißkirchen mit 34:30 Scorepunkten. Bei den Gerätepunkten stand es 6:6. Erst am Barren und am Reck drehte Koblenz das Duell.",
-        "Damit ist Koblenz II Staffelsieger. Zweiter wurde noch der TV Hösbach-Großostheim, der Melsungen klar mit 48:15 besiegte. Hösbach und Weißkirchen hatten gleich viele Punkte, aber Hösbach hatte die bessere Gerätepunkte-Bilanz.",
-        "Hösbach darf damit zum Aufstiegswettkampf am 5. Dezember nach Oberhausen. Ob auch Koblenz II dort aufsteigen kann, hängt von der ersten Mannschaft ab: Sie muss in der 1. Bundesliga bleiben."
-      ],
-      "quelle": "deutsche-turnliga.de"
     },
     {
       "id": "2026-11-13-berlin-kadertest",
@@ -696,6 +696,14 @@
       "info": "Letzter Wettkampftag: Vinnhorst – Wetzgau, TG Saar – Straubenhardt, Koblenz – Singen, Siegerland – Cottbus."
     },
     {
+      "name": "Deutscher Turntag",
+      "ort": "Frankfurt-Höchst",
+      "von": "2026-11-21",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "Versammlung des DTB („Turnparlament“): Beratung über die Reform des Wettkampfsystems und Ehrungen."
+    },
+    {
       "name": "MAG Online European Club Cup – Start",
       "von": "2026-11-23",
       "ebene": "international",
@@ -813,138 +821,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "RSG",
-      "frage": "Welche Olympiasiegerin turnt beim RSG-Bundesligafinale in Berlin für den TSV Schmiden?",
+      "rubrik": "DTL",
+      "frage": "Bei wie vielen Olympischen Spielen war Andreas Toba dabei?",
       "antworten": [
-        "Margarita Kolosov",
-        "Darja Varfolomeev",
-        "Sofia Raffaeli",
-        "Eva Brezalieva"
-      ],
-      "richtig": 1,
-      "erklaerung": "Darja Varfolomeev wurde 2024 in Paris Olympiasiegerin im Mehrkampf. Am 28. November startet sie mit Schmiden in Berlin."
-    },
-    {
-      "rubrik": "BER",
-      "frage": "In welcher Berliner Halle findet das DTL-Finale der RSG statt?",
-      "antworten": [
-        "Max-Schmeling-Halle",
-        "Leistikowhalle",
-        "Horst-Korber-Sportzentrum",
-        "Sportforum Hohenschönhausen"
+        "Zweimal",
+        "Dreimal",
+        "Viermal",
+        "Fünfmal"
       ],
       "richtig": 2,
-      "erklaerung": "Das RSG-Festival mit Nachwuchspokal, EM-Qualifikation und Finale steigt im Horst-Korber-Sportzentrum."
+      "erklaerung": "Andreas Toba ist viermaliger Olympiateilnehmer. Jetzt wurde er in Wetzgau aus der Bundesliga verabschiedet."
     },
     {
       "rubrik": "DTL",
-      "frage": "Welcher Verein steigt aus der 2. Bundesliga der Frauen in die 1. Bundesliga auf?",
+      "frage": "Wo arbeitet Andreas Toba inzwischen als Trainer?",
       "antworten": [
-        "TSV Berkheim",
-        "TuG Leipzig",
-        "SV Großhansdorf",
-        "KTV Dortmund"
+        "Am Bundesstützpunkt Hannover",
+        "In Berlin",
+        "In Stuttgart",
+        "In Cottbus"
       ],
       "richtig": 0,
-      "erklaerung": "Berkheim gewann die 2. Bundesliga mit 18 Punkten Vorsprung und ist ein Jahr nach dem Abstieg wieder zurück."
+      "erklaerung": "Toba ist Trainer am Bundesstützpunkt Hannover. Deshalb turnt er nicht mehr in der Bundesliga für Wetzgau."
     },
     {
-      "rubrik": "INT",
-      "frage": "In welchem Land finden die Turn-Weltmeisterschaften 2027 statt?",
+      "rubrik": "DTL",
+      "frage": "An welchem Gerät setzte sich die TG Saar in Wetzgau mit 13:3 Scorepunkten entscheidend ab?",
       "antworten": [
-        "Japan",
-        "Deutschland",
-        "USA",
-        "China"
+        "Ringe",
+        "Reck",
+        "Pauschenpferd",
+        "Barren"
       ],
       "richtig": 3,
-      "erklaerung": "Die WM 2027 ist laut Kalender des Weltturnverbands vom 29. September bis 8. Oktober in Chengdu (China)."
-    },
-    {
-      "rubrik": "RSG",
-      "frage": "Wo ist die RSG-EM 2027, für die sich Juniorinnen-Gruppen in Berlin qualifizieren können?",
-      "antworten": [
-        "Pamplona (Spanien)",
-        "Jerewan (Armenien)",
-        "Baku (Aserbaidschan)",
-        "Varna (Bulgarien)"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Europameisterschaften der Rhythmischen Sportgymnastik 2027 finden in Pamplona statt."
-    },
-    {
-      "rubrik": "RSG",
-      "frage": "Seit welchen Olympischen Spielen gehört die Rhythmische Sportgymnastik zum Programm?",
-      "antworten": [
-        "1972 München",
-        "1984 Los Angeles",
-        "1996 Atlanta",
-        "2000 Sydney"
-      ],
-      "richtig": 1,
-      "erklaerung": "1984 in Los Angeles war die RSG zum ersten Mal olympisch – damals nur im Einzel."
+      "erklaerung": "Bis zum Sprung war es knapp. Am Barren holte die TG Saar 13:3 Scorepunkte und gewann am Ende 43:27."
     },
     {
       "rubrik": "DE",
-      "frage": "Welche Medaille gewann Marcel Nguyen 2012 in London im Mehrkampf?",
+      "frage": "In welcher Stadt trifft sich am Samstag der Deutsche Turntag?",
       "antworten": [
-        "Gold",
-        "Bronze",
-        "Silber",
-        "Er wurde Vierter"
+        "Hamburg",
+        "Frankfurt",
+        "München",
+        "Leipzig"
       ],
-      "richtig": 2,
-      "erklaerung": "Marcel Nguyen holte in London Silber im Mehrkampf und dazu noch Silber am Barren."
+      "richtig": 1,
+      "erklaerung": "Das „Turnparlament“ des DTB tagt am 21. November in Frankfurt-Höchst."
     },
     {
-      "rubrik": "RSG",
-      "frage": "Wie viele Gymnastinnen turnen in einer RSG-Gruppe gemeinsam auf der Fläche?",
+      "rubrik": "DTL",
+      "frage": "Wo findet am 28. November das DTL-Finale im Turnen statt?",
       "antworten": [
-        "Drei",
-        "Vier",
-        "Sechs",
-        "Fünf"
+        "Berlin",
+        "Hannover",
+        "Heidelberg",
+        "Cottbus"
       ],
-      "richtig": 3,
-      "erklaerung": "Eine Gruppe besteht aus fünf Gymnastinnen. Sie werfen sich die Handgeräte auch gegenseitig zu."
+      "richtig": 2,
+      "erklaerung": "Die Turnerinnen und Turner kämpfen im SNP dome in Heidelberg um die Mannschaftstitel. Das RSG-Finale ist am selben Tag in Berlin."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wie oft hintereinander wurde der Japaner Kōhei Uchimura Mehrkampf-Weltmeister?",
+      "antworten": [
+        "Sechsmal",
+        "Dreimal",
+        "Viermal",
+        "Achtmal"
+      ],
+      "richtig": 0,
+      "erklaerung": "Kōhei Uchimura gewann den WM-Mehrkampf sechsmal in Folge, von 2009 bis 2015."
     },
     {
       "rubrik": "TRA",
-      "frage": "Wie viele Sprünge zeigt ein Trampolinturner in einer Übung?",
+      "frage": "Welche Deutsche wurde 2004 in Athen Olympiasiegerin im Trampolinturnen?",
       "antworten": [
-        "Zehn",
-        "Acht",
-        "Zwölf",
-        "Fünfzehn"
+        "Leonie Adam",
+        "Anna Dogonadze",
+        "Elisabeth Seitz",
+        "Pauline Schäfer-Betz"
       ],
-      "richtig": 0,
-      "erklaerung": "Eine Trampolin-Übung besteht aus zehn Sprüngen hintereinander, ohne Zwischensprung."
+      "richtig": 1,
+      "erklaerung": "Anna Dogonadze gewann 2004 in Athen olympisches Gold auf dem Trampolin."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Was ist in der Bundesliga ein „Topscorer“?",
+      "antworten": [
+        "Der Mannschaftskapitän",
+        "Der jüngste Turner im Team",
+        "Der Turner mit den meisten Scorepunkten",
+        "Der Trainer der besten Mannschaft"
+      ],
+      "richtig": 2,
+      "erklaerung": "Im direkten Duell gibt es für jeden Turner Scorepunkte. Wer am meisten sammelt, ist der Topscorer."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Wie nennt man die Versammlung, bei der der Deutsche Turner-Bund wichtige Entscheidungen trifft?",
+      "antworten": [
+        "Turnfest",
+        "Deutscher Turntag",
+        "Turngala",
+        "Bundesfinale"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Deutsche Turntag ist das „Parlament“ des DTB. Dort stimmen Delegierte aus den Landesverbänden ab."
     },
     {
       "rubrik": "NW",
-      "frage": "Wie viele Kreis-Flanken turnst du in Teil 5a der Pflichtübung am Pauschenpferd (AK 11/12) hintereinander?",
+      "frage": "Ringe-Pflicht AK 11/12: Wie viel ist der Schweizer in den Handstand (Bonusteil 3b) wert?",
       "antworten": [
-        "Drei",
-        "Vier",
-        "Fünf",
-        "Sieben"
+        "1,5",
+        "2,0",
+        "3,0",
+        "2,5"
       ],
-      "richtig": 2,
-      "erklaerung": "In Teil 5a stehen 5 Kreis-Flanken in den Stütz vorlings, jede ist 0,7 Punkte wert. Statt 5a kann man das Bonusteil 5b turnen."
+      "richtig": 3,
+      "erklaerung": "Der Drücker in den Handstand (3a) ist 2,0 wert, der Schweizer mit gestreckten Armen (3b) 2,5 – das ist das Bonusteil."
     }
   ],
   "kampfrichter": {
-    "titel": "Falsche Reihenfolge am Pilz",
-    "situation": "Ein Turner zeigt seine Pflichtübung am Turnpilz. Er turnt alle Teile sauber – aber er macht die C9 (Tschechisch 90°) vor der K9 (Kehre 90°), obwohl es andersherum vorgeschrieben ist.",
-    "frage": "Was ziehen die Kampfrichter dafür ab?",
+    "titel": "Gebückt statt gestreckt am Barren",
+    "situation": "Ein Turner zeigt die Barren-Pflicht AK 11/12. Zum Abgang soll er einen Salto rückwärts gestreckt turnen (Wert 1,0). Er landet sicher – aber in der Luft knickt er deutlich in der Hüfte ab: Der Salto ist gebückt.",
+    "frage": "Was passiert mit dem Abgang?",
     "antworten": [
-      "Nichts, beide Teile wurden gezeigt",
-      "0,3 – ein mittlerer Fehler",
-      "0,5 – ein großer Fehler",
-      "1,0 Punkte"
+      "Nur 0,1 Abzug für die Haltung",
+      "0,3 Abzug – mittlerer Fehler",
+      "Der ganze Elementwert (1,0) wird abgezogen",
+      "Gar nichts, weil er sicher steht"
     ],
-    "richtig": 3,
-    "erklaerung": "In der DTB-Pflicht AK 11/12 steht beim Turnpilz ausdrücklich: Falsche Reihenfolge (C9 vor K9) kostet 1,0 Punkte. Weil Pferd und Pilz zusammengezählt und durch 2 geteilt werden, wirkt sich das am Ende halb so stark aus."
+    "richtig": 2,
+    "erklaerung": "In der DTB-Pflicht steht beim Barren-Abgang: Weicht der Turner von der gestreckten Körperposition ab und turnt den Salto gebückt, wird der ganze Elementwert abgezogen – hier also 1,0 Punkte."
   },
   "lexikon": [
     {
@@ -1082,9 +1090,27 @@
     {
       "begriff": "Masterclass",
       "erklaerung": "Eine besondere Trainingsstunde, in der ein Star oder Profi Tipps gibt und den Nachwuchs anleitet."
+    },
+    {
+      "begriff": "Turntag",
+      "erklaerung": "Die große Versammlung des Deutschen Turner-Bundes. Dort stimmen Delegierte aus ganz Deutschland über wichtige Fragen ab – wie ein Parlament für das Turnen."
+    },
+    {
+      "begriff": "Topscorer",
+      "erklaerung": "Der Turner, der in der Bundesliga die meisten Scorepunkte sammelt – an einem Wettkampftag oder in der ganzen Saison."
     }
   ],
   "quizGestellt": [
+    "Toba viermal Olympia",
+    "Toba Trainer Hannover",
+    "TG Saar Barren 13:3 Wetzgau",
+    "Turntag Frankfurt 2026",
+    "DTL-Finale Turnen Heidelberg",
+    "Uchimura sechs WM-Mehrkampftitel",
+    "Dogonadze Olympiasiegerin 2004",
+    "Topscorer Bedeutung",
+    "Deutscher Turntag Bedeutung",
+    "Ringe Schweizer 2,5 AK 11/12",
     "Varfolomeev Schmiden DTL-Finale Berlin",
     "Horst-Korber-Sportzentrum RSG-Finale",
     "Berkheim Aufstieg 1. BL Frauen",
@@ -1207,6 +1233,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Barren Abgang gebückt ganzer Wert AK 11/12",
     "Pilz C9 vor K9 Abzug 1,0 AK 11/12",
     "Gegengleich turnen kein Abzug AK 11/12",
     "Sprung Überschlag zu langer Stütz 0,8 AK 11/12",
