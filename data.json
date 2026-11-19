@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-18T05:38:55+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-18",
-  "gruss": "Guten Morgen! In Wetzgau hieß es Abschied nehmen: Der viermalige Olympiateilnehmer Andreas Toba hat seinen letzten Heimwettkampf in der Bundesliga geturnt. Am Samstag wird es spannend – dann fällt die Entscheidung über den letzten Finalplatz der Männer, und in Frankfurt trifft sich das Turnparlament des DTB.",
-  "quizId": "2026-11-18",
+  "aktualisiert": "2026-11-19T05:38:16+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-19",
+  "gruss": "Guten Morgen! In Stuttgart haben Trainer, Fachleute und Elternvertreter zwei Tage lang beraten, wie Turnen in Deutschland gesund und erfolgreich bleibt – auch für den Nachwuchs. Und am Samstag wird es in der Männer-Bundesliga spannend: Dann fällt die Entscheidung über den letzten Finalplatz.",
+  "quizId": "2026-11-19",
   "zahlDesTages": {
-    "zahl": "15",
-    "text": "So viele Jahre turnte Andreas Toba in der Bundesliga für Wetzgau. Mit dem Verein wurde er viermal Deutscher Mannschaftsmeister – jetzt hat er sich verabschiedet."
+    "zahl": "60",
+    "text": "So viele Menschen aus Verbänden, Stützpunkten, Trainerteams und Elternvertretungen trafen sich bei der Spitzensportkonferenz des DTB in Stuttgart."
   },
   "turnerDerWoche": {
     "name": "Lukas Dauser",
@@ -75,6 +75,20 @@
     }
   },
   "news": [
+    {
+      "id": "2026-11-19-spitzensportkonferenz",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-17",
+      "titel": "Gesund turnen und Talente fördern: Konferenz in Stuttgart",
+      "teaser": "Rund 60 Fachleute haben beim DTB beraten, wie Turnerinnen und Turner gute Leistungen bringen und dabei gesund bleiben.",
+      "text": [
+        "Am 16. und 17. November trafen sich rund 60 Menschen zur Spitzensportkonferenz des Deutschen Turner-Bundes in Stuttgart. Dabei waren Bundestrainer, Leute aus den Landesturnverbänden und den Bundesstützpunkten – und auch Elternvertreter.",
+        "Am ersten Tag ging es um die Gesundheit. Ein Team aus Ärzten, Physiotherapeuten, Sportpsychologen und Trainingsfachleuten kümmert sich um die Athletinnen und Athleten. Neue Leitlinien sollen dafür sorgen, dass überall in Deutschland gleich gut auf die Gesundheit geachtet wird. Außerdem zogen die Bundestrainer eine Zwischenbilanz auf dem Weg zu den Olympischen Spielen 2028 in Los Angeles.",
+        "Am zweiten Tag ging es um euch: um junge Talente. Die Frage war, wie Kinder so gefördert werden, wie es zu ihrem Alter passt. Dafür sollen die Turn-Zentren gestärkt werden – also die Hallen, in denen der Nachwuchs trainiert. Zum Abschluss besuchten die Gäste die Trainingszentren in Stuttgart, zum Beispiel das Kunst-Turn-Forum und das Trampolin-Forum."
+      ],
+      "quelle": "dtb.de"
+    },
     {
       "id": "2026-11-18-toba-abschied",
       "rubrik": "DTL",
@@ -230,20 +244,6 @@
         "Die Ergebnisse der AK 7 bis 18 zählen für die Aufnahme in den Berliner Landeskader. Bei den AK 5 und 6 geht es um den Berliner Kaderschulungskreis."
       ],
       "quelle": "btfb.de"
-    },
-    {
-      "id": "2026-11-12-rendezvous",
-      "rubrik": "DE",
-      "motiv": "salto",
-      "datum": "2026-12-05",
-      "titel": "Showturnen: Die besten Gruppen treffen sich in Rodalben",
-      "teaser": "34 Showgruppen kämpfen am 5. Dezember um den Titel „DTB-Showgruppe 2026“.",
-      "text": [
-        "Turnen kann man nicht nur im Wettkampf, sondern auch als Show – mit Musik, Kostümen und einer Geschichte. Die besten Showgruppen Deutschlands treffen sich am 5. Dezember beim Bundesfinale „Rendezvous der Besten“ in Rodalben in der Pfalz.",
-        "Dabei sind 34 Gruppen aus zwölf Landesturnverbänden mit zusammen 911 Turnerinnen und Turnern. Eine Jury sucht die „DTB-Showgruppe 2026“ aus.",
-        "Am Abend gibt es eine große Show mit den 15 besten Vorführungen. Eine Gruppe bekommt außerdem das Prädikat „Das besondere Etwas“ – für besonders viel Ausstrahlung und Ideen."
-      ],
-      "quelle": "dtb.de"
     }
   ],
   "wettkaempfe": [
@@ -821,138 +821,137 @@
   ],
   "quiz": [
     {
-      "rubrik": "DTL",
-      "frage": "Bei wie vielen Olympischen Spielen war Andreas Toba dabei?",
+      "rubrik": "NW",
+      "frage": "In welcher Stadt fand die Spitzensportkonferenz 2026 des DTB statt?",
       "antworten": [
-        "Zweimal",
-        "Dreimal",
-        "Viermal",
-        "Fünfmal"
-      ],
-      "richtig": 2,
-      "erklaerung": "Andreas Toba ist viermaliger Olympiateilnehmer. Jetzt wurde er in Wetzgau aus der Bundesliga verabschiedet."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wo arbeitet Andreas Toba inzwischen als Trainer?",
-      "antworten": [
-        "Am Bundesstützpunkt Hannover",
-        "In Berlin",
-        "In Stuttgart",
-        "In Cottbus"
-      ],
-      "richtig": 0,
-      "erklaerung": "Toba ist Trainer am Bundesstützpunkt Hannover. Deshalb turnt er nicht mehr in der Bundesliga für Wetzgau."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "An welchem Gerät setzte sich die TG Saar in Wetzgau mit 13:3 Scorepunkten entscheidend ab?",
-      "antworten": [
-        "Ringe",
-        "Reck",
-        "Pauschenpferd",
-        "Barren"
-      ],
-      "richtig": 3,
-      "erklaerung": "Bis zum Sprung war es knapp. Am Barren holte die TG Saar 13:3 Scorepunkte und gewann am Ende 43:27."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "In welcher Stadt trifft sich am Samstag der Deutsche Turntag?",
-      "antworten": [
-        "Hamburg",
         "Frankfurt",
-        "München",
-        "Leipzig"
-      ],
-      "richtig": 1,
-      "erklaerung": "Das „Turnparlament“ des DTB tagt am 21. November in Frankfurt-Höchst."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wo findet am 28. November das DTL-Finale im Turnen statt?",
-      "antworten": [
         "Berlin",
-        "Hannover",
-        "Heidelberg",
-        "Cottbus"
+        "Stuttgart",
+        "Hannover"
       ],
       "richtig": 2,
-      "erklaerung": "Die Turnerinnen und Turner kämpfen im SNP dome in Heidelberg um die Mannschaftstitel. Das RSG-Finale ist am selben Tag in Berlin."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Wie oft hintereinander wurde der Japaner Kōhei Uchimura Mehrkampf-Weltmeister?",
-      "antworten": [
-        "Sechsmal",
-        "Dreimal",
-        "Viermal",
-        "Achtmal"
-      ],
-      "richtig": 0,
-      "erklaerung": "Kōhei Uchimura gewann den WM-Mehrkampf sechsmal in Folge, von 2009 bis 2015."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Welche Deutsche wurde 2004 in Athen Olympiasiegerin im Trampolinturnen?",
-      "antworten": [
-        "Leonie Adam",
-        "Anna Dogonadze",
-        "Elisabeth Seitz",
-        "Pauline Schäfer-Betz"
-      ],
-      "richtig": 1,
-      "erklaerung": "Anna Dogonadze gewann 2004 in Athen olympisches Gold auf dem Trampolin."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Was ist in der Bundesliga ein „Topscorer“?",
-      "antworten": [
-        "Der Mannschaftskapitän",
-        "Der jüngste Turner im Team",
-        "Der Turner mit den meisten Scorepunkten",
-        "Der Trainer der besten Mannschaft"
-      ],
-      "richtig": 2,
-      "erklaerung": "Im direkten Duell gibt es für jeden Turner Scorepunkte. Wer am meisten sammelt, ist der Topscorer."
+      "erklaerung": "Die Konferenz war am 16. und 17. November in Stuttgart. Dort gibt es auch das Kunst-Turn-Forum und das Trampolin-Forum."
     },
     {
       "rubrik": "DE",
-      "frage": "Wie nennt man die Versammlung, bei der der Deutsche Turner-Bund wichtige Entscheidungen trifft?",
+      "frage": "Auf welche Olympischen Spiele blickten die Bundestrainer bei ihrer „Halbzeitanalyse“?",
       "antworten": [
-        "Turnfest",
-        "Deutscher Turntag",
-        "Turngala",
-        "Bundesfinale"
+        "Los Angeles 2028",
+        "Paris 2024",
+        "Brisbane 2032",
+        "Mailand 2026"
       ],
-      "richtig": 1,
-      "erklaerung": "Der Deutsche Turntag ist das „Parlament“ des DTB. Dort stimmen Delegierte aus den Landesverbänden ab."
+      "richtig": 0,
+      "erklaerung": "Die Bundestrainer zogen eine Zwischenbilanz auf der „Road to Los Angeles“ – dem Weg zu den Olympischen Spielen 2028."
     },
     {
       "rubrik": "NW",
-      "frage": "Ringe-Pflicht AK 11/12: Wie viel ist der Schweizer in den Handstand (Bonusteil 3b) wert?",
+      "frage": "Was soll laut Spitzensportkonferenz gestärkt werden, damit Talente altersgerecht gefördert werden?",
       "antworten": [
-        "1,5",
-        "2,0",
-        "3,0",
-        "2,5"
+        "Die Bundesliga",
+        "Die Turn-Zentren",
+        "Die Showgruppen",
+        "Die Fanclubs"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ein gemeinsames Fazit war: Die Turn-Zentren zu stärken bleibt eine wichtige Aufgabe für den Nachwuchs in ganz Deutschland."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Gegen wen turnt Tabellenführer KTV Straubenhardt am letzten Wettkampftag der Männer-Bundesliga?",
+      "antworten": [
+        "SC Cottbus",
+        "TuS Vinnhorst",
+        "StTV Singen",
+        "TG Saar"
       ],
       "richtig": 3,
-      "erklaerung": "Der Drücker in den Handstand (3a) ist 2,0 wert, der Schweizer mit gestreckten Armen (3b) 2,5 – das ist das Bonusteil."
+      "erklaerung": "Am Samstag heißt es TG Saar gegen Straubenhardt. Beide Teams haben vor dem letzten Wettkampftag 10 Punkte."
+    },
+    {
+      "rubrik": "BER",
+      "frage": "In welcher Halle findet am 29. November der Berliner Jahrgangsbesten-Wettkampf der Gerätturner statt?",
+      "antworten": [
+        "Max-Schmeling-Halle",
+        "Leistikowhalle",
+        "Velodrom",
+        "Horst-Korber-Sportzentrum"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Jahrgangsbesten-Wettkampf 2026 ist laut BTFB am 29. November in der Leistikowhalle."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Nach wem ist der „Stalder“ am Reck benannt – und aus welchem Land kam er?",
+      "antworten": [
+        "Josef Stalder aus der Schweiz",
+        "Kurt Stalder aus den USA",
+        "Hans Stalder aus Deutschland",
+        "Péter Stalder aus Ungarn"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Stalder ist nach dem Schweizer Josef Stalder benannt. Du kennst ihn als Bonusteil 4b in deiner Reck-Pflicht."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Was ist der „Bretschneider“ am Reck?",
+      "antworten": [
+        "Eine Riesenfelge mit Handstand",
+        "Ein Abgang mit Salto vorwärts",
+        "Ein Doppelsalto gestreckt mit zwei Schrauben über die Stange",
+        "Ein Kippaufschwung mit Drehung"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der Bretschneider ist eines der schwierigsten Elemente überhaupt. Benannt ist er nach dem Deutschen Andreas Bretschneider."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Was bedeutet es, eine Übung „gegengleich“ zu turnen?",
+      "antworten": [
+        "Mit Drehung zur anderen Seite, also rechts statt links",
+        "Die Übung rückwärts von hinten nach vorne",
+        "Zu zweit gleichzeitig",
+        "Ohne Hilfestellung"
+      ],
+      "richtig": 0,
+      "erklaerung": "Gegengleich heißt: Du drehst zur anderen Seite. In der DTB-Pflicht ist das an allen Geräten erlaubt."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Wie sieht ein Salto in gebückter Haltung aus?",
+      "antworten": [
+        "Knie an die Brust gezogen",
+        "Körper ganz gestreckt",
+        "Beine gestreckt, Hüfte stark gebeugt",
+        "Mit gegrätschten Beinen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Gebückt heißt: Die Beine bleiben gestreckt, aber du knickst in der Hüfte ab. Mit angezogenen Knien wäre es gehockt."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Reck-Pflicht AK 11/12: Wie viele Punkte ist der Felgumschwung (Teil 3) wert?",
+      "antworten": [
+        "0,5",
+        "1,0",
+        "2,0",
+        "1,5"
+      ],
+      "richtig": 3,
+      "erklaerung": "Der handstandnahe Felgumschwung in Teil 3 ist 1,5 Punkte wert. Gebeugte Arme oder eine stark gebeugte Hüfte kosten Abzüge."
     }
   ],
   "kampfrichter": {
-    "titel": "Gebückt statt gestreckt am Barren",
-    "situation": "Ein Turner zeigt die Barren-Pflicht AK 11/12. Zum Abgang soll er einen Salto rückwärts gestreckt turnen (Wert 1,0). Er landet sicher – aber in der Luft knickt er deutlich in der Hüfte ab: Der Salto ist gebückt.",
-    "frage": "Was passiert mit dem Abgang?",
+    "titel": "Sicher gelandet – aber Bonus?",
+    "situation": "Ein Turner zeigt die Reck-Pflicht AK 11/12. Beim Abgang landet er, ohne zu wackeln oder einen Schritt zu machen. Sein Oberkörper ist aufrecht – aber seine Füße stehen deutlich weiter als fußbreit auseinander.",
+    "frage": "Bekommt er den Standbonus von 0,20 Punkten?",
     "antworten": [
-      "Nur 0,1 Abzug für die Haltung",
-      "0,3 Abzug – mittlerer Fehler",
-      "Der ganze Elementwert (1,0) wird abgezogen",
-      "Gar nichts, weil er sicher steht"
+      "Ja, weil er keinen Schritt gemacht hat",
+      "Nein, weil die Füße nicht geschlossen sind",
+      "Ja, aber nur die Hälfte: 0,10 Punkte"
     ],
-    "richtig": 2,
-    "erklaerung": "In der DTB-Pflicht steht beim Barren-Abgang: Weicht der Turner von der gestreckten Körperposition ab und turnt den Salto gebückt, wird der ganze Elementwert abgezogen – hier also 1,0 Punkte."
+    "richtig": 1,
+    "erklaerung": "Für den Standbonus braucht es beides: geschlossene Füße (höchstens fußbreit offen) und einen aufrechten Oberkörper. Stehen die Füße weiter auseinander, gibt es keinen Bonus."
   },
   "lexikon": [
     {
@@ -1098,9 +1097,23 @@
     {
       "begriff": "Topscorer",
       "erklaerung": "Der Turner, der in der Bundesliga die meisten Scorepunkte sammelt – an einem Wettkampftag oder in der ganzen Saison."
+    },
+    {
+      "begriff": "Bundesstützpunkt",
+      "erklaerung": "Ein Trainingszentrum, an dem viele der besten Sportlerinnen und Sportler einer Sportart trainieren. Berlin hat zum Beispiel einen Bundesstützpunkt für Gerätturnen männlich."
     }
   ],
   "quizGestellt": [
+    "Spitzensportkonferenz Stuttgart 2026",
+    "Halbzeitanalyse Los Angeles 2028",
+    "Turn-Zentren stärken Talente",
+    "Straubenhardt gegen TG Saar letzter Wettkampftag",
+    "Jahrgangsbesten Leistikowhalle",
+    "Stalder Josef Stalder Schweiz",
+    "Bretschneider Reck",
+    "Gegengleich Bedeutung",
+    "Salto gebückt Haltung",
+    "Reck Felgumschwung 1,5 AK 11/12",
     "Toba viermal Olympia",
     "Toba Trainer Hannover",
     "TG Saar Barren 13:3 Wetzgau",
@@ -1233,6 +1246,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Standbonus Füße zu weit offen AK 11/12",
     "Barren Abgang gebückt ganzer Wert AK 11/12",
     "Pilz C9 vor K9 Abzug 1,0 AK 11/12",
     "Gegengleich turnen kein Abzug AK 11/12",
