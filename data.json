@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-19T05:38:16+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-19",
-  "gruss": "Guten Morgen! In Stuttgart haben Trainer, Fachleute und Elternvertreter zwei Tage lang beraten, wie Turnen in Deutschland gesund und erfolgreich bleibt – auch für den Nachwuchs. Und am Samstag wird es in der Männer-Bundesliga spannend: Dann fällt die Entscheidung über den letzten Finalplatz.",
-  "quizId": "2026-11-19",
+  "aktualisiert": "2026-11-20T05:38:31+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-20",
+  "gruss": "Guten Morgen! Morgen ist ein großer Turn-Samstag: In der Männer-Bundesliga wird der letzte Platz im DTL-Finale vergeben, und auch in der 2. Bundesliga fällt die Entscheidung. Außerdem turnt eine deutsche U16-Mannschaft in Frankreich gegen vier andere Länder.",
+  "quizId": "2026-11-20",
   "zahlDesTages": {
-    "zahl": "60",
-    "text": "So viele Menschen aus Verbänden, Stützpunkten, Trainerteams und Elternvertretungen trafen sich bei der Spitzensportkonferenz des DTB in Stuttgart."
+    "zahl": "76",
+    "text": "So viele Scorepunkte hat Radomyr Stelmakh vom SC Cottbus nach sechs Wettkampftagen gesammelt – mehr als jeder andere Turner in der 1. Bundesliga Männer."
   },
   "turnerDerWoche": {
     "name": "Lukas Dauser",
@@ -76,6 +76,49 @@
   },
   "news": [
     {
+      "id": "2026-11-20-u16-laenderkampf",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-21",
+      "titel": "U16-Turner fahren zum Fünf-Nationen-Länderkampf",
+      "teaser": "Eine deutsche Nachwuchsmannschaft misst sich am Samstag in Troyes mit Frankreich, Großbritannien, Italien und der Schweiz.",
+      "text": [
+        "Am Samstag, 21. November, wartet auf junge deutsche Turner ein echter Härtetest: Im französischen Troyes gibt es einen Länderkampf für Turner unter 16 Jahren (U16). Fünf Länder treten gegeneinander an – Deutschland, Frankreich, Großbritannien, Italien und die Schweiz.",
+        "Für den Deutschen Turner-Bund gehen sechs Turner an die Geräte. Betreut werden sie von Robert Hirsch, dem Bundestrainer für den Nachwuchs, und von Trainer Rolandas Zaksauskas.",
+        "Das Ziel der Mannschaft: um das Podium mitkämpfen. Robert Hirsch weiß aber, dass bei solchen Nachwuchs-Wettkämpfen oft kleine Wackler und Stürze entscheiden. Wer seine Übungen sicher durchturnt, hat am Ende die besten Karten."
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-20-maenner-finaltag",
+      "rubrik": "DTL",
+      "motiv": "ringe",
+      "datum": "2026-11-21",
+      "titel": "Männer-Bundesliga: Showdown um das letzte Finalticket",
+      "teaser": "Siegerland und Koblenz kämpfen am Samstag im Fernduell um Platz vier – und oben geht es um den Titelendkampf.",
+      "text": [
+        "Am Samstag ist der siebte und letzte Wettkampftag der 1. Bundesliga Männer. Alle vier Begegnungen beginnen gleichzeitig um 18 Uhr. Danach steht fest, wer beim DTL-Finale am 28. November in Heidelberg dabei ist.",
+        "Siegerland und Koblenz haben beide 6 Punkte. Siegerland hat aber viel mehr Gerätepunkte gesammelt. Gewinnt Siegerland zu Hause gegen Cottbus, ist das Finalticket sicher. Koblenz turnt gegen Schlusslicht Singen und braucht einen Sieg – und Hilfe aus Cottbus.",
+        "Oben haben Straubenhardt, Cottbus und die TG Saar je 10 Punkte und sind schon im Finale. Spannend wird das direkte Duell TG Saar gegen Straubenhardt: Der Sieger ist sicher im Titelendkampf, also im Kampf um die Deutsche Mannschaftsmeisterschaft.",
+        "Bester Topscorer der Liga ist bisher Radomyr Stelmakh vom SC Cottbus mit 76 Scorepunkten. Am Tabellenende hofft Singen noch auf den Klassenerhalt: Dafür müsste es in Koblenz gewinnen und Vinnhorst gegen Wetzgau verlieren."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-20-zweite-liga-finale",
+      "rubrik": "DTL",
+      "motiv": "barren",
+      "datum": "2026-11-21",
+      "titel": "2. Bundesliga: Zwei Teams ohne Niederlage vor dem Ziel",
+      "teaser": "Ludwigsburg und Pfuhl haben alle sechs Wettkämpfe gewonnen – am Samstag geht es um das Aufstiegsfinale.",
+      "text": [
+        "In der 2. Bundesliga Männer haben zwei Mannschaften noch keinen einzigen Wettkampf verloren: der MTV Ludwigsburg in der Nordstaffel und der TSV Pfuhl in der Südstaffel. Beide haben 12 Punkte.",
+        "Am Samstag, 21. November, ist der letzte Wettkampftag. Ludwigsburg turnt in Essen gegen das GymTeam Metropole Ruhr. Verfolger Grünstadt hat 10 Punkte und hofft auf einen Ausrutscher. Im Süden muss Pfuhl nach Monheim. Auch Monheim und Exquisa Oberbayern haben noch Chancen.",
+        "Den beiden Staffelsiegern reicht ein Sieg oder Unentschieden. Bei Punktgleichheit entscheiden die Gerätepunkte. Die zwei Meister turnen dann am 5. Dezember in Oberhausen um den Aufstieg in die 1. Bundesliga."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
       "id": "2026-11-19-spitzensportkonferenz",
       "rubrik": "NW",
       "motiv": "team",
@@ -130,20 +173,6 @@
         "Gezeigt wird alles im Horst-Korber-Sportzentrum. Schon mittags gibt es zum ersten Mal einen Nachwuchspokal für junge Gymnastinnen. Am Nachmittag kämpfen Juniorinnen-Gruppen um die Fahrkarte zur EM 2027 in Pamplona (Spanien) – darunter die Gruppe vom Bundesstützpunkt Berlin, die in diesem Jahr Deutscher Meister wurde."
       ],
       "quelle": "deutsche-turnliga.de, btfb.de"
-    },
-    {
-      "id": "2026-11-17-berkheim-aufstieg",
-      "rubrik": "DTL",
-      "motiv": "team",
-      "datum": "2026-11-14",
-      "titel": "2. Bundesliga Frauen: Berkheim ist zurück in Liga eins",
-      "teaser": "Der TSV Berkheim gewinnt die 2. Bundesliga und steigt direkt wieder auf.",
-      "text": [
-        "Vor einem Jahr fehlten dem TSV Berkheim nur 0,25 Punkte zum Klassenerhalt in der 1. Bundesliga. Jetzt ist die Mannschaft zurück: Beim letzten Wettkampftag in Esslingen gewann Berkheim mit 178,85 Punkten auch den vierten Tag fast mühelos.",
-        "Am Ende hatte Berkheim 52 von 56 möglichen Punkten und 18 Zähler Vorsprung. Vizemeister wurde die TuG Leipzig vor dem TSV Unterföhring. Stark war auch die TS NeckarGym Nürtingen: Sie wurde Tageszweite, eine Turnerin zeigte am Stufenbarren die beste Übung des Tages.",
-        "Für den SV Großhansdorf und die KTV Dortmund geht es dagegen eine Liga tiefer in die 3. Bundesliga."
-      ],
-      "quelle": "deutsche-turnliga.de"
     },
     {
       "id": "2026-11-17-wm-2027",
@@ -203,21 +232,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-15-maenner-bl",
-      "rubrik": "DTL",
-      "motiv": "reck",
-      "datum": "2026-11-14",
-      "titel": "Männer-Bundesliga: Ein Finalplatz ist noch frei",
-      "teaser": "Straubenhardt, Cottbus und die TG Saar haben je 10 Punkte – dahinter kämpfen Siegerland und Koblenz.",
-      "text": [
-        "Am vorletzten Wettkampftag der 1. Bundesliga Männer haben die drei Spitzenteams alle gewonnen. Meister Straubenhardt schlug Koblenz deutlich mit 68:15 Scorepunkten. Cottbus gewann 63:11 gegen Vinnhorst, die TG Saar 43:27 in Schwäbisch Gmünd.",
-        "Spannend war es in Singen: Bei den Gerätepunkten stand es 6:6. Dann entscheiden die Scorepunkte – und da lag der Siegerländer KV mit 43:27 vorne.",
-        "Jetzt haben Straubenhardt, Cottbus und Saar je 10 Punkte. Siegerland und Koblenz haben 6 und können höchstens noch 8 erreichen. Damit sind die drei Spitzenteams sicher im DTL-Finale dabei. Um den vierten Platz kämpfen Siegerland und Koblenz am 21. November.",
-        "Am letzten Wettkampftag turnt Siegerland zu Hause gegen Cottbus, Koblenz empfängt Singen. Außerdem gibt es das Spitzenduell TG Saar gegen Straubenhardt."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
       "id": "2026-11-15-nanjing-synchron",
       "rubrik": "TRA",
       "motiv": "trampolin",
@@ -230,20 +244,6 @@
         "Bei den Jungen der AK 11/12 gewann ein Paar aus Russland vor China und Usbekistan. Heute, am Sonntag, endet der große Nachwuchs-Wettkampf mit weiteren Finals."
       ],
       "quelle": "gymnastics.sport, dtb.de"
-    },
-    {
-      "id": "2026-11-13-berlin-kadertest",
-      "rubrik": "BER",
-      "motiv": "kalender",
-      "datum": "2026-12-11",
-      "titel": "Berlin: Termin für den Landeskader-Test steht",
-      "teaser": "Am 11. und 12. Dezember werden im Sportforum Hohenschönhausen Technik und Athletik geprüft.",
-      "text": [
-        "Der Berliner Turn- und Freizeitsport-Bund hat den Termin für den Landeskadernominierungstest im Gerätturnen der Jungen veröffentlicht. Er findet am 11. und 12. Dezember im Sportforum Berlin in Hohenschönhausen statt.",
-        "Am Freitag werden die Technischen Grundlagen für die AK 9 bis 17 abgenommen. Am Samstag folgen die Athletischen Tests – zuerst für die Jüngsten der AK 5 und 6, danach für die AK 7 bis 18.",
-        "Die Ergebnisse der AK 7 bis 18 zählen für die Aufnahme in den Berliner Landeskader. Bei den AK 5 und 6 geht es um den Berliner Kaderschulungskreis."
-      ],
-      "quelle": "btfb.de"
     }
   ],
   "wettkaempfe": [
@@ -693,7 +693,7 @@
       "von": "2026-11-21",
       "ebene": "national",
       "sparte": "Turnen",
-      "info": "Letzter Wettkampftag: Vinnhorst – Wetzgau, TG Saar – Straubenhardt, Koblenz – Singen, Siegerland – Cottbus."
+      "info": "Letzter Wettkampftag, alle Begegnungen um 18 Uhr: Vinnhorst – Wetzgau, TG Saar – Straubenhardt, Koblenz – Singen, Siegerland – Cottbus."
     },
     {
       "name": "Deutscher Turntag",
@@ -702,6 +702,21 @@
       "ebene": "national",
       "sparte": "Turnen",
       "info": "Versammlung des DTB („Turnparlament“): Beratung über die Reform des Wettkampfsystems und Ehrungen."
+    },
+    {
+      "name": "2. Bundesliga Männer – letzter Wettkampftag",
+      "von": "2026-11-21",
+      "ebene": "national",
+      "sparte": "Turnen",
+      "info": "Entscheidung über die Staffelsieger: Ludwigsburg (Nord) und Pfuhl (Süd) führen ungeschlagen."
+    },
+    {
+      "name": "U16-Länderkampf (Fünf Nationen)",
+      "ort": "Troyes (Frankreich)",
+      "von": "2026-11-21",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Deutschland gegen Frankreich, Großbritannien, Italien und die Schweiz."
     },
     {
       "name": "MAG Online European Club Cup – Start",
@@ -736,12 +751,12 @@
       "info": "P-Stufen und LK-Programm, 4 aus 6 Geräten. Meldeschluss 6. November."
     },
     {
-      "name": "Aufstiegswettkampf zur 2. Bundesliga Männer",
+      "name": "Aufstiegswettkämpfe Bundesliga Männer",
       "ort": "Oberhausen",
       "von": "2026-12-05",
       "ebene": "national",
       "sparte": "Turnen",
-      "info": "Die zwei Besten der 3. Bundesliga Süd treffen auf die zwei Besten aus dem Norden. Die TG Allgäu ist schon dabei."
+      "info": "Die Meister der 2. Bundesliga Nord und Süd turnen um den Aufstieg in die 1. Bundesliga. Außerdem kämpfen die Besten der 3. Bundesliga um den Aufstieg in die 2. Liga – die TG Allgäu ist schon dabei."
     },
     {
       "name": "Rendezvous der Besten – Bundesfinale Showgruppen",
@@ -822,136 +837,137 @@
   "quiz": [
     {
       "rubrik": "NW",
-      "frage": "In welcher Stadt fand die Spitzensportkonferenz 2026 des DTB statt?",
+      "frage": "In welcher französischen Stadt turnt die deutsche U16-Mannschaft beim Länderkampf?",
       "antworten": [
-        "Frankfurt",
-        "Berlin",
-        "Stuttgart",
-        "Hannover"
+        "Paris",
+        "Lyon",
+        "Troyes",
+        "Marseille"
       ],
       "richtig": 2,
-      "erklaerung": "Die Konferenz war am 16. und 17. November in Stuttgart. Dort gibt es auch das Kunst-Turn-Forum und das Trampolin-Forum."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "Auf welche Olympischen Spiele blickten die Bundestrainer bei ihrer „Halbzeitanalyse“?",
-      "antworten": [
-        "Los Angeles 2028",
-        "Paris 2024",
-        "Brisbane 2032",
-        "Mailand 2026"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Bundestrainer zogen eine Zwischenbilanz auf der „Road to Los Angeles“ – dem Weg zu den Olympischen Spielen 2028."
+      "erklaerung": "Der Fünf-Nationen-Länderkampf der U16-Turner findet am 21. November in Troyes statt."
     },
     {
       "rubrik": "NW",
-      "frage": "Was soll laut Spitzensportkonferenz gestärkt werden, damit Talente altersgerecht gefördert werden?",
+      "frage": "Welches Land ist beim U16-Länderkampf in Troyes NICHT dabei?",
       "antworten": [
-        "Die Bundesliga",
-        "Die Turn-Zentren",
-        "Die Showgruppen",
-        "Die Fanclubs"
+        "Spanien",
+        "Italien",
+        "Schweiz",
+        "Großbritannien"
       ],
-      "richtig": 1,
-      "erklaerung": "Ein gemeinsames Fazit war: Die Turn-Zentren zu stärken bleibt eine wichtige Aufgabe für den Nachwuchs in ganz Deutschland."
+      "richtig": 0,
+      "erklaerung": "Deutschland trifft auf Frankreich, Großbritannien, Italien und die Schweiz. Spanien ist nicht dabei."
     },
     {
       "rubrik": "DTL",
-      "frage": "Gegen wen turnt Tabellenführer KTV Straubenhardt am letzten Wettkampftag der Männer-Bundesliga?",
+      "frage": "Gegen welche Mannschaft turnt der Siegerländer KV am letzten Wettkampftag?",
       "antworten": [
+        "KTV Straubenhardt",
         "SC Cottbus",
-        "TuS Vinnhorst",
         "StTV Singen",
-        "TG Saar"
-      ],
-      "richtig": 3,
-      "erklaerung": "Am Samstag heißt es TG Saar gegen Straubenhardt. Beide Teams haben vor dem letzten Wettkampftag 10 Punkte."
-    },
-    {
-      "rubrik": "BER",
-      "frage": "In welcher Halle findet am 29. November der Berliner Jahrgangsbesten-Wettkampf der Gerätturner statt?",
-      "antworten": [
-        "Max-Schmeling-Halle",
-        "Leistikowhalle",
-        "Velodrom",
-        "Horst-Korber-Sportzentrum"
+        "TuS Vinnhorst"
       ],
       "richtig": 1,
-      "erklaerung": "Der Jahrgangsbesten-Wettkampf 2026 ist laut BTFB am 29. November in der Leistikowhalle."
+      "erklaerung": "Siegerland empfängt den SC Cottbus. Mit einem Sieg wäre Siegerland sicher im DTL-Finale."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Wer hat nach sechs Wettkampftagen die meisten Scorepunkte in der 1. Bundesliga Männer?",
+      "antworten": [
+        "Alexander Kunz",
+        "Illia Kovtun",
+        "Nazar Chepurnyi",
+        "Radomyr Stelmakh"
+      ],
+      "richtig": 3,
+      "erklaerung": "Radomyr Stelmakh vom SC Cottbus führt mit 76 Scorepunkten vor Alexander Kunz aus Straubenhardt."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Wie viele Wettkämpfe haben Ludwigsburg und Pfuhl in der 2. Bundesliga bisher gewonnen?",
+      "antworten": [
+        "Vier",
+        "Fünf",
+        "Sechs",
+        "Sieben"
+      ],
+      "richtig": 2,
+      "erklaerung": "Beide Teams haben alle sechs Wettkämpfe gewonnen und sind noch ungeschlagen."
     },
     {
       "rubrik": "INT",
-      "frage": "Nach wem ist der „Stalder“ am Reck benannt – und aus welchem Land kam er?",
+      "frage": "Was zeigt ein Turner beim „Kovacs“ am Reck?",
       "antworten": [
-        "Josef Stalder aus der Schweiz",
-        "Kurt Stalder aus den USA",
-        "Hans Stalder aus Deutschland",
-        "Péter Stalder aus Ungarn"
+        "Eine Riesenfelge mit ganzer Drehung",
+        "Einen Doppelsalto rückwärts über die Stange",
+        "Einen Handstand mit gegrätschten Beinen",
+        "Einen Salto vorwärts als Abgang"
       ],
-      "richtig": 0,
-      "erklaerung": "Der Stalder ist nach dem Schweizer Josef Stalder benannt. Du kennst ihn als Bonusteil 4b in deiner Reck-Pflicht."
+      "richtig": 1,
+      "erklaerung": "Beim Kovacs fliegt der Turner mit einem Doppelsalto rückwärts über die Stange und fasst wieder. Benannt ist er nach Péter Kovács aus Ungarn."
     },
     {
-      "rubrik": "DE",
-      "frage": "Was ist der „Bretschneider“ am Reck?",
+      "rubrik": "INT",
+      "frage": "An welchem Gerät gibt es den „Magyar“?",
       "antworten": [
-        "Eine Riesenfelge mit Handstand",
-        "Ein Abgang mit Salto vorwärts",
-        "Ein Doppelsalto gestreckt mit zwei Schrauben über die Stange",
-        "Ein Kippaufschwung mit Drehung"
+        "Barren",
+        "Ringe",
+        "Pauschenpferd",
+        "Boden"
       ],
       "richtig": 2,
-      "erklaerung": "Der Bretschneider ist eines der schwierigsten Elemente überhaupt. Benannt ist er nach dem Deutschen Andreas Bretschneider."
+      "erklaerung": "Beim Magyar wandert der Turner mit Kreis-Flanken einmal über das ganze Pauschenpferd. Benannt ist er nach Zoltán Magyar aus Ungarn."
     },
     {
       "rubrik": "DE",
-      "frage": "Was bedeutet es, eine Übung „gegengleich“ zu turnen?",
+      "frage": "In der Bundesliga haben zwei Teams gleich viele Tabellenpunkte. Was entscheidet dann zuerst über die Platzierung?",
       "antworten": [
-        "Mit Drehung zur anderen Seite, also rechts statt links",
-        "Die Übung rückwärts von hinten nach vorne",
-        "Zu zweit gleichzeitig",
-        "Ohne Hilfestellung"
+        "Die Gerätepunkte",
+        "Das Los",
+        "Die Zahl der Stürze",
+        "Der jüngste Turner"
       ],
       "richtig": 0,
-      "erklaerung": "Gegengleich heißt: Du drehst zur anderen Seite. In der DTB-Pflicht ist das an allen Geräten erlaubt."
+      "erklaerung": "Bei Punktgleichheit zählt zuerst das Geräteergebnis, also die Gerätepunkte. Erst danach kommt der direkte Vergleich."
     },
     {
       "rubrik": "DE",
-      "frage": "Wie sieht ein Salto in gebückter Haltung aus?",
+      "frage": "Wie viele Pauschen (Griffe) hat ein Pauschenpferd?",
       "antworten": [
-        "Knie an die Brust gezogen",
-        "Körper ganz gestreckt",
-        "Beine gestreckt, Hüfte stark gebeugt",
-        "Mit gegrätschten Beinen"
+        "Eine",
+        "Zwei",
+        "Drei",
+        "Vier"
       ],
-      "richtig": 2,
-      "erklaerung": "Gebückt heißt: Die Beine bleiben gestreckt, aber du knickst in der Hüfte ab. Mit angezogenen Knien wäre es gehockt."
+      "richtig": 1,
+      "erklaerung": "Ein Pauschenpferd hat zwei Pauschen. Daran stützt sich der Turner bei Kreis-Flanken und Scheren ab."
     },
     {
       "rubrik": "NW",
-      "frage": "Reck-Pflicht AK 11/12: Wie viele Punkte ist der Felgumschwung (Teil 3) wert?",
+      "frage": "Wie viele Kreis-Flanken turnst du in Teil 3 der Bodenpflicht AK 11/12?",
       "antworten": [
-        "0,5",
-        "1,0",
-        "2,0",
-        "1,5"
+        "Eine",
+        "Drei",
+        "Zwei",
+        "Vier"
       ],
-      "richtig": 3,
-      "erklaerung": "Der handstandnahe Felgumschwung in Teil 3 ist 1,5 Punkte wert. Gebeugte Arme oder eine stark gebeugte Hüfte kosten Abzüge."
+      "richtig": 2,
+      "erklaerung": "In Teil 3 der Bodenübung turnst du aus dem Liegestütz zweimal eine Kreis-Flanke mit geschlossenen Beinen. Zusammen sind sie 0,6 Punkte wert."
     }
   ],
   "kampfrichter": {
-    "titel": "Sicher gelandet – aber Bonus?",
-    "situation": "Ein Turner zeigt die Reck-Pflicht AK 11/12. Beim Abgang landet er, ohne zu wackeln oder einen Schritt zu machen. Sein Oberkörper ist aufrecht – aber seine Füße stehen deutlich weiter als fußbreit auseinander.",
-    "frage": "Bekommt er den Standbonus von 0,20 Punkten?",
+    "titel": "Wie viel bringt das Bonusteil am Pilz?",
+    "situation": "Ein Turner zeigt am Turnpilz in der Pflicht AK 11/12 das Bonusteil statt des normalen Übungsteils. Die Kampfrichter sehen nur kleine Fehler, er stürzt nicht.",
+    "frage": "Wie viel ist das Bonusteil am Pilz wert?",
     "antworten": [
-      "Ja, weil er keinen Schritt gemacht hat",
-      "Nein, weil die Füße nicht geschlossen sind",
-      "Ja, aber nur die Hälfte: 0,10 Punkte"
+      "0,5 Punkte",
+      "1,0 Punkte",
+      "0,2 Punkte",
+      "2,0 Punkte"
     ],
     "richtig": 1,
-    "erklaerung": "Für den Standbonus braucht es beides: geschlossene Füße (höchstens fußbreit offen) und einen aufrechten Oberkörper. Stehen die Füße weiter auseinander, gibt es keinen Bonus."
+    "erklaerung": "An Pauschenpferd und Pilz ist ein Bonusteil 1,0 Punkte wert. Der Grund: Beide Übungen zählen nur als halbes Gerät. Die Noten von Pferd und Pilz werden zusammengezählt und durch 2 geteilt."
   },
   "lexikon": [
     {
@@ -1101,9 +1117,27 @@
     {
       "begriff": "Bundesstützpunkt",
       "erklaerung": "Ein Trainingszentrum, an dem viele der besten Sportlerinnen und Sportler einer Sportart trainieren. Berlin hat zum Beispiel einen Bundesstützpunkt für Gerätturnen männlich."
+    },
+    {
+      "begriff": "Länderkampf",
+      "erklaerung": "Ein Wettkampf, bei dem Mannschaften aus verschiedenen Ländern gegeneinander antreten – zum Beispiel Deutschland gegen Frankreich."
+    },
+    {
+      "begriff": "Titelendkampf",
+      "erklaerung": "Im DTL-Finale turnen die zwei besten Teams der Saison direkt gegeneinander um die Deutsche Mannschaftsmeisterschaft. Die anderen beiden kämpfen um Platz drei."
     }
   ],
   "quizGestellt": [
+    "U16 Länderkampf Troyes",
+    "U16 Länderkampf fünf Nationen ohne Spanien",
+    "Siegerland gegen Cottbus letzter Wettkampftag",
+    "Stelmakh Topscorer 76",
+    "Ludwigsburg Pfuhl sechs Siege ungeschlagen",
+    "Kovacs Doppelsalto Reck",
+    "Magyar Pauschenpferd",
+    "Tabelle Gleichstand Gerätepunkte entscheiden",
+    "Pauschenpferd zwei Pauschen",
+    "Boden Teil 3 zwei Kreis-Flanken AK 11/12",
     "Spitzensportkonferenz Stuttgart 2026",
     "Halbzeitanalyse Los Angeles 2028",
     "Turn-Zentren stärken Talente",
@@ -1246,6 +1280,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Bonusteil Pilz 1,0 halbes Gerät AK 11/12",
     "Standbonus Füße zu weit offen AK 11/12",
     "Barren Abgang gebückt ganzer Wert AK 11/12",
     "Pilz C9 vor K9 Abzug 1,0 AK 11/12",
