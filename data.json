@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-20T05:38:31+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-20",
-  "gruss": "Guten Morgen! Morgen ist ein großer Turn-Samstag: In der Männer-Bundesliga wird der letzte Platz im DTL-Finale vergeben, und auch in der 2. Bundesliga fällt die Entscheidung. Außerdem turnt eine deutsche U16-Mannschaft in Frankreich gegen vier andere Länder.",
-  "quizId": "2026-11-20",
+  "aktualisiert": "2026-11-21T05:39:08+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-21",
+  "gruss": "Guten Morgen! Heute ist großer Turn-Samstag: In der 1. und 2. Bundesliga Männer fallen die letzten Entscheidungen, und eine deutsche U16-Mannschaft turnt in Troyes beim Fünf-Nationen-Länderkampf. Die Ergebnisse findest du morgen in der nächsten Ausgabe.",
+  "quizId": "2026-11-21",
   "zahlDesTages": {
-    "zahl": "76",
-    "text": "So viele Scorepunkte hat Radomyr Stelmakh vom SC Cottbus nach sechs Wettkampftagen gesammelt – mehr als jeder andere Turner in der 1. Bundesliga Männer."
+    "zahl": "7",
+    "text": "Noch 7 Tage bis zum DTL-Finale am 28. November: Die Turner und Turnerinnen kämpfen in Heidelberg um die Deutsche Mannschaftsmeisterschaft, die Gymnastinnen der RSG in Berlin."
   },
   "turnerDerWoche": {
     "name": "Lukas Dauser",
@@ -837,137 +837,137 @@
   "quiz": [
     {
       "rubrik": "NW",
-      "frage": "In welcher französischen Stadt turnt die deutsche U16-Mannschaft beim Länderkampf?",
-      "antworten": [
-        "Paris",
-        "Lyon",
-        "Troyes",
-        "Marseille"
-      ],
-      "richtig": 2,
-      "erklaerung": "Der Fünf-Nationen-Länderkampf der U16-Turner findet am 21. November in Troyes statt."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Welches Land ist beim U16-Länderkampf in Troyes NICHT dabei?",
-      "antworten": [
-        "Spanien",
-        "Italien",
-        "Schweiz",
-        "Großbritannien"
-      ],
-      "richtig": 0,
-      "erklaerung": "Deutschland trifft auf Frankreich, Großbritannien, Italien und die Schweiz. Spanien ist nicht dabei."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Gegen welche Mannschaft turnt der Siegerländer KV am letzten Wettkampftag?",
-      "antworten": [
-        "KTV Straubenhardt",
-        "SC Cottbus",
-        "StTV Singen",
-        "TuS Vinnhorst"
-      ],
-      "richtig": 1,
-      "erklaerung": "Siegerland empfängt den SC Cottbus. Mit einem Sieg wäre Siegerland sicher im DTL-Finale."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wer hat nach sechs Wettkampftagen die meisten Scorepunkte in der 1. Bundesliga Männer?",
-      "antworten": [
-        "Alexander Kunz",
-        "Illia Kovtun",
-        "Nazar Chepurnyi",
-        "Radomyr Stelmakh"
-      ],
-      "richtig": 3,
-      "erklaerung": "Radomyr Stelmakh vom SC Cottbus führt mit 76 Scorepunkten vor Alexander Kunz aus Straubenhardt."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wie viele Wettkämpfe haben Ludwigsburg und Pfuhl in der 2. Bundesliga bisher gewonnen?",
+      "frage": "Wie viele Turner gehen für den Deutschen Turner-Bund beim U16-Länderkampf in Troyes an die Geräte?",
       "antworten": [
         "Vier",
         "Fünf",
         "Sechs",
-        "Sieben"
+        "Acht"
       ],
       "richtig": 2,
-      "erklaerung": "Beide Teams haben alle sechs Wettkämpfe gewonnen und sind noch ungeschlagen."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Was zeigt ein Turner beim „Kovacs“ am Reck?",
-      "antworten": [
-        "Eine Riesenfelge mit ganzer Drehung",
-        "Einen Doppelsalto rückwärts über die Stange",
-        "Einen Handstand mit gegrätschten Beinen",
-        "Einen Salto vorwärts als Abgang"
-      ],
-      "richtig": 1,
-      "erklaerung": "Beim Kovacs fliegt der Turner mit einem Doppelsalto rückwärts über die Stange und fasst wieder. Benannt ist er nach Péter Kovács aus Ungarn."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "An welchem Gerät gibt es den „Magyar“?",
-      "antworten": [
-        "Barren",
-        "Ringe",
-        "Pauschenpferd",
-        "Boden"
-      ],
-      "richtig": 2,
-      "erklaerung": "Beim Magyar wandert der Turner mit Kreis-Flanken einmal über das ganze Pauschenpferd. Benannt ist er nach Zoltán Magyar aus Ungarn."
+      "erklaerung": "Sechs deutsche Turner sind beim Fünf-Nationen-Länderkampf dabei. Betreut werden sie von Nachwuchs-Bundestrainer Robert Hirsch."
     },
     {
       "rubrik": "DE",
-      "frage": "In der Bundesliga haben zwei Teams gleich viele Tabellenpunkte. Was entscheidet dann zuerst über die Platzierung?",
+      "frage": "Über welches Thema hat eine Arbeitsgruppe vor dem Deutschen Turntag zwei Jahre lang nachgedacht?",
       "antworten": [
-        "Die Gerätepunkte",
-        "Das Los",
-        "Die Zahl der Stürze",
-        "Der jüngste Turner"
-      ],
-      "richtig": 0,
-      "erklaerung": "Bei Punktgleichheit zählt zuerst das Geräteergebnis, also die Gerätepunkte. Erst danach kommt der direkte Vergleich."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "Wie viele Pauschen (Griffe) hat ein Pauschenpferd?",
-      "antworten": [
-        "Eine",
-        "Zwei",
-        "Drei",
-        "Vier"
+        "Neue Turnhallen",
+        "Das Wettkampfsystem im Turnen",
+        "Neue Trikots",
+        "Die Olympia-Bewerbung"
       ],
       "richtig": 1,
-      "erklaerung": "Ein Pauschenpferd hat zwei Pauschen. Daran stützt sich der Turner bei Kreis-Flanken und Scheren ab."
+      "erklaerung": "Eine Arbeitsgruppe hat überlegt, wie das Wettkampfsystem im Turnen besser werden kann. Darüber berät der Turntag heute in Frankfurt-Höchst."
     },
     {
       "rubrik": "NW",
-      "frage": "Wie viele Kreis-Flanken turnst du in Teil 3 der Bodenpflicht AK 11/12?",
+      "frage": "Welche Trainingszentren besuchten die Gäste der Spitzensportkonferenz in Stuttgart?",
       "antworten": [
-        "Eine",
-        "Drei",
-        "Zwei",
-        "Vier"
+        "Kunst-Turn-Forum und Trampolin-Forum",
+        "Olympiastadion und Turnhalle Nord",
+        "Bundesstützpunkt Berlin und Cottbus",
+        "Sportschule Kienbaum"
+      ],
+      "richtig": 0,
+      "erklaerung": "Zum Abschluss der Konferenz ging es in das Kunst-Turn-Forum und das Trampolin-Forum in Stuttgart."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Für welchen Verein startet die Italienerin Sofia Raffaeli beim DTL-Finale der RSG?",
+      "antworten": [
+        "TSV Schmiden",
+        "Team Berlin",
+        "TSV Nürnberg",
+        "TSV Bayer 04 Leverkusen"
+      ],
+      "richtig": 3,
+      "erklaerung": "Sofia Raffaeli turnt für Leverkusen. Im großen Finale trifft Leverkusen auf den TSV Schmiden mit Olympiasiegerin Darja Varfolomeev."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wo findet die Junioren-WM im Gerätturnen 2027 statt?",
+      "antworten": [
+        "In Kairo (Ägypten)",
+        "In Chengdu (China)",
+        "In Baku (Aserbaidschan)",
+        "In Cottbus"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Junioren-WM ist vom 26. bis 31. Oktober 2027 in Kairo. Die WM der Großen ist kurz davor in Chengdu."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wer wurde 2004 in Athen Olympiasieger am Reck?",
+      "antworten": [
+        "Fabian Hambüchen",
+        "Igor Cassina",
+        "Kohei Uchimura",
+        "Epke Zonderland"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Italiener Igor Cassina gewann 2004 Gold am Reck. Ein Element am Reck trägt sogar seinen Namen: der Cassina."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "An welchem Gerät turnt man einen „Diamidov“?",
+      "antworten": [
+        "Reck",
+        "Ringe",
+        "Barren",
+        "Boden"
       ],
       "richtig": 2,
-      "erklaerung": "In Teil 3 der Bodenübung turnst du aus dem Liegestütz zweimal eine Kreis-Flanke mit geschlossenen Beinen. Zusammen sind sie 0,6 Punkte wert."
+      "erklaerung": "Der Diamidov ist eine Drehung um einen Arm in den Handstand am Barren. Er ist nach dem sowjetischen Turner Sergei Diamidov benannt."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Wie groß ist die Bodenfläche bei internationalen Wettkämpfen?",
+      "antworten": [
+        "10 × 10 Meter",
+        "12 × 12 Meter",
+        "14 × 14 Meter",
+        "15 × 12 Meter"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Bodenfläche ist 12 mal 12 Meter groß. Wer mit dem Fuß über die Linie tritt, bekommt Abzug."
+    },
+    {
+      "rubrik": "DE",
+      "frage": "Wie hoch ist der Sprungtisch bei den Männern im internationalen Turnen?",
+      "antworten": [
+        "1,10 Meter",
+        "1,25 Meter",
+        "1,45 Meter",
+        "1,35 Meter"
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei den Männern steht der Sprungtisch auf 1,35 Metern, bei den Frauen auf 1,25 Metern. In der AK 12 springst du über 1,20 oder 1,25 Meter."
+    },
+    {
+      "rubrik": "NW",
+      "frage": "Ein Turner der AK 10 will in der AK 11/12 beim Deutschlandpokal starten. Wie viele Punkte braucht er dafür im Vorjahr beim Deutschlandpokal (AK 9)?",
+      "antworten": [
+        "Mindestens 50,00",
+        "Mindestens 52,00",
+        "Mindestens 54,00",
+        "Mindestens 58,00"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut den Regeln zur DTB-Pflicht darf ein Turner der AK 10 hochstarten, wenn er im Vorjahr beim Deutschlandpokal mindestens 54,00 Punkte hatte."
     }
   ],
   "kampfrichter": {
-    "titel": "Wie viel bringt das Bonusteil am Pilz?",
-    "situation": "Ein Turner zeigt am Turnpilz in der Pflicht AK 11/12 das Bonusteil statt des normalen Übungsteils. Die Kampfrichter sehen nur kleine Fehler, er stürzt nicht.",
-    "frage": "Wie viel ist das Bonusteil am Pilz wert?",
+    "titel": "Ein C-Teil in der Kür der AK 12",
+    "situation": "Ein Turner der AK 12 zeigt bei den Deutschen Jugendmeisterschaften seine Kür am Barren. Für die Elementgruppe II turnt er ein C-Teil, ohne grobe Fehler.",
+    "frage": "Was bringt ihm das C-Teil für die Elementgruppe II?",
     "antworten": [
-      "0,5 Punkte",
-      "1,0 Punkte",
-      "0,2 Punkte",
-      "2,0 Punkte"
+      "Nichts – er braucht ein D-Teil",
+      "0,3 Punkte",
+      "0,5 Punkte – die Gruppe ist erfüllt",
+      "1,0 Punkte"
     ],
-    "richtig": 1,
-    "erklaerung": "An Pauschenpferd und Pilz ist ein Bonusteil 1,0 Punkte wert. Der Grund: Beide Übungen zählen nur als halbes Gerät. Die Noten von Pferd und Pilz werden zusammengezählt und durch 2 geteilt."
+    "richtig": 2,
+    "erklaerung": "In der AK 12 erfüllt ein Turner die Elementgruppen II und III (am Boden auch IV) schon mit einem C-Teil. Jede erfüllte Gruppe bringt 0,5 Punkte."
   },
   "lexikon": [
     {
@@ -1128,6 +1128,16 @@
     }
   ],
   "quizGestellt": [
+    "U16 Troyes sechs Turner",
+    "Turntag Arbeitsgruppe Wettkampfsystem",
+    "Kunst-Turn-Forum Trampolin-Forum Stuttgart",
+    "Raffaeli Leverkusen DTL-Finale RSG",
+    "Junioren-WM 2027 Kairo",
+    "Cassina Reck Gold 2004",
+    "Diamidov Barren",
+    "Bodenfläche 12 x 12 m",
+    "Sprungtisch Männer 1,35 m",
+    "Hochstarten AK 10 54,00 Punkte",
     "U16 Länderkampf Troyes",
     "U16 Länderkampf fünf Nationen ohne Spanien",
     "Siegerland gegen Cottbus letzter Wettkampftag",
@@ -1280,6 +1290,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Kür AK 12 Elementgruppe C-Teil 0,5",
     "Bonusteil Pilz 1,0 halbes Gerät AK 11/12",
     "Standbonus Füße zu weit offen AK 11/12",
     "Barren Abgang gebückt ganzer Wert AK 11/12",
