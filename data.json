@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-21T05:39:08+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-21",
-  "gruss": "Guten Morgen! Heute ist großer Turn-Samstag: In der 1. und 2. Bundesliga Männer fallen die letzten Entscheidungen, und eine deutsche U16-Mannschaft turnt in Troyes beim Fünf-Nationen-Länderkampf. Die Ergebnisse findest du morgen in der nächsten Ausgabe.",
-  "quizId": "2026-11-21",
+  "aktualisiert": "2026-11-22T05:39:36+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-22",
+  "gruss": "Guten Morgen! Die Bundesliga-Saison der Männer ist vorbei: Straubenhardt und Cottbus turnen am Samstag in Heidelberg um den Meistertitel, Koblenz hat sich das letzte Finalticket geschnappt. Und in der 2. Bundesliga gab es im Süden eine dicke Überraschung.",
+  "quizId": "2026-11-22",
   "zahlDesTages": {
-    "zahl": "7",
-    "text": "Noch 7 Tage bis zum DTL-Finale am 28. November: Die Turner und Turnerinnen kämpfen in Heidelberg um die Deutsche Mannschaftsmeisterschaft, die Gymnastinnen der RSG in Berlin."
+    "zahl": "90",
+    "text": "Scorepunkte sammelte Radomyr Stelmakh vom SC Cottbus in dieser Saison der 1. Bundesliga Männer – so viele wie kein anderer Turner. Am letzten Wettkampftag kamen noch einmal 14 dazu."
   },
   "turnerDerWoche": {
     "name": "Lukas Dauser",
@@ -76,47 +76,75 @@
   },
   "news": [
     {
-      "id": "2026-11-20-u16-laenderkampf",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-21",
-      "titel": "U16-Turner fahren zum Fünf-Nationen-Länderkampf",
-      "teaser": "Eine deutsche Nachwuchsmannschaft misst sich am Samstag in Troyes mit Frankreich, Großbritannien, Italien und der Schweiz.",
-      "text": [
-        "Am Samstag, 21. November, wartet auf junge deutsche Turner ein echter Härtetest: Im französischen Troyes gibt es einen Länderkampf für Turner unter 16 Jahren (U16). Fünf Länder treten gegeneinander an – Deutschland, Frankreich, Großbritannien, Italien und die Schweiz.",
-        "Für den Deutschen Turner-Bund gehen sechs Turner an die Geräte. Betreut werden sie von Robert Hirsch, dem Bundestrainer für den Nachwuchs, und von Trainer Rolandas Zaksauskas.",
-        "Das Ziel der Mannschaft: um das Podium mitkämpfen. Robert Hirsch weiß aber, dass bei solchen Nachwuchs-Wettkämpfen oft kleine Wackler und Stürze entscheiden. Wer seine Übungen sicher durchturnt, hat am Ende die besten Karten."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-20-maenner-finaltag",
+      "id": "2026-11-22-maenner-finaltag",
       "rubrik": "DTL",
       "motiv": "ringe",
       "datum": "2026-11-21",
-      "titel": "Männer-Bundesliga: Showdown um das letzte Finalticket",
-      "teaser": "Siegerland und Koblenz kämpfen am Samstag im Fernduell um Platz vier – und oben geht es um den Titelendkampf.",
+      "titel": "Koblenz schnappt sich das letzte Finalticket",
+      "teaser": "Am letzten Wettkampftag der 1. Bundesliga Männer fielen alle Entscheidungen – Straubenhardt bleibt Tabellenerster.",
       "text": [
-        "Am Samstag ist der siebte und letzte Wettkampftag der 1. Bundesliga Männer. Alle vier Begegnungen beginnen gleichzeitig um 18 Uhr. Danach steht fest, wer beim DTL-Finale am 28. November in Heidelberg dabei ist.",
-        "Siegerland und Koblenz haben beide 6 Punkte. Siegerland hat aber viel mehr Gerätepunkte gesammelt. Gewinnt Siegerland zu Hause gegen Cottbus, ist das Finalticket sicher. Koblenz turnt gegen Schlusslicht Singen und braucht einen Sieg – und Hilfe aus Cottbus.",
-        "Oben haben Straubenhardt, Cottbus und die TG Saar je 10 Punkte und sind schon im Finale. Spannend wird das direkte Duell TG Saar gegen Straubenhardt: Der Sieger ist sicher im Titelendkampf, also im Kampf um die Deutsche Mannschaftsmeisterschaft.",
-        "Bester Topscorer der Liga ist bisher Radomyr Stelmakh vom SC Cottbus mit 76 Scorepunkten. Am Tabellenende hofft Singen noch auf den Klassenerhalt: Dafür müsste es in Koblenz gewinnen und Vinnhorst gegen Wetzgau verlieren."
+        "Am Samstag war der siebte und letzte Wettkampftag der 1. Bundesliga Männer. Alle vier Begegnungen begannen gleichzeitig um 18 Uhr – und am Ende stand fest, wer beim DTL-Finale in Heidelberg dabei ist.",
+        "Im Spitzenduell in Dillingen gewann Titelverteidiger KTV Straubenhardt bei der TG Saar mit 45:26 Scorepunkten. Der SC Cottbus siegte in Kreuztal deutlich mit 46:24 gegen die Siegerländer KV. Damit haben Straubenhardt und Cottbus beide 12 Punkte. Straubenhardt ist wegen der besseren Gerätepunkte Erster.",
+        "Weil Siegerland verlor, hat die KTV Koblenz noch den vierten Platz erreicht. Gegen Singen ging es ganz eng zu: Die Gerätepunkte standen 6:6, aber Koblenz hatte mit 40:29 mehr Scorepunkte. Der Aufsteiger ist damit im Finale – Siegerland muss zuschauen.",
+        "Bester Topscorer des Tages war Radomyr Stelmakh vom SC Cottbus mit 14 Scorepunkten. Wetzgau gewann zum Abschluss in Hannover mit 41:25 gegen Vinnhorst. Für Aufsteiger Singen reichte es nicht zum Klassenerhalt: Die Mannschaft beendet die Saison auf dem letzten Platz."
       ],
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-20-zweite-liga-finale",
+      "id": "2026-11-22-dtl-finale-vorschau",
+      "rubrik": "DTL",
+      "motiv": "medaille",
+      "datum": "2026-11-28",
+      "titel": "DTL-Finale: Straubenhardt gegen Cottbus um den Titel",
+      "teaser": "Am Samstag geht es in Heidelberg um die Deutsche Mannschaftsmeisterschaft – und in Berlin um den RSG-Titel.",
+      "text": [
+        "Jetzt steht das Programm für das DTL-Finale am 28. November im SNP dome in Heidelberg fest. Bei den Männern turnen die vier besten Teams der Saison: Im Titelendkampf trifft Tabellenführer KTV Straubenhardt auf den SC Cottbus. Die TG Saar und die KTV Koblenz kämpfen um Bronze.",
+        "Straubenhardt ist Titelverteidiger und Rekordmeister. Cottbus hat aber den besten Topscorer der Liga in seinen Reihen: Radomyr Stelmakh. Es dürfte also spannend werden.",
+        "Auch die Frauen sind in Heidelberg dabei: TG Mannheim, MTV Stuttgart, TuS Chemnitz-Altendorf und TG Karlsruhe-Söllingen turnen um die Meisterschaft. Am selben Tag kämpfen die Gymnastinnen der Rhythmischen Sportgymnastik in Berlin um ihren Titel."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-22-zweite-liga-meister",
       "rubrik": "DTL",
       "motiv": "barren",
       "datum": "2026-11-21",
-      "titel": "2. Bundesliga: Zwei Teams ohne Niederlage vor dem Ziel",
-      "teaser": "Ludwigsburg und Pfuhl haben alle sechs Wettkämpfe gewonnen – am Samstag geht es um das Aufstiegsfinale.",
+      "titel": "2. Bundesliga: Ludwigsburg feiert, Pfuhl verliert alles",
+      "teaser": "Im Norden blieb Ludwigsburg ungeschlagen – im Süden zog Exquisa Oberbayern noch an Pfuhl vorbei.",
       "text": [
-        "In der 2. Bundesliga Männer haben zwei Mannschaften noch keinen einzigen Wettkampf verloren: der MTV Ludwigsburg in der Nordstaffel und der TSV Pfuhl in der Südstaffel. Beide haben 12 Punkte.",
-        "Am Samstag, 21. November, ist der letzte Wettkampftag. Ludwigsburg turnt in Essen gegen das GymTeam Metropole Ruhr. Verfolger Grünstadt hat 10 Punkte und hofft auf einen Ausrutscher. Im Süden muss Pfuhl nach Monheim. Auch Monheim und Exquisa Oberbayern haben noch Chancen.",
-        "Den beiden Staffelsiegern reicht ein Sieg oder Unentschieden. Bei Punktgleichheit entscheiden die Gerätepunkte. Die zwei Meister turnen dann am 5. Dezember in Oberhausen um den Aufstieg in die 1. Bundesliga."
+        "In der Nordstaffel der 2. Bundesliga Männer hat der MTV Ludwigsburg seine perfekte Saison vollendet. In Essen gewann die Mannschaft klar mit 51:17 Scorepunkten gegen das GymTeam Metropole Ruhr. Mit sieben Siegen aus sieben Wettkämpfen ist Ludwigsburg Meister.",
+        "Im Süden gab es eine große Überraschung. Der bis dahin ungeschlagene TSV Pfuhl verlor in Monheim mit 24:38. Gleichzeitig gewann Exquisa Oberbayern zu Hause mit 66:11 gegen Buttenwiesen-Inningen. Am Ende hatten Oberbayern, Monheim und Pfuhl alle 12 Punkte – und Oberbayern hatte die meisten Gerätepunkte.",
+        "Ludwigsburg und Exquisa Oberbayern turnen nun am 5. Dezember in Oberhausen beim Aufstiegswettkampf um einen Platz in der 1. Bundesliga."
       ],
       "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-22-jahrgangsbeste-berlin",
+      "rubrik": "BER",
+      "motiv": "kalender",
+      "datum": "2026-11-29",
+      "titel": "Berlins Nachwuchs turnt um die Jahrgangsbesten-Titel",
+      "teaser": "Am nächsten Sonntag treffen sich die jungen Berliner Gerätturner zum Jahrgangsbesten-Wettkampf.",
+      "text": [
+        "Am Sonntag, 29. November, ist in Berlin der Jahrgangsbesten-Wettkampf der Gerätturner. Veranstalter ist der Berliner Turn- und Freizeitsport-Bund (BTFB).",
+        "Geturnt wird nach den P-Stufen und im LK-Programm. Jeder Turner zeigt Übungen an vier von sechs Geräten. Wer in seinem Jahrgang am besten turnt, darf sich Jahrgangsbester nennen.",
+        "Nur zwei Wochen später, am 11. und 12. Dezember, folgt in Hohenschönhausen schon der nächste wichtige Termin: der Landeskadernominierungstest mit Technischen Grundlagen und Athletischen Tests."
+      ],
+      "quelle": "btfb.de"
+    },
+    {
+      "id": "2026-11-22-online-club-cup",
+      "rubrik": "INT",
+      "motiv": "team",
+      "datum": "2026-11-23",
+      "titel": "Europapokal per Video: Der Online Club Cup startet",
+      "teaser": "Ab Montag turnen bis zu 32 Männer-Vereine aus Europa gegeneinander – ohne zu verreisen.",
+      "text": [
+        "Der Europäische Turnverband startet am 23. November einen ganz neuen Wettkampf: den MAG Online European Club Cup. MAG steht für das Gerätturnen der Männer. Bis zu 32 Vereine aus ganz Europa machen in der ersten Saison mit.",
+        "Das Besondere: Niemand muss reisen. Die Trainer filmen die Übungen ihrer Turner in der eigenen Halle mit einer App. Kampfrichter schauen sich die Videos an und geben die Noten online ein.",
+        "Erst gibt es eine Gruppenphase, dann K.-o.-Runden und zum Schluss ein „Final 4“ mit den vier besten Vereinen. Geturnt wird an allen sechs Geräten der Männer."
+      ],
+      "quelle": "europeangymnastics.com"
     },
     {
       "id": "2026-11-19-spitzensportkonferenz",
@@ -129,34 +157,6 @@
         "Am 16. und 17. November trafen sich rund 60 Menschen zur Spitzensportkonferenz des Deutschen Turner-Bundes in Stuttgart. Dabei waren Bundestrainer, Leute aus den Landesturnverbänden und den Bundesstützpunkten – und auch Elternvertreter.",
         "Am ersten Tag ging es um die Gesundheit. Ein Team aus Ärzten, Physiotherapeuten, Sportpsychologen und Trainingsfachleuten kümmert sich um die Athletinnen und Athleten. Neue Leitlinien sollen dafür sorgen, dass überall in Deutschland gleich gut auf die Gesundheit geachtet wird. Außerdem zogen die Bundestrainer eine Zwischenbilanz auf dem Weg zu den Olympischen Spielen 2028 in Los Angeles.",
         "Am zweiten Tag ging es um euch: um junge Talente. Die Frage war, wie Kinder so gefördert werden, wie es zu ihrem Alter passt. Dafür sollen die Turn-Zentren gestärkt werden – also die Hallen, in denen der Nachwuchs trainiert. Zum Abschluss besuchten die Gäste die Trainingszentren in Stuttgart, zum Beispiel das Kunst-Turn-Forum und das Trampolin-Forum."
-      ],
-      "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-18-toba-abschied",
-      "rubrik": "DTL",
-      "motiv": "team",
-      "datum": "2026-11-14",
-      "titel": "Abschied mit Tränen: Andreas Toba sagt Servus",
-      "teaser": "Nach 15 Jahren in Wetzgau hat der viermalige Olympiateilnehmer seinen letzten Heimwettkampf geturnt.",
-      "text": [
-        "Andreas Toba ist einer der bekanntesten deutschen Turner. Er war viermal bei Olympischen Spielen dabei. 15 Jahre lang turnte er in der Bundesliga für den TV Schwäbisch Gmünd-Wetzgau und wurde mit dem Verein viermal Deutscher Mannschaftsmeister. Beim letzten Heimwettkampf der Saison haben ihn die Fans verabschiedet.",
-        "Toba arbeitet inzwischen als Trainer am Bundesstützpunkt in Hannover. Beruf, Familie und die Wettkämpfe in Schwäbisch Gmünd passen nicht mehr zusammen. Bei seiner Verabschiedung sagte er: „Ich war immer ein Teil von euch und ihr wart immer ein Teil von mir. Und das bleibt auch.“ Auch Carlo Hörr, der acht Jahre für Wetzgau turnte, hörte auf.",
-        "Sportlich lief es nicht so gut: Wetzgau verlor gegen die TG Saar mit 27:43 Scorepunkten. Lange war es knapp, doch am Barren holten die Saarländer 13:3 Scorepunkte. Damit kann Wetzgau beim DTL-Finale nicht mehr dabei sein. Bester Turner des Tages war Noel Seifert von der TG Saar mit 14 Scorepunkten."
-      ],
-      "quelle": "deutsche-turnliga.de, Schwäbische Post"
-    },
-    {
-      "id": "2026-11-18-turntag",
-      "rubrik": "DE",
-      "motiv": "kalender",
-      "datum": "2026-11-21",
-      "titel": "Das Turnparlament trifft sich in Frankfurt",
-      "teaser": "Beim Deutschen Turntag am Samstag entscheidet der DTB über wichtige Fragen für die nächsten Jahre.",
-      "text": [
-        "Der Deutsche Turner-Bund ist ein riesiger Verband mit vielen Vereinen. Wichtige Entscheidungen trifft er beim Deutschen Turntag – man nennt ihn auch das Turnparlament. Am Samstag, 21. November, kommen die Delegierten in Frankfurt-Höchst zusammen.",
-        "Zwei Arbeitsgruppen haben sich zwei Jahre lang Gedanken gemacht. Eine davon hat überlegt, wie das Wettkampfsystem im Turnen besser werden kann. Über ihre Vorschläge wird jetzt beraten.",
-        "Außerdem werden fünf Menschen geehrt, die sich besonders für das Turnen eingesetzt haben."
       ],
       "quelle": "dtb.de"
     },
@@ -202,51 +202,102 @@
         "Eine gute Nachricht gab es auch auf dem Doppel-Mini-Trampolin: Die deutschen Frauen und Männer haben je einen Startplatz für die European Games 2027 in Istanbul gesichert."
       ],
       "quelle": "dtb.de"
-    },
-    {
-      "id": "2026-11-15-frauen-finale",
-      "rubrik": "DTL",
-      "motiv": "stufenbarren",
-      "datum": "2026-11-14",
-      "titel": "Frauen-Bundesliga: Mannheim gewinnt die Saison",
-      "teaser": "Chemnitz turnte in Esslingen am stärksten – doch Mannheim bleibt Tabellenerster.",
-      "text": [
-        "Beim letzten Wettkampftag der 1. Bundesliga Frauen in Esslingen war der TuS Chemnitz-Altendorf klar die Nummer eins. Die Sächsinnen turnten 200,90 Punkte – über zehn Punkte mehr als der MTV Stuttgart auf Platz zwei. Die TG Mannheim wurde an diesem Tag nur Dritte.",
-        "Trotzdem bleibt Mannheim vorne: Mit 48 Punkten gewinnt die TG die Saison vor Stuttgart (44) und Chemnitz (42). In der Tabelle zählen nämlich die Plätze an jedem Wettkampftag – nicht die Gesamtpunkte. Dabei hatte Chemnitz über die ganze Saison die meisten Punkte an den Geräten gesammelt.",
-        "Vierter Finalist ist die TG Karlsruhe-Söllingen. Die vier Teams turnen am 28. November beim DTL-Finale in Heidelberg um den deutschen Mannschaftstitel. Die beste Einzelwertung am Samstag gelang einer Chemnitzerin am Schwebebalken mit 14,35 Punkten. Helen Kevric turnte für Stuttgart nur am Stufenbarren."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-15-steglitz",
-      "rubrik": "BER",
-      "motiv": "team",
-      "datum": "2026-11-14",
-      "titel": "Berlin Steglitz muss die 1. Bundesliga verlassen",
-      "teaser": "Der Berliner Aufsteiger verlor am letzten Wettkampftag noch den rettenden Platz.",
-      "text": [
-        "Bitterer Samstag für die Turnerinnen der TSG Berlin Steglitz: Vor dem Saisonfinale hatten sie sechs Punkte Vorsprung auf den Dresdner SC. Doch Dresden turnte in Esslingen stark auf Platz vier, Steglitz wurde Letzter.",
-        "Damit zog Dresden in der Tabelle noch vorbei. Steglitz steigt nach nur einer Saison wieder in die 2. Bundesliga ab. Am Ende fehlten am Samstag nur 0,15 Punkte auf Platz sieben – den Abstieg hätte aber auch dieser Platz nicht mehr verhindert.",
-        "Für die Steglitzerinnen war es trotzdem eine besondere Saison: Als Aufsteiger durften sie ein Jahr lang gegen die besten Teams Deutschlands turnen. Vielleicht klappt ja bald der Wiederaufstieg."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-15-nanjing-synchron",
-      "rubrik": "TRA",
-      "motiv": "trampolin",
-      "datum": "2026-11-14",
-      "titel": "Trampolin: Bronze für deutsches Synchron-Duo der AK 11/12",
-      "teaser": "Zwei deutsche Mädchen sprangen in Nanjing im Synchron auf Platz drei.",
-      "text": [
-        "Große Freude in Nanjing (China): Ein deutsches Mädchen-Paar der Altersklasse 11/12 hat im Synchronspringen die Bronzemedaille gewonnen. In der Qualifikation waren sie noch Siebte von 19 Paaren – im Finale sprangen sie dann aufs Treppchen.",
-        "Gold ging an China, Silber an ein Paar aus Russland. Besonders genau sprangen die Deutschen in der Mitte des Tuchs: Für diesen Wert (HD) bekamen sie 9,80 – mehr als alle anderen Paare im Finale.",
-        "Bei den Jungen der AK 11/12 gewann ein Paar aus Russland vor China und Usbekistan. Heute, am Sonntag, endet der große Nachwuchs-Wettkampf mit weiteren Finals."
-      ],
-      "quelle": "gymnastics.sport, dtb.de"
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "dtl2026-maenner-wt7",
+      "name": "1. Bundesliga Männer – 7. Wettkampftag",
+      "ort": "Dillingen, Kreuztal, Koblenz, Hannover",
+      "von": "2026-11-21",
+      "rubrik": "DTL",
+      "sparte": "Turnen Männer",
+      "bericht": "Straubenhardt gewann das Spitzenduell bei der TG Saar und bleibt vor Cottbus Erster. Koblenz rutschte dank der Siegerländer Niederlage noch auf Platz vier ins DTL-Finale.",
+      "entscheidungen": [
+        {
+          "titel": "Endstand nach 7 Wettkämpfen",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "KTV Straubenhardt",
+              "note": "12 Punkte"
+            },
+            {
+              "platz": 2,
+              "name": "SC Cottbus",
+              "note": "12 Punkte"
+            },
+            {
+              "platz": 3,
+              "name": "TG Saar",
+              "note": "10 Punkte"
+            }
+          ]
+        },
+        {
+          "titel": "Topscorer des Tages",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Radomyr Stelmakh",
+              "verein": "SC Cottbus",
+              "note": "14 Scorepunkte"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dtl2026-2bl-wt7",
+      "name": "2. Bundesliga Männer – letzter Wettkampftag",
+      "ort": "Nord- und Südstaffel",
+      "von": "2026-11-21",
+      "rubrik": "DTL",
+      "sparte": "Turnen Männer",
+      "bericht": "Ludwigsburg wurde ungeschlagen Meister im Norden. Im Süden gewann Exquisa Oberbayern bei Punktgleichheit mit Monheim und Pfuhl dank der meisten Gerätepunkte.",
+      "entscheidungen": [
+        {
+          "titel": "Nordstaffel",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "MTV Ludwigsburg",
+              "note": "14 Punkte"
+            },
+            {
+              "platz": 2,
+              "name": "TSG Grünstadt",
+              "note": "12 Punkte"
+            },
+            {
+              "platz": 3,
+              "name": "TG Saar II",
+              "note": "8 Punkte"
+            }
+          ]
+        },
+        {
+          "titel": "Südstaffel",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Exquisa Oberbayern",
+              "note": "12 Punkte"
+            },
+            {
+              "platz": 2,
+              "name": "TSV Monheim",
+              "note": "12 Punkte"
+            },
+            {
+              "platz": 3,
+              "name": "TSV Pfuhl",
+              "note": "12 Punkte"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "dtl2026-frauen-wt4",
       "name": "1. und 2. Bundesliga Frauen – letzter Wettkampftag",
@@ -435,199 +486,110 @@
           ]
         }
       ]
-    },
-    {
-      "id": "yog2026-mk",
-      "name": "Olympische Jugendspiele – Mehrkampffinale Männer",
-      "ort": "Dakar (Senegal)",
-      "von": "2026-11-10",
-      "rubrik": "NW",
-      "sparte": "Turnen Männer",
-      "bericht": "Zwei Deutsche im Finale: Zénó Csuka rückte als Reserve nach und wurde 13., Andrei Mihai wurde 18.",
-      "entscheidungen": [
-        {
-          "titel": "Mehrkampf",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Daniil Smirnov",
-              "note": 81.298
-            },
-            {
-              "platz": 2,
-              "name": "Uzair Chowdhury",
-              "land": "GBR",
-              "note": 79.132
-            },
-            {
-              "platz": 3,
-              "name": "Ikki Nishihara",
-              "land": "JPN",
-              "note": 79.065
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 13,
-              "name": "Zénó Csuka",
-              "land": "GER",
-              "note": 72.099
-            },
-            {
-              "platz": 18,
-              "name": "Andrei Mihai",
-              "land": "GER",
-              "note": 68.298
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "yog2026-team",
-      "name": "Olympische Jugendspiele – Teamfinale Männer",
-      "ort": "Dakar (Senegal)",
-      "von": "2026-11-09",
-      "rubrik": "NW",
-      "sparte": "Turnen Männer",
-      "bericht": "Deutschland turnte mit Csuka, Köhnlein und Mihai auf Platz vier. Im Finale ging jede Wertung in die Gesamtpunktzahl ein.",
-      "entscheidungen": [
-        {
-          "titel": "Mannschaft",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "China",
-              "land": "CHN",
-              "note": 158.463
-            },
-            {
-              "platz": 2,
-              "name": "Japan",
-              "land": "JPN",
-              "note": 156.23
-            },
-            {
-              "platz": 3,
-              "name": "Großbritannien",
-              "land": "GBR",
-              "note": 153.763
-            }
-          ],
-          "deutsche": [
-            {
-              "platz": 4,
-              "name": "Deutschland",
-              "land": "GER",
-              "note": 148.995
-            }
-          ]
-        }
-      ]
     }
   ],
   "liga": {
     "titel": "Deutsche Turnliga 2026",
-    "info": "Stand 14. November – nach dem 6. Wettkampftag der Männer und dem Saisonende der Frauen",
+    "info": "Stand 21. November – Saisonende in der 1. Bundesliga Männer und Frauen, DTL-Finale am 28. November in Heidelberg",
     "duelle": [
       {
         "liga": "1. BL Männer",
-        "datum": "2026-11-14",
-        "ort": "Cottbus",
-        "heim": "SC Cottbus",
-        "gast": "TuS Vinnhorst",
-        "heimScore": 63,
-        "gastScore": 11,
-        "heimPkt": 12,
-        "gastPkt": 0
+        "datum": "2026-11-21",
+        "ort": "Hannover",
+        "heim": "TuS Vinnhorst",
+        "gast": "TV Schwäbisch Gmünd-Wetzgau",
+        "heimScore": 25,
+        "gastScore": 41,
+        "heimPkt": 4,
+        "gastPkt": 8
       },
       {
         "liga": "1. BL Männer",
-        "datum": "2026-11-14",
-        "ort": "Schwäbisch Gmünd",
-        "heim": "TV Schwäbisch Gmünd-Wetzgau",
-        "gast": "TG Saar",
-        "heimScore": 27,
-        "gastScore": 43,
-        "heimPkt": 2,
-        "gastPkt": 10
+        "datum": "2026-11-21",
+        "ort": "Dillingen/Saar",
+        "heim": "TG Saar",
+        "gast": "KTV Straubenhardt",
+        "heimScore": 26,
+        "gastScore": 45,
+        "heimPkt": 5,
+        "gastPkt": 7
       },
       {
         "liga": "1. BL Männer",
-        "datum": "2026-11-14",
-        "ort": "Straubenhardt",
-        "heim": "KTV Straubenhardt",
-        "gast": "KTV Koblenz",
-        "heimScore": 68,
-        "gastScore": 15,
-        "heimPkt": 12,
-        "gastPkt": 0
-      },
-      {
-        "liga": "1. BL Männer",
-        "datum": "2026-11-14",
-        "ort": "Singen",
-        "heim": "StTV Singen",
-        "gast": "Siegerländer KV",
-        "heimScore": 27,
-        "gastScore": 43,
+        "datum": "2026-11-21",
+        "ort": "Koblenz",
+        "heim": "KTV Koblenz",
+        "gast": "StTV Singen",
+        "heimScore": 40,
+        "gastScore": 29,
         "heimPkt": 6,
         "gastPkt": 6,
-        "info": "Gerätepunkte gleich – Siegerland gewinnt durch mehr Scorepunkte"
+        "info": "Gerätepunkte gleich – Koblenz gewinnt durch mehr Scorepunkte und zieht ins DTL-Finale ein"
+      },
+      {
+        "liga": "1. BL Männer",
+        "datum": "2026-11-21",
+        "ort": "Kreuztal",
+        "heim": "Siegerländer KV",
+        "gast": "SC Cottbus",
+        "heimScore": 24,
+        "gastScore": 46,
+        "heimPkt": 2,
+        "gastPkt": 10
       }
     ],
     "tabellen": [
       {
         "titel": "1. Bundesliga Männer",
-        "stand": "Nach 6 von 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte. Die ersten drei sind sicher im DTL-Finale.",
+        "stand": "Endstand nach 7 Wettkämpfen. Punkte = Siege × 2, Score = Gerätepunkte. Straubenhardt und Cottbus turnen im DTL-Finale um den Titel, Saar und Koblenz um Bronze.",
         "zeilen": [
           {
             "platz": 1,
             "team": "KTV Straubenhardt",
-            "punkte": 10,
-            "score": "58:14"
+            "punkte": 12,
+            "score": "65:19"
           },
           {
             "platz": 2,
             "team": "SC Cottbus",
-            "punkte": 10,
-            "score": "52:20"
+            "punkte": 12,
+            "score": "62:22"
           },
           {
             "platz": 3,
             "team": "TG Saar",
             "punkte": 10,
-            "score": "44:28"
+            "score": "49:35"
           },
           {
             "platz": 4,
-            "team": "Siegerländer KV",
-            "punkte": 6,
-            "score": "45:27"
+            "team": "KTV Koblenz",
+            "punkte": 8,
+            "score": "37:47"
           },
           {
             "platz": 5,
-            "team": "KTV Koblenz",
+            "team": "Siegerländer KV",
             "punkte": 6,
-            "score": "31:41"
+            "score": "47:37"
           },
           {
             "platz": 6,
             "team": "TV Schwäbisch Gmünd-Wetzgau",
-            "punkte": 4,
-            "score": "20:52"
+            "punkte": 6,
+            "score": "28:56"
           },
           {
             "platz": 7,
             "team": "TuS Vinnhorst",
             "punkte": 2,
-            "score": "18:54"
+            "score": "22:62"
           },
           {
             "platz": 8,
             "team": "StTV Singen",
             "punkte": 0,
-            "score": "20:52"
+            "score": "26:58"
           }
         ]
       },
@@ -689,41 +651,11 @@
   },
   "termine": [
     {
-      "name": "1. Bundesliga Männer – 7. Wettkampftag",
-      "von": "2026-11-21",
-      "ebene": "national",
-      "sparte": "Turnen",
-      "info": "Letzter Wettkampftag, alle Begegnungen um 18 Uhr: Vinnhorst – Wetzgau, TG Saar – Straubenhardt, Koblenz – Singen, Siegerland – Cottbus."
-    },
-    {
-      "name": "Deutscher Turntag",
-      "ort": "Frankfurt-Höchst",
-      "von": "2026-11-21",
-      "ebene": "national",
-      "sparte": "Turnen",
-      "info": "Versammlung des DTB („Turnparlament“): Beratung über die Reform des Wettkampfsystems und Ehrungen."
-    },
-    {
-      "name": "2. Bundesliga Männer – letzter Wettkampftag",
-      "von": "2026-11-21",
-      "ebene": "national",
-      "sparte": "Turnen",
-      "info": "Entscheidung über die Staffelsieger: Ludwigsburg (Nord) und Pfuhl (Süd) führen ungeschlagen."
-    },
-    {
-      "name": "U16-Länderkampf (Fünf Nationen)",
-      "ort": "Troyes (Frankreich)",
-      "von": "2026-11-21",
-      "ebene": "international",
-      "sparte": "Turnen",
-      "info": "Deutschland gegen Frankreich, Großbritannien, Italien und die Schweiz."
-    },
-    {
       "name": "MAG Online European Club Cup – Start",
       "von": "2026-11-23",
       "ebene": "international",
       "sparte": "Turnen",
-      "info": "Neuer Online-Europapokal für bis zu 32 Männer-Vereine. Final 4 nach Gruppenphase und K.-o.-Runden."
+      "info": "Neuer Online-Europapokal für bis zu 32 Männer-Vereine: Übungen werden in der eigenen Halle gefilmt. Final 4 nach Gruppenphase und K.-o.-Runden."
     },
     {
       "name": "DTL-Finale Rhythmische Sportgymnastik",
@@ -739,7 +671,7 @@
       "von": "2026-11-28",
       "ebene": "national",
       "sparte": "Turnen",
-      "info": "Die besten Bundesliga-Teams kämpfen um den deutschen Mannschaftstitel. Bei den Frauen dabei: Mannheim, Stuttgart, Chemnitz und Karlsruhe-Söllingen.",
+      "info": "Männer: Titelendkampf Straubenhardt gegen Cottbus, um Bronze TG Saar gegen Koblenz. Frauen: Mannheim, Stuttgart, Chemnitz und Karlsruhe-Söllingen.",
       "highlight": true
     },
     {
@@ -836,138 +768,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "NW",
-      "frage": "Wie viele Turner gehen für den Deutschen Turner-Bund beim U16-Länderkampf in Troyes an die Geräte?",
+      "rubrik": "DTL",
+      "frage": "Wer gewann am letzten Wettkampftag das Spitzenduell zwischen der TG Saar und der KTV Straubenhardt?",
       "antworten": [
-        "Vier",
-        "Fünf",
-        "Sechs",
-        "Acht"
+        "TG Saar",
+        "Unentschieden",
+        "KTV Straubenhardt",
+        "Der Wettkampf fiel aus"
       ],
       "richtig": 2,
-      "erklaerung": "Sechs deutsche Turner sind beim Fünf-Nationen-Länderkampf dabei. Betreut werden sie von Nachwuchs-Bundestrainer Robert Hirsch."
+      "erklaerung": "Straubenhardt gewann in Dillingen mit 45:26 Scorepunkten und bleibt Tabellenerster."
     },
     {
-      "rubrik": "DE",
-      "frage": "Über welches Thema hat eine Arbeitsgruppe vor dem Deutschen Turntag zwei Jahre lang nachgedacht?",
+      "rubrik": "DTL",
+      "frage": "Welches Team holte das vierte und letzte Ticket für das DTL-Finale der Männer?",
       "antworten": [
-        "Neue Turnhallen",
-        "Das Wettkampfsystem im Turnen",
-        "Neue Trikots",
-        "Die Olympia-Bewerbung"
-      ],
-      "richtig": 1,
-      "erklaerung": "Eine Arbeitsgruppe hat überlegt, wie das Wettkampfsystem im Turnen besser werden kann. Darüber berät der Turntag heute in Frankfurt-Höchst."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Welche Trainingszentren besuchten die Gäste der Spitzensportkonferenz in Stuttgart?",
-      "antworten": [
-        "Kunst-Turn-Forum und Trampolin-Forum",
-        "Olympiastadion und Turnhalle Nord",
-        "Bundesstützpunkt Berlin und Cottbus",
-        "Sportschule Kienbaum"
+        "KTV Koblenz",
+        "Siegerländer KV",
+        "TuS Vinnhorst",
+        "StTV Singen"
       ],
       "richtig": 0,
-      "erklaerung": "Zum Abschluss der Konferenz ging es in das Kunst-Turn-Forum und das Trampolin-Forum in Stuttgart."
+      "erklaerung": "Siegerland verlor gegen Cottbus, Koblenz gewann gegen Singen – damit zog Koblenz noch auf Platz vier."
     },
     {
-      "rubrik": "RSG",
-      "frage": "Für welchen Verein startet die Italienerin Sofia Raffaeli beim DTL-Finale der RSG?",
+      "rubrik": "DTL",
+      "frage": "Welche zwei Teams turnen beim DTL-Finale der Männer um den Meistertitel?",
       "antworten": [
-        "TSV Schmiden",
-        "Team Berlin",
-        "TSV Nürnberg",
-        "TSV Bayer 04 Leverkusen"
+        "Saar und Koblenz",
+        "Straubenhardt und Cottbus",
+        "Cottbus und Saar",
+        "Straubenhardt und Siegerland"
+      ],
+      "richtig": 1,
+      "erklaerung": "Straubenhardt und Cottbus haben beide 12 Punkte und treffen im Titelendkampf aufeinander. Saar und Koblenz turnen um Bronze."
+    },
+    {
+      "rubrik": "DTL",
+      "frage": "Wer wurde Meister der Südstaffel in der 2. Bundesliga Männer?",
+      "antworten": [
+        "TSV Pfuhl",
+        "TSV Monheim",
+        "TG Hanauerland",
+        "Exquisa Oberbayern"
       ],
       "richtig": 3,
-      "erklaerung": "Sofia Raffaeli turnt für Leverkusen. Im großen Finale trifft Leverkusen auf den TSV Schmiden mit Olympiasiegerin Darja Varfolomeev."
+      "erklaerung": "Drei Teams hatten 12 Punkte. Exquisa Oberbayern hatte die meisten Gerätepunkte und ist Meister."
     },
     {
       "rubrik": "INT",
-      "frage": "Wo findet die Junioren-WM im Gerätturnen 2027 statt?",
+      "frage": "Wie werden die Übungen beim neuen MAG Online European Club Cup bewertet?",
       "antworten": [
-        "In Kairo (Ägypten)",
-        "In Chengdu (China)",
-        "In Baku (Aserbaidschan)",
-        "In Cottbus"
+        "Die Turner reisen zu einem Turnier",
+        "Die Übungen werden gefilmt und online bewertet",
+        "Nur die Trainer vergeben Noten",
+        "Es zählt nur die Zeit"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Vereine filmen ihre Turner in der eigenen Halle, Kampfrichter bewerten die Videos über eine App."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Wie viele WM-Medaillen hat Simone Biles gewonnen – mehr als jeder andere Turner?",
+      "antworten": [
+        "30",
+        "18",
+        "11",
+        "25"
       ],
       "richtig": 0,
-      "erklaerung": "Die Junioren-WM ist vom 26. bis 31. Oktober 2027 in Kairo. Die WM der Großen ist kurz davor in Chengdu."
+      "erklaerung": "Simone Biles aus den USA hat 30 WM-Medaillen und 11 Olympia-Medaillen gewonnen."
     },
     {
-      "rubrik": "INT",
-      "frage": "Wer wurde 2004 in Athen Olympiasieger am Reck?",
+      "rubrik": "DE",
+      "frage": "Nach welcher deutschen Turnerin ist ein Element am Stufenbarren benannt?",
       "antworten": [
-        "Fabian Hambüchen",
-        "Igor Cassina",
-        "Kohei Uchimura",
-        "Epke Zonderland"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der Italiener Igor Cassina gewann 2004 Gold am Reck. Ein Element am Reck trägt sogar seinen Namen: der Cassina."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "An welchem Gerät turnt man einen „Diamidov“?",
-      "antworten": [
-        "Reck",
-        "Ringe",
-        "Barren",
-        "Boden"
+        "Pauline Schäfer-Betz",
+        "Helen Kevric",
+        "Elisabeth Seitz",
+        "Anna Dogonadze"
       ],
       "richtig": 2,
-      "erklaerung": "Der Diamidov ist eine Drehung um einen Arm in den Handstand am Barren. Er ist nach dem sowjetischen Turner Sergei Diamidov benannt."
+      "erklaerung": "Das Element „Seitz“ am Stufenbarren trägt den Namen von Elisabeth Seitz. Nach Pauline Schäfer-Betz ist ein Element am Balken benannt."
     },
     {
-      "rubrik": "DE",
-      "frage": "Wie groß ist die Bodenfläche bei internationalen Wettkämpfen?",
+      "rubrik": "DTL",
+      "frage": "Was bedeutet in der Bundesliga „Titelendkampf“?",
       "antworten": [
-        "10 × 10 Meter",
-        "12 × 12 Meter",
-        "14 × 14 Meter",
-        "15 × 12 Meter"
+        "Der Kampf um den Klassenerhalt",
+        "Das Finale um die Deutsche Mannschaftsmeisterschaft",
+        "Der erste Wettkampftag der Saison",
+        "Ein Wettkampf nur am Reck"
       ],
       "richtig": 1,
-      "erklaerung": "Die Bodenfläche ist 12 mal 12 Meter groß. Wer mit dem Fuß über die Linie tritt, bekommt Abzug."
+      "erklaerung": "Beim DTL-Finale turnen die beiden besten Teams im Titelendkampf um die Meisterschaft, die anderen beiden um Bronze."
     },
     {
       "rubrik": "DE",
-      "frage": "Wie hoch ist der Sprungtisch bei den Männern im internationalen Turnen?",
+      "frage": "Wie heißt das Halteteil an den Ringen, bei dem der Turner mit seitlich ausgestreckten Armen still hängt?",
       "antworten": [
-        "1,10 Meter",
-        "1,25 Meter",
-        "1,45 Meter",
-        "1,35 Meter"
+        "Kreuzhang",
+        "Schwalbe",
+        "Handstand",
+        "Kippe"
       ],
-      "richtig": 3,
-      "erklaerung": "Bei den Männern steht der Sprungtisch auf 1,35 Metern, bei den Frauen auf 1,25 Metern. In der AK 12 springst du über 1,20 oder 1,25 Meter."
+      "richtig": 0,
+      "erklaerung": "Beim Kreuzhang (kurz „Kreuz“) sieht der Turner von vorn aus wie ein Kreuz. Das braucht sehr viel Kraft."
     },
     {
       "rubrik": "NW",
-      "frage": "Ein Turner der AK 10 will in der AK 11/12 beim Deutschlandpokal starten. Wie viele Punkte braucht er dafür im Vorjahr beim Deutschlandpokal (AK 9)?",
+      "frage": "Pflicht AK 11/12, Boden Teil 2a: Mit welcher Drehung endet der Strecksprung nach der Sprungrolle?",
       "antworten": [
-        "Mindestens 50,00",
-        "Mindestens 52,00",
-        "Mindestens 54,00",
-        "Mindestens 58,00"
+        "1/2 Drehung",
+        "3/8 Drehung",
+        "1/1 Drehung",
+        "Ganz ohne Drehung"
       ],
-      "richtig": 2,
-      "erklaerung": "Laut den Regeln zur DTB-Pflicht darf ein Turner der AK 10 hochstarten, wenn er im Vorjahr beim Deutschlandpokal mindestens 54,00 Punkte hatte."
+      "richtig": 1,
+      "erklaerung": "Nach der Sprungrolle vorwärts kommt sofort ein Strecksprung mit 3/8 Drehung links in den Stand."
     }
   ],
   "kampfrichter": {
-    "titel": "Ein C-Teil in der Kür der AK 12",
-    "situation": "Ein Turner der AK 12 zeigt bei den Deutschen Jugendmeisterschaften seine Kür am Barren. Für die Elementgruppe II turnt er ein C-Teil, ohne grobe Fehler.",
-    "frage": "Was bringt ihm das C-Teil für die Elementgruppe II?",
+    "titel": "Bonus-Salto mit großem Fehler",
+    "situation": "Ein Turner der AK 11 zeigt am Boden das Bonusteil 1b: Rondat, Flick-Flack und Salto rückwärts gestreckt mit ganzer Schraube. Bei der Landung des Saltos ziehen die Kampfrichter einen großen Fehler (0,5) ab.",
+    "frage": "Wie viel ist der Salto jetzt wert?",
     "antworten": [
-      "Nichts – er braucht ein D-Teil",
-      "0,3 Punkte",
-      "0,5 Punkte – die Gruppe ist erfüllt",
-      "1,0 Punkte"
+      "1,9 Punkte – Bonus ist Bonus",
+      "1,4 Punkte",
+      "0 Punkte",
+      "0,5 Punkte"
     ],
-    "richtig": 2,
-    "erklaerung": "In der AK 12 erfüllt ein Turner die Elementgruppen II und III (am Boden auch IV) schon mit einem C-Teil. Jede erfüllte Gruppe bringt 0,5 Punkte."
+    "richtig": 1,
+    "erklaerung": "Ein Bonusteil zählt nur voll, wenn kein großer Fehler abgezogen wird und der Turner nicht stürzt. Sonst ist es 0,5 weniger wert: Der Salto zählt dann 1,4 statt 1,9 – so viel wie der gebückte Salto aus 1a."
   },
   "lexikon": [
     {
@@ -1125,9 +1057,27 @@
     {
       "begriff": "Titelendkampf",
       "erklaerung": "Im DTL-Finale turnen die zwei besten Teams der Saison direkt gegeneinander um die Deutsche Mannschaftsmeisterschaft. Die anderen beiden kämpfen um Platz drei."
+    },
+    {
+      "begriff": "Kreuzhang",
+      "erklaerung": "Ein Halteteil an den Ringen: Der Turner hängt still mit seitlich ausgestreckten Armen – von vorn sieht er aus wie ein Kreuz."
+    },
+    {
+      "begriff": "Südstaffel",
+      "erklaerung": "Die 2. und 3. Bundesliga sind in zwei Gruppen geteilt: Nord und Süd. In der Südstaffel turnen vor allem Vereine aus dem Süden Deutschlands."
     }
   ],
   "quizGestellt": [
+    "Saar Straubenhardt 26:45",
+    "Koblenz viertes Finalticket",
+    "Titelendkampf Straubenhardt Cottbus",
+    "2. BL Süd Meister Oberbayern",
+    "Online Club Cup Bewertung per Video",
+    "Biles 30 WM-Medaillen",
+    "Seitz Stufenbarren Element",
+    "Titelendkampf Bedeutung",
+    "Kreuzhang Ringe",
+    "Boden 2a Strecksprung 3/8 Drehung AK 11/12",
     "U16 Troyes sechs Turner",
     "Turntag Arbeitsgruppe Wettkampfsystem",
     "Kunst-Turn-Forum Trampolin-Forum Stuttgart",
@@ -1290,6 +1240,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Boden Bonus 1b großer Fehler 1,4 AK 11/12",
     "Kür AK 12 Elementgruppe C-Teil 0,5",
     "Bonusteil Pilz 1,0 halbes Gerät AK 11/12",
     "Standbonus Füße zu weit offen AK 11/12",
