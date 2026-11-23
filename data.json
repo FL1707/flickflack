@@ -1,80 +1,96 @@
 {
-  "aktualisiert": "2026-11-22T05:39:36+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-22",
-  "gruss": "Guten Morgen! Die Bundesliga-Saison der Männer ist vorbei: Straubenhardt und Cottbus turnen am Samstag in Heidelberg um den Meistertitel, Koblenz hat sich das letzte Finalticket geschnappt. Und in der 2. Bundesliga gab es im Süden eine dicke Überraschung.",
-  "quizId": "2026-11-22",
+  "aktualisiert": "2026-11-23T05:39:57+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-23",
+  "gruss": "Guten Morgen und einen guten Start in die Woche! Am Samstag ist DTL-Finale: In Heidelberg turnen Männer und Frauen um die Meisterschaft, in Berlin die RSG-Teams. Unsere Turnerin der Woche ist eine, die dort dabei ist: Olympiasiegerin Darja Varfolomeev.",
+  "quizId": "2026-11-23",
   "zahlDesTages": {
-    "zahl": "90",
-    "text": "Scorepunkte sammelte Radomyr Stelmakh vom SC Cottbus in dieser Saison der 1. Bundesliga Männer – so viele wie kein anderer Turner. Am letzten Wettkampftag kamen noch einmal 14 dazu."
+    "zahl": "1,70",
+    "text": "Punkte lagen am Sonntag beim Aufstiegswettkampf der Frauen zwischen dem TV Ichenheim und dem TSV Pfuhl. Knapp – aber beide Teams steigen gemeinsam in die Regionalliga auf."
   },
   "turnerDerWoche": {
-    "name": "Lukas Dauser",
-    "land": "Deutschland · TSV Unterhaching",
-    "sparte": "Turnen",
-    "text": "Er ist einer der besten Barrenturner der Welt: Olympia-Silber in Tokio und Weltmeister 2023. Acht Jahre lang trainierte er in Berlin – und ein Barren-Element trägt sogar seinen Namen.",
+    "name": "Darja Varfolomeev",
+    "land": "Deutschland · TSV Schmiden",
+    "sparte": "Rhythmische Sportgymnastik",
+    "text": "Sie ist Olympiasiegerin und die erfolgreichste deutsche Gymnastin aller Zeiten. Am Samstag turnt sie mit dem TSV Schmiden in Berlin um die Deutsche Mannschaftsmeisterschaft.",
     "profil": {
-      "geboren": "1993-06-15",
-      "geburtsort": "Ebersberg (Bayern)",
+      "geboren": "2006-11-04",
+      "geburtsort": "Barnaul (Russland)",
       "nation": "Deutschland",
-      "verein": "TSV Unterhaching",
-      "sparte": "Turnen",
-      "paradegeraet": "Barren",
+      "verein": "TSV Schmiden",
+      "trainer": "Julija Raskina",
+      "sparte": "Rhythmische Sportgymnastik",
+      "paradegeraet": "Band",
       "erfolge": [
-        "Olympia-Silber am Barren bei den Spielen von Tokio (2021)",
-        "Weltmeister am Barren 2023 in Antwerpen (15,400 Punkte)",
-        "WM-Silber am Barren 2022 in Liverpool",
-        "Vize-Europameister 2017",
-        "Deutscher Mehrkampfmeister 2017",
-        "Deutschlands Sportler des Jahres 2023"
+        "Olympiasiegerin im Mehrkampf 2024 in Paris – als erste Deutsche in der Rhythmischen Sportgymnastik",
+        "Fünfmal Weltmeisterin 2023 in Valencia (Mehrkampf, Reifen, Ball, Keulen, Band)",
+        "Fünfmal Weltmeisterin 2025 in Rio de Janeiro (Mehrkampf, Team, Ball, Keulen, Band)",
+        "Dreimal Weltmeisterin 2026 in Frankfurt am Main (Mehrkampf, Ball, Band), dazu Bronze mit dem Reifen",
+        "Dreimal Europameisterin 2026 in Warna (Mehrkampf, Ball, Band)"
       ],
       "fakten": [
-        "Am Barren gibt es ein Element mit seinem Namen: den „Dauser“. Er zeigte es 2014 zum ersten Mal bei einem Wettkampf, danach kam es als C-Teil ins Wertungsbuch.",
-        "Von 2012 bis 2020 wohnte und trainierte er am Stützpunkt in Berlin.",
-        "2015 wurde er mit der KTV Straubenhardt Deutscher Mannschaftsmeister in der Bundesliga.",
-        "Er war bei drei Olympischen Spielen dabei: 2016 in Rio, 2021 in Tokio und 2024 in Paris.",
-        "Nach dem Barren-Finale in Paris 2024 beendete er seine internationale Karriere."
+        "Mit drei Jahren nahm ihre Mutter sie zum ersten Mal mit in die Turnhalle.",
+        "Mit zwölf Jahren zog sie allein ins Internat am Bundesstützpunkt in Fellbach-Schmiden – damals sprach sie noch kein Deutsch.",
+        "Ihre Trainerin Julija Raskina hat selbst bei Olympia 2000 Silber im Mehrkampf gewonnen.",
+        "2022 holte sie mit den Keulen als erste deutsche Gymnastin seit 1975 einen WM-Titel.",
+        "Fünf WM-Titel bei einer einzigen WM im Einzel hatte vor ihr nur die Russin Jewgenija Kanajewa geschafft."
       ],
       "stationen": [
         {
-          "zeit": "2012–2020",
-          "text": "Training am Stützpunkt in Berlin"
+          "zeit": "2018",
+          "text": "Umzug ins Internat am Bundesstützpunkt Fellbach-Schmiden"
         },
         {
-          "zeit": "2014",
-          "text": "Erste WM in Nanning (China), Platz 8 mit dem Team"
+          "zeit": "2019",
+          "text": "Erste internationale Starts bei der Junioren-WM in Moskau"
         },
         {
-          "zeit": "2016",
-          "text": "Erste Olympische Spiele in Rio de Janeiro"
-        },
-        {
-          "zeit": "2020",
-          "text": "Wechsel an den Stützpunkt Halle"
-        },
-        {
-          "zeit": "2021",
-          "text": "Olympia-Silber am Barren in Tokio"
+          "zeit": "2022",
+          "text": "Erster Weltmeistertitel mit den Keulen in Sofia"
         },
         {
           "zeit": "2023",
-          "text": "Weltmeister am Barren in Antwerpen"
+          "text": "Fünfmal Gold bei der WM in Valencia"
+        },
+        {
+          "zeit": "2024",
+          "text": "Olympiasiegerin im Mehrkampf in Paris"
+        },
+        {
+          "zeit": "2026",
+          "text": "Weltmeisterin im Mehrkampf bei der Heim-WM in Frankfurt"
         }
       ],
       "bild": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lukas_Dauser_%28GER%29_2017.jpg/500px-Lukas_Dauser_%28GER%29_2017.jpg",
-        "seite": "https://commons.wikimedia.org/wiki/File:Lukas_Dauser_(GER)_2017.jpg",
-        "autor": "Martin Rulsch",
-        "lizenz": "CC BY-SA 4.0",
-        "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "hinweis": "Beim Internationalen Deutschen Turnfest 2017 in Berlin"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Darja_Varfolomeev_2025.jpg/500px-Darja_Varfolomeev_2025.jpg",
+        "seite": "https://commons.wikimedia.org/wiki/File:Darja_Varfolomeev_2025.jpg",
+        "autor": "Danielvg.96",
+        "lizenz": "CC BY 4.0",
+        "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "hinweis": "Aufgenommen am 20. November 2025"
       },
       "quellen": [
         "de.wikipedia.org",
-        "commons.wikimedia.org"
+        "commons.wikimedia.org",
+        "dtb.de",
+        "deutsche-turnliga.de"
       ]
     }
   },
   "news": [
+    {
+      "id": "2026-11-22-regionalliga-aufstieg",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-22",
+      "titel": "Ichenheim und Pfuhl steigen in die Regionalliga auf",
+      "teaser": "Beim Qualifikationswettkampf der Frauen in Neuried jubelten am Sonntag gleich zwei Mannschaften.",
+      "text": [
+        "Am Sonntag ging es für sieben Frauen-Mannschaften um zwei Plätze in der Regionalliga. Die Regionalliga ist die Liga direkt unter der 3. Bundesliga. Geturnt wurde in der Riedsporthalle in Neuried in Baden – und der Gastgeber hatte am Ende die Nase vorn.",
+        "Der TV Ichenheim gewann mit 166,90 Punkten. Am Sprung, am Stufenbarren und am Schwebebalken war er die beste Mannschaft. Der TSV Pfuhl wurde mit 165,20 Punkten Zweiter und turnte das beste Ergebnis am Boden. Beide Teams dürfen 2027 in der Regionalliga starten.",
+        "Die KTG Saar und die TG Böckingen auf den Plätzen drei und vier müssen noch hoffen: Sie rücken nach, falls andere Mannschaften auf ihren Startplatz verzichten."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
     {
       "id": "2026-11-22-maenner-finaltag",
       "rubrik": "DTL",
@@ -205,6 +221,37 @@
     }
   ],
   "wettkaempfe": [
+    {
+      "id": "dtl2026-frauen-rl-quali",
+      "name": "Aufstiegswettkampf Regionalliga Frauen",
+      "ort": "Neuried",
+      "von": "2026-11-22",
+      "rubrik": "DTL",
+      "sparte": "Turnen Frauen",
+      "bericht": "Gastgeber TV Ichenheim gewann vor dem TSV Pfuhl – beide steigen in die Regionalliga auf. Sieben Mannschaften waren am Start.",
+      "entscheidungen": [
+        {
+          "titel": "Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "TV Ichenheim",
+              "note": 166.9
+            },
+            {
+              "platz": 2,
+              "name": "TSV Pfuhl",
+              "note": 165.2
+            },
+            {
+              "platz": 3,
+              "name": "KTG Saar",
+              "note": 159.2
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "dtl2026-maenner-wt7",
       "name": "1. Bundesliga Männer – 7. Wettkampftag",
@@ -452,45 +499,11 @@
         }
       ],
       "bis": "2026-11-15"
-    },
-    {
-      "id": "yog2026-mixed",
-      "name": "Olympische Jugendspiele – Mixed-Team-Finale",
-      "ort": "Dakar (Senegal)",
-      "von": "2026-11-11",
-      "rubrik": "INT",
-      "sparte": "Turnen Frauen",
-      "bericht": "Je eine Turnerin und ein Turner pro Team, jeder an einem Gerät. China gewann vor Japan und Israel.",
-      "entscheidungen": [
-        {
-          "titel": "Mixed-Team Finale",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "China",
-              "land": "CHN",
-              "note": 27.832
-            },
-            {
-              "platz": 2,
-              "name": "Japan",
-              "land": "JPN",
-              "note": 25.966
-            },
-            {
-              "platz": 3,
-              "name": "Israel",
-              "land": "ISR",
-              "note": 24.366
-            }
-          ]
-        }
-      ]
     }
   ],
   "liga": {
     "titel": "Deutsche Turnliga 2026",
-    "info": "Stand 21. November – Saisonende in der 1. Bundesliga Männer und Frauen, DTL-Finale am 28. November in Heidelberg",
+    "info": "Stand 22. November – Saisonende in der 1. Bundesliga Männer und Frauen, DTL-Finale am 28. November in Heidelberg",
     "duelle": [
       {
         "liga": "1. BL Männer",
@@ -769,137 +782,137 @@
   "quiz": [
     {
       "rubrik": "DTL",
-      "frage": "Wer gewann am letzten Wettkampftag das Spitzenduell zwischen der TG Saar und der KTV Straubenhardt?",
-      "antworten": [
-        "TG Saar",
-        "Unentschieden",
-        "KTV Straubenhardt",
-        "Der Wettkampf fiel aus"
-      ],
-      "richtig": 2,
-      "erklaerung": "Straubenhardt gewann in Dillingen mit 45:26 Scorepunkten und bleibt Tabellenerster."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Welches Team holte das vierte und letzte Ticket für das DTL-Finale der Männer?",
-      "antworten": [
-        "KTV Koblenz",
-        "Siegerländer KV",
-        "TuS Vinnhorst",
-        "StTV Singen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Siegerland verlor gegen Cottbus, Koblenz gewann gegen Singen – damit zog Koblenz noch auf Platz vier."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Welche zwei Teams turnen beim DTL-Finale der Männer um den Meistertitel?",
-      "antworten": [
-        "Saar und Koblenz",
-        "Straubenhardt und Cottbus",
-        "Cottbus und Saar",
-        "Straubenhardt und Siegerland"
-      ],
-      "richtig": 1,
-      "erklaerung": "Straubenhardt und Cottbus haben beide 12 Punkte und treffen im Titelendkampf aufeinander. Saar und Koblenz turnen um Bronze."
-    },
-    {
-      "rubrik": "DTL",
-      "frage": "Wer wurde Meister der Südstaffel in der 2. Bundesliga Männer?",
+      "frage": "Welche Mannschaft gewann am Sonntag den Aufstiegswettkampf der Frauen in Neuried?",
       "antworten": [
         "TSV Pfuhl",
-        "TSV Monheim",
-        "TG Hanauerland",
-        "Exquisa Oberbayern"
-      ],
-      "richtig": 3,
-      "erklaerung": "Drei Teams hatten 12 Punkte. Exquisa Oberbayern hatte die meisten Gerätepunkte und ist Meister."
-    },
-    {
-      "rubrik": "INT",
-      "frage": "Wie werden die Übungen beim neuen MAG Online European Club Cup bewertet?",
-      "antworten": [
-        "Die Turner reisen zu einem Turnier",
-        "Die Übungen werden gefilmt und online bewertet",
-        "Nur die Trainer vergeben Noten",
-        "Es zählt nur die Zeit"
+        "TV Ichenheim",
+        "KTG Saar",
+        "TG Böckingen"
       ],
       "richtig": 1,
-      "erklaerung": "Die Vereine filmen ihre Turner in der eigenen Halle, Kampfrichter bewerten die Videos über eine App."
+      "erklaerung": "Gastgeber TV Ichenheim gewann mit 166,90 Punkten knapp vor Pfuhl. Beide steigen in die Regionalliga auf."
     },
     {
-      "rubrik": "INT",
-      "frage": "Wie viele WM-Medaillen hat Simone Biles gewonnen – mehr als jeder andere Turner?",
+      "rubrik": "RSG",
+      "frage": "Wie alt war Darja Varfolomeev, als sie allein ins Internat nach Fellbach-Schmiden zog?",
       "antworten": [
-        "30",
-        "18",
-        "11",
-        "25"
-      ],
-      "richtig": 0,
-      "erklaerung": "Simone Biles aus den USA hat 30 WM-Medaillen und 11 Olympia-Medaillen gewonnen."
-    },
-    {
-      "rubrik": "DE",
-      "frage": "Nach welcher deutschen Turnerin ist ein Element am Stufenbarren benannt?",
-      "antworten": [
-        "Pauline Schäfer-Betz",
-        "Helen Kevric",
-        "Elisabeth Seitz",
-        "Anna Dogonadze"
+        "8 Jahre",
+        "10 Jahre",
+        "12 Jahre",
+        "16 Jahre"
       ],
       "richtig": 2,
-      "erklaerung": "Das Element „Seitz“ am Stufenbarren trägt den Namen von Elisabeth Seitz. Nach Pauline Schäfer-Betz ist ein Element am Balken benannt."
+      "erklaerung": "Mit zwölf Jahren zog sie ohne ihre Eltern nach Schmiden – und konnte damals noch kein Deutsch."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Wie viele Goldmedaillen gewann Darja Varfolomeev bei der Heim-WM 2026 in Frankfurt?",
+      "antworten": [
+        "Drei",
+        "Eine",
+        "Fünf",
+        "Keine"
+      ],
+      "richtig": 0,
+      "erklaerung": "Sie wurde Weltmeisterin im Mehrkampf, mit dem Ball und mit dem Band. Mit dem Reifen gab es noch Bronze."
     },
     {
       "rubrik": "DTL",
-      "frage": "Was bedeutet in der Bundesliga „Titelendkampf“?",
+      "frage": "Welches Team turnt beim DTL-Finale der Frauen am Samstag NICHT mit?",
       "antworten": [
-        "Der Kampf um den Klassenerhalt",
-        "Das Finale um die Deutsche Mannschaftsmeisterschaft",
-        "Der erste Wettkampftag der Saison",
-        "Ein Wettkampf nur am Reck"
+        "TG Mannheim",
+        "MTV Stuttgart",
+        "TuS Chemnitz-Altendorf",
+        "TSV Berkheim"
       ],
-      "richtig": 1,
-      "erklaerung": "Beim DTL-Finale turnen die beiden besten Teams im Titelendkampf um die Meisterschaft, die anderen beiden um Bronze."
+      "richtig": 3,
+      "erklaerung": "Im Finale stehen Mannheim, Stuttgart, Chemnitz-Altendorf und Karlsruhe-Söllingen. Berkheim steigt erst jetzt aus der 2. Bundesliga auf."
     },
     {
-      "rubrik": "DE",
-      "frage": "Wie heißt das Halteteil an den Ringen, bei dem der Turner mit seitlich ausgestreckten Armen still hängt?",
+      "rubrik": "INT",
+      "frage": "Wie heißt die letzte Runde beim neuen Online Club Cup der Männer?",
       "antworten": [
-        "Kreuzhang",
-        "Schwalbe",
-        "Handstand",
-        "Kippe"
+        "Super Bowl",
+        "Final 4",
+        "Grand Slam",
+        "Masters"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nach Gruppenphase und K.-o.-Runden turnen die vier besten Vereine im „Final 4“ um den Sieg."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Carl Schuhmann war 1896 in Athen der erfolgreichste Sportler der ersten modernen Olympischen Spiele. In welcher Sportart gewann er außer Turnen noch Gold?",
+      "antworten": [
+        "Schwimmen",
+        "Laufen",
+        "Ringen",
+        "Radfahren"
+      ],
+      "richtig": 2,
+      "erklaerung": "Schuhmann siegte im Pferdsprung, am Barren, am Reck – und im Ringen. Nach ihm ist die Carl-Schuhmann-Medaille des DTB benannt."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "Wer gewann vor Darja Varfolomeev schon einmal bei einer RSG-WM alle fünf Einzeltitel?",
+      "antworten": [
+        "Jewgenija Kanajewa",
+        "Simone Biles",
+        "Nadia Comăneci",
+        "Sofia Raffaeli"
       ],
       "richtig": 0,
-      "erklaerung": "Beim Kreuzhang (kurz „Kreuz“) sieht der Turner von vorn aus wie ein Kreuz. Das braucht sehr viel Kraft."
+      "erklaerung": "Die Russin Jewgenija Kanajewa schaffte das 2009 und 2011. Varfolomeev gelang es 2023 in Valencia."
     },
     {
-      "rubrik": "NW",
-      "frage": "Pflicht AK 11/12, Boden Teil 2a: Mit welcher Drehung endet der Strecksprung nach der Sprungrolle?",
+      "rubrik": "Regeln",
+      "frage": "Wie lange dauert eine Einzelübung in der Rhythmischen Sportgymnastik?",
       "antworten": [
-        "1/2 Drehung",
-        "3/8 Drehung",
-        "1/1 Drehung",
-        "Ganz ohne Drehung"
+        "30 bis 45 Sekunden",
+        "3 bis 4 Minuten",
+        "1:15 bis 1:30 Minuten",
+        "Genau 2 Minuten"
       ],
-      "richtig": 1,
-      "erklaerung": "Nach der Sprungrolle vorwärts kommt sofort ein Strecksprung mit 3/8 Drehung links in den Stand."
+      "richtig": 2,
+      "erklaerung": "Eine Einzelübung dauert 75 bis 90 Sekunden – zur Musik und mit einem Handgerät."
+    },
+    {
+      "rubrik": "Begriffe",
+      "frage": "Was ist ein „Abgang“?",
+      "antworten": [
+        "Das letzte Element, mit dem man das Gerät verlässt",
+        "Ein Fehler beim Anlauf",
+        "Die Pause zwischen zwei Geräten",
+        "Ein Sturz vom Gerät"
+      ],
+      "richtig": 0,
+      "erklaerung": "Mit dem Abgang beendet man die Übung, zum Beispiel mit einem Salto vom Reck. Danach zählt die Landung."
+    },
+    {
+      "rubrik": "Pflicht",
+      "frage": "DTB-Pflicht AK 11/12, 1. Sprung (Überschlag): Wie viel ist der Teil „Abdruck, 2. Flugphase und Landung“ wert?",
+      "antworten": [
+        "2,0 Punkte",
+        "1,0 Punkte",
+        "5,0 Punkte",
+        "7,0 Punkte"
+      ],
+      "richtig": 3,
+      "erklaerung": "Das ist der wertvollste Teil: 7,0 Punkte. Die 1. Flugphase bringt 2,0 und die Sprungrolle 1,0 – zusammen 10,0."
     }
   ],
   "kampfrichter": {
-    "titel": "Bonus-Salto mit großem Fehler",
-    "situation": "Ein Turner der AK 11 zeigt am Boden das Bonusteil 1b: Rondat, Flick-Flack und Salto rückwärts gestreckt mit ganzer Schraube. Bei der Landung des Saltos ziehen die Kampfrichter einen großen Fehler (0,5) ab.",
-    "frage": "Wie viel ist der Salto jetzt wert?",
+    "titel": "Hose über dem Holm",
+    "situation": "Ein Turner der AK 12 zeigt am Barren das Bonusteil 1b. Beim Vorschwung im Hang schwingt er so hoch, dass die Kampfrichter seine ganze Hose oberhalb des Holms sehen. Danach turnt er sauber weiter – nur ein kleiner Fehler (0,1) wird abgezogen.",
+    "frage": "Zählt der Vorschwung als Bonus mit 0,9 Punkten?",
     "antworten": [
-      "1,9 Punkte – Bonus ist Bonus",
-      "1,4 Punkte",
-      "0 Punkte",
-      "0,5 Punkte"
+      "Ja, er zählt mit 0,9",
+      "Nein, er zählt nur 0,4",
+      "Nein, weil ein Fehler abgezogen wurde",
+      "Nur, wenn der Trainer vorher Bescheid sagt"
     ],
-    "richtig": 1,
-    "erklaerung": "Ein Bonusteil zählt nur voll, wenn kein großer Fehler abgezogen wird und der Turner nicht stürzt. Sonst ist es 0,5 weniger wert: Der Salto zählt dann 1,4 statt 1,9 – so viel wie der gebückte Salto aus 1a."
+    "richtig": 0,
+    "erklaerung": "Laut DTB-FAQ ist „die ganze Hose oberhalb des Holms“ die Orientierung für die Hüfte über Holmhöhe. Ein kleiner Fehler stört nicht: Ein Bonusteil zählt voll, solange kein großer Fehler (0,5) abgezogen wird und man nicht stürzt."
   },
   "lexikon": [
     {
@@ -1065,9 +1078,23 @@
     {
       "begriff": "Südstaffel",
       "erklaerung": "Die 2. und 3. Bundesliga sind in zwei Gruppen geteilt: Nord und Süd. In der Südstaffel turnen vor allem Vereine aus dem Süden Deutschlands."
+    },
+    {
+      "begriff": "Regionalliga",
+      "erklaerung": "Die Liga direkt unter der 3. Bundesliga. Wer die Regionalliga gewinnt, darf in die 3. Bundesliga aufsteigen."
     }
   ],
   "quizGestellt": [
+    "Ichenheim Aufstieg Regionalliga Neuried",
+    "Varfolomeev mit zwölf Internat Schmiden",
+    "Varfolomeev WM 2026 drei Gold",
+    "Frauen DTL-Finale vier Teams Berkheim",
+    "Online Club Cup Final 4",
+    "Schuhmann 1896 Ringen",
+    "Kanajewa fünf WM-Titel RSG",
+    "RSG Einzelübung 75 bis 90 s",
+    "Abgang Bedeutung",
+    "Sprung Überschlag 2. Flugphase 7,0 AK 11/12",
     "Saar Straubenhardt 26:45",
     "Koblenz viertes Finalticket",
     "Titelendkampf Straubenhardt Cottbus",
@@ -1240,6 +1267,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Barren 1b Hose über Holm Bonus 0,9 AK 11/12",
     "Boden Bonus 1b großer Fehler 1,4 AK 11/12",
     "Kür AK 12 Elementgruppe C-Teil 0,5",
     "Bonusteil Pilz 1,0 halbes Gerät AK 11/12",
