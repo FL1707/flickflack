@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-23T05:39:57+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-23",
-  "gruss": "Guten Morgen und einen guten Start in die Woche! Am Samstag ist DTL-Finale: In Heidelberg turnen Männer und Frauen um die Meisterschaft, in Berlin die RSG-Teams. Unsere Turnerin der Woche ist eine, die dort dabei ist: Olympiasiegerin Darja Varfolomeev.",
-  "quizId": "2026-11-23",
+  "aktualisiert": "2026-11-24T05:39:07+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-24",
+  "gruss": "Guten Morgen! Die deutschen U16-Turner haben beim Länderkampf in Frankreich Silber gewonnen – nur ganz knapp hinter Großbritannien. Außerdem zeigen wir euch den jüngsten Berliner Turnnachwuchs beim Adventspokal. Und am Samstag ist DTL-Finale!",
+  "quizId": "2026-11-24",
   "zahlDesTages": {
-    "zahl": "1,70",
-    "text": "Punkte lagen am Sonntag beim Aufstiegswettkampf der Frauen zwischen dem TV Ichenheim und dem TSV Pfuhl. Knapp – aber beide Teams steigen gemeinsam in die Regionalliga auf."
+    "zahl": "0,25",
+    "text": "Punkte fehlten den deutschen U16-Turnern beim Fünf-Nationen-Länderkampf in Troyes zum Sieg. Das ist weniger als drei kleine Fehler!"
   },
   "turnerDerWoche": {
     "name": "Darja Varfolomeev",
@@ -77,6 +77,36 @@
     }
   },
   "news": [
+    {
+      "id": "2026-11-24-u16-silber-troyes",
+      "rubrik": "NW",
+      "motiv": "team",
+      "datum": "2026-11-21",
+      "titel": "U16-Turner holen Silber in Frankreich",
+      "teaser": "Beim Fünf-Nationen-Länderkampf in Troyes fehlte der deutschen Mannschaft nur eine Winzigkeit zum Sieg.",
+      "text": [
+        "Am Samstag haben die besten deutschen Nachwuchsturner der U16 in Troyes (Frankreich) einen Länderkampf geturnt. Gegner waren die Teams aus Frankreich, Großbritannien, Italien und der Schweiz. Am Ende stand ein starker zweiter Platz – nur 0,25 Punkte hinter den Briten. Bronze ging an die Gastgeber aus Frankreich.",
+        "Im Team waren sechs Turner aus ganz Deutschland, darunter auch James Zinzen vom SC Berlin. Bester Deutscher im Mehrkampf war Louis Kasper (VT Rinteln) auf Platz fünf.",
+        "Los ging es am Boden und am Pauschenpferd, und dort turnten die Deutschen sehr stark. Auch Ringe, Sprung und Barren liefen gut. Nur am Reck, dem letzten Gerät, ging es schief: Die beiden schwersten Übungen wurden verturnt.",
+        "Nachwuchs-Bundestrainer Robert Hirsch war trotzdem stolz: „Die Jungs haben einen super Wettkampf geturnt, der bis zur letzten Übung offen war.“"
+      ],
+      "quelle": "dtb.de"
+    },
+    {
+      "id": "2026-11-24-adventspokal-berlin",
+      "rubrik": "BER",
+      "motiv": "kalender",
+      "datum": "2026-11-14",
+      "titel": "Adventspokal: Berlins Jüngste zeigen, was sie können",
+      "teaser": "62 Nachwuchsturner aus Berlin und Falkensee waren beim Adventspokal in der Gretel-Bergmann-Sporthalle dabei.",
+      "text": [
+        "Beim Berliner Adventspokal ging es um die ganz jungen Turner: Kinder der Altersklassen 3 bis 6. Insgesamt waren 62 Jungen am Start, die meisten davon aus der AK 5 und AK 6.",
+        "Mit dabei waren die Turn-Talentschulen Berlin, Hohenschönhausen und Salto. Zum ersten Mal kam auch der TSV Falkensee aus Brandenburg dazu – darüber freute sich der Berliner Verband besonders.",
+        "Geturnt wurde nicht an allen Geräten wie bei den Großen. Alle machten einen Motorik-Test: Dabei wird geschaut, wie schnell, kräftig und geschickt ein Kind ist. Die AK 5 und 6 zeigten außerdem ihre Technischen Grundlagen. Die Siege teilten sich die Talentschulen Hohenschönhausen, Salto und Berlin.",
+        "Der BTFB schreibt: Es ging nicht nur um Plätze, sondern darum, wie sich jedes Kind entwickelt. Für viele war es der allererste Wettkampf."
+      ],
+      "quelle": "btfb.de"
+    },
     {
       "id": "2026-11-22-regionalliga-aufstieg",
       "rubrik": "DTL",
@@ -189,35 +219,6 @@
         "Gezeigt wird alles im Horst-Korber-Sportzentrum. Schon mittags gibt es zum ersten Mal einen Nachwuchspokal für junge Gymnastinnen. Am Nachmittag kämpfen Juniorinnen-Gruppen um die Fahrkarte zur EM 2027 in Pamplona (Spanien) – darunter die Gruppe vom Bundesstützpunkt Berlin, die in diesem Jahr Deutscher Meister wurde."
       ],
       "quelle": "deutsche-turnliga.de, btfb.de"
-    },
-    {
-      "id": "2026-11-17-wm-2027",
-      "rubrik": "INT",
-      "motiv": "kalender",
-      "datum": "2027-09-29",
-      "titel": "Turn-WM 2027 findet in China statt",
-      "teaser": "Der Kalender des Weltverbands verrät die großen Termine für das nächste Jahr.",
-      "text": [
-        "Die Weltmeisterschaften im Gerätturnen 2027 finden in Chengdu (China) statt – vom 29. September bis 8. Oktober. Das steht im Wettkampfkalender des Weltturnverbands.",
-        "Gute Nachricht für Fans in Deutschland: Der Weltcup in Cottbus ist dort für den 25. bis 28. Februar 2027 eingetragen. Im Oktober 2027 gibt es in Cottbus außerdem einen Weltcup im Trampolin.",
-        "Auch der Nachwuchs hat ein großes Ziel: Die Junioren-WM im Gerätturnen ist vom 26. bis 31. Oktober 2027 in Kairo (Ägypten). Die WM der Rhythmischen Sportgymnastik ist im September in Baku (Aserbaidschan)."
-      ],
-      "quelle": "gymnastics.sport"
-    },
-    {
-      "id": "2026-11-16-nanjing-bilanz",
-      "rubrik": "TRA",
-      "motiv": "trampolin",
-      "datum": "2026-11-15",
-      "titel": "Trampolin-WM: Zweimal Bronze zum Abschluss",
-      "teaser": "Nach den Mädchen der AK 11/12 jubelte auch ein Synchron-Paar der ältesten Klasse über Platz drei.",
-      "text": [
-        "In Nanjing (China) sind die Trampolin-Weltmeisterschaften und die World Age Group Competition zu Ende. Das deutsche Team fährt mit zwei Bronzemedaillen nach Hause – beide im Synchronspringen. Zuerst sprang ein Mädchen-Duo der AK 11/12 aufs Treppchen.",
-        "Dann folgten Janis-Luca Braun (MTV Stuttgart) und Adrian Thomson (TG Münster) in der Altersklasse 17 bis 21. Die beiden sprangen zum ersten Mal zusammen. In der Qualifikation schafften sie als Achte gerade so den Einzug ins Finale. Dort steigerten sie sich um mehr als drei Punkte und holten Bronze.",
-        "Ganz zufrieden war Bundestrainerin Katarina Prokesova nicht, denn einige Springer machten Fehler und schieden früh aus. Über die Medaillen sagte sie: „Mit zwei Medaillen können wir noch einen großen Trost mitnehmen.“ Am stärksten war China mit 18 Medaillen in den Nachwuchsklassen.",
-        "Eine gute Nachricht gab es auch auf dem Doppel-Mini-Trampolin: Die deutschen Frauen und Männer haben je einen Startplatz für die European Games 2027 in Istanbul gesichert."
-      ],
-      "quelle": "dtb.de"
     }
   ],
   "wettkaempfe": [
@@ -247,6 +248,38 @@
               "platz": 3,
               "name": "KTG Saar",
               "note": 159.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u16-laenderkampf-troyes-2026",
+      "name": "Fünf-Nationen-Länderkampf U16",
+      "ort": "Troyes (Frankreich)",
+      "von": "2026-11-21",
+      "rubrik": "NW",
+      "sparte": "Turnen Männer",
+      "bericht": "Die deutschen U16-Turner wurden Zweite – nur 0,25 Punkte hinter Großbritannien. Am Reck wurden die zwei schwersten Übungen verturnt. Bester Deutscher im Mehrkampf war Louis Kasper (VT Rinteln) auf Platz fünf mit 72,650 Punkten.",
+      "entscheidungen": [
+        {
+          "titel": "Mannschaft",
+          "podium": [
+            {
+              "platz": 1,
+              "name": "Großbritannien",
+              "land": "GBR"
+            },
+            {
+              "platz": 2,
+              "name": "Deutschland",
+              "land": "GER"
+            },
+            {
+              "platz": 3,
+              "name": "Frankreich",
+              "land": "FRA",
+              "note": 288.4
             }
           ]
         }
@@ -395,110 +428,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "wagc2026-nanjing-1112",
-      "name": "Trampolin: World Age Group Competition – Finals",
-      "ort": "Nanjing (China)",
-      "von": "2026-11-12",
-      "rubrik": "TRA",
-      "sparte": "Trampolin",
-      "bericht": "Die Nachwuchs-Finals im Einzel und im Synchron (hier die AK 11/12 – wegen des Datenschutzes mit Ländern statt Namen). Deutschland holte zweimal Bronze im Synchron: bei den Mädchen der AK 11/12 und bei den Turnern der AK 17–21.",
-      "entscheidungen": [
-        {
-          "titel": "Synchron Mädchen AK 11/12",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "China",
-              "land": "CHN",
-              "note": 46.04
-            },
-            {
-              "platz": 2,
-              "name": "Russland",
-              "land": "RUS",
-              "note": 45.44
-            },
-            {
-              "platz": 3,
-              "name": "Deutschland",
-              "land": "GER",
-              "note": 44.66
-            }
-          ]
-        },
-        {
-          "titel": "Synchron Jungen AK 11/12",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Russland",
-              "land": "RUS",
-              "note": 47.75
-            },
-            {
-              "platz": 2,
-              "name": "China",
-              "land": "CHN",
-              "note": 47.24
-            },
-            {
-              "platz": 3,
-              "name": "Usbekistan",
-              "land": "UZB",
-              "note": 44.76
-            }
-          ]
-        },
-        {
-          "titel": "Einzel Mädchen AK 11/12",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "China",
-              "land": "CHN",
-              "note": 52.01
-            },
-            {
-              "platz": 2,
-              "name": "China",
-              "land": "CHN",
-              "note": 51.57
-            },
-            {
-              "platz": 3,
-              "name": "Belarus",
-              "land": "BLR",
-              "note": 50.39
-            }
-          ]
-        },
-        {
-          "titel": "Einzel Jungen AK 11/12",
-          "podium": [
-            {
-              "platz": 1,
-              "name": "Belarus",
-              "land": "BLR",
-              "note": 53.52
-            },
-            {
-              "platz": 2,
-              "name": "China",
-              "land": "CHN",
-              "note": 53.48
-            },
-            {
-              "platz": 3,
-              "name": "China",
-              "land": "CHN",
-              "note": 52.27
-            }
-          ]
-        }
-      ],
-      "bis": "2026-11-15"
     }
   ],
   "liga": {
@@ -664,13 +593,6 @@
   },
   "termine": [
     {
-      "name": "MAG Online European Club Cup – Start",
-      "von": "2026-11-23",
-      "ebene": "international",
-      "sparte": "Turnen",
-      "info": "Neuer Online-Europapokal für bis zu 32 Männer-Vereine: Übungen werden in der eigenen Halle gefilmt. Final 4 nach Gruppenphase und K.-o.-Runden."
-    },
-    {
       "name": "DTL-Finale Rhythmische Sportgymnastik",
       "ort": "Berlin, Horst-Korber-Sportzentrum",
       "von": "2026-11-28",
@@ -781,138 +703,138 @@
   ],
   "quiz": [
     {
-      "rubrik": "DTL",
-      "frage": "Welche Mannschaft gewann am Sonntag den Aufstiegswettkampf der Frauen in Neuried?",
+      "rubrik": "NW",
+      "frage": "Welchen Platz belegten die deutschen U16-Turner beim Länderkampf in Troyes?",
       "antworten": [
-        "TSV Pfuhl",
-        "TV Ichenheim",
-        "KTG Saar",
-        "TG Böckingen"
-      ],
-      "richtig": 1,
-      "erklaerung": "Gastgeber TV Ichenheim gewann mit 166,90 Punkten knapp vor Pfuhl. Beide steigen in die Regionalliga auf."
-    },
-    {
-      "rubrik": "RSG",
-      "frage": "Wie alt war Darja Varfolomeev, als sie allein ins Internat nach Fellbach-Schmiden zog?",
-      "antworten": [
-        "8 Jahre",
-        "10 Jahre",
-        "12 Jahre",
-        "16 Jahre"
+        "Platz eins",
+        "Platz drei",
+        "Platz zwei",
+        "Platz fünf"
       ],
       "richtig": 2,
-      "erklaerung": "Mit zwölf Jahren zog sie ohne ihre Eltern nach Schmiden – und konnte damals noch kein Deutsch."
+      "erklaerung": "Deutschland wurde Zweiter von fünf Mannschaften – nur 0,25 Punkte fehlten zum Sieg."
     },
     {
-      "rubrik": "RSG",
-      "frage": "Wie viele Goldmedaillen gewann Darja Varfolomeev bei der Heim-WM 2026 in Frankfurt?",
+      "rubrik": "NW",
+      "frage": "Welches Team gewann den U16-Länderkampf in Troyes?",
       "antworten": [
-        "Drei",
-        "Eine",
-        "Fünf",
-        "Keine"
+        "Großbritannien",
+        "Frankreich",
+        "Italien",
+        "Schweiz"
       ],
       "richtig": 0,
-      "erklaerung": "Sie wurde Weltmeisterin im Mehrkampf, mit dem Ball und mit dem Band. Mit dem Reifen gab es noch Bronze."
+      "erklaerung": "Die Briten gewannen ganz knapp vor Deutschland. Gastgeber Frankreich holte Bronze."
     },
     {
-      "rubrik": "DTL",
-      "frage": "Welches Team turnt beim DTL-Finale der Frauen am Samstag NICHT mit?",
+      "rubrik": "NW",
+      "frage": "An welchem Gerät lief es für die deutschen U16-Turner in Troyes nicht rund?",
       "antworten": [
-        "TG Mannheim",
-        "MTV Stuttgart",
-        "TuS Chemnitz-Altendorf",
-        "TSV Berkheim"
+        "Boden",
+        "Pauschenpferd",
+        "Barren",
+        "Reck"
       ],
       "richtig": 3,
-      "erklaerung": "Im Finale stehen Mannheim, Stuttgart, Chemnitz-Altendorf und Karlsruhe-Söllingen. Berkheim steigt erst jetzt aus der 2. Bundesliga auf."
+      "erklaerung": "Am Reck wurden die beiden schwersten Übungen verturnt. An den anderen Geräten lief es gut."
     },
     {
-      "rubrik": "INT",
-      "frage": "Wie heißt die letzte Runde beim neuen Online Club Cup der Männer?",
+      "rubrik": "BER",
+      "frage": "Welcher Verein war beim Berliner Adventspokal zum ersten Mal dabei?",
       "antworten": [
-        "Super Bowl",
-        "Final 4",
-        "Grand Slam",
-        "Masters"
+        "SC Berlin",
+        "TSV Falkensee",
+        "TSG Berlin Steglitz",
+        "SC Cottbus"
       ],
       "richtig": 1,
-      "erklaerung": "Nach Gruppenphase und K.-o.-Runden turnen die vier besten Vereine im „Final 4“ um den Sieg."
+      "erklaerung": "Der TSV Falkensee aus Brandenburg war erstmals dabei – neben drei Berliner Turn-Talentschulen."
     },
     {
-      "rubrik": "Geschichte",
-      "frage": "Carl Schuhmann war 1896 in Athen der erfolgreichste Sportler der ersten modernen Olympischen Spiele. In welcher Sportart gewann er außer Turnen noch Gold?",
+      "rubrik": "BER",
+      "frage": "Wie viele junge Turner waren beim Berliner Adventspokal am Start?",
       "antworten": [
-        "Schwimmen",
-        "Laufen",
-        "Ringen",
-        "Radfahren"
+        "26",
+        "42",
+        "62",
+        "126"
       ],
       "richtig": 2,
-      "erklaerung": "Schuhmann siegte im Pferdsprung, am Barren, am Reck – und im Ringen. Nach ihm ist die Carl-Schuhmann-Medaille des DTB benannt."
+      "erklaerung": "62 Kinder turnten mit, die meisten in den Altersklassen 5 und 6."
     },
     {
       "rubrik": "Geschichte",
-      "frage": "Wer gewann vor Darja Varfolomeev schon einmal bei einer RSG-WM alle fünf Einzeltitel?",
+      "frage": "Welcher deutsche Turner gewann 2010 und 2011 WM-Silber im Mehrkampf?",
       "antworten": [
-        "Jewgenija Kanajewa",
-        "Simone Biles",
-        "Nadia Comăneci",
-        "Sofia Raffaeli"
+        "Fabian Hambüchen",
+        "Andreas Toba",
+        "Marcel Nguyen",
+        "Philipp Boy"
+      ],
+      "richtig": 3,
+      "erklaerung": "Philipp Boy aus Cottbus wurde zweimal Vize-Weltmeister im Mehrkampf – beide Male hinter dem Japaner Kohei Uchimura."
+    },
+    {
+      "rubrik": "Geschichte",
+      "frage": "An welchem Gerät ist der „Tkatschow“ ein berühmtes Flugelement?",
+      "antworten": [
+        "Reck",
+        "Ringe",
+        "Pauschenpferd",
+        "Boden"
       ],
       "richtig": 0,
-      "erklaerung": "Die Russin Jewgenija Kanajewa schaffte das 2009 und 2011. Varfolomeev gelang es 2023 in Valencia."
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie lange dauert eine Einzelübung in der Rhythmischen Sportgymnastik?",
-      "antworten": [
-        "30 bis 45 Sekunden",
-        "3 bis 4 Minuten",
-        "1:15 bis 1:30 Minuten",
-        "Genau 2 Minuten"
-      ],
-      "richtig": 2,
-      "erklaerung": "Eine Einzelübung dauert 75 bis 90 Sekunden – zur Musik und mit einem Handgerät."
+      "erklaerung": "Beim Tkatschow lässt der Turner die Reckstange los, fliegt rückwärts über sie hinweg und greift wieder. Benannt ist er nach Alexander Tkatschow."
     },
     {
       "rubrik": "Begriffe",
-      "frage": "Was ist ein „Abgang“?",
+      "frage": "Was ist ein Flick-Flack?",
       "antworten": [
-        "Das letzte Element, mit dem man das Gerät verlässt",
-        "Ein Fehler beim Anlauf",
-        "Die Pause zwischen zwei Geräten",
-        "Ein Sturz vom Gerät"
+        "Ein Salto vorwärts",
+        "Ein Handstütz-Überschlag rückwärts",
+        "Eine Drehung am Pauschenpferd",
+        "Ein Sprung in den Spagat"
       ],
-      "richtig": 0,
-      "erklaerung": "Mit dem Abgang beendet man die Übung, zum Beispiel mit einem Salto vom Reck. Danach zählt die Landung."
+      "richtig": 1,
+      "erklaerung": "Beim Flick-Flack springt man rückwärts in den Handstütz und überschlägt sich wieder auf die Füße. Unsere App ist danach benannt!"
+    },
+    {
+      "rubrik": "Regeln",
+      "frage": "Wie viele Sprünge zeigen Männer im Gerätefinale Sprung?",
+      "antworten": [
+        "Einen",
+        "Drei",
+        "Zwei",
+        "Vier"
+      ],
+      "richtig": 2,
+      "erklaerung": "Im Sprungfinale zeigt jeder Turner zwei verschiedene Sprünge. Beide Noten werden gemittelt."
     },
     {
       "rubrik": "Pflicht",
-      "frage": "DTB-Pflicht AK 11/12, 1. Sprung (Überschlag): Wie viel ist der Teil „Abdruck, 2. Flugphase und Landung“ wert?",
+      "frage": "Wie viele Punkte ist beim Rondatsprung der AK 11/12 der Sprungüberschlag rückwärts wert?",
       "antworten": [
-        "2,0 Punkte",
-        "1,0 Punkte",
-        "5,0 Punkte",
-        "7,0 Punkte"
+        "1,0",
+        "2,0",
+        "4,0",
+        "3,0"
       ],
       "richtig": 3,
-      "erklaerung": "Das ist der wertvollste Teil: 7,0 Punkte. Die 1. Flugphase bringt 2,0 und die Sprungrolle 1,0 – zusammen 10,0."
+      "erklaerung": "Der Handstütz-Sprungüberschlag rückwärts auf den Mattenaufbau ist 3,0 Punkte wert. Das Kurbet danach bringt 4,0."
     }
   ],
   "kampfrichter": {
-    "titel": "Hose über dem Holm",
-    "situation": "Ein Turner der AK 12 zeigt am Barren das Bonusteil 1b. Beim Vorschwung im Hang schwingt er so hoch, dass die Kampfrichter seine ganze Hose oberhalb des Holms sehen. Danach turnt er sauber weiter – nur ein kleiner Fehler (0,1) wird abgezogen.",
-    "frage": "Zählt der Vorschwung als Bonus mit 0,9 Punkten?",
+    "titel": "Kurze Pause am Reck",
+    "situation": "Ein Turner der AK 11 turnt seine Pflichtübung am Reck. Mitten in der Übung hält er an, hängt kurz still und überlegt, was als Nächstes kommt. Dann turnt er sauber weiter bis zum Abgang.",
+    "frage": "Was ziehen die Kampfrichter für diese Unterbrechung ab?",
     "antworten": [
-      "Ja, er zählt mit 0,9",
-      "Nein, er zählt nur 0,4",
-      "Nein, weil ein Fehler abgezogen wurde",
-      "Nur, wenn der Trainer vorher Bescheid sagt"
+      "0,1 – ein kleiner Fehler",
+      "0,3 – ein mittlerer Fehler",
+      "0,5 für den Übungshalt",
+      "1,0 wie bei einem Sturz"
     ],
-    "richtig": 0,
-    "erklaerung": "Laut DTB-FAQ ist „die ganze Hose oberhalb des Holms“ die Orientierung für die Hüfte über Holmhöhe. Ein kleiner Fehler stört nicht: Ein Bonusteil zählt voll, solange kein großer Fehler (0,5) abgezogen wird und man nicht stürzt."
+    "richtig": 2,
+    "erklaerung": "Eine Unterbrechung der Übung ist ein Übungshalt. Dafür gibt es laut DTB-Pflicht 0,5 Punkte Abzug. 1,0 Punkte gibt es nur, wenn man vom Gerät fällt oder auf das Gerät fällt."
   },
   "lexikon": [
     {
@@ -1082,9 +1004,27 @@
     {
       "begriff": "Regionalliga",
       "erklaerung": "Die Liga direkt unter der 3. Bundesliga. Wer die Regionalliga gewinnt, darf in die 3. Bundesliga aufsteigen."
+    },
+    {
+      "begriff": "Motorik-Test",
+      "erklaerung": "Ein Test für junge Kinder: Wie schnell, kräftig, beweglich und geschickt bist du? Damit findet man heraus, wer Talent fürs Turnen hat."
+    },
+    {
+      "begriff": "Turn-Talentschule",
+      "erklaerung": "Ein Verein oder Stützpunkt, in dem besonders junge Kinder früh und gezielt ans Leistungsturnen herangeführt werden."
     }
   ],
   "quizGestellt": [
+    "U16 Troyes Platz zwei",
+    "U16 Troyes Sieger Großbritannien",
+    "U16 Troyes Reck verturnt",
+    "Adventspokal Falkensee erstmals",
+    "Adventspokal 62 Turner",
+    "Boy WM-Silber Mehrkampf 2010 2011",
+    "Tkatschow Reck Flugelement",
+    "Flick-Flack Bedeutung",
+    "Sprungfinale zwei Sprünge Männer",
+    "Rondatsprung Sprungüberschlag rückwärts 3,0 AK 11/12",
     "Ichenheim Aufstieg Regionalliga Neuried",
     "Varfolomeev mit zwölf Internat Schmiden",
     "Varfolomeev WM 2026 drei Gold",
@@ -1267,6 +1207,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Übungshalt Reck Unterbrechung 0,5 AK 11/12",
     "Barren 1b Hose über Holm Bonus 0,9 AK 11/12",
     "Boden Bonus 1b großer Fehler 1,4 AK 11/12",
     "Kür AK 12 Elementgruppe C-Teil 0,5",
