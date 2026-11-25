@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-24T05:39:07+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-24",
-  "gruss": "Guten Morgen! Die deutschen U16-Turner haben beim Länderkampf in Frankreich Silber gewonnen – nur ganz knapp hinter Großbritannien. Außerdem zeigen wir euch den jüngsten Berliner Turnnachwuchs beim Adventspokal. Und am Samstag ist DTL-Finale!",
-  "quizId": "2026-11-24",
+  "aktualisiert": "2026-11-25T05:39:27+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-25",
+  "gruss": "Guten Morgen! Nur noch drei Tage bis zum großen DTL-Finale: Am Samstag geht es in Heidelberg und Berlin um die deutschen Meistertitel der Bundesliga. Heute stellen wir euch außerdem die neue Tumbling-Weltmeisterin aus Griechenland vor – und im Quiz warten zehn frische Fragen.",
+  "quizId": "2026-11-25",
   "zahlDesTages": {
-    "zahl": "0,25",
-    "text": "Punkte fehlten den deutschen U16-Turnern beim Fünf-Nationen-Länderkampf in Troyes zum Sieg. Das ist weniger als drei kleine Fehler!"
+    "zahl": "3",
+    "text": "Tage sind es noch bis zum DTL-Finale am Samstag. Dann turnen die besten Bundesliga-Teams in Heidelberg, die RSG-Teams zeigen ihr Können in Berlin."
   },
   "turnerDerWoche": {
     "name": "Darja Varfolomeev",
@@ -108,6 +108,20 @@
       "quelle": "btfb.de"
     },
     {
+      "id": "2026-11-25-tumbling-weltmeisterin",
+      "rubrik": "TRA",
+      "motiv": "salto",
+      "datum": "2026-11-07",
+      "titel": "Tumbling: Erstes WM-Gold für Alexandra Efraimoglou",
+      "teaser": "Die Griechin hat bei der WM in China den Titel im Tumbling gewonnen – mit Saltos und Schrauben auf einer langen Sprungbahn.",
+      "text": [
+        "Tumbling gehört zum Trampolinturnen, aber gesprungen wird nicht auf einem Trampolintuch. Die Athletinnen und Athleten turnen auf einer langen, federnden Bahn eine schnelle Serie aus Flick-Flacks, Saltos und Schrauben – ganz ohne Pause dazwischen.",
+        "Bei der Weltmeisterschaft im chinesischen Nanjing hat Alexandra Efraimoglou aus Griechenland Anfang November den Titel bei den Frauen gewonnen. Sie bekam 26,300 Punkte und lag damit 0,4 Punkte vor Arina Kaliandra. Bronze holte Maëlle Dumitru-Marin aus Frankreich.",
+        "Bei den Männern wurde Vasco Peso aus Portugal Weltmeister im Tumbling. Im Podcast des Europäischen Turnverbands erzählte Efraimoglou, wie lange sie auf so eine große Medaille hingearbeitet hat."
+      ],
+      "quelle": "europeangymnastics.com, en.wikipedia.org, greekreporter.com"
+    },
+    {
       "id": "2026-11-22-regionalliga-aufstieg",
       "rubrik": "DTL",
       "motiv": "team",
@@ -191,20 +205,6 @@
         "Erst gibt es eine Gruppenphase, dann K.-o.-Runden und zum Schluss ein „Final 4“ mit den vier besten Vereinen. Geturnt wird an allen sechs Geräten der Männer."
       ],
       "quelle": "europeangymnastics.com"
-    },
-    {
-      "id": "2026-11-19-spitzensportkonferenz",
-      "rubrik": "NW",
-      "motiv": "team",
-      "datum": "2026-11-17",
-      "titel": "Gesund turnen und Talente fördern: Konferenz in Stuttgart",
-      "teaser": "Rund 60 Fachleute haben beim DTB beraten, wie Turnerinnen und Turner gute Leistungen bringen und dabei gesund bleiben.",
-      "text": [
-        "Am 16. und 17. November trafen sich rund 60 Menschen zur Spitzensportkonferenz des Deutschen Turner-Bundes in Stuttgart. Dabei waren Bundestrainer, Leute aus den Landesturnverbänden und den Bundesstützpunkten – und auch Elternvertreter.",
-        "Am ersten Tag ging es um die Gesundheit. Ein Team aus Ärzten, Physiotherapeuten, Sportpsychologen und Trainingsfachleuten kümmert sich um die Athletinnen und Athleten. Neue Leitlinien sollen dafür sorgen, dass überall in Deutschland gleich gut auf die Gesundheit geachtet wird. Außerdem zogen die Bundestrainer eine Zwischenbilanz auf dem Weg zu den Olympischen Spielen 2028 in Los Angeles.",
-        "Am zweiten Tag ging es um euch: um junge Talente. Die Frage war, wie Kinder so gefördert werden, wie es zu ihrem Alter passt. Dafür sollen die Turn-Zentren gestärkt werden – also die Hallen, in denen der Nachwuchs trainiert. Zum Abschluss besuchten die Gäste die Trainingszentren in Stuttgart, zum Beispiel das Kunst-Turn-Forum und das Trampolin-Forum."
-      ],
-      "quelle": "dtb.de"
     },
     {
       "id": "2026-11-17-rsg-berlin-stars",
@@ -699,142 +699,151 @@
       "ebene": "international",
       "sparte": "Turnen",
       "info": "Laut Wettkampfkalender des Weltturnverbands."
+    },
+    {
+      "name": "Weltmeisterschaften Trampolinturnen",
+      "ort": "Sofia (Bulgarien)",
+      "von": "2027-11-10",
+      "bis": "2027-11-13",
+      "ebene": "international",
+      "sparte": "Trampolin",
+      "info": "Laut Wettkampfkalender des Weltturnverbands. Danach folgen dort die Wettkämpfe der Altersklassen (World Age Group Competitions)."
     }
   ],
   "quiz": [
     {
-      "rubrik": "NW",
-      "frage": "Welchen Platz belegten die deutschen U16-Turner beim Länderkampf in Troyes?",
+      "rubrik": "TRA",
+      "frage": "Aus welchem Land kommt die neue Tumbling-Weltmeisterin Alexandra Efraimoglou?",
       "antworten": [
-        "Platz eins",
-        "Platz drei",
-        "Platz zwei",
-        "Platz fünf"
-      ],
-      "richtig": 2,
-      "erklaerung": "Deutschland wurde Zweiter von fünf Mannschaften – nur 0,25 Punkte fehlten zum Sieg."
-    },
-    {
-      "rubrik": "NW",
-      "frage": "Welches Team gewann den U16-Länderkampf in Troyes?",
-      "antworten": [
-        "Großbritannien",
         "Frankreich",
-        "Italien",
-        "Schweiz"
+        "Griechenland",
+        "Portugal",
+        "Belgien"
       ],
-      "richtig": 0,
-      "erklaerung": "Die Briten gewannen ganz knapp vor Deutschland. Gastgeber Frankreich holte Bronze."
+      "richtig": 1,
+      "erklaerung": "Alexandra Efraimoglou kommt aus Griechenland. Sie gewann bei der WM in Nanjing (China) den Titel der Frauen."
     },
     {
-      "rubrik": "NW",
-      "frage": "An welchem Gerät lief es für die deutschen U16-Turner in Troyes nicht rund?",
+      "rubrik": "TRA",
+      "frage": "Wie viel Vorsprung hatte Efraimoglou bei der Tumbling-WM auf Platz zwei?",
       "antworten": [
-        "Boden",
-        "Pauschenpferd",
-        "Barren",
-        "Reck"
+        "0,4 Punkte",
+        "0,1 Punkte",
+        "2,0 Punkte",
+        "1,5 Punkte"
+      ],
+      "richtig": 0,
+      "erklaerung": "Sie bekam 26,300 Punkte – genau 0,4 Punkte mehr als die Zweite."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Wer wurde bei der WM 2026 Tumbling-Weltmeister der Männer?",
+      "antworten": [
+        "Ein Turner aus den USA",
+        "Ein Turner aus Dänemark",
+        "Vasco Peso aus Portugal",
+        "Ein Turner aus China"
+      ],
+      "richtig": 2,
+      "erklaerung": "Vasco Peso aus Portugal gewann den Titel im Tumbling der Männer."
+    },
+    {
+      "rubrik": "TRA",
+      "frage": "Wo findet laut Weltturnverband die Trampolin-WM 2027 statt?",
+      "antworten": [
+        "In Nanjing (China)",
+        "In Berlin",
+        "In Lissabon (Portugal)",
+        "In Sofia (Bulgarien)"
       ],
       "richtig": 3,
-      "erklaerung": "Am Reck wurden die beiden schwersten Übungen verturnt. An den anderen Geräten lief es gut."
+      "erklaerung": "Die nächste Trampolin-WM ist vom 10. bis 13. November 2027 in Sofia, der Hauptstadt von Bulgarien, geplant."
     },
     {
       "rubrik": "BER",
-      "frage": "Welcher Verein war beim Berliner Adventspokal zum ersten Mal dabei?",
+      "frage": "An wie vielen Geräten turnt man beim Berliner Jahrgangsbesten-Wettkampf?",
       "antworten": [
-        "SC Berlin",
-        "TSV Falkensee",
-        "TSG Berlin Steglitz",
-        "SC Cottbus"
+        "An allen sechs Geräten",
+        "An vier von sechs Geräten",
+        "Nur an einem Gerät",
+        "An zwei Geräten"
       ],
       "richtig": 1,
-      "erklaerung": "Der TSV Falkensee aus Brandenburg war erstmals dabei – neben drei Berliner Turn-Talentschulen."
+      "erklaerung": "Laut Ausschreibung werden 4 aus 6 Geräten geturnt. Der Wettkampf ist am Sonntag, 29. November."
     },
     {
-      "rubrik": "BER",
-      "frage": "Wie viele junge Turner waren beim Berliner Adventspokal am Start?",
+      "rubrik": "GES",
+      "frage": "Welcher Sprung beginnt mit einem Rondat aufs Brett und einem Flick-Flack auf den Tisch?",
       "antworten": [
-        "26",
-        "42",
-        "62",
-        "126"
+        "Tsukahara",
+        "Jurtschenko",
+        "Kovacs",
+        "Magyar"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das ist der Jurtschenko, benannt nach Natalja Jurtschenko. Ganz ähnlich ist der Rondatsprung in deiner Pflicht."
+    },
+    {
+      "rubrik": "GES",
+      "frage": "Welches Element ist nach Simone Biles benannt?",
+      "antworten": [
+        "Ein Flugelement am Reck",
+        "Eine Drehung am Barren",
+        "Ein Doppelsalto gestreckt mit halber Schraube am Boden",
+        "Eine Kreis-Flanke am Pferd"
       ],
       "richtig": 2,
-      "erklaerung": "62 Kinder turnten mit, die meisten in den Altersklassen 5 und 6."
+      "erklaerung": "Der „Biles“ am Boden ist ein Doppelsalto gestreckt mit halber Schraube."
     },
     {
-      "rubrik": "Geschichte",
-      "frage": "Welcher deutsche Turner gewann 2010 und 2011 WM-Silber im Mehrkampf?",
+      "rubrik": "REG",
+      "frage": "Was ist Tumbling?",
       "antworten": [
-        "Fabian Hambüchen",
-        "Andreas Toba",
-        "Marcel Nguyen",
-        "Philipp Boy"
+        "Eine Übung am Stufenbarren",
+        "Eine Serie aus Saltos und Schrauben auf einer langen, federnden Bahn",
+        "Ein Tanz mit Band und Ball",
+        "Ein Sprung über das Pferd"
       ],
-      "richtig": 3,
-      "erklaerung": "Philipp Boy aus Cottbus wurde zweimal Vize-Weltmeister im Mehrkampf – beide Male hinter dem Japaner Kohei Uchimura."
+      "richtig": 1,
+      "erklaerung": "Tumbling gehört zum Trampolinturnen. Man turnt eine schnelle Serie von Elementen auf einer langen Bahn."
     },
     {
-      "rubrik": "Geschichte",
-      "frage": "An welchem Gerät ist der „Tkatschow“ ein berühmtes Flugelement?",
+      "rubrik": "REG",
+      "frage": "Ab welcher Altersklasse gibt es bei den Deutschen Jugendmeisterschaften neben der Pflicht auch Kür?",
       "antworten": [
-        "Reck",
-        "Ringe",
-        "Pauschenpferd",
-        "Boden"
+        "Ab AK 9",
+        "Ab AK 11",
+        "Ab AK 12",
+        "Erst ab AK 15"
+      ],
+      "richtig": 2,
+      "erklaerung": "In der AK 11 turnt man nur Pflicht. Ab der AK 12 kommt bei den Deutschen Jugendmeisterschaften die Kür dazu."
+    },
+    {
+      "rubrik": "PFL",
+      "frage": "Wie viele Punkte ist der Seitspagat (2 s gehalten) in der Boden-Pflicht der AK 11/12 wert?",
+      "antworten": [
+        "0,4 Punkte",
+        "1,0 Punkte",
+        "0,2 Punkte",
+        "1,4 Punkte"
       ],
       "richtig": 0,
-      "erklaerung": "Beim Tkatschow lässt der Turner die Reckstange los, fliegt rückwärts über sie hinweg und greift wieder. Benannt ist er nach Alexander Tkatschow."
-    },
-    {
-      "rubrik": "Begriffe",
-      "frage": "Was ist ein Flick-Flack?",
-      "antworten": [
-        "Ein Salto vorwärts",
-        "Ein Handstütz-Überschlag rückwärts",
-        "Eine Drehung am Pauschenpferd",
-        "Ein Sprung in den Spagat"
-      ],
-      "richtig": 1,
-      "erklaerung": "Beim Flick-Flack springt man rückwärts in den Handstütz und überschlägt sich wieder auf die Füße. Unsere App ist danach benannt!"
-    },
-    {
-      "rubrik": "Regeln",
-      "frage": "Wie viele Sprünge zeigen Männer im Gerätefinale Sprung?",
-      "antworten": [
-        "Einen",
-        "Drei",
-        "Zwei",
-        "Vier"
-      ],
-      "richtig": 2,
-      "erklaerung": "Im Sprungfinale zeigt jeder Turner zwei verschiedene Sprünge. Beide Noten werden gemittelt."
-    },
-    {
-      "rubrik": "Pflicht",
-      "frage": "Wie viele Punkte ist beim Rondatsprung der AK 11/12 der Sprungüberschlag rückwärts wert?",
-      "antworten": [
-        "1,0",
-        "2,0",
-        "4,0",
-        "3,0"
-      ],
-      "richtig": 3,
-      "erklaerung": "Der Handstütz-Sprungüberschlag rückwärts auf den Mattenaufbau ist 3,0 Punkte wert. Das Kurbet danach bringt 4,0."
+      "erklaerung": "Der Seitspagat in Teil 4 der Bodenübung ist 0,4 Punkte wert. Er muss 2 Sekunden gehalten werden."
     }
   ],
   "kampfrichter": {
-    "titel": "Kurze Pause am Reck",
-    "situation": "Ein Turner der AK 11 turnt seine Pflichtübung am Reck. Mitten in der Übung hält er an, hängt kurz still und überlegt, was als Nächstes kommt. Dann turnt er sauber weiter bis zum Abgang.",
-    "frage": "Was ziehen die Kampfrichter für diese Unterbrechung ab?",
+    "titel": "Kurzer Handstand bei der Endorolle",
+    "situation": "Ein Turner der AK 12 zeigt am Boden die Endorolle zum Handstand. Er kommt in den Handstand, hält ihn aber nur etwa eine Sekunde fest, bevor er weiterturnt. Gefordert sind 2 Sekunden.",
+    "frage": "Was entscheiden die Kampfrichter?",
     "antworten": [
-      "0,1 – ein kleiner Fehler",
-      "0,3 – ein mittlerer Fehler",
-      "0,5 für den Übungshalt",
-      "1,0 wie bei einem Sturz"
+      "Die Endorolle zählt gar nicht",
+      "Die Endorolle zählt, aber es gibt einen Abzug, weil der Handstand zu kurz gehalten wurde",
+      "Alles in Ordnung, kein Abzug",
+      "Es gibt 1,0 Punkte Abzug wie bei einem Sturz"
     ],
-    "richtig": 2,
-    "erklaerung": "Eine Unterbrechung der Übung ist ein Übungshalt. Dafür gibt es laut DTB-Pflicht 0,5 Punkte Abzug. 1,0 Punkte gibt es nur, wenn man vom Gerät fällt oder auf das Gerät fällt."
+    "richtig": 1,
+    "erklaerung": "Laut DTB-FAQ zählt die Endorolle, wenn der Handstand etwa eine Sekunde fixiert wird – aber mit Abzügen. Ein zu kurz gehaltenes Halteteil ist ein mittlerer Fehler (0,3). Wird der Handstand gar nicht erkennbar gehalten, zählt das Element nicht."
   },
   "lexikon": [
     {
@@ -1012,9 +1021,23 @@
     {
       "begriff": "Turn-Talentschule",
       "erklaerung": "Ein Verein oder Stützpunkt, in dem besonders junge Kinder früh und gezielt ans Leistungsturnen herangeführt werden."
+    },
+    {
+      "begriff": "Tumbling",
+      "erklaerung": "Eine Disziplin des Trampolinturnens: Auf einer langen, federnden Bahn turnt man eine schnelle Serie aus Flick-Flacks, Saltos und Schrauben hintereinander."
     }
   ],
   "quizGestellt": [
+    "Efraimoglou Griechenland Tumbling-Gold",
+    "Efraimoglou 0,4 Vorsprung",
+    "Vasco Peso Tumbling-Weltmeister",
+    "Trampolin-WM 2027 Sofia",
+    "Jahrgangsbesten vier aus sechs Geräten",
+    "Jurtschenko Sprung Rondat",
+    "Biles Element Boden",
+    "Tumbling Bedeutung",
+    "Kür ab AK 12 DJM",
+    "Boden Seitspagat 0,4 AK 11/12",
     "U16 Troyes Platz zwei",
     "U16 Troyes Sieger Großbritannien",
     "U16 Troyes Reck verturnt",
@@ -1207,6 +1230,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Endorolle Handstand 1 s gehalten zählt AK 11/12",
     "Übungshalt Reck Unterbrechung 0,5 AK 11/12",
     "Barren 1b Hose über Holm Bonus 0,9 AK 11/12",
     "Boden Bonus 1b großer Fehler 1,4 AK 11/12",
