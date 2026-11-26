@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-25T05:39:27+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-25",
-  "gruss": "Guten Morgen! Nur noch drei Tage bis zum großen DTL-Finale: Am Samstag geht es in Heidelberg und Berlin um die deutschen Meistertitel der Bundesliga. Heute stellen wir euch außerdem die neue Tumbling-Weltmeisterin aus Griechenland vor – und im Quiz warten zehn frische Fragen.",
-  "quizId": "2026-11-25",
+  "aktualisiert": "2026-11-26T05:41:06+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-26",
+  "gruss": "Guten Morgen! Übermorgen ist es so weit: In Heidelberg und Berlin steigen die DTL-Finals – wir verraten euch, wann wer turnt. Außerdem blicken wir schon auf 2027: Neun Berliner Vereine fahren zur Welt-Gymnaestrada nach Lissabon.",
+  "quizId": "2026-11-26",
   "zahlDesTages": {
-    "zahl": "3",
-    "text": "Tage sind es noch bis zum DTL-Finale am Samstag. Dann turnen die besten Bundesliga-Teams in Heidelberg, die RSG-Teams zeigen ihr Können in Berlin."
+    "zahl": "25.000",
+    "text": "Teilnehmerinnen und Teilnehmer erwarten die Veranstalter zur Welt-Gymnaestrada im Juli 2027 in Lissabon – mit dabei sind Turnerinnen und Turner aus neun Berliner Vereinen."
   },
   "turnerDerWoche": {
     "name": "Darja Varfolomeev",
@@ -78,6 +78,20 @@
   },
   "news": [
     {
+      "id": "2026-11-26-dtl-finale-zeitplan",
+      "rubrik": "DTL",
+      "motiv": "kalender",
+      "datum": "2026-11-28",
+      "titel": "DTL-Finale: So läuft der große Turn-Samstag",
+      "teaser": "Von morgens um 9 bis abends um halb zehn wird am Samstag in Heidelberg geturnt – und in Berlin zeigen die Gymnastinnen ihr Können.",
+      "text": [
+        "Am Samstag, 28. November, steigt der wichtigste Tag der Bundesliga-Saison. Im SNP dome in Heidelberg geht es schon früh los: Von 9 bis 11:30 Uhr ist die Nachwuchsbundesliga dran.",
+        "Um 14 Uhr beginnt das Finale der Frauen. Die TG Mannheim, der MTV Stuttgart, die TuS Chemnitz-Altendorf und die TG Karlsruhe-Söllingen turnen um den Titel. Um 18 Uhr kommen die Männer: Im Titelendkampf trifft die KTV Straubenhardt auf den SC Cottbus, die TG Saar und die KTV Koblenz kämpfen um Bronze. Schluss ist gegen 21:30 Uhr.",
+        "Zur gleichen Zeit ist in Berlin RSG-Tag im Horst-Korber-Sportzentrum. Um 12:50 Uhr startet der Nachwuchspokal, um 17:30 Uhr das DTL-Finale der Rhythmischen Sportgymnastik. Alle Ergebnisse gibt es in der Morgenausgabe am Sonntag."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
       "id": "2026-11-24-u16-silber-troyes",
       "rubrik": "NW",
       "motiv": "team",
@@ -120,20 +134,6 @@
         "Bei den Männern wurde Vasco Peso aus Portugal Weltmeister im Tumbling. Im Podcast des Europäischen Turnverbands erzählte Efraimoglou, wie lange sie auf so eine große Medaille hingearbeitet hat."
       ],
       "quelle": "europeangymnastics.com, en.wikipedia.org, greekreporter.com"
-    },
-    {
-      "id": "2026-11-22-regionalliga-aufstieg",
-      "rubrik": "DTL",
-      "motiv": "team",
-      "datum": "2026-11-22",
-      "titel": "Ichenheim und Pfuhl steigen in die Regionalliga auf",
-      "teaser": "Beim Qualifikationswettkampf der Frauen in Neuried jubelten am Sonntag gleich zwei Mannschaften.",
-      "text": [
-        "Am Sonntag ging es für sieben Frauen-Mannschaften um zwei Plätze in der Regionalliga. Die Regionalliga ist die Liga direkt unter der 3. Bundesliga. Geturnt wurde in der Riedsporthalle in Neuried in Baden – und der Gastgeber hatte am Ende die Nase vorn.",
-        "Der TV Ichenheim gewann mit 166,90 Punkten. Am Sprung, am Stufenbarren und am Schwebebalken war er die beste Mannschaft. Der TSV Pfuhl wurde mit 165,20 Punkten Zweiter und turnte das beste Ergebnis am Boden. Beide Teams dürfen 2027 in der Regionalliga starten.",
-        "Die KTG Saar und die TG Böckingen auf den Plätzen drei und vier müssen noch hoffen: Sie rücken nach, falls andere Mannschaften auf ihren Startplatz verzichten."
-      ],
-      "quelle": "deutsche-turnliga.de"
     },
     {
       "id": "2026-11-22-maenner-finaltag",
@@ -219,6 +219,20 @@
         "Gezeigt wird alles im Horst-Korber-Sportzentrum. Schon mittags gibt es zum ersten Mal einen Nachwuchspokal für junge Gymnastinnen. Am Nachmittag kämpfen Juniorinnen-Gruppen um die Fahrkarte zur EM 2027 in Pamplona (Spanien) – darunter die Gruppe vom Bundesstützpunkt Berlin, die in diesem Jahr Deutscher Meister wurde."
       ],
       "quelle": "deutsche-turnliga.de, btfb.de"
+    },
+    {
+      "id": "2026-11-26-gymnaestrada-berlin",
+      "rubrik": "BER",
+      "motiv": "team",
+      "datum": "2027-07-11",
+      "titel": "Neun Berliner Vereine fahren zur Gymnaestrada",
+      "teaser": "Im Sommer 2027 treffen sich Turnerinnen und Turner aus aller Welt in Lissabon – und Berlin ist kräftig dabei.",
+      "text": [
+        "Die Welt-Gymnaestrada ist ein riesiges Turnfest, das nur alle vier Jahre stattfindet. Das nächste Mal ist es vom 11. bis 17. Juli 2027 in Lissabon, der Hauptstadt von Portugal. Die Veranstalter erwarten rund 25.000 Teilnehmerinnen und Teilnehmer.",
+        "Das Besondere: Bei der Gymnaestrada gibt es keine Noten und keine Sieger. Vereine und Gruppen aus vielen Ländern zeigen ihre schönsten Vorführungen – mit Turnen, Akrobatik, Gymnastik und Tanz.",
+        "Laut dem Berliner Turn- und Freizeitsport-Bund sind neun Berliner Vereine mit dabei. Lissabon war übrigens schon 2003 Gastgeber der Gymnaestrada."
+      ],
+      "quelle": "btfb.de, ginastica.org"
     }
   ],
   "wettkaempfe": [
@@ -611,11 +625,11 @@
     },
     {
       "name": "Jahrgangsbesten-Wettkampf Gerätturnen männlich",
-      "ort": "Berlin, Leistikowhalle",
+      "ort": "Berlin",
       "von": "2026-11-29",
       "ebene": "berlin",
       "sparte": "Turnen",
-      "info": "P-Stufen und LK-Programm, 4 aus 6 Geräten. Meldeschluss 6. November."
+      "info": "P-Stufen und LK-Programm, 4 aus 6 Geräten. Der Ort steht beim BTFB unterschiedlich: im Kalender Sporthalle Hartmannsweilerweg, in der Beschreibung Leistikowhalle – bitte vorher in der Ausschreibung nachsehen."
     },
     {
       "name": "Aufstiegswettkämpfe Bundesliga Männer",
@@ -661,6 +675,15 @@
       "sparte": "Turnen",
       "info": "EM der Frauen und Männer. Das Programm ist laut Europäischem Turnverband noch vorläufig.",
       "highlight": true
+    },
+    {
+      "name": "Welt-Gymnaestrada",
+      "ort": "Lissabon (Portugal)",
+      "von": "2027-07-11",
+      "bis": "2027-07-17",
+      "ebene": "international",
+      "sparte": "Turnen",
+      "info": "Großes Turnfest ohne Wertung, nur alle vier Jahre. Laut BTFB sind neun Berliner Vereine dabei."
     },
     {
       "name": "Die Finals – Deutsche Meisterschaften",
@@ -712,138 +735,137 @@
   ],
   "quiz": [
     {
-      "rubrik": "TRA",
-      "frage": "Aus welchem Land kommt die neue Tumbling-Weltmeisterin Alexandra Efraimoglou?",
+      "rubrik": "DTL",
+      "frage": "Um wie viel Uhr beginnt am Samstag das DTL-Finale der Männer in Heidelberg?",
       "antworten": [
-        "Frankreich",
-        "Griechenland",
-        "Portugal",
-        "Belgien"
-      ],
-      "richtig": 1,
-      "erklaerung": "Alexandra Efraimoglou kommt aus Griechenland. Sie gewann bei der WM in Nanjing (China) den Titel der Frauen."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Wie viel Vorsprung hatte Efraimoglou bei der Tumbling-WM auf Platz zwei?",
-      "antworten": [
-        "0,4 Punkte",
-        "0,1 Punkte",
-        "2,0 Punkte",
-        "1,5 Punkte"
-      ],
-      "richtig": 0,
-      "erklaerung": "Sie bekam 26,300 Punkte – genau 0,4 Punkte mehr als die Zweite."
-    },
-    {
-      "rubrik": "TRA",
-      "frage": "Wer wurde bei der WM 2026 Tumbling-Weltmeister der Männer?",
-      "antworten": [
-        "Ein Turner aus den USA",
-        "Ein Turner aus Dänemark",
-        "Vasco Peso aus Portugal",
-        "Ein Turner aus China"
+        "14 Uhr",
+        "16 Uhr",
+        "18 Uhr",
+        "20 Uhr"
       ],
       "richtig": 2,
-      "erklaerung": "Vasco Peso aus Portugal gewann den Titel im Tumbling der Männer."
+      "erklaerung": "Die Männer starten um 18 Uhr. Vorher, um 14 Uhr, turnen die Frauen ihr Finale."
     },
     {
-      "rubrik": "TRA",
-      "frage": "Wo findet laut Weltturnverband die Trampolin-WM 2027 statt?",
+      "rubrik": "NW",
+      "frage": "Wer turnt am Samstagmorgen als Erstes im SNP dome in Heidelberg?",
       "antworten": [
-        "In Nanjing (China)",
-        "In Berlin",
-        "In Lissabon (Portugal)",
-        "In Sofia (Bulgarien)"
+        "Die Frauen",
+        "Die Nachwuchsbundesliga",
+        "Die Männer",
+        "Die RSG-Teams"
       ],
-      "richtig": 3,
-      "erklaerung": "Die nächste Trampolin-WM ist vom 10. bis 13. November 2027 in Sofia, der Hauptstadt von Bulgarien, geplant."
+      "richtig": 1,
+      "erklaerung": "Von 9 bis 11:30 Uhr ist die Nachwuchsbundesliga dran. Die RSG-Teams turnen am selben Tag in Berlin."
     },
     {
       "rubrik": "BER",
-      "frage": "An wie vielen Geräten turnt man beim Berliner Jahrgangsbesten-Wettkampf?",
+      "frage": "In welcher Stadt findet die Welt-Gymnaestrada 2027 statt?",
       "antworten": [
-        "An allen sechs Geräten",
-        "An vier von sechs Geräten",
-        "Nur an einem Gerät",
-        "An zwei Geräten"
+        "Lissabon",
+        "Madrid",
+        "Rom",
+        "Paris"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Gymnaestrada ist vom 11. bis 17. Juli 2027 in Lissabon, der Hauptstadt von Portugal."
+    },
+    {
+      "rubrik": "BER",
+      "frage": "Wie viele Berliner Vereine sind laut BTFB bei der Gymnaestrada 2027 dabei?",
+      "antworten": [
+        "Drei",
+        "Neun",
+        "Fünfzehn",
+        "Dreißig"
       ],
       "richtig": 1,
-      "erklaerung": "Laut Ausschreibung werden 4 aus 6 Geräten geturnt. Der Wettkampf ist am Sonntag, 29. November."
+      "erklaerung": "Neun Berliner Vereine fahren nach Lissabon. Bei der Gymnaestrada gibt es keine Noten – alle zeigen ihre Vorführungen."
+    },
+    {
+      "rubrik": "RSG",
+      "frage": "Um wie viel Uhr beginnt das DTL-Finale der Rhythmischen Sportgymnastik in Berlin?",
+      "antworten": [
+        "12:50 Uhr",
+        "15:45 Uhr",
+        "20:30 Uhr",
+        "17:30 Uhr"
+      ],
+      "richtig": 3,
+      "erklaerung": "Das Finale beginnt um 17:30 Uhr im Horst-Korber-Sportzentrum. Um 12:50 Uhr startet vorher der Nachwuchspokal."
     },
     {
       "rubrik": "GES",
-      "frage": "Welcher Sprung beginnt mit einem Rondat aufs Brett und einem Flick-Flack auf den Tisch?",
+      "frage": "Das Stalder-Element am Reck ist nach Josef Stalder benannt. Aus welchem Land kam er?",
       "antworten": [
-        "Tsukahara",
-        "Jurtschenko",
-        "Kovacs",
-        "Magyar"
+        "Schweiz",
+        "Deutschland",
+        "Japan",
+        "Ungarn"
       ],
-      "richtig": 1,
-      "erklaerung": "Das ist der Jurtschenko, benannt nach Natalja Jurtschenko. Ganz ähnlich ist der Rondatsprung in deiner Pflicht."
+      "richtig": 0,
+      "erklaerung": "Josef Stalder kam aus der Schweiz. Beim Stalder geht es mit gegrätschten Beinen rückwärts um die Stange in den Handstand – das Bonusteil in deiner Reck-Pflicht!"
     },
     {
       "rubrik": "GES",
-      "frage": "Welches Element ist nach Simone Biles benannt?",
+      "frage": "Bei welchen Olympischen Spielen gewann Lukas Dauser Silber am Barren?",
       "antworten": [
-        "Ein Flugelement am Reck",
-        "Eine Drehung am Barren",
-        "Ein Doppelsalto gestreckt mit halber Schraube am Boden",
-        "Eine Kreis-Flanke am Pferd"
+        "Peking 2008",
+        "London 2012",
+        "Paris 2024",
+        "Tokio 2021"
       ],
-      "richtig": 2,
-      "erklaerung": "Der „Biles“ am Boden ist ein Doppelsalto gestreckt mit halber Schraube."
+      "richtig": 3,
+      "erklaerung": "Lukas Dauser holte 2021 in Tokio Olympia-Silber am Barren. 2023 wurde er in Antwerpen sogar Weltmeister."
     },
     {
       "rubrik": "REG",
-      "frage": "Was ist Tumbling?",
+      "frage": "Was passiert in einem Gerätefinale?",
       "antworten": [
-        "Eine Übung am Stufenbarren",
-        "Eine Serie aus Saltos und Schrauben auf einer langen, federnden Bahn",
-        "Ein Tanz mit Band und Ball",
-        "Ein Sprung über das Pferd"
+        "Alle Turner zeigen den Mehrkampf",
+        "Die Besten an einem Gerät turnen um die Medaillen an genau diesem Gerät",
+        "Nur die Mannschaften turnen",
+        "Die Kampfrichter turnen vor"
       ],
       "richtig": 1,
-      "erklaerung": "Tumbling gehört zum Trampolinturnen. Man turnt eine schnelle Serie von Elementen auf einer langen Bahn."
+      "erklaerung": "Im Gerätefinale treten die besten Turner eines Geräts noch einmal gegeneinander an – zum Beispiel am Reck oder am Barren."
     },
     {
       "rubrik": "REG",
-      "frage": "Ab welcher Altersklasse gibt es bei den Deutschen Jugendmeisterschaften neben der Pflicht auch Kür?",
+      "frage": "Wie viele Geräte gehören zum Mehrkampf der Männer?",
       "antworten": [
-        "Ab AK 9",
-        "Ab AK 11",
-        "Ab AK 12",
-        "Erst ab AK 15"
+        "Sechs",
+        "Vier",
+        "Fünf",
+        "Acht"
       ],
-      "richtig": 2,
-      "erklaerung": "In der AK 11 turnt man nur Pflicht. Ab der AK 12 kommt bei den Deutschen Jugendmeisterschaften die Kür dazu."
+      "richtig": 0,
+      "erklaerung": "Boden, Pauschenpferd, Ringe, Sprung, Barren und Reck – sechs Geräte. Die Frauen turnen vier."
     },
     {
       "rubrik": "PFL",
-      "frage": "Wie viele Punkte ist der Seitspagat (2 s gehalten) in der Boden-Pflicht der AK 11/12 wert?",
+      "frage": "Wie hoch ist der Sprungtisch beim Überschlag in der DTB-Pflicht AK 11/12?",
       "antworten": [
-        "0,4 Punkte",
-        "1,0 Punkte",
-        "0,2 Punkte",
-        "1,4 Punkte"
+        "1,00 m",
+        "1,20 m",
+        "1,35 m",
+        "1,10 m"
       ],
-      "richtig": 0,
-      "erklaerung": "Der Seitspagat in Teil 4 der Bodenübung ist 0,4 Punkte wert. Er muss 2 Sekunden gehalten werden."
+      "richtig": 1,
+      "erklaerung": "In der Pflicht AK 11/12 ist der Sprungtisch 1,20 m hoch. Bei den Männern im Erwachsenenbereich sind es 1,35 m."
     }
   ],
   "kampfrichter": {
-    "titel": "Kurzer Handstand bei der Endorolle",
-    "situation": "Ein Turner der AK 12 zeigt am Boden die Endorolle zum Handstand. Er kommt in den Handstand, hält ihn aber nur etwa eine Sekunde fest, bevor er weiterturnt. Gefordert sind 2 Sekunden.",
-    "frage": "Was entscheiden die Kampfrichter?",
+    "titel": "Standbonus in der Kür",
+    "situation": "Ein Turner der AK 12 zeigt bei einem Kürwettkampf seine Übung am Reck. Sein Abgang hat die Schwierigkeit B. Er landet perfekt: Füße geschlossen, Oberkörper aufrecht.",
+    "frage": "Bekommt er dafür einen Standbonus?",
     "antworten": [
-      "Die Endorolle zählt gar nicht",
-      "Die Endorolle zählt, aber es gibt einen Abzug, weil der Handstand zu kurz gehalten wurde",
-      "Alles in Ordnung, kein Abzug",
-      "Es gibt 1,0 Punkte Abzug wie bei einem Sturz"
+      "Ja, 0,20 Punkte – genau wie in der Pflicht",
+      "Nein – in der Kür gibt es den Standbonus erst ab einem Abgang der Schwierigkeit C",
+      "Ja, sogar 0,5 Punkte"
     ],
     "richtig": 1,
-    "erklaerung": "Laut DTB-FAQ zählt die Endorolle, wenn der Handstand etwa eine Sekunde fixiert wird – aber mit Abzügen. Ein zu kurz gehaltenes Halteteil ist ein mittlerer Fehler (0,3). Wird der Handstand gar nicht erkennbar gehalten, zählt das Element nicht."
+    "erklaerung": "In der Kür gilt das internationale Wertungsbuch: Den Standbonus gibt es erst ab einem Abgang der Schwierigkeit C. In der Pflicht AK 11/12 bekommst du für einen sicheren Stand 0,20 Punkte Bonus."
   },
   "lexikon": [
     {
@@ -1025,9 +1047,23 @@
     {
       "begriff": "Tumbling",
       "erklaerung": "Eine Disziplin des Trampolinturnens: Auf einer langen, federnden Bahn turnt man eine schnelle Serie aus Flick-Flacks, Saltos und Schrauben hintereinander."
+    },
+    {
+      "begriff": "Gymnaestrada",
+      "erklaerung": "Ein riesiges Turnfest, das alle vier Jahre stattfindet. Es gibt keine Noten und keine Sieger – Vereine aus aller Welt zeigen ihre Vorführungen."
     }
   ],
   "quizGestellt": [
+    "DTL-Finale Männer 18 Uhr",
+    "Nachwuchsbundesliga Heidelberg morgens",
+    "Gymnaestrada 2027 Lissabon",
+    "Gymnaestrada neun Berliner Vereine",
+    "DTL-Finale RSG 17:30 Uhr",
+    "Stalder Schweiz",
+    "Dauser Olympia-Silber Tokio 2021",
+    "Gerätefinale Bedeutung",
+    "Anzahl Geräte Männer-Mehrkampf",
+    "Sprungtisch 1,20 m Überschlag AK 11/12",
     "Efraimoglou Griechenland Tumbling-Gold",
     "Efraimoglou 0,4 Vorsprung",
     "Vasco Peso Tumbling-Weltmeister",
@@ -1220,7 +1256,6 @@
     "Boden höchstens 80 Sekunden",
     "Kevric WM-Silber Stufenbarren 2026",
     "Hashimoto vier Mehrkampftitel",
-    "Anzahl Geräte Männer-Mehrkampf",
     "Trampolin-WM 2026 Ort",
     "Italien 113 Jahre Pauschenpferd",
     "Rondat Definition",
@@ -1230,6 +1265,7 @@
     "E-Note Bedeutung"
   ],
   "kampfrichterGestellt": [
+    "Kür Standbonus erst ab C-Abgang AK 12",
     "Endorolle Handstand 1 s gehalten zählt AK 11/12",
     "Übungshalt Reck Unterbrechung 0,5 AK 11/12",
     "Barren 1b Hose über Holm Bonus 0,9 AK 11/12",
