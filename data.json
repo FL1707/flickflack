@@ -832,15 +832,15 @@
     },
     {
       "rubrik": "REG",
-      "frage": "Wie viele Geräte gehören zum Mehrkampf der Männer?",
+      "frage": "Was ist der Unterschied zwischen „Hang“ und „Stütz“?",
       "antworten": [
-        "Sechs",
-        "Vier",
-        "Fünf",
-        "Acht"
+        "Beim Hang hängst du unter dem Gerät, beim Stütz drückst du dich mit den Armen über dem Gerät hoch",
+        "Das ist dasselbe",
+        "Hang gibt es nur am Boden, Stütz nur am Sprung",
+        "Beim Stütz liegst du auf dem Bauch"
       ],
       "richtig": 0,
-      "erklaerung": "Boden, Pauschenpferd, Ringe, Sprung, Barren und Reck – sechs Geräte. Die Frauen turnen vier."
+      "erklaerung": "Im Hang hältst du dich fest und der Körper hängt unten, zum Beispiel am Reck oder an den Ringen. Im Stütz sind die Arme gestreckt und der Körper ist über den Händen – wie nach dem Kippaufschwung am Reck."
     },
     {
       "rubrik": "PFL",
@@ -1054,6 +1054,7 @@
     }
   ],
   "quizGestellt": [
+    "Hang und Stütz Unterschied",
     "DTL-Finale Männer 18 Uhr",
     "Nachwuchsbundesliga Heidelberg morgens",
     "Gymnaestrada 2027 Lissabon",
@@ -1062,7 +1063,6 @@
     "Stalder Schweiz",
     "Dauser Olympia-Silber Tokio 2021",
     "Gerätefinale Bedeutung",
-    "Anzahl Geräte Männer-Mehrkampf",
     "Sprungtisch 1,20 m Überschlag AK 11/12",
     "Efraimoglou Griechenland Tumbling-Gold",
     "Efraimoglou 0,4 Vorsprung",
