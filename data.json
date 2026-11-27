@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-26T05:41:06+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-26",
-  "gruss": "Guten Morgen! Übermorgen ist es so weit: In Heidelberg und Berlin steigen die DTL-Finals – wir verraten euch, wann wer turnt. Außerdem blicken wir schon auf 2027: Neun Berliner Vereine fahren zur Welt-Gymnaestrada nach Lissabon.",
-  "quizId": "2026-11-26",
+  "aktualisiert": "2026-11-27T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-27",
+  "gruss": "Guten Morgen! Nur noch einmal schlafen bis zum großen DTL-Finale in Heidelberg und Berlin. Heute schauen wir aufs kleine Finale der Frauen, wo zwei befreundete Teams um Bronze turnen – und wir verabschieden eine Olympiasiegerin vom Schwebebalken.",
+  "quizId": "2026-11-27",
   "zahlDesTages": {
-    "zahl": "25.000",
-    "text": "Teilnehmerinnen und Teilnehmer erwarten die Veranstalter zur Welt-Gymnaestrada im Juli 2027 in Lissabon – mit dabei sind Turnerinnen und Turner aus neun Berliner Vereinen."
+    "zahl": "781,85",
+    "text": "Punkte hat die TuS Chemnitz-Altendorf in der Bundesliga-Saison gesammelt – das war die höchste Gesamtwertung aller acht Erstligisten. Trotzdem turnt Chemnitz am Samstag „nur“ um Bronze."
   },
   "turnerDerWoche": {
     "name": "Darja Varfolomeev",
@@ -78,6 +78,35 @@
   },
   "news": [
     {
+      "id": "2026-11-27-frauen-kleines-finale",
+      "rubrik": "DTL",
+      "motiv": "stufenbarren",
+      "datum": "2026-11-28",
+      "titel": "Kleines Finale: Chemnitz und Karlsruhe turnen um Bronze",
+      "teaser": "Am Samstag treffen in Heidelberg zwei Mannschaften aufeinander, die eng miteinander verbunden sind.",
+      "text": [
+        "Beim DTL-Finale der Frauen geht es nicht nur um Gold. Im kleinen Finale kämpfen die TuS Chemnitz-Altendorf und die TG Karlsruhe-Söllingen um die Bronzemedaille. Chemnitz hat im letzten Jahr noch den Titel gewonnen. Jetzt muss das Team den Meisterpokal zurückgeben.",
+        "Das Besondere: Chemnitz hatte in der ganzen Saison die meisten Punkte aller Teams. Weil die Mannschaft am Anfang aber nicht in Bestbesetzung antreten konnte, reichte es in der Tabelle nur für Platz drei. Und nur die zwei besten Teams turnen um den Titel.",
+        "Die beiden Gegner kennen sich gut. Einige Karlsruher Turnerinnen trainieren am Bundesstützpunkt in Chemnitz. Die Chemnitzer Trainer wollen ihnen beim Finale sogar Hilfestellung geben. Kurz vor dem Finale hat Chemnitz außerdem eine 17-jährige Turnerin aus den Niederlanden geholt, die vorher zum Karlsruher Kader gehörte.",
+        "Im Finale wird anders gewertet als in der Saison: Es gibt direkte Duelle. An jedem Gerät tritt eine Turnerin gegen eine Gegnerin an, und die Siegerin holt Scorepunkte für ihr Team."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-27-wevers-abschied",
+      "rubrik": "INT",
+      "motiv": "balken",
+      "datum": "2026-10-19",
+      "titel": "Olympiasiegerin Sanne Wevers sagt Tschüss",
+      "teaser": "Zehn Jahre nach ihrem Olympiasieg am Schwebebalken hat die Niederländerin ihre Karriere beendet.",
+      "text": [
+        "Der Welt-Turnverband hat auf das Jahr 2026 zurückgeblickt und einige Stars verabschiedet, die aufgehört haben. Die bekannteste ist Sanne Wevers aus den Niederlanden.",
+        "Wevers wurde 2016 in Rio de Janeiro Olympiasiegerin am Schwebebalken. Ihre letzte große Bühne war die Weltmeisterschaft im Oktober in Rotterdam – also in ihrem eigenen Land.",
+        "Ins Finale schaffte sie es dort nicht mehr. Danach kündigte sie ihren Abschied an. Für viele Fans in Rotterdam war es ein bewegender Moment."
+      ],
+      "quelle": "gymnastics.sport, NOS"
+    },
+    {
       "id": "2026-11-26-dtl-finale-zeitplan",
       "rubrik": "DTL",
       "motiv": "kalender",
@@ -120,20 +149,6 @@
         "Der BTFB schreibt: Es ging nicht nur um Plätze, sondern darum, wie sich jedes Kind entwickelt. Für viele war es der allererste Wettkampf."
       ],
       "quelle": "btfb.de"
-    },
-    {
-      "id": "2026-11-25-tumbling-weltmeisterin",
-      "rubrik": "TRA",
-      "motiv": "salto",
-      "datum": "2026-11-07",
-      "titel": "Tumbling: Erstes WM-Gold für Alexandra Efraimoglou",
-      "teaser": "Die Griechin hat bei der WM in China den Titel im Tumbling gewonnen – mit Saltos und Schrauben auf einer langen Sprungbahn.",
-      "text": [
-        "Tumbling gehört zum Trampolinturnen, aber gesprungen wird nicht auf einem Trampolintuch. Die Athletinnen und Athleten turnen auf einer langen, federnden Bahn eine schnelle Serie aus Flick-Flacks, Saltos und Schrauben – ganz ohne Pause dazwischen.",
-        "Bei der Weltmeisterschaft im chinesischen Nanjing hat Alexandra Efraimoglou aus Griechenland Anfang November den Titel bei den Frauen gewonnen. Sie bekam 26,300 Punkte und lag damit 0,4 Punkte vor Arina Kaliandra. Bronze holte Maëlle Dumitru-Marin aus Frankreich.",
-        "Bei den Männern wurde Vasco Peso aus Portugal Weltmeister im Tumbling. Im Podcast des Europäischen Turnverbands erzählte Efraimoglou, wie lange sie auf so eine große Medaille hingearbeitet hat."
-      ],
-      "quelle": "europeangymnastics.com, en.wikipedia.org, greekreporter.com"
     },
     {
       "id": "2026-11-22-maenner-finaltag",
@@ -736,136 +751,137 @@
   "quiz": [
     {
       "rubrik": "DTL",
-      "frage": "Um wie viel Uhr beginnt am Samstag das DTL-Finale der Männer in Heidelberg?",
+      "frage": "Gegen welche Mannschaft turnt die TuS Chemnitz-Altendorf am Samstag im kleinen Finale um Bronze?",
       "antworten": [
-        "14 Uhr",
-        "16 Uhr",
-        "18 Uhr",
-        "20 Uhr"
+        "TG Mannheim",
+        "MTV Stuttgart",
+        "TG Karlsruhe-Söllingen",
+        "TSV Berkheim"
       ],
       "richtig": 2,
-      "erklaerung": "Die Männer starten um 18 Uhr. Vorher, um 14 Uhr, turnen die Frauen ihr Finale."
+      "erklaerung": "Chemnitz trifft im kleinen Finale auf die TG Karlsruhe-Söllingen. Um den Titel turnen Mannheim und Stuttgart."
     },
     {
-      "rubrik": "NW",
-      "frage": "Wer turnt am Samstagmorgen als Erstes im SNP dome in Heidelberg?",
+      "rubrik": "DTL",
+      "frage": "Aus welchem Land kommt die Turnerin, die Chemnitz kurz vor dem Finale in den Kader geholt hat?",
       "antworten": [
-        "Die Frauen",
-        "Die Nachwuchsbundesliga",
-        "Die Männer",
-        "Die RSG-Teams"
+        "Frankreich",
+        "Niederlande",
+        "Belgien",
+        "Schweiz"
       ],
       "richtig": 1,
-      "erklaerung": "Von 9 bis 11:30 Uhr ist die Nachwuchsbundesliga dran. Die RSG-Teams turnen am selben Tag in Berlin."
+      "erklaerung": "Yuna Uljee kommt aus Alkmaar in den Niederlanden. Vorher gehörte sie zum Kader von Karlsruhe-Söllingen."
     },
     {
-      "rubrik": "BER",
-      "frage": "In welcher Stadt findet die Welt-Gymnaestrada 2027 statt?",
+      "rubrik": "DTL",
+      "frage": "Um wie viel Uhr beginnt am Samstag in Heidelberg das Finale der Frauen?",
       "antworten": [
-        "Lissabon",
-        "Madrid",
-        "Rom",
-        "Paris"
+        "14 Uhr",
+        "9 Uhr",
+        "18 Uhr",
+        "12 Uhr"
       ],
       "richtig": 0,
-      "erklaerung": "Die Gymnaestrada ist vom 11. bis 17. Juli 2027 in Lissabon, der Hauptstadt von Portugal."
+      "erklaerung": "Die Frauen starten um 14 Uhr. Am Vormittag turnt die Nachwuchsbundesliga, um 18 Uhr folgen die Männer."
     },
     {
-      "rubrik": "BER",
-      "frage": "Wie viele Berliner Vereine sind laut BTFB bei der Gymnaestrada 2027 dabei?",
+      "rubrik": "INT",
+      "frage": "An welchem Gerät wurde Sanne Wevers 2016 Olympiasiegerin?",
       "antworten": [
-        "Drei",
-        "Neun",
-        "Fünfzehn",
-        "Dreißig"
-      ],
-      "richtig": 1,
-      "erklaerung": "Neun Berliner Vereine fahren nach Lissabon. Bei der Gymnaestrada gibt es keine Noten – alle zeigen ihre Vorführungen."
-    },
-    {
-      "rubrik": "RSG",
-      "frage": "Um wie viel Uhr beginnt das DTL-Finale der Rhythmischen Sportgymnastik in Berlin?",
-      "antworten": [
-        "12:50 Uhr",
-        "15:45 Uhr",
-        "20:30 Uhr",
-        "17:30 Uhr"
+        "Stufenbarren",
+        "Boden",
+        "Sprung",
+        "Schwebebalken"
       ],
       "richtig": 3,
-      "erklaerung": "Das Finale beginnt um 17:30 Uhr im Horst-Korber-Sportzentrum. Um 12:50 Uhr startet vorher der Nachwuchspokal."
+      "erklaerung": "Die Niederländerin gewann 2016 in Rio de Janeiro Gold am Schwebebalken."
+    },
+    {
+      "rubrik": "INT",
+      "frage": "Bei welchem Wettkampf turnte Sanne Wevers zum letzten Mal?",
+      "antworten": [
+        "EM 2026",
+        "WM 2026 in Rotterdam",
+        "Olympia 2024 in Paris",
+        "Swiss Cup"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ihre letzte große Bühne war die Weltmeisterschaft im Oktober 2026 in Rotterdam, in ihrer Heimat."
     },
     {
       "rubrik": "GES",
-      "frage": "Das Stalder-Element am Reck ist nach Josef Stalder benannt. Aus welchem Land kam er?",
+      "frage": "In welcher Stadt gewann Fabian Hambüchen 2008 Olympia-Bronze am Reck?",
       "antworten": [
-        "Schweiz",
-        "Deutschland",
-        "Japan",
-        "Ungarn"
+        "Athen",
+        "London",
+        "Peking",
+        "Rio de Janeiro"
       ],
-      "richtig": 0,
-      "erklaerung": "Josef Stalder kam aus der Schweiz. Beim Stalder geht es mit gegrätschten Beinen rückwärts um die Stange in den Handstand – das Bonusteil in deiner Reck-Pflicht!"
+      "richtig": 2,
+      "erklaerung": "2008 in Peking holte er Bronze, 2012 in London Silber und 2016 in Rio endlich Gold."
     },
     {
       "rubrik": "GES",
-      "frage": "Bei welchen Olympischen Spielen gewann Lukas Dauser Silber am Barren?",
+      "frage": "Wo gewann Elisabeth Seitz 2018 WM-Bronze am Stufenbarren?",
       "antworten": [
-        "Peking 2008",
-        "London 2012",
-        "Paris 2024",
-        "Tokio 2021"
-      ],
-      "richtig": 3,
-      "erklaerung": "Lukas Dauser holte 2021 in Tokio Olympia-Silber am Barren. 2023 wurde er in Antwerpen sogar Weltmeister."
-    },
-    {
-      "rubrik": "REG",
-      "frage": "Was passiert in einem Gerätefinale?",
-      "antworten": [
-        "Alle Turner zeigen den Mehrkampf",
-        "Die Besten an einem Gerät turnen um die Medaillen an genau diesem Gerät",
-        "Nur die Mannschaften turnen",
-        "Die Kampfrichter turnen vor"
-      ],
-      "richtig": 1,
-      "erklaerung": "Im Gerätefinale treten die besten Turner eines Geräts noch einmal gegeneinander an – zum Beispiel am Reck oder am Barren."
-    },
-    {
-      "rubrik": "REG",
-      "frage": "Was ist der Unterschied zwischen „Hang“ und „Stütz“?",
-      "antworten": [
-        "Beim Hang hängst du unter dem Gerät, beim Stütz drückst du dich mit den Armen über dem Gerät hoch",
-        "Das ist dasselbe",
-        "Hang gibt es nur am Boden, Stütz nur am Sprung",
-        "Beim Stütz liegst du auf dem Bauch"
+        "Doha",
+        "Montreal",
+        "Stuttgart",
+        "Tokio"
       ],
       "richtig": 0,
-      "erklaerung": "Im Hang hältst du dich fest und der Körper hängt unten, zum Beispiel am Reck oder an den Ringen. Im Stütz sind die Arme gestreckt und der Körper ist über den Händen – wie nach dem Kippaufschwung am Reck."
+      "erklaerung": "Die WM 2018 fand in Doha (Katar) statt. Nach Elisabeth Seitz ist sogar ein Element am Stufenbarren benannt."
+    },
+    {
+      "rubrik": "REG",
+      "frage": "Was ist ein „kleines Finale“?",
+      "antworten": [
+        "Ein Finale nur für Kinder",
+        "Der Kampf um Platz drei",
+        "Ein Finale mit nur einem Gerät",
+        "Ein Probedurchgang vor dem Finale"
+      ],
+      "richtig": 1,
+      "erklaerung": "Im kleinen Finale kämpfen die Teams, die das große Finale knapp verpasst haben, um Bronze."
+    },
+    {
+      "rubrik": "REG",
+      "frage": "Wie lange darf eine Bodenübung bei den Männern nach internationalen Regeln höchstens dauern?",
+      "antworten": [
+        "50 Sekunden",
+        "90 Sekunden",
+        "2 Minuten",
+        "70 Sekunden"
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei den Männern sind es international höchstens 70 Sekunden. In der Pflicht AK 11/12 darf die Übung bis zu 80 Sekunden dauern."
     },
     {
       "rubrik": "PFL",
-      "frage": "Wie hoch ist der Sprungtisch beim Überschlag in der DTB-Pflicht AK 11/12?",
+      "frage": "Wie viele Punkte ist in der Ringe-Pflicht AK 11/12 der Drücker in den Handstand (2 s) wert?",
       "antworten": [
-        "1,00 m",
-        "1,20 m",
-        "1,35 m",
-        "1,10 m"
+        "1,0",
+        "2,0",
+        "2,5",
+        "0,8"
       ],
       "richtig": 1,
-      "erklaerung": "In der Pflicht AK 11/12 ist der Sprungtisch 1,20 m hoch. Bei den Männern im Erwachsenenbereich sind es 1,35 m."
+      "erklaerung": "Der Drücker mit gebeugten Armen und Hüften ist 2,0 wert. Wer stattdessen den Schweizer mit gestreckten Armen zeigt, bekommt das Bonusteil mit 2,5."
     }
   ],
   "kampfrichter": {
-    "titel": "Standbonus in der Kür",
-    "situation": "Ein Turner der AK 12 zeigt bei einem Kürwettkampf seine Übung am Reck. Sein Abgang hat die Schwierigkeit B. Er landet perfekt: Füße geschlossen, Oberkörper aufrecht.",
-    "frage": "Bekommt er dafür einen Standbonus?",
+    "titel": "Beinschlag bei der Zugstemme",
+    "situation": "Ein Turner der AK 11 beginnt seine Ringe-Pflicht. Bei der Zugstemme in den Stütz hilft er mit einem kräftigen Beinschlag nach, damit er hochkommt.",
+    "frage": "Was ziehen die Kampfrichter für den Beinschlag ab?",
     "antworten": [
-      "Ja, 0,20 Punkte – genau wie in der Pflicht",
-      "Nein – in der Kür gibt es den Standbonus erst ab einem Abgang der Schwierigkeit C",
-      "Ja, sogar 0,5 Punkte"
+      "Nichts – Hauptsache, er kommt in den Stütz",
+      "0,1 Punkte (kleiner Fehler)",
+      "0,5 Punkte (großer Fehler)",
+      "Das ganze Element zählt nicht"
     ],
-    "richtig": 1,
-    "erklaerung": "In der Kür gilt das internationale Wertungsbuch: Den Standbonus gibt es erst ab einem Abgang der Schwierigkeit C. In der Pflicht AK 11/12 bekommst du für einen sicheren Stand 0,20 Punkte Bonus."
+    "richtig": 2,
+    "erklaerung": "In der Pflicht steht bei der Zugstemme: Ein Beinschlag ist ein großer Fehler – das kostet 0,5 Punkte. Die Zugstemme soll mit gestrecktem Körper und nur mit Kraft aus den Armen geturnt werden."
   },
   "lexikon": [
     {
@@ -1054,6 +1070,16 @@
     }
   ],
   "quizGestellt": [
+    "Kleines Finale Chemnitz Karlsruhe",
+    "Uljee Niederlande Chemnitz",
+    "DTL-Finale Frauen 14 Uhr",
+    "Wevers Balken-Gold 2016",
+    "Wevers Abschied WM Rotterdam",
+    "Hambüchen Bronze 2008 Peking",
+    "Seitz WM-Bronze 2018 Doha",
+    "Kleines Finale Bedeutung",
+    "Boden Männer 70 Sekunden international",
+    "Ringe Drücker 2,0 AK 11/12",
     "Hang und Stütz Unterschied",
     "DTL-Finale Männer 18 Uhr",
     "Nachwuchsbundesliga Heidelberg morgens",
@@ -1266,6 +1292,7 @@
     "Anzahl Geräte Männer-Mehrkampf"
   ],
   "kampfrichterGestellt": [
+    "Ringe Zugstemme Beinschlag großer Fehler 0,5 AK 11/12",
     "Kür Standbonus erst ab C-Abgang AK 12",
     "Endorolle Handstand 1 s gehalten zählt AK 11/12",
     "Übungshalt Reck Unterbrechung 0,5 AK 11/12",
