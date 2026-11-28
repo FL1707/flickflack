@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-27T06:00:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-27",
-  "gruss": "Guten Morgen! Nur noch einmal schlafen bis zum großen DTL-Finale in Heidelberg und Berlin. Heute schauen wir aufs kleine Finale der Frauen, wo zwei befreundete Teams um Bronze turnen – und wir verabschieden eine Olympiasiegerin vom Schwebebalken.",
-  "quizId": "2026-11-27",
+  "aktualisiert": "2026-11-28T06:00:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-28",
+  "gruss": "Guten Morgen! Heute ist der große Finaltag: In Heidelberg turnen die besten Männer- und Frauenteams um die Deutsche Meisterschaft, in Berlin die Gymnastinnen. Für Nick Klessing ist es sogar der allerletzte Wettkampf seiner Karriere – die Ergebnisse gibt es morgen früh.",
+  "quizId": "2026-11-28",
   "zahlDesTages": {
-    "zahl": "781,85",
-    "text": "Punkte hat die TuS Chemnitz-Altendorf in der Bundesliga-Saison gesammelt – das war die höchste Gesamtwertung aller acht Erstligisten. Trotzdem turnt Chemnitz am Samstag „nur“ um Bronze."
+    "zahl": "53",
+    "text": "Jahre ist es her, dass ein Männerteam viermal hintereinander Deutscher Mannschaftsmeister wurde – das schaffte nur Leverkusen von 1970 bis 1973. Heute kann die KTV Straubenhardt diese Serie einstellen."
   },
   "turnerDerWoche": {
     "name": "Darja Varfolomeev",
@@ -77,6 +77,51 @@
     }
   },
   "news": [
+    {
+      "id": "2026-11-28-klessing-letzter-wettkampf",
+      "rubrik": "DTL",
+      "motiv": "team",
+      "datum": "2026-11-28",
+      "titel": "Klessings letzter Wettkampf: Straubenhardt jagt einen 53 Jahre alten Rekord",
+      "teaser": "Im Männerfinale treffen heute Abend zwei alte Rivalen aufeinander – und für einen Turner ist es der Abschied.",
+      "text": [
+        "Heute Abend geht es in Heidelberg um den Meistertitel der Männer: Titelverteidiger KTV Straubenhardt turnt gegen den SC Cottbus. Für Nick Klessing aus Straubenhardt ist es der letzte Wettkampf seiner Karriere. Er turnt schon seit 2005 für den Verein – in diesem Jahr wurde Straubenhardt zum ersten Mal Meister.",
+        "Straubenhardt hat die letzten drei Titel gewonnen. Mit einem vierten Sieg in Folge würde das Team etwas schaffen, das seit Einführung der Bundesliga nur Leverkusen von 1970 bis 1973 gelungen ist. Ein besonderer Helfer steht am Rand: Lukas Dauser, Barren-Weltmeister von 2023, ist jetzt Teammanager und entscheidet mit, wer an welchem Gerät turnt.",
+        "Cottbus will das verhindern. Die Lausitzer waren zuletzt 2010 Meister – damals ausgerechnet gegen Straubenhardt. Beide Teams haben in der Saison sechs von sieben Duellen gewonnen. Bester Punktesammler der ganzen Saison war der Cottbuser Radomyr Stelmakh. Sein Teamkollege Lucas Kochan sagt kurz und knapp: „Ey, wir sind noch da.“",
+        "Vorher turnen die TG Saar und Aufsteiger KTV Koblenz um Bronze. Saar hat dreimal hintereinander Bronze gewonnen. Koblenz turnte vor einem Jahr noch in der 2. Bundesliga und steht zum ersten Mal überhaupt im Finale."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-28-frauen-finale-mannheim-stuttgart",
+      "rubrik": "DTL",
+      "motiv": "balken",
+      "datum": "2026-11-28",
+      "titel": "Frauenfinale: Mannheim träumt vom ersten Titel, Stuttgart will zurück auf den Thron",
+      "teaser": "Die TG Mannheim und der MTV Stuttgart turnen heute in Heidelberg um die Deutsche Meisterschaft.",
+      "text": [
+        "Die TG Mannheim war nach der Saison Tabellenerster. Heute steht das Team zum ersten Mal im großen Finale um den Titel. Gewinnt Mannheim, wäre es die erste Meisterschaft der Vereinsgeschichte. Die Deutsche Mehrkampfmeisterin Silja Stöhr fällt allerdings verletzt aus und feuert ihr Team von außen an.",
+        "Der Gegner ist der MTV Stuttgart – der Rekordmeister. Stuttgart gewann von 2012 bis 2024 dreizehnmal hintereinander den Titel. Im letzten Jahr reichte es nur zu Silber, jetzt will das Team wieder ganz nach oben. Mit dabei ist auch Helen Kevric, die bei der WM Silber am Stufenbarren gewann.",
+        "Kurz vor dem Finale haben sich beide Teams verstärkt: Mannheim holte eine Turnerin aus Frankreich, Stuttgart eine schottische Nationalturnerin. Die beiden standen sich schon im September bei einem Länderkampf in England gegenüber.",
+        "Es wird eng: In der ganzen Saison lagen die beiden Teams nur 3,90 Punkte auseinander. Mannheim war am Stufenbarren stärker, Stuttgart am Schwebebalken. Silja Stöhr weiß: „Am Balken kann immer recht viel passieren.“"
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
+    {
+      "id": "2026-11-28-rsg-finale-schmiden-leverkusen",
+      "rubrik": "RSG",
+      "motiv": "rsg",
+      "datum": "2026-11-28",
+      "titel": "RSG-Finale in Berlin: Schmiden will den fünften Titel, Leverkusen die Revanche",
+      "teaser": "Zum vierten Mal hintereinander treffen Schmiden und Leverkusen heute im Finale der RSG-Bundesliga aufeinander.",
+      "text": [
+        "Heute ist das DTL-Finale der Rhythmischen Sportgymnastik zum ersten Mal in Berlin, im Horst-Korber-Sportzentrum. Um den Titel turnen der TSV Schmiden und Bayer 04 Leverkusen. Schmiden hat seit 2022 jedes Jahr gewonnen und will jetzt den fünften Titel in Folge. Leverkusen hat dreimal hintereinander im Finale gegen Schmiden verloren.",
+        "Leverkusen war 2021 der allererste Meister der RSG-Bundesliga. In dieser Saison gewann das Team beide Vorrunden-Wettkämpfe und holte die höchstmögliche Zahl an Rangpunkten. Schmiden verlor dagegen gleich den ersten Wettkampf knapp gegen Aufsteiger Nürnberg.",
+        "Zwei Weltstars werden erwartet: Für Schmiden turnt Olympiasiegerin Darja Varfolomeev. Bei der WM in Frankfurt gewann sie Gold im Mehrkampf, mit dem Ball und mit dem Band – sie hat jetzt 14 WM-Titel. Für Leverkusen kommt die Italienerin Sofia Raffaeli, die bei der WM Silber mit dem Reifen holte.",
+        "Im kleinen Finale kämpft das Team Berlin gegen den TSV Nürnberg um Platz drei – vor heimischem Publikum."
+      ],
+      "quelle": "deutsche-turnliga.de"
+    },
     {
       "id": "2026-11-27-frauen-kleines-finale",
       "rubrik": "DTL",
@@ -166,34 +211,6 @@
       "quelle": "deutsche-turnliga.de"
     },
     {
-      "id": "2026-11-22-dtl-finale-vorschau",
-      "rubrik": "DTL",
-      "motiv": "medaille",
-      "datum": "2026-11-28",
-      "titel": "DTL-Finale: Straubenhardt gegen Cottbus um den Titel",
-      "teaser": "Am Samstag geht es in Heidelberg um die Deutsche Mannschaftsmeisterschaft – und in Berlin um den RSG-Titel.",
-      "text": [
-        "Jetzt steht das Programm für das DTL-Finale am 28. November im SNP dome in Heidelberg fest. Bei den Männern turnen die vier besten Teams der Saison: Im Titelendkampf trifft Tabellenführer KTV Straubenhardt auf den SC Cottbus. Die TG Saar und die KTV Koblenz kämpfen um Bronze.",
-        "Straubenhardt ist Titelverteidiger und Rekordmeister. Cottbus hat aber den besten Topscorer der Liga in seinen Reihen: Radomyr Stelmakh. Es dürfte also spannend werden.",
-        "Auch die Frauen sind in Heidelberg dabei: TG Mannheim, MTV Stuttgart, TuS Chemnitz-Altendorf und TG Karlsruhe-Söllingen turnen um die Meisterschaft. Am selben Tag kämpfen die Gymnastinnen der Rhythmischen Sportgymnastik in Berlin um ihren Titel."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
-      "id": "2026-11-22-zweite-liga-meister",
-      "rubrik": "DTL",
-      "motiv": "barren",
-      "datum": "2026-11-21",
-      "titel": "2. Bundesliga: Ludwigsburg feiert, Pfuhl verliert alles",
-      "teaser": "Im Norden blieb Ludwigsburg ungeschlagen – im Süden zog Exquisa Oberbayern noch an Pfuhl vorbei.",
-      "text": [
-        "In der Nordstaffel der 2. Bundesliga Männer hat der MTV Ludwigsburg seine perfekte Saison vollendet. In Essen gewann die Mannschaft klar mit 51:17 Scorepunkten gegen das GymTeam Metropole Ruhr. Mit sieben Siegen aus sieben Wettkämpfen ist Ludwigsburg Meister.",
-        "Im Süden gab es eine große Überraschung. Der bis dahin ungeschlagene TSV Pfuhl verlor in Monheim mit 24:38. Gleichzeitig gewann Exquisa Oberbayern zu Hause mit 66:11 gegen Buttenwiesen-Inningen. Am Ende hatten Oberbayern, Monheim und Pfuhl alle 12 Punkte – und Oberbayern hatte die meisten Gerätepunkte.",
-        "Ludwigsburg und Exquisa Oberbayern turnen nun am 5. Dezember in Oberhausen beim Aufstiegswettkampf um einen Platz in der 1. Bundesliga."
-      ],
-      "quelle": "deutsche-turnliga.de"
-    },
-    {
       "id": "2026-11-22-jahrgangsbeste-berlin",
       "rubrik": "BER",
       "motiv": "kalender",
@@ -220,20 +237,6 @@
         "Erst gibt es eine Gruppenphase, dann K.-o.-Runden und zum Schluss ein „Final 4“ mit den vier besten Vereinen. Geturnt wird an allen sechs Geräten der Männer."
       ],
       "quelle": "europeangymnastics.com"
-    },
-    {
-      "id": "2026-11-17-rsg-berlin-stars",
-      "rubrik": "RSG",
-      "motiv": "rsg",
-      "datum": "2026-11-16",
-      "titel": "Olympiasiegerin Varfolomeev kommt nach Berlin",
-      "teaser": "Beim Finale der RSG-Bundesliga am 28. November turnen echte Weltstars in Berlin.",
-      "text": [
-        "Darja Varfolomeev ist Olympiasiegerin und 14-fache Weltmeisterin in der Rhythmischen Sportgymnastik. Am 28. November startet sie mit ihrem Verein TSV Schmiden beim DTL-Finale in Berlin. Das hat der Berliner Turn- und Freizeitbund bestätigt.",
-        "Im großen Finale kämpft Schmiden gegen den TSV Bayer 04 Leverkusen um die Deutsche Mannschaftsmeisterschaft. Im Kleinen Finale um Platz drei turnt das Team Berlin gegen den TSV Nürnberg. Auch andere Stars sind dabei: Sofia Raffaeli aus Italien startet für Leverkusen, Eva Brezalieva aus Bulgarien für Berlin.",
-        "Gezeigt wird alles im Horst-Korber-Sportzentrum. Schon mittags gibt es zum ersten Mal einen Nachwuchspokal für junge Gymnastinnen. Am Nachmittag kämpfen Juniorinnen-Gruppen um die Fahrkarte zur EM 2027 in Pamplona (Spanien) – darunter die Gruppe vom Bundesstützpunkt Berlin, die in diesem Jahr Deutscher Meister wurde."
-      ],
-      "quelle": "deutsche-turnliga.de, btfb.de"
     },
     {
       "id": "2026-11-26-gymnaestrada-berlin",
@@ -461,7 +464,7 @@
   ],
   "liga": {
     "titel": "Deutsche Turnliga 2026",
-    "info": "Stand 22. November – Saisonende in der 1. Bundesliga Männer und Frauen, DTL-Finale am 28. November in Heidelberg",
+    "info": "Stand 28. November – die Saison ist vorbei, heute ist das DTL-Finale in Heidelberg (Turnen) und Berlin (RSG). Die Ergebnisse folgen in der nächsten Ausgabe.",
     "duelle": [
       {
         "liga": "1. BL Männer",
@@ -751,137 +754,137 @@
   "quiz": [
     {
       "rubrik": "DTL",
-      "frage": "Gegen welche Mannschaft turnt die TuS Chemnitz-Altendorf am Samstag im kleinen Finale um Bronze?",
+      "frage": "Was könnte die KTV Straubenhardt heute schaffen, was seit 53 Jahren kein Männerteam geschafft hat?",
       "antworten": [
-        "TG Mannheim",
-        "MTV Stuttgart",
-        "TG Karlsruhe-Söllingen",
-        "TSV Berkheim"
+        "Den ersten Titel überhaupt",
+        "Vier Meistertitel hintereinander",
+        "Alle Duelle 6:0 gewinnen",
+        "Zehn Topscorer in einem Team"
       ],
-      "richtig": 2,
-      "erklaerung": "Chemnitz trifft im kleinen Finale auf die TG Karlsruhe-Söllingen. Um den Titel turnen Mannheim und Stuttgart."
+      "richtig": 1,
+      "erklaerung": "Straubenhardt hat die letzten drei Titel gewonnen. Vier in Folge schaffte bisher nur Leverkusen von 1970 bis 1973."
     },
     {
       "rubrik": "DTL",
-      "frage": "Aus welchem Land kommt die Turnerin, die Chemnitz kurz vor dem Finale in den Kader geholt hat?",
+      "frage": "Welche Aufgabe hat der frühere Barren-Weltmeister Lukas Dauser heute bei Straubenhardt?",
       "antworten": [
-        "Frankreich",
-        "Niederlande",
-        "Belgien",
-        "Schweiz"
+        "Er ist Kampfrichter",
+        "Er turnt am Barren",
+        "Er ist Teammanager",
+        "Er moderiert in der Halle"
       ],
-      "richtig": 1,
-      "erklaerung": "Yuna Uljee kommt aus Alkmaar in den Niederlanden. Vorher gehörte sie zum Kader von Karlsruhe-Söllingen."
+      "richtig": 2,
+      "erklaerung": "Dauser hat letztes Jahr aufgehört zu turnen. Jetzt ist er Teammanager und plant mit, wer an welchem Gerät antritt."
     },
     {
       "rubrik": "DTL",
-      "frage": "Um wie viel Uhr beginnt am Samstag in Heidelberg das Finale der Frauen?",
+      "frage": "Wie oft hintereinander wurde der MTV Stuttgart von 2012 bis 2024 Deutscher Meister der Frauen?",
       "antworten": [
-        "14 Uhr",
-        "9 Uhr",
-        "18 Uhr",
-        "12 Uhr"
+        "Dreizehnmal",
+        "Fünfmal",
+        "Achtmal",
+        "Zwanzigmal"
       ],
       "richtig": 0,
-      "erklaerung": "Die Frauen starten um 14 Uhr. Am Vormittag turnt die Nachwuchsbundesliga, um 18 Uhr folgen die Männer."
+      "erklaerung": "Stuttgart gewann dreizehn Titel in Folge und ist Rekordmeister. Heute turnt das Team gegen Mannheim um den Titel."
     },
     {
-      "rubrik": "INT",
-      "frage": "An welchem Gerät wurde Sanne Wevers 2016 Olympiasiegerin?",
+      "rubrik": "RSG",
+      "frage": "Wie oft hat Leverkusen das RSG-Finale schon gegen Schmiden verloren?",
       "antworten": [
-        "Stufenbarren",
-        "Boden",
-        "Sprung",
-        "Schwebebalken"
+        "Noch nie",
+        "Einmal",
+        "Zweimal",
+        "Dreimal"
       ],
       "richtig": 3,
-      "erklaerung": "Die Niederländerin gewann 2016 in Rio de Janeiro Gold am Schwebebalken."
+      "erklaerung": "2023, 2024 und 2025 gewann jeweils Schmiden. Heute nimmt Leverkusen in Berlin den vierten Anlauf."
     },
     {
-      "rubrik": "INT",
-      "frage": "Bei welchem Wettkampf turnte Sanne Wevers zum letzten Mal?",
+      "rubrik": "DTL",
+      "frage": "In welcher Liga turnte die KTV Koblenz vor einem Jahr noch?",
       "antworten": [
-        "EM 2026",
-        "WM 2026 in Rotterdam",
-        "Olympia 2024 in Paris",
-        "Swiss Cup"
+        "In der 1. Bundesliga",
+        "In der 2. Bundesliga",
+        "In der Regionalliga",
+        "In der RSG-Bundesliga"
       ],
       "richtig": 1,
-      "erklaerung": "Ihre letzte große Bühne war die Weltmeisterschaft im Oktober 2026 in Rotterdam, in ihrer Heimat."
+      "erklaerung": "Koblenz ist Aufsteiger. In seiner ersten Saison in der 1. Bundesliga erreichte das Team gleich das Finale und turnt heute um Bronze."
     },
     {
-      "rubrik": "GES",
-      "frage": "In welcher Stadt gewann Fabian Hambüchen 2008 Olympia-Bronze am Reck?",
+      "rubrik": "Geschichte",
+      "frage": "Welcher Verein wurde 2010 Deutscher Mannschaftsmeister der Männer – im Finale gegen Straubenhardt?",
       "antworten": [
-        "Athen",
-        "London",
-        "Peking",
-        "Rio de Janeiro"
+        "TG Saar",
+        "KTV Koblenz",
+        "SC Cottbus",
+        "TuS Vinnhorst"
       ],
       "richtig": 2,
-      "erklaerung": "2008 in Peking holte er Bronze, 2012 in London Silber und 2016 in Rio endlich Gold."
+      "erklaerung": "Cottbus gewann 2010 mit 36:23 gegen Straubenhardt. Seitdem stehen sich die beiden heute zum ersten Mal wieder im Endkampf gegenüber."
     },
     {
-      "rubrik": "GES",
-      "frage": "Wo gewann Elisabeth Seitz 2018 WM-Bronze am Stufenbarren?",
+      "rubrik": "Geschichte",
+      "frage": "In welchem Jahr wurde Eberhard Gienger Weltmeister am Reck?",
       "antworten": [
-        "Doha",
-        "Montreal",
-        "Stuttgart",
-        "Tokio"
+        "1974",
+        "1996",
+        "2007",
+        "1936"
       ],
       "richtig": 0,
-      "erklaerung": "Die WM 2018 fand in Doha (Katar) statt. Nach Elisabeth Seitz ist sogar ein Element am Stufenbarren benannt."
+      "erklaerung": "Eberhard Gienger wurde 1974 Reck-Weltmeister. Nach ihm ist sogar ein Element benannt: der Gienger-Salto."
     },
     {
-      "rubrik": "REG",
-      "frage": "Was ist ein „kleines Finale“?",
+      "rubrik": "Regeln",
+      "frage": "Was ist der „Code de Pointage“?",
       "antworten": [
-        "Ein Finale nur für Kinder",
-        "Der Kampf um Platz drei",
-        "Ein Finale mit nur einem Gerät",
-        "Ein Probedurchgang vor dem Finale"
+        "Ein Trainingsplan",
+        "Das internationale Wertungsbuch",
+        "Ein Turngerät aus Frankreich",
+        "Der Name einer Weltcup-Serie"
       ],
       "richtig": 1,
-      "erklaerung": "Im kleinen Finale kämpfen die Teams, die das große Finale knapp verpasst haben, um Bronze."
+      "erklaerung": "Im Code de Pointage steht, wie viel jedes Element wert ist und was die Kampfrichter abziehen. Er gilt jeweils für vier Jahre, gerade von 2025 bis 2028."
     },
     {
-      "rubrik": "REG",
-      "frage": "Wie lange darf eine Bodenübung bei den Männern nach internationalen Regeln höchstens dauern?",
+      "rubrik": "Regeln",
+      "frage": "Wovon hängt im DTL-Finale ab, wie viele Scorepunkte ein Turner holt?",
       "antworten": [
-        "50 Sekunden",
-        "90 Sekunden",
-        "2 Minuten",
-        "70 Sekunden"
+        "Nur von seiner D-Note",
+        "Davon, wie viele Zuschauer klatschen",
+        "Vom Abstand seiner Wertung zu der des direkten Gegners",
+        "Von seinem Alter"
+      ],
+      "richtig": 2,
+      "erklaerung": "Im Duell turnen zwei Gegner am selben Gerät. Je größer der Abstand zwischen den Wertungen, desto mehr Scorepunkte bekommt der Bessere. Die schwierigste Übung bringt also nicht immer am meisten."
+    },
+    {
+      "rubrik": "Pflicht",
+      "frage": "Wie viel ist das ½ Unterkreisen in Teil 1 der Pferd-Pflicht AK 11/12 wert?",
+      "antworten": [
+        "0,2 Punkte",
+        "0,5 Punkte",
+        "1,5 Punkte",
+        "1,0 Punkte"
       ],
       "richtig": 3,
-      "erklaerung": "Bei den Männern sind es international höchstens 70 Sekunden. In der Pflicht AK 11/12 darf die Übung bis zu 80 Sekunden dauern."
-    },
-    {
-      "rubrik": "PFL",
-      "frage": "Wie viele Punkte ist in der Ringe-Pflicht AK 11/12 der Drücker in den Handstand (2 s) wert?",
-      "antworten": [
-        "1,0",
-        "2,0",
-        "2,5",
-        "0,8"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der Drücker mit gebeugten Armen und Hüften ist 2,0 wert. Wer stattdessen den Schweizer mit gestreckten Armen zeigt, bekommt das Bonusteil mit 2,5."
+      "erklaerung": "Laut DTB-Pflicht bringt das ½ Unterkreisen 1,0 Punkte, das Vorspreizen davor 0,5 Punkte. Achtung: Das Pferd berühren beim Unterkreisen ist ein Fehler."
     }
   ],
   "kampfrichter": {
-    "titel": "Beinschlag bei der Zugstemme",
-    "situation": "Ein Turner der AK 11 beginnt seine Ringe-Pflicht. Bei der Zugstemme in den Stütz hilft er mit einem kräftigen Beinschlag nach, damit er hochkommt.",
-    "frage": "Was ziehen die Kampfrichter für den Beinschlag ab?",
+    "titel": "Arme an den Seilen beim Schweizer",
+    "situation": "Ein Turner der AK 12 zeigt an den Ringen das Bonusteil 3b: Er hebt mit gestreckten Armen und gegrätschten Beinen in den Handstand (Schweizer) und hält ihn 2 Sekunden. Dabei drückt er die Arme an die Ringeseile, um sich zu stabilisieren.",
+    "frage": "Was passiert mit dem Bonusteil?",
     "antworten": [
-      "Nichts – Hauptsache, er kommt in den Stütz",
-      "0,1 Punkte (kleiner Fehler)",
-      "0,5 Punkte (großer Fehler)",
-      "Das ganze Element zählt nicht"
+      "Nichts – der Handstand wurde ja gehalten",
+      "Nur 0,1 Punkte Abzug, das Bonusteil zählt voll (2,5)",
+      "0,5 Punkte Abzug, und das Bonusteil ist nur noch 2,0 statt 2,5 Punkte wert",
+      "Das ganze Element zählt null Punkte"
     ],
     "richtig": 2,
-    "erklaerung": "In der Pflicht steht bei der Zugstemme: Ein Beinschlag ist ein großer Fehler – das kostet 0,5 Punkte. Die Zugstemme soll mit gestrecktem Körper und nur mit Kraft aus den Armen geturnt werden."
+    "erklaerung": "Beim Schweizer ist das Anlegen der Arme an die Ringeschlaufen oder -seile ein großer Fehler (0,5). Ein Bonusteil zählt nur voll, wenn kein großer Fehler abgezogen wird – sonst ist es 0,5 Punkte weniger wert, also 2,0 wie der normale Drücker."
   },
   "lexikon": [
     {
@@ -1067,9 +1070,27 @@
     {
       "begriff": "Gymnaestrada",
       "erklaerung": "Ein riesiges Turnfest, das alle vier Jahre stattfindet. Es gibt keine Noten und keine Sieger – Vereine aus aller Welt zeigen ihre Vorführungen."
+    },
+    {
+      "begriff": "Rekordmeister",
+      "erklaerung": "Der Verein, der eine Meisterschaft am häufigsten gewonnen hat. Bei den Frauen ist das der MTV Stuttgart."
+    },
+    {
+      "begriff": "Teammanager",
+      "erklaerung": "Er plant für eine Mannschaft, wer an welchem Gerät turnt, und kümmert sich um alles rund um den Wettkampf. Selbst turnt er nicht mit."
     }
   ],
   "quizGestellt": [
+    "Straubenhardt vier Titel in Folge 53 Jahre",
+    "Dauser Teammanager Straubenhardt",
+    "Stuttgart 13 Titel in Folge 2012-2024",
+    "Leverkusen drei Finalniederlagen Schmiden",
+    "Koblenz vor einem Jahr 2. Bundesliga",
+    "Cottbus Meister 2010 gegen Straubenhardt",
+    "Gienger Weltmeister Reck 1974",
+    "Code de Pointage Bedeutung",
+    "Scorepunkte Wertungsdifferenz Duell",
+    "Pferd ½ Unterkreisen 1,0 AK 11/12",
     "Kleines Finale Chemnitz Karlsruhe",
     "Uljee Niederlande Chemnitz",
     "DTL-Finale Frauen 14 Uhr",
@@ -1292,6 +1313,7 @@
     "Anzahl Geräte Männer-Mehrkampf"
   ],
   "kampfrichterGestellt": [
+    "Ringe Schweizer Arme an Seilen großer Fehler Bonus verloren AK 11/12",
     "Ringe Zugstemme Beinschlag großer Fehler 0,5 AK 11/12",
     "Kür Standbonus erst ab C-Abgang AK 12",
     "Endorolle Handstand 1 s gehalten zählt AK 11/12",
